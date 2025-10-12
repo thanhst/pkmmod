@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_z_100">
+    <TextView
+        android:textSize="@dimen/sp_z_40"
+        android:textColor="@color/cg_color_light_blue2"
+        android:gravity="center"
+        android:id="@+id/tv_product_item"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_z_100"
+        android:text="1.99 USD"/>
+</LinearLayout>

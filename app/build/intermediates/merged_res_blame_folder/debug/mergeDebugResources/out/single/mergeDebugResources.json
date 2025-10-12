@@ -1,0 +1,1702 @@
+[
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_fragment_customer_probleme.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_fragment_customer_probleme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-mdpi_com_facebook_profile_picture_blank_portrait.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-mdpi\\com_facebook_profile_picture_blank_portrait.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_fast_out_slow_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_test_level_drawable.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\test_level_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_checkbox_unchecked_mtrl.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-watch-v20\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_pay_vertial.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_pay_vertial.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_cb_style.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_cb_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_three_step_header.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_three_step_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim-v21\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_grid_view_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_grid_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_seekbar_tick_mark_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back7.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_popup_menu_header_item_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_ad_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_ad_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_star_half_black_48dp.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_logining.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_logining.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_overflow_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_edit_selector.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_edit_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_message.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_new_map_loading.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\new_map_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_exchange_rate_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_exchange_rate_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_loading_progress_auto_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_loading_progress_auto_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_bar_right_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_bar_right_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_activity_user_center.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_activity_user_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back5.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_user_center.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_user_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_tooltip.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_fragment_user_center.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_fragment_user_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_start_loading_with_tip.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\start_loading_with_tip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_search_api_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_user_center.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_user_center.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_spinner_drop_down_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_spinner_drop_down_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_com_facebook_login_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_abc_action_bar_item_background_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_preferencelayout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\preferencelayout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_light_blue2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_light_blue2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_black_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_black_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_select_2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_select_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_shape_btn_border_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\shape_btn_border_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_welecome_enter_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\welecome_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_check_material_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_shape_btn_green_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\shape_btn_green_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_tringle_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_tringle_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_backgroud_bule_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_backgroud_bule_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_btn_lay_facebook.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_btn_lay_facebook.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_background_all.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_background_all.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_btn_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_btn_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_web_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_web_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_top_round_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_top_round_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_go_search_api_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_pay_google_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_pay_google_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_left.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_safe_set.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_safe_set.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_radio_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_on_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back3.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_hint_foreground_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_pay_gp_dialog_pay_bg_p.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_pay_gp_dialog_pay_bg_p.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_text_shape_select.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_text_shape_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_dialog_request_permission.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\dialog_request_permission.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_listfooter_more.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_listfooter_more.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_pay_gp_dialog_pay_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_pay_gp_dialog_pay_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_com_facebook_send_button_text_color.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_bule_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_bule_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_secondary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_search_view.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_normal_2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_normal_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_list_head.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_list_head.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_select.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_screen_simple_overlay_action_mode.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_delete_selector.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\delete_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v21_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v21\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v22_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v22\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_edittext.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_group_item_portrait.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\group_item_portrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_right_selector.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_right_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_text_cursor_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_paste_mtrl_am_alpha.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_btn_purse.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_btn_purse.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_cab_background_top_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_goodslist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_goodslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_star_black_48dp.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_checkbox_unchecked_to_checked_mtrl_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_primary_text_disable_only_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_pay_money_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_pay_money_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_button_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_support_simple_spinner_dropdown_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_alert_toast_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_alert_toast_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_activity_chooser_view_list_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_linnear_corner_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_linnear_corner_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_back_enter_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\back_enter_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_product_list_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_product_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_select_dialog_item_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_item_background_holo_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_fade_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_fade_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_circle_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_circle_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_list_selector_holo_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_modal_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\modal_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_login_select_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_login_select_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_view_enter_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\view_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_welecome_exit_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\welecome_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_bar_right_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_bar_right_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_shape_btn_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\shape_btn_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_copy_mtrl_am_alpha.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_account_delete.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_account_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_back_exit_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\back_exit_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_white_trans_rec.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_white_trans_rec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_purse2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_purse2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_cut_mtrl_alpha.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_right.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_selectall_mtrl_alpha.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_dashed_line.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_dashed_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_card_title_lay.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_card_title_lay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_screen_content_include.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_checkbox_checked_mtrl.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ratingbar_small_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_white_edge_black.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_white_edge_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_forget_pwd.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_forget_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_dialog_exit_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\dialog_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_expandlist_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_expandlist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_select.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_maploadingview.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\maploadingview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_activity_customer_service.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_activity_customer_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_background_all1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_background_all1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_color_highlight_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_register.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v23_abc_control_background_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_float_content.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_float_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_edge_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_edge_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_send_button_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_bind_two.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_bind_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_pay_proportion_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_pay_proportion_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_login_two.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_login_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_start_connecting.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\start_connecting.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_scale_out.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_spinner.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_platform_pay.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_platform_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_change_psw.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_change_psw.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-watch-v20_abc_alert_dialog_title_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-watch-v20\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_rating_portrait.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_rating_portrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_confirm.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_bar_left_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_bar_left_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_login_progress.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_login_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_goodslist_item_vertical.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_goodslist_item_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_popup_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_search_url_text.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_expanded_menu_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_pay_finish.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_pay_finish.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_checked_icon_null_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_login_success.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_login_success.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v22_cg_activity_acc_tips.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v22\\cg_activity_acc_tips.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_circle_gray.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_circle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_activity_message.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_activity_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_radio_to_off_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_select_dialog_multichoice_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_dialog_enter_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\dialog_enter_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_com_facebook_button_text_color.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_fragment_recharge_history.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_fragment_recharge_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_seekbar_track_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_popup_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_radio_on_to_off_mtrl_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_welcome.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_purse1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_purse1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_secondary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_btn_red.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_btn_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_style.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_layout_frame.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\layout_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_close_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_close_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_ad_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_ad_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_rating.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_rating.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_popup_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\xml_image_share_filepaths.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\xml\\image_share_filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_btn_checkable.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_switch_thumb_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_tab_indicator_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_style_2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_style_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_bottom_rec.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_bottom_rec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_bind_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_bind_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_charge_history_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_charge_history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_fragment_pay_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_fragment_pay_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back6.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_tooltip_frame_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_tooltip_frame_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_fade_out.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ratingbar_indicator_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_button_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_pay_channel_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_pay_channel_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rec_light_gray.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rec_light_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_radio_off_mtrl.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_alert_dialog_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_progressbar_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\progressbar_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_fragment_pay_confirm.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_fragment_pay_confirm.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_fade_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_button_send_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_base_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_base_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_edit_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_login_grid_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_login_grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_default_mtrl_shape.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_base_bg1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_base_bg1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_background_cache_hint_selector_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_forget_pwd.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_forget_pwd.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_proportion.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_proportion.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_toolbar_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_toolbar_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_edit_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_edit_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_bar_left_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_bar_left_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_pay_gp_dialog_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_pay_gp_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_back_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\back_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_login.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_browser_actions_context_menu_row.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_scale_in.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_light_blue1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_light_blue1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_text_shape_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_text_shape_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_tooltip_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_slide_in_top.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_loading.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v21_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v21\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rec_rou_blue_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rec_rou_blue_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_grow_fade_in_from_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_auth_dialog_header_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ratingbar_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_seekbar_thumb_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_btn_colored_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_exit_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_exit_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_permission_info_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\permission_info_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_btn_colored_borderless_text_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_spinner_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color-v23_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\xml_splits0.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\xml\\splits0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-port_cg_charge_history_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-port\\cg_charge_history_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_com_facebook_smart_device_dialog_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_colored_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_spacer_30.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\spacer_30.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_open_enter.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_open_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_fade_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_fade_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_tooltip_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_menu_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_check_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_favicon_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_pay.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_pay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_edit_select.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_edit_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_login_checkbox_selector_2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_login_checkbox_selector_2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_shape_btn_next.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\shape_btn_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_main.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_off_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_btn_yellow.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_btn_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_left_sel.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_left_sel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_radio_off_to_on_mtrl_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_light_gray2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_light_gray2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_radio_material_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_google.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_back4.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_back4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_hint_foreground_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_problem_type_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_problem_type_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rec_edge_dark_blue2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rec_edge_dark_blue2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_bar_up_container.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_switch_thumb_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_customer_probleme.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_customer_probleme.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_back_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\back_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_default.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_bind_one.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_bind_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_select_dialog_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_on_mtrl_ring_outer_path_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_expandlist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_expandlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_ab_back_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_com_facebook_device_auth_dialog_fragment.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_slide_out_top.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_recharge_history.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_recharge_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_menu_share_mtrl_alpha.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_vector_test.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_start_loading.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\start_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_unchecked_box_inner_merged_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_alert_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_alert_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_customer_service.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_customer_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rec_light_gray2.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rec_light_gray2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_forget_acc.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_forget_acc.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-mdpi_com_facebook_profile_picture_blank_square.png.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-mdpi\\com_facebook_profile_picture_blank_square.png"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_slide_out_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_abc_dialog_material_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_btn_lay_kakao.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_btn_lay_kakao.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_select_card.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_select_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_com_facebook_tooltip_bubble.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_top_round.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_top_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_btn_gray.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_btn_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_item_background_holo_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_corner_edge_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_corner_edge_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_light_gray1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_light_gray1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_goodslist_item.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_goodslist_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_shape_bg_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\shape_bg_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_rec_gray_back_white.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_rec_gray_back_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_style.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_triangle_top.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_triangle_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_two_step_header.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_two_step_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v26_abc_screen_toolbar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v26\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_gray_trans_rec.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_gray_trans_rec.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_btn_lay_google.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_btn_lay_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_browser_actions_context_menu_page.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\browser_actions_context_menu_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_select_card_vertial.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_select_card_vertial.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_list_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_tint_switch_track.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_confirm_change.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_confirm_change.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_child_item_portrait.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\child_item_portrait.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_dialog_exchange_rate.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_dialog_exchange_rate.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_edit_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\edit_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_btn_borderless_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_button_like_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_textfield_search_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_modal_out.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_selector_pay_jumpgp_dialog_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_selector_pay_jumpgp_dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_toolbar_float.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_toolbar_float.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_input_border_purple.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_input_border_purple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_cascading_menu_item_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_list_menu_item_icon.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_btn_yellow.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_btn_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_com_facebook_activity_layout.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_toolbar_item_block.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_toolbar_item_block.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rec_edge_dark_blue.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rec_edge_dark_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_acc_tips.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_acc_tips.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_shape_rating_bg.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_shape_rating_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_fragment_pay_content.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_fragment_pay_content.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_auth_dialog_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\color_abc_primary_text_material_light.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_activity_chooser_view.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_btn_radio_on_mtrl.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_activity_pay_goodslist.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_activity_pay_goodslist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_bg_purple_left.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_bg_purple_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_view_exit_anim.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\view_exit_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_com_facebook_auth_dialog_cancel_background.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_close_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_close_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_right_sel.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_right_sel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_abc_slide_in_bottom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_on_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_ic_clear_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_anim_enter_1.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\anim_enter_1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_normal.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_bg_light_blue3.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_bg_light_blue3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\animator_fragment_open_exit.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\animator\\fragment_open_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_abc_list_divider_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_alert_dialog_button_bar_material.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_list_menu_item_checkbox.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_cg_pay_gp_dialog.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\cg_pay_gp_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\drawable_cg_btn_cir_left_selector.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\drawable\\cg_btn_cir_left_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-debug-4:\\layout_abc_action_mode_bar.xml.flat",
+        "source": "C:\\Users\\Admin\\.gradle\\daemon\\8.11.1\\com.pokemodpro.vn.app-main-6:\\layout\\abc_action_mode_bar.xml"
+    }
+]

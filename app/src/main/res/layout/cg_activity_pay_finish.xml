@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="@dimen/dp_z_774" android:layout_height="@dimen/dp_z_444" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/sp_z_38" android:textColor="@color/cg_color_white" android:gravity="center_horizontal" android:background="@drawable/cg_img_bg_up" android:paddingTop="@dimen/dp_z_20" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_82" android:text="支付结果" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/cg_img_bg_down" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_362">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_50">
+                <ImageView android:id="@id/img_pay_result" android:layout_width="@dimen/dp_z_122" android:layout_height="@dimen/dp_z_122" android:src="@drawable/cg_img_pay_success" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_16">
+                    <TextView android:textSize="@dimen/sp_z_40" android:id="@id/txt_pay_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="支付成功" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/sp_z_34" android:id="@id/txt_pay_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="已成功购买  " />
+                        <TextView android:textColor="@color/cg_color_purse" android:id="@id/txt_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="测试商品" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textColor="@color/cg_color_white" android:id="@id/btn_confirm" android:background="@drawable/cg_bg_btn_purse" android:layout_width="@dimen/dp_z_700" android:layout_height="@dimen/dp_z_92" android:layout_marginTop="@dimen/dp_z_72" android:text="返回游戏" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/dp_z_1000"
+        android:layout_height="@dimen/dp_z_1130">
+        <include layout="@layout/cg_background_all"/>
+        <RelativeLayout
+            android:layout_width="@dimen/dp_z_1000"
+            android:layout_height="@dimen/dp_z_1000"
+            android:layout_marginTop="@dimen/dp_z_130"
+            android:layout_centerHorizontal="true">
+            <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY
+                android:orientation="vertical"
+                android:id="@+id/layout_fragment"
+                android:background="@drawable/cg_shape_rec_light_gray2"
+                android:layout_width="@dimen/dp_z_926"
+                android:layout_height="@dimen/dp_z_940"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

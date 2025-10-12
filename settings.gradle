@@ -1,0 +1,3 @@
+// settings.gradle
+rootProject.name = "Thú cưng đời tôi hack"
+include ':app'

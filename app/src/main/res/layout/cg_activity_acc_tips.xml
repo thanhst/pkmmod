@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layout_bg" android:background="@drawable/cg_shape_base_bg" android:layout_width="@dimen/dp_z_1100" android:layout_height="@dimen/dp_z_600" android:layout_centerHorizontal="true">
+            <RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_z_30" android:layout_above="@id/btns_lay" android:layout_centerVertical="true">
+                <TextView android:textSize="@dimen/sp_z_56" android:textStyle="bold" android:textColor="@color/cg_color_black" android:gravity="center" android:id="@id/tv_tip_title" android:paddingLeft="@dimen/dp_z_44" android:paddingRight="@dimen/dp_z_44" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_red1" android:gravity="center" android:id="@id/tv_tip_msg" android:paddingLeft="@dimen/dp_z_44" android:paddingRight="@dimen/dp_z_44" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_20" android:layout_marginTop="@dimen/dp_z_18" android:layout_marginRight="@dimen/dp_z_20" android:layout_below="@id/tv_tip_title" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/btns_lay" android:paddingTop="@dimen/dp_z_6" android:paddingBottom="@dimen/dp_z_6" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_96" android:layout_marginLeft="@dimen/dp_z_60" android:layout_marginRight="@dimen/dp_z_60" android:layout_marginBottom="@dimen/dp_z_70" android:layout_alignParentBottom="true">
+                <Button android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_white" android:id="@id/btn_upgrade" android:background="@drawable/cg_btn1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/txt_upgrade_now" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dp_z_16" />
+                <Button android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_white" android:id="@id/btn_copy" android:background="@drawable/cg_btn6" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/txt_copy_acc_msg" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dp_z_16" />
+                <Button android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_white" android:id="@id/btn_reward" android:background="@drawable/cg_btn1" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/txt_receive_reward" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dp_z_16" />
+                <Button android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_white" android:id="@id/btn_continue" android:background="@drawable/cg_btn5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/txt_next_warn" android:layout_weight="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/img_logo" android:layout_width="@dimen/dp_z_350" android:layout_height="@dimen/dp_z_100" android:layout_marginTop="@dimen/dp_f_30" android:src="@drawable/cg_logo" android:layout_alignTop="@id/layout_bg" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

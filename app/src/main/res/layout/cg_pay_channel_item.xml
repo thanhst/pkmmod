@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/channel_item_lay" android:background="@color/cg_color_light_gray6" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_134">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_light_blue5" android:gravity="center_vertical" android:id="@id/txt_name" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_106" android:text="卡支付" />
+            <TextView android:textSize="@dimen/sp_z_40" android:gravity="center_vertical" android:id="@id/txt_arrow" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_106" android:layout_marginLeft="@dimen/dp_z_36" android:text=">" android:layout_toRightOf="@id/txt_name" />
+        </LinearLayout>
+        <ImageView android:id="@id/iv_hot_logo" android:visibility="gone" android:layout_width="@dimen/dp_z_118" android:layout_height="@dimen/dp_z_104" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/iv_discount" android:visibility="gone" android:layout_width="@dimen/dp_z_120" android:layout_height="@dimen/dp_z_30" android:scaleType="fitXY" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:background="@color/cg_color_grary" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_2" />
+</LinearLayout>

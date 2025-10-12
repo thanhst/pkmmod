@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/layout_suspension_account" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_light_black" android:id="@id/equal_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" = " android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_light_black" android:gravity="center" android:id="@id/txt_money" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100" android:text="用户中心" android:singleLine="true" android:layout_toLeftOf="@id/equal_line" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_light_black" android:gravity="center" android:id="@id/txt_virtual_coin" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100" android:text="用户中心" android:singleLine="true" android:layout_toRightOf="@id/equal_line" android:layout_centerVertical="true" />
+</RelativeLayout>

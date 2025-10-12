@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/cg_bg_rec_white" android:layout_width="@dimen/dp_z_700" android:layout_height="@dimen/dp_z_380">
+        <TextView android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_black" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_20" android:text="@string/txt_delete_account" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_dag" android:gravity="center" android:id="@id/txt_delete_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_60" android:layout_marginTop="@dimen/dp_z_50" android:layout_marginRight="@dimen/dp_z_60" android:text="您确定要将25256544从用户列表中删除么？" android:layout_below="@id/txt_title" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <View android:id="@id/up_line" android:background="@color/cg_color_grary" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_blue" android:id="@id/btn_cancel_delete" android:background="@color/cg_trancelucent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_100" android:text="@string/txt_cancel" android:layout_weight="1.0" />
+                <View android:background="@color/cg_color_grary" android:layout_width="0.100000024dip" android:layout_height="@dimen/dp_z_100" />
+                <Button android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_blue" android:id="@id/btn_confirm_delete" android:background="@color/cg_trancelucent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_100" android:text="@string/txt_confirm" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

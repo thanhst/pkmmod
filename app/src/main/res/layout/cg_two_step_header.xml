@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/step_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_30">
+        <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_light_blue" android:gravity="center" android:id="@id/txt_step_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cg_txt_step_one" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_light_blue" android:gravity="center" android:id="@id/txt_step_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cg_txt_step_two" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/step_Imag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_18">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_54" android:layout_weight="1.0">
+            <View android:id="@id/line_step_1" android:background="@color/cg_color_light_blue" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_6" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/img_step_1" android:layout_width="@dimen/dp_z_54" android:layout_height="@dimen/dp_z_54" android:src="@drawable/cg_bg_circle_purple" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_54" android:layout_weight="1.0">
+            <View android:id="@id/line_step_2" android:background="@color/cg_color_light_blue" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_6" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/img_step_2" android:layout_width="@dimen/dp_z_54" android:layout_height="@dimen/dp_z_54" android:src="@drawable/cg_bg_circle_purple" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

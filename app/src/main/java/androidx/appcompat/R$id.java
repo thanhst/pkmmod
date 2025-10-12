@@ -1,0 +1,86 @@
+package androidx.appcompat;
+
+/* loaded from: classes.dex */
+public final class R$id {
+    public static final int action_bar = 2131296297;
+    public static final int action_bar_activity_content = 2131296298;
+    public static final int action_bar_container = 2131296299;
+    public static final int action_bar_root = 2131296300;
+    public static final int action_bar_spinner = 2131296301;
+    public static final int action_bar_subtitle = 2131296302;
+    public static final int action_bar_title = 2131296303;
+    public static final int action_context_bar = 2131296305;
+    public static final int action_menu_divider = 2131296308;
+    public static final int action_menu_presenter = 2131296309;
+    public static final int action_mode_bar = 2131296310;
+    public static final int action_mode_bar_stub = 2131296311;
+    public static final int action_mode_close_button = 2131296312;
+    public static final int activity_chooser_view_content = 2131296315;
+    public static final int add = 2131296316;
+    public static final int alertTitle = 2131296317;
+    public static final int buttonPanel = 2131296364;
+    public static final int checkbox = 2131296383;
+    public static final int checked = 2131296384;
+    public static final int content = 2131296403;
+    public static final int contentPanel = 2131296404;
+    public static final int custom = 2131296405;
+    public static final int customPanel = 2131296406;
+    public static final int decor_content_parent = 2131296415;
+    public static final int default_activity_button = 2131296416;
+    public static final int edit_query = 2131296435;
+    public static final int expand_activities_button = 2131296448;
+    public static final int expanded_menu = 2131296449;
+    public static final int group_divider = 2131296465;
+    public static final int home = 2131296472;
+    public static final int icon = 2131296474;
+    public static final int image = 2131296477;
+    public static final int listMode = 2131296570;
+    public static final int list_item = 2131296572;
+    public static final int message = 2131296589;
+    public static final int multiply = 2131296595;
+    public static final int none = 2131296599;
+    public static final int normal = 2131296600;
+    public static final int off = 2131296604;
+    public static final int on = 2131296605;
+    public static final int parentPanel = 2131296608;
+    public static final int progress_circular = 2131296618;
+    public static final int progress_horizontal = 2131296619;
+    public static final int radio = 2131296622;
+    public static final int screen = 2131296629;
+    public static final int scrollIndicatorDown = 2131296630;
+    public static final int scrollIndicatorUp = 2131296631;
+    public static final int scrollView = 2131296632;
+    public static final int search_badge = 2131296634;
+    public static final int search_bar = 2131296635;
+    public static final int search_button = 2131296636;
+    public static final int search_close_btn = 2131296637;
+    public static final int search_edit_frame = 2131296638;
+    public static final int search_go_btn = 2131296639;
+    public static final int search_mag_icon = 2131296640;
+    public static final int search_plate = 2131296641;
+    public static final int search_src_text = 2131296642;
+    public static final int search_voice_btn = 2131296643;
+    public static final int select_dialog_listview = 2131296644;
+    public static final int shortcut = 2131296646;
+    public static final int spacer = 2131296654;
+    public static final int split_action_bar = 2131296656;
+    public static final int src_atop = 2131296657;
+    public static final int src_in = 2131296658;
+    public static final int src_over = 2131296659;
+    public static final int submenuarrow = 2131296668;
+    public static final int submit_area = 2131296669;
+    public static final int tabMode = 2131296671;
+    public static final int textSpacerNoButtons = 2131296689;
+    public static final int textSpacerNoTitle = 2131296690;
+    public static final int title = 2131296696;
+    public static final int titleDividerNoCustom = 2131296697;
+    public static final int title_template = 2131296698;
+    public static final int topPanel = 2131296700;
+    public static final int unchecked = 2131296765;
+    public static final int uniform = 2131296766;
+    public static final int up = 2131296769;
+    public static final int wrap_content = 2131296782;
+
+    private R$id() {
+    }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title"
+    android:background="@drawable/cg_shape_bule_white"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_z_100">
+    <TextView
+        android:textSize="@dimen/sp_z_40"
+        android:textColor="@color/cg_color_white"
+        android:gravity="center_vertical"
+        android:id="@+id/confirm_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="测试"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:textSize="@dimen/sp_z_36"
+        android:textColor="@color/cg_color_white"
+        android:gravity="center_vertical"
+        android:id="@+id/confirm_exchange_rate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/dp_z_10"
+        android:text="@string/txt_exchange_rate"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

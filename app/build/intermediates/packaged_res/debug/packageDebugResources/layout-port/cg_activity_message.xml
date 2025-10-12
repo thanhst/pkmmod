@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/legacy_web_layout"
+        android:layout_width="@dimen/dp_z_1000"
+        android:layout_height="@dimen/dp_z_1080">
+        <include layout="@layout/cg_background_all"/>
+        <WebView
+            android:id="@+id/cg_webview"
+            android:layout_width="@dimen/dp_z_926"
+            android:layout_height="@dimen/dp_z_870"
+            android:layout_marginTop="@dimen/dp_z_160"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <WebView
+        android:id="@+id/fullscreen_web"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>

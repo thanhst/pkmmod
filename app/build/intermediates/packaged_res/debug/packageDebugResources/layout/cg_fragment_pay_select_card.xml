@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/cg_backgroud_bule_white"/>
+    <RelativeLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_z_76">
+        <TextView
+            android:textColor="@color/cg_color_white"
+            android:gravity="center"
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_pay_way"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.sfyvctwaqbjhki.uwmpqfh.lebktch.CustomGridView
+        android:gravity="center"
+        android:id="@+id/grid_pay_list"
+        android:focusable="true"
+        android:visibility="visible"
+        android:fadingEdge="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_z_24"
+        android:layout_marginTop="@dimen/dp_z_12"
+        android:layout_marginRight="@dimen/dp_z_24"
+        android:layout_marginBottom="@dimen/dp_z_12"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:numColumns="3"
+        android:layout_below="@+id/layout_title"/>
+</RelativeLayout>

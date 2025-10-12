@@ -1,0 +1,38 @@
+package com.sfyvctwaqbjhki.uwmpqfh.lebktch;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.widget.GridView;
+
+/* loaded from: classes.dex */
+public class CustomGridView extends GridView {
+    private boolean isOnMeasure;
+
+    public CustomGridView(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+    }
+
+    public boolean isInMeasure() {
+        return this.isOnMeasure;
+    }
+
+    @Override // android.widget.AbsListView, android.widget.AdapterView, android.view.ViewGroup, android.view.View
+    protected void onLayout(boolean z2, int i2, int i3, int i4, int i5) {
+        this.isOnMeasure = false;
+        super.onLayout(z2, i2, i3, i4, i5);
+    }
+
+    @Override // android.widget.GridView, android.widget.AbsListView, android.view.View
+    public void onMeasure(int i2, int i3) {
+        this.isOnMeasure = true;
+        super.onMeasure(i2, i3);
+    }
+
+    public CustomGridView(Context context) {
+        super(context);
+    }
+
+    public CustomGridView(Context context, AttributeSet attributeSet, int i2) {
+        super(context, attributeSet, i2);
+    }
+}

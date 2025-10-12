@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="@dimen/dp_z_1898"
+        android:layout_height="@dimen/dp_z_1044">
+        <include layout="@layout/cg_background_all"/>
+        <RelativeLayout
+            android:id="@+id/layout_left"
+            android:background="@drawable/cg_bg_back7"
+            android:layout_width="@dimen/dp_z_438"
+            android:layout_height="@dimen/dp_z_832"
+            android:layout_marginLeft="@dimen/dp_z_34"
+            android:layout_marginTop="@dimen/dp_z_168">
+            <ListView
+                android:id="@+id/list_select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                android:divider="@null"/>
+        </RelativeLayout>
+        <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY
+            android:id="@+id/layout_frag_right"
+            android:layout_width="@dimen/dp_z_1366"
+            android:layout_height="@dimen/dp_z_832"
+            android:layout_marginTop="@dimen/dp_z_168"
+            android:layout_marginRight="@dimen/dp_z_34"
+            android:layout_alignParentRight="true"/>
+        <TextView
+            android:textSize="@dimen/sp_z_40"
+            android:textStyle="bold"
+            android:textColor="@color/cg_color_black"
+            android:gravity="center"
+            android:id="@+id/tv_pay_close"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_z_140"
+            android:layout_marginBottom="@dimen/dp_z_20"/>
+    </RelativeLayout>
+</RelativeLayout>

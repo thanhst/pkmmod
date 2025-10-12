@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="customer_question">
+        <item>@string/ui_customer_question_about_pwd</item>
+        <item>@string/ui_customer_question_about_account</item>
+        <item>@string/ui_customer_question_about_update</item>
+        <item>@string/ui_customer_question_about_modify_pwd</item>
+        <item>@string/ui_customer_question_about_change_acc</item>
+        <item>@string/ui_customer_question_about_bind_email</item>
+    </string-array>
+    <string-array name="customer_question_pay_type">
+        <item>@string/ui_customer_question_payment</item>
+    </string-array>
+    <string-array name="customer_question_type">
+        <item>@string/txt_probleme_acc</item>
+        <item>@string/txt_probleme_charge</item>
+    </string-array>
+    <string-array name="performance_entries">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="performance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="permissionNames">
+        <item>@string/permission_storage</item>
+        <item>@string/permission_location</item>
+        <item>@string/permission_camera</item>
+    </string-array>
+    <string-array name="resolution_entries">
+        <item>Resolution 50%</item>
+        <item>Resolution 75%</item>
+        <item>Resolution 100%</item>
+    </string-array>
+    <string-array name="resolution_values">
+        <item>0.5</item>
+        <item>0.75</item>
+        <item>1.0</item>
+    </string-array>
+</resources>

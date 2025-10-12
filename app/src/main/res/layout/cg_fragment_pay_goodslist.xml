@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cg_bg_back7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/cg_backgroud_bule_white" />
+    <RelativeLayout android:id="@id/layout_title" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_76">
+        <TextView android:textColor="@color/cg_color_white" android:gravity="left|center" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_title">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/list_goods" android:paddingRight="@dimen/dp_z_108" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_z_130" android:layout_marginTop="@dimen/dp_z_20" android:layout_marginRight="@dimen/dp_z_12" android:layout_marginBottom="@dimen/dp_z_78" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
+    </LinearLayout>
+</RelativeLayout>

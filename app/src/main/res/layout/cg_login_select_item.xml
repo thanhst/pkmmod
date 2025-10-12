@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/layout_suspension_account" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/btn_close" android:layout_width="@dimen/dp_z_120" android:layout_height="@dimen/dp_z_120" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/img_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_z_26" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_light_blue2" android:gravity="center_horizontal" android:id="@id/txt_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_40" android:text="用户中心" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

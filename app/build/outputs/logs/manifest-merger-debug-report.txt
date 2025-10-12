@@ -1,0 +1,439 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:2:1-207:12
+INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:2:1-207:12
+INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:2:1-207:12
+INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:2:1-207:12
+	package
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:8:5-32
+		INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml
+	ns1:requiredSplitTypes
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:12:5-53
+	android:compileSdkVersionCodename
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:7:5-43
+	android:versionCode
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml
+	xmlns:ns2
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:13:5-60
+	xmlns:ns1
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:11:5-60
+	android:versionName
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:4:5-33
+		INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml
+	ns2:splitTypes
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:14:5-22
+	android:compileSdkVersion
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:6:5-35
+	xmlns:android
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:5:5-35
+	platformBuildVersionName
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:10:5-34
+	platformBuildVersionCode
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:9:5-34
+uses-sdk
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:15:5-17:40
+INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:15:5-17:40
+INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:15:5-17:40
+	android:targetSdkVersion
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:17:9-38
+		INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:16:9-35
+		INJECTED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:18:5-22:38
+	android:largeScreens
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:22:9-36
+	android:smallScreens
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:20:9-36
+	android:normalScreens
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:21:9-37
+	android:anyDensity
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:19:9-34
+uses-permission#android.permission.INTERNET
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:23:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:24:5-26:37
+	android:maxSdkVersion
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:26:9-35
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:25:9-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:28:5-67
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:29:5-72
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:29:22-70
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:30:5-75
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:30:22-73
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:31:5-78
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:33:5-35:37
+	android:maxSdkVersion
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:35:9-35
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:34:9-64
+uses-permission#android.permission.GET_TASKS
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:36:5-67
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:36:22-65
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:37:5-75
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:37:22-73
+queries
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:38:5-44:15
+intent#action:name:android.intent.action.SEND+data:mimeType:image/jpeg
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:39:9-42:18
+action#android.intent.action.SEND
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:40:13-64
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:40:21-62
+data
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:13-50
+	android:host
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:148:21-57
+	android:scheme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:112:23-47
+	android:mimeType
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:19-48
+package#com.facebook.katana
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:43:9-54
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:43:18-52
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:45:5-78
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:45:22-76
+uses-permission#com.android.vending.BILLING
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:46:5-66
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:46:22-64
+permission#com.pokemodpro.vn.permission.C2D_MESSAGE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:47:5-49:46
+	android:protectionLevel
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:49:9-44
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:48:9-64
+uses-permission#com.pokemodpro.vn.permission.C2D_MESSAGE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:50:22-77
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:51:5-81
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:51:22-79
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:52:5-109
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:52:22-107
+permission#com.pokemodpro.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:53:5-55:46
+	android:protectionLevel
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:55:9-44
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:54:9-82
+uses-permission#com.pokemodpro.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:56:5-97
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:56:22-95
+application
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:57:5-206:19
+	android:isSplitRequired
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:65:9-39
+	android:requestLegacyExternalStorage
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:66:9-52
+	android:extractNativeLibs
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:62:9-42
+	android:supportsRtl
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:61:9-35
+	android:label
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:58:9-45
+	android:appComponentFactory
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:64:9-77
+	android:allowBackup
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:60:9-35
+	android:usesCleartextTraffic
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:63:9-44
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:59:9-56
+meta-data#android.max_aspect
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:67:9-69:34
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:69:13-32
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:68:13-46
+activity#com.bdesfamlqk.ynufhaz.XVlfRcH
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:70:9-82:20
+	android:screenOrientation
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:75:13-56
+	android:launchMode
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:74:13-43
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:73:13-36
+	android:configChanges
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:76:13-110
+	android:allowTaskReparenting
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:77:13-48
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:71:13-71
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:72:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:78:13-81:29
+action#android.intent.action.MAIN
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:17-68
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:80:17-76
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:80:27-74
+activity#com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:83:9-94:20
+	android:screenOrientation
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:87:13-56
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:86:13-37
+	android:configChanges
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:88:13-110
+	android:allowTaskReparenting
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:89:13-48
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:84:13-71
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:85:13-69
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:90:13-93:29
+category#android.intent.category.DEFAULT
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:17-75
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:27-73
+receiver#com.lomfsqxinjb.KRgTbxlWh.VGTARlgvP
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:95:9-97:40
+	android:process
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:97:13-38
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:96:13-63
+meta-data#iap:api_version
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:98:9-100:32
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:100:13-30
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:99:13-43
+activity#com.sfyvctwaqbjhki.uwmpqfh.ebvmj.YuHblIgwNAmtVR
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:101:9-104:51
+	android:screenOrientation
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:104:13-49
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:102:13-77
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:103:13-75
+receiver#com.sfyvctwaqbjhki.uwmpqfh.epbnq.IghKACSecQpXL
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:105:9-114:20
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:107:13-36
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:106:13-74
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+action:name:android.intent.action.PACKAGE_REPLACED+data:scheme:package
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:108:13-113:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:109:17-77
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:109:25-75
+action#android.intent.action.PACKAGE_REPLACED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:110:17-80
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:110:25-78
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:111:17-79
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:111:25-77
+receiver#com.adjust.sdk.AdjustReferrerReceiver
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:115:9-122:20
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:118:13-36
+	android:permission
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:117:13-69
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:116:13-65
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:119:13-121:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:120:17-78
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:120:25-76
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:123:9-125:51
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:124:13-58
+meta-data#com.facebook.sdk.ClientToken
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:126:9-128:57
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:128:13-55
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:127:13-56
+activity#me.weyye.hipermission.PermissionActivity
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:129:9-133:65
+	android:screenOrientation
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:132:13-49
+	android:configChanges
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:133:13-63
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:130:13-54
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:131:13-68
+activity#com.facebook.FacebookActivity
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:134:9-137:98
+	android:configChanges
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:137:13-96
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:135:13-63
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:136:13-57
+activity#com.facebook.CustomTabMainActivity
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:138:9-70
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:138:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:139:9-150:20
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:141:13-36
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:140:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.pokemodpro.vn+data:scheme:fbconnect
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:142:13-149:29
+action#android.intent.action.VIEW
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:143:17-68
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:143:25-66
+category#android.intent.category.BROWSABLE
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:145:17-77
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:145:27-75
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:151:9-154:75
+	android:authorities
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:154:13-73
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:153:13-37
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:152:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:155:9-161:20
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:156:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:158:13-160:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:159:17-94
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:159:25-92
+receiver#com.facebook.AuthenticationTokenManager.CurrentAuthenticationTokenChangedBroadcastReceiver
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:162:9-168:20
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:163:13-118
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:165:13-167:29
+action#com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:166:17-102
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:166:25-100
+meta-data#com.google.android.play.billingclient.version
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:169:9-171:36
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:171:13-34
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:170:13-73
+activity#com.android.billingclient.api.ProxyBillingActivity
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:172:9-176:98
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:175:13-37
+	android:configChanges
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:176:13-96
+	android:theme
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:173:13-72
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:174:13-78
+meta-data#com.google.android.gms.version
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:177:9-179:68
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:179:13-66
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:178:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:180:9-190:20
+	android:authorities
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:183:13-69
+	android:exported
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:182:13-37
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:181:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:184:13-186:51
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:186:17-49
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:185:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:187:13-189:51
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:189:17-49
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:188:17-78
+meta-data#com.android.vending.splits.required
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:191:9-193:35
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:193:13-33
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:192:13-63
+meta-data#com.android.stamp.source
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:194:9-196:60
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:196:13-58
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:195:13-52
+meta-data#com.android.stamp.type
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:197:9-199:58
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:199:13-56
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:198:13-50
+meta-data#com.android.vending.splits
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:200:9-202:46
+	android:resource
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:202:13-44
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:201:13-54
+meta-data#com.android.vending.derived.apk.id
+ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:203:9-205:33
+	android:value
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:205:13-31
+	android:name
+		ADDED from E:\PKDC\app_source\app\src\main\AndroidManifest.xml:204:13-62

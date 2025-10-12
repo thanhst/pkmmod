@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/cg_bg_white_trans_rec" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginTop="@dimen/dp_z_28">
+            <TextView android:textSize="@dimen/sp_z_32" android:textStyle="bold" android:textColor="@color/cg_color_white" android:gravity="center" android:background="@drawable/cg_btn_bg_light_blue1" android:layout_width="@dimen/dp_z_220" android:layout_height="@dimen/dp_z_66" android:text="@string/txt_charge_num_tips" />
+            <TextView android:textSize="@dimen/sp_z_32" android:textColor="@color/cg_color_dag" android:id="@id/txt_charge_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_26" android:text="50元" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginTop="@dimen/dp_z_30">
+            <TextView android:textSize="@dimen/sp_z_32" android:textStyle="bold" android:textColor="@color/cg_color_white" android:gravity="center" android:background="@drawable/cg_btn_bg_light_blue1" android:layout_width="@dimen/dp_z_220" android:layout_height="@dimen/dp_z_66" android:text="@string/txt_charge_way_tips" />
+            <TextView android:textSize="@dimen/sp_z_32" android:textColor="@color/cg_color_dag" android:id="@id/txt_charge_way" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_26" android:text="第三方刮刮卡" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginTop="@dimen/dp_z_30">
+            <TextView android:textSize="@dimen/sp_z_32" android:textStyle="bold" android:textColor="@color/cg_color_white" android:gravity="center" android:background="@drawable/cg_btn_bg_light_blue1" android:layout_width="@dimen/dp_z_220" android:layout_height="@dimen/dp_z_66" android:text="@string/txt_order_num_tips" />
+            <TextView android:textSize="@dimen/sp_z_32" android:textColor="@color/cg_color_dag" android:id="@id/txt_order_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_26" android:text="SDHHHRTHHTHHTHWWH" />
+        </LinearLayout>
+        <View android:id="@id/charge_line" android:background="@color/cg_color_light_gray" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_4" android:layout_marginTop="@dimen/dp_z_30" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginTop="@dimen/dp_z_20" android:layout_marginBottom="@dimen/dp_z_20">
+            <TextView android:textSize="@dimen/sp_z_32" android:textStyle="bold" android:textColor="@color/cg_color_white" android:gravity="center" android:id="@id/bug_type_tip" android:background="@drawable/cg_bg_btn_yellow" android:layout_width="@dimen/dp_z_220" android:layout_height="@dimen/dp_z_66" android:text="@string/txt_charge_status_tips" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/sp_z_32" android:textColor="@color/cg_color_grary" android:id="@id/txt_order_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_26" android:text="充值失败" android:layout_toRightOf="@id/bug_type_tip" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/sp_z_28" android:textColor="@color/cg_color_grary" android:gravity="bottom" android:id="@id/txt_recharge_time" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_66" android:layout_marginRight="@dimen/dp_z_32" android:text="18:06:21" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/img_order_status" android:layout_width="@dimen/dp_z_94" android:layout_height="@dimen/dp_z_86" android:src="@drawable/order_status_fail" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</RelativeLayout>

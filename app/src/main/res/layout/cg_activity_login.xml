@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_rating_18" android:visibility="invisible" android:layout_width="@dimen/dp_z_244" android:layout_height="@dimen/dp_z_188" android:src="@drawable/rating_18" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layout_bg" android:background="@drawable/cg_shape_base_bg" android:layout_width="@dimen/dp_z_978" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/sp_z_44" android:textColor="@color/cg_color_white" android:id="@id/btn_fast" android:background="@drawable/cg_btn1" android:visibility="gone" android:layout_width="@dimen/dp_z_820" android:layout_height="@dimen/dp_z_124" android:layout_marginTop="@dimen/dp_z_136" android:text="@string/txt_fast" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/layout_main_login" android:layout_width="@dimen/dp_z_820" android:layout_height="@dimen/dp_z_124" android:layout_marginTop="@dimen/dp_z_300" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:gravity="center_vertical" android:id="@id/line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_8" android:layout_marginTop="@dimen/dp_z_480" android:layout_marginRight="@dimen/dp_z_8" android:layout_below="@id/layout_main_login" android:layout_alignParentTop="true">
+                <RelativeLayout android:background="@drawable/cg_img_login_line" android:layout_width="@dimen/dp_z_264" android:layout_height="@dimen/dp_z_4" android:layout_marginLeft="@dimen/dp_z_30" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:background="@drawable/cg_img_login_line" android:layout_width="@dimen/dp_z_264" android:layout_height="@dimen/dp_z_4" android:layout_marginRight="@dimen/dp_z_30" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/sp_z_34" android:textColor="@color/cg_color_grary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_other_login" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <HorizontalScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_220" android:layout_marginLeft="@dimen/dp_z_100" android:layout_marginRight="@dimen/dp_z_100" android:layout_marginBottom="@dimen/dp_z_8" android:layout_below="@id/line_layout" android:layout_centerHorizontal="true">
+                <LinearLayout android:id="@id/layout_grid" android:layout_width="@dimen/dp_z_778" android:layout_height="fill_parent">
+                    <GridView android:gravity="center" android:id="@id/grid_login" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:stretchMode="spacingWidthUniform" android:numColumns="auto_fit" />
+                </LinearLayout>
+            </HorizontalScrollView>
+            <TextView android:textSize="@dimen/dp_z_32" android:textStyle="bold|italic" android:textColor="@color/cg_color_blue" android:id="@id/privacy_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginBottom="@dimen/dp_z_20" android:text="@string/txt_privacy" android:layout_below="@id/scroll_view" />
+            <RelativeLayout android:id="@id/layout_select" android:background="@drawable/cg_bg_rec_white" android:layout_width="@dimen/dp_z_820" android:layout_height="@dimen/dp_z_124" android:layout_marginTop="@dimen/dp_z_140" android:layout_centerHorizontal="true">
+                <ImageView android:id="@id/img_uhead" android:layout_width="@dimen/dp_z_50" android:layout_height="@dimen/dp_z_50" android:layout_marginLeft="@dimen/dp_z_34" android:src="@drawable/cg_uhead" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <View android:id="@id/acc_line" android:background="@color/cg_color_grary" android:layout_width="@dimen/dp_z_2" android:layout_height="@dimen/dp_z_32" android:layout_marginLeft="@dimen/dp_z_32" android:layout_toRightOf="@id/img_uhead" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/dp_z_34" android:textColor="@color/cg_color_blue2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_32" android:text="@string/txt_select_account" android:layout_toRightOf="@id/acc_line" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="@dimen/dp_z_62" android:layout_height="@dimen/dp_z_62" android:layout_marginRight="@dimen/dp_z_24" android:src="@drawable/cg_down_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_select_list_layout" android:layout_width="@dimen/dp_z_820" android:layout_height="@dimen/dp_z_280" android:layout_marginTop="@dimen/dp_z_6" android:layout_below="@id/layout_select" android:layout_centerHorizontal="true">
+                <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq android:id="@id/layout_select_list" android:background="@drawable/cg_bg_back4" android:layout_width="@dimen/dp_z_820" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                    <ListView android:id="@id/list_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
+                </com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq>
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:id="@id/img_logo" android:layout_width="@dimen/dp_z_406" android:layout_height="@dimen/dp_z_126" android:layout_marginTop="@dimen/dp_f_44" android:src="@drawable/cg_logo" android:layout_alignTop="@id/layout_bg" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

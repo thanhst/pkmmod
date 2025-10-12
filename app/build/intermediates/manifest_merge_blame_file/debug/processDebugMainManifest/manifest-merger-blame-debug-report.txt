@@ -1,0 +1,448 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:ns1="http://schemas.android.com/apk/distribution"
+4    xmlns:ns2="http://schemas.android.com/apk/distribution"
+5    package="com.pokemodpro.vn"
+6    platformBuildVersionCode="33"
+7    platformBuildVersionName="13"
+8    android:compileSdkVersion="33"
+9    android:compileSdkVersionCodename="13"
+10    android:installLocation="auto"
+11    android:versionCode="6900"
+12    android:versionName="69.0.0"
+13    ns1:requiredSplitTypes="base__abi,base__density"
+14    ns2:splitTypes="" >
+15
+16    <uses-sdk
+16-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:15:5-17:40
+17        android:minSdkVersion="19"
+17-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:16:9-35
+18        android:targetSdkVersion="33" />
+18-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:17:9-38
+19
+20    <supports-screens
+20-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:18:5-22:38
+21        android:anyDensity="true"
+21-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:19:9-34
+22        android:largeScreens="true"
+22-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:22:9-36
+23        android:normalScreens="true"
+23-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:21:9-37
+24        android:smallScreens="true" />
+24-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:20:9-36
+25
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:23:5-66
+26-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:23:22-64
+27    <uses-permission
+27-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:24:5-26:37
+28        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+28-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:25:9-65
+29        android:maxSdkVersion="32" />
+29-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:26:9-35
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:27:5-78
+30-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:27:22-76
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:28:5-67
+31-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:28:22-65
+32    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+32-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:29:5-72
+32-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:29:22-70
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:30:5-75
+33-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:30:22-73
+34    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+34-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:31:5-78
+34-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:31:22-76
+35    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+35-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:32:5-78
+35-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:32:22-76
+36    <uses-permission
+36-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:33:5-35:37
+37        android:name="android.permission.READ_EXTERNAL_STORAGE"
+37-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:34:9-64
+38        android:maxSdkVersion="32" />
+38-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:35:9-35
+39    <uses-permission android:name="android.permission.GET_TASKS" />
+39-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:36:5-67
+39-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:36:22-65
+40    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+40-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:37:5-75
+40-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:37:22-73
+41
+42    <queries>
+42-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:38:5-44:15
+43        <intent>
+43-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:39:9-42:18
+44            <action android:name="android.intent.action.SEND" />
+44-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:40:13-64
+44-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:40:21-62
+45
+46            <data android:mimeType="image/jpeg" />
+46-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:13-50
+46-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:19-48
+47        </intent>
+48
+49        <package android:name="com.facebook.katana" />
+49-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:43:9-54
+49-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:43:18-52
+50    </queries>
+51
+52    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+52-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:45:5-78
+52-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:45:22-76
+53    <uses-permission android:name="com.android.vending.BILLING" />
+53-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:46:5-66
+53-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:46:22-64
+54
+55    <permission
+55-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:47:5-49:46
+56        android:name="com.pokemodpro.vn.permission.C2D_MESSAGE"
+56-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:48:9-64
+57        android:protectionLevel="signature" />
+57-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:49:9-44
+58
+59    <uses-permission android:name="com.pokemodpro.vn.permission.C2D_MESSAGE" />
+59-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:50:5-79
+59-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:50:22-77
+60    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+60-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:51:5-81
+60-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:51:22-79
+61    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+61-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:52:5-109
+61-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:52:22-107
+62
+63    <permission
+63-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:53:5-55:46
+64        android:name="com.pokemodpro.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+64-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:54:9-82
+65        android:protectionLevel="signature" />
+65-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:55:9-44
+66
+67    <uses-permission android:name="com.pokemodpro.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+67-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:56:5-97
+67-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:56:22-95
+68
+69    <application
+69-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:57:5-206:19
+70        android:name="com.bdesfamlqk.ynufhaz.BfwEcYUMp"
+70-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:59:9-56
+71        android:allowBackup="true"
+71-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:60:9-35
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:64:9-77
+73        android:debuggable="true"
+74        android:extractNativeLibs="false"
+74-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:62:9-42
+75        android:isSplitRequired="true"
+75-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:65:9-39
+76        android:label="@string/app_name_mod"
+76-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:58:9-45
+77        android:requestLegacyExternalStorage="true"
+77-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:66:9-52
+78        android:supportsRtl="true"
+78-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:61:9-35
+79        android:testOnly="true"
+80        android:usesCleartextTraffic="true" >
+80-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:63:9-44
+81        <meta-data
+81-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:67:9-69:34
+82            android:name="android.max_aspect"
+82-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:68:13-46
+83            android:value="2.1" />
+83-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:69:13-32
+84
+85        <activity
+85-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:70:9-82:20
+86            android:name="com.bdesfamlqk.ynufhaz.XVlfRcH"
+86-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:72:13-58
+87            android:allowTaskReparenting="true"
+87-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:77:13-48
+88            android:configChanges="layoutDirection|screenSize|orientation|navigation|keyboardHidden|keyboard"
+88-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:76:13-110
+89            android:exported="true"
+89-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:73:13-36
+90            android:launchMode="singleTop"
+90-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:74:13-43
+91            android:screenOrientation="sensorLandscape"
+91-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:75:13-56
+92            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+92-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:71:13-71
+93            <intent-filter>
+93-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:78:13-81:29
+94                <action android:name="android.intent.action.MAIN" />
+94-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:17-68
+94-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:25-66
+95
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:80:17-76
+96-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:80:27-74
+97            </intent-filter>
+98        </activity>
+99        <activity
+99-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:83:9-94:20
+100            android:name="com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr"
+100-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:85:13-69
+101            android:allowTaskReparenting="true"
+101-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:89:13-48
+102            android:configChanges="layoutDirection|screenSize|orientation|navigation|keyboardHidden|keyboard"
+102-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:88:13-110
+103            android:exported="false"
+103-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:86:13-37
+104            android:screenOrientation="sensorLandscape"
+104-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:87:13-56
+105            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+105-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:84:13-71
+106            <intent-filter>
+106-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:90:13-93:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:17-68
+107-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:79:25-66
+108
+109                <category android:name="android.intent.category.DEFAULT" />
+109-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:17-75
+109-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:27-73
+110            </intent-filter>
+111        </activity>
+112
+113        <receiver
+113-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:95:9-97:40
+114            android:name="com.lomfsqxinjb.KRgTbxlWh.VGTARlgvP"
+114-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:96:13-63
+115            android:process=":remote" />
+115-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:97:13-38
+116
+117        <meta-data
+117-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:98:9-100:32
+118            android:name="iap:api_version"
+118-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:99:13-43
+119            android:value="4" />
+119-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:100:13-30
+120
+121        <activity
+121-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:101:9-104:51
+122            android:name="com.sfyvctwaqbjhki.uwmpqfh.ebvmj.YuHblIgwNAmtVR"
+122-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:103:13-75
+123            android:screenOrientation="portrait"
+123-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:104:13-49
+124            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+124-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:102:13-77
+125
+126        <receiver
+126-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:105:9-114:20
+127            android:name="com.sfyvctwaqbjhki.uwmpqfh.epbnq.IghKACSecQpXL"
+127-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:106:13-74
+128            android:exported="true" >
+128-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:107:13-36
+129            <intent-filter>
+129-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:108:13-113:29
+130                <action android:name="android.intent.action.PACKAGE_ADDED" />
+130-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:109:17-77
+130-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:109:25-75
+131                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+131-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:110:17-80
+131-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:110:25-78
+132                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+132-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:111:17-79
+132-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:111:25-77
+133
+134                <data android:scheme="package" />
+134-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:13-50
+134-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:112:23-47
+135            </intent-filter>
+136        </receiver>
+137        <receiver
+137-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:115:9-122:20
+138            android:name="com.adjust.sdk.AdjustReferrerReceiver"
+138-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:116:13-65
+139            android:exported="true"
+139-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:118:13-36
+140            android:permission="android.permission.INSTALL_PACKAGES" >
+140-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:117:13-69
+141            <intent-filter>
+141-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:119:13-121:29
+142                <action android:name="com.android.vending.INSTALL_REFERRER" />
+142-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:120:17-78
+142-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:120:25-76
+143            </intent-filter>
+144        </receiver>
+145
+146        <meta-data
+146-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:123:9-125:51
+147            android:name="com.facebook.sdk.ApplicationId"
+147-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:124:13-58
+148            android:value="@string/pg_fb_app_id" />
+148-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:125:13-49
+149        <meta-data
+149-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:126:9-128:57
+150            android:name="com.facebook.sdk.ClientToken"
+150-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:127:13-56
+151            android:value="@string/pg_fb_client_token" />
+151-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:128:13-55
+152
+153        <activity
+153-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:129:9-133:65
+154            android:name="me.weyye.hipermission.PermissionActivity"
+154-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:131:13-68
+155            android:configChanges="orientation|keyboardHidden"
+155-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:133:13-63
+156            android:screenOrientation="portrait"
+156-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:132:13-49
+157            android:theme="@style/CustomTheme_Dialog" />
+157-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:130:13-54
+158        <activity
+158-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:134:9-137:98
+159            android:name="com.facebook.FacebookActivity"
+159-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:136:13-57
+160            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+160-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:137:13-96
+161            android:theme="@style/com_facebook_activity_theme" />
+161-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:135:13-63
+162        <activity android:name="com.facebook.CustomTabMainActivity" />
+162-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:138:9-70
+162-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:138:19-68
+163        <activity
+163-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:139:9-150:20
+164            android:name="com.facebook.CustomTabActivity"
+164-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:140:13-58
+165            android:exported="true" >
+165-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:141:13-36
+166            <intent-filter>
+166-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:142:13-149:29
+167                <action android:name="android.intent.action.VIEW" />
+167-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:143:17-68
+167-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:143:25-66
+168
+169                <category android:name="android.intent.category.DEFAULT" />
+169-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:17-75
+169-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:92:27-73
+170                <category android:name="android.intent.category.BROWSABLE" />
+170-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:145:17-77
+170-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:145:27-75
+171
+172                <data
+172-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:41:13-50
+173                    android:host="cct.com.pokemodpro.vn"
+173-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:148:21-57
+174                    android:scheme="fbconnect" />
+174-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:112:23-47
+175            </intent-filter>
+176        </activity>
+177
+178        <provider
+178-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:151:9-154:75
+179            android:name="com.facebook.internal.FacebookInitProvider"
+179-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:152:13-70
+180            android:authorities="com.pokemodpro.vn.FacebookInitProvider"
+180-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:154:13-73
+181            android:exported="false" />
+181-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:153:13-37
+182
+183        <receiver
+183-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:155:9-161:20
+184            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+184-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:156:13-86
+185            android:exported="false" >
+185-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:157:13-37
+186            <intent-filter>
+186-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:158:13-160:29
+187                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+187-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:159:17-94
+187-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:159:25-92
+188            </intent-filter>
+189        </receiver>
+190        <receiver
+190-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:162:9-168:20
+191            android:name="com.facebook.AuthenticationTokenManager.CurrentAuthenticationTokenChangedBroadcastReceiver"
+191-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:163:13-118
+192            android:exported="false" >
+192-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:164:13-37
+193            <intent-filter>
+193-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:165:13-167:29
+194                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+194-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:166:17-102
+194-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:166:25-100
+195            </intent-filter>
+196        </receiver>
+197
+198        <meta-data
+198-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:169:9-171:36
+199            android:name="com.google.android.play.billingclient.version"
+199-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:170:13-73
+200            android:value="5.0.0" />
+200-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:171:13-34
+201
+202        <activity
+202-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:172:9-176:98
+203            android:name="com.android.billingclient.api.ProxyBillingActivity"
+203-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:174:13-78
+204            android:configChanges="screenSize|screenLayout|orientation|keyboardHidden|keyboard"
+204-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:176:13-96
+205            android:exported="false"
+205-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:175:13-37
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+206-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:173:13-72
+207
+208        <meta-data
+208-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:177:9-179:68
+209            android:name="com.google.android.gms.version"
+209-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:178:13-58
+210            android:value="@integer/google_play_services_version" />
+210-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:179:13-66
+211
+212        <provider
+212-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:180:9-190:20
+213            android:name="androidx.startup.InitializationProvider"
+213-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:181:13-67
+214            android:authorities="com.pokemodpro.vn.androidx-startup"
+214-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:183:13-69
+215            android:exported="false" >
+215-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:182:13-37
+216            <meta-data
+216-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:184:13-186:51
+217                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+217-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:185:17-75
+218                android:value="androidx.startup" />
+218-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:186:17-49
+219            <meta-data
+219-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:187:13-189:51
+220                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+220-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:188:17-78
+221                android:value="androidx.startup" />
+221-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:189:17-49
+222        </provider>
+223
+224        <meta-data
+224-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:191:9-193:35
+225            android:name="com.android.vending.splits.required"
+225-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:192:13-63
+226            android:value="true" />
+226-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:193:13-33
+227        <meta-data
+227-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:194:9-196:60
+228            android:name="com.android.stamp.source"
+228-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:195:13-52
+229            android:value="https://play.google.com/store" />
+229-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:196:13-58
+230        <meta-data
+230-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:197:9-199:58
+231            android:name="com.android.stamp.type"
+231-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:198:13-50
+232            android:value="STAMP_TYPE_DISTRIBUTION_APK" />
+232-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:199:13-56
+233        <meta-data
+233-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:200:9-202:46
+234            android:name="com.android.vending.splits"
+234-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:201:13-54
+235            android:resource="@xml/splits0" />
+235-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:202:13-44
+236        <meta-data
+236-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:203:9-205:33
+237            android:name="com.android.vending.derived.apk.id"
+237-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:204:13-62
+238            android:value="17" />
+238-->E:\PKDC\app_source\app\src\main\AndroidManifest.xml:205:13-31
+239    </application>
+240
+241</manifest>

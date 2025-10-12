@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dp_z_28" android:textColor="@color/cg_color_gray5" android:id="@id/goods_des" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_22" android:layout_marginRight="@dimen/dp_z_40" android:text="sdfkerkksdfkrekkfdksfke" android:layout_toLeftOf="@id/pay_goodslist_item_linear_2" android:layout_centerVertical="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/pay_goodslist_item_linear_2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/dp_z_50" android:textColor="@color/cg_color_black1" android:layout_gravity="center_horizontal" android:id="@id/goods_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_22" android:text="＄99" />
+            <Button android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_white" android:id="@id/goods_pay" android:background="@drawable/cg_btn_bg_light_blue3" android:layout_width="@dimen/dp_z_240" android:layout_height="@dimen/dp_z_74" android:layout_marginTop="@dimen/dp_z_22" android:layout_marginBottom="@dimen/dp_z_20" android:text="@string/cg_txt_consume_buy" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

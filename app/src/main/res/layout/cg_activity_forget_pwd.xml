@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_bg" android:layout_width="@dimen/dp_z_984" android:layout_height="@dimen/dp_z_760" android:layout_centerHorizontal="true">
+        <include layout="@layout/cg_background_all1" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_40" android:layout_marginTop="@dimen/dp_z_172" android:layout_marginRight="@dimen/dp_z_40">
+            <Button android:id="@id/btn_find_pwd" android:background="@drawable/cg_btn_select" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_110" android:layout_weight="1.0" />
+            <Button android:id="@id/btn_find_account" android:background="@drawable/cg_btn_normal" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_110" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY android:orientation="horizontal" android:id="@id/layout_fragment" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_410" android:layout_marginLeft="@dimen/dp_z_14" android:layout_marginRight="@dimen/dp_z_14" android:layout_below="@id/layout_btn" />
+    </RelativeLayout>
+</RelativeLayout>

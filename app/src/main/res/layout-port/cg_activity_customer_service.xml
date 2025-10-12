@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/dp_z_1000" android:layout_height="@dimen/dp_z_1080" android:layout_centerInParent="true">
+        <include layout="@layout/cg_background_all" />
+        <RelativeLayout android:id="@id/layout_right" android:background="@drawable/cg_bg1" android:layout_width="@dimen/dp_z_926" android:layout_height="@dimen/dp_z_870" android:layout_marginTop="@dimen/dp_z_170" android:layout_centerHorizontal="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_96" android:layout_marginTop="@dimen/dp_z_40" android:layout_marginRight="@dimen/dp_z_96">
+                <Button android:textColor="@color/cg_color_white" android:id="@id/btn_probleme" android:background="@drawable/cg_btn_select" android:layout_width="@dimen/dp_z_300" android:layout_height="@dimen/dp_z_100" android:text="@string/txt_see_probleme" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layout_line" android:background="@color/cg_color_light_blue" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_2" android:layout_below="@id/layout_btn" />
+            <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY android:id="@id/layout_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_line" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:background="@drawable/cg_pay_gp_dialog_bg" android:layout_width="@dimen/dp_z_938" android:layout_height="@dimen/dp_z_710">
+            <TextView android:textSize="@dimen/dp_z_74" android:textStyle="bold" android:textColor="@color/cg_color_black2" android:id="@id/dialog_gp_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginTop="@dimen/dp_z_74" android:text="@string/txt_plugin_pay_dialog_title" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <TextView android:textSize="@dimen/dp_z_54" android:textColor="@color/cg_color_gray7" android:id="@id/dialog_gp_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginTop="@dimen/dp_z_96" android:layout_marginRight="@dimen/dp_z_58" android:text="" android:layout_below="@id/dialog_gp_title" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginBottom="@dimen/dp_z_60" android:src="@drawable/cg_google_pay" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+            <Button android:textSize="@dimen/dp_z_50" android:textStyle="bold" android:textColor="@color/cg_color_white2" android:id="@id/dialog_gp_pay" android:background="@drawable/cg_selector_pay_jumpgp_dialog_bg" android:layout_width="@dimen/dp_z_348" android:layout_height="@dimen/dp_z_126" android:layout_marginRight="@dimen/dp_z_58" android:layout_marginBottom="@dimen/dp_z_34" android:text="@string/txt_plugin_pay_dialog_paybtn" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

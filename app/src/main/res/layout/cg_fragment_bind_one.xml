@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_dag" android:gravity="center_horizontal" android:id="@id/txt_bind_tips" android:layout_width="@dimen/dp_z_836" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_100" android:text="@string/txt_verify_pwd" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/cg_shape_rec_edge_dark_blue2" android:layout_width="@dimen/dp_z_836" android:layout_height="@dimen/dp_z_110" android:layout_marginTop="@dimen/dp_z_50">
+        <ImageView android:id="@id/img_bind" android:layout_width="@dimen/dp_z_34" android:layout_height="@dimen/dp_z_54" android:layout_marginLeft="@dimen/dp_z_24" android:src="@drawable/cg_login_pwd" />
+        <EditText android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_black" android:textColorHint="@color/cg_color_hint" android:id="@id/edit_pwd" android:background="@color/cg_color_white" android:paddingLeft="@dimen/dp_z_28" android:layout_width="@dimen/dp_z_762" android:layout_height="@dimen/dp_z_100" android:hint="@string/txt_hint_password" android:password="true" android:singleLine="true" android:maxLength="50" android:imeOptions="flagNoExtractUi" />
+    </LinearLayout>
+    <Button android:textColor="@color/cg_color_white" android:id="@id/btn_confirm_check" android:background="@drawable/cg_btn5" android:layout_width="@dimen/dp_z_834" android:layout_height="@dimen/dp_z_100" android:layout_marginTop="@dimen/dp_z_50" android:text="@string/cg_txt_confirm_submit" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cg_bg1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_title" layout="@layout/cg_card_title_lay" />
+    <RelativeLayout android:id="@id/layout_noweb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_78" android:layout_marginRight="@dimen/dp_z_78" android:layout_below="@id/layout_title" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/img_pay" android:layout_width="@dimen/dp_z_400" android:layout_height="@dimen/dp_z_164" android:layout_marginTop="@dimen/sp_z_38" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_224">
+            <RelativeLayout android:id="@id/layout_serial" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100">
+                <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_dag" android:textColorHint="@color/cg_color_light_gray" android:id="@id/edit_serial" android:background="@drawable/edit_style_2" android:paddingLeft="@dimen/dp_z_200" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/txt_hint_input_serial" android:singleLine="true" android:maxLength="50" android:imeOptions="flagNoExtractUi" />
+                <TextView android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_dag" android:gravity="center_vertical" android:id="@id/tv_first_t_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_z_30" android:text="@string/txt_serial" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/layout_pin" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100" android:layout_marginTop="@dimen/dp_z_24">
+                <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_dag" android:textColorHint="@color/cg_color_light_gray" android:id="@id/edit_pin" android:background="@drawable/edit_style_2" android:paddingLeft="@dimen/dp_z_200" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/txt_hint_input_pin" android:ems="10" android:singleLine="true" android:maxLength="50" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:imeOptions="flagNoExtractUi">
+                    <requestFocus />
+                </EditText>
+                <TextView android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_dag" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_z_30" android:text="@string/txt_pin" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/dp_z_30" android:layout_gravity="right" android:id="@id/tv_to_buy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_10" android:text="@string/txt_how_to_buy" />
+            <Button android:textSize="@dimen/sp_z_38" android:textColor="@color/cg_color_white" android:id="@id/btn_confirm" android:background="@drawable/cg_btn5" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100" android:layout_marginTop="@dimen/dp_z_24" android:text="@string/txt_confirm" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/cg_bg_back7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/layout_blue"
+        android:background="@drawable/cg_shape_bule_white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_z_76"
+        android:layout_alignParentTop="true"/>
+</RelativeLayout>

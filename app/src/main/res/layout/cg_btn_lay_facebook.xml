@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/cg_btn2" android:layout_width="@dimen/dp_z_820" android:layout_height="@dimen/dp_z_124"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_main_icon" android:layout_width="@dimen/dp_z_66" android:layout_height="@dimen/dp_z_66" android:src="@drawable/cg_facebook" android:scaleType="fitXY" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/cg_color_white" android:id="@id/txt_main_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_28" android:text="@string/txt_facebook_login" android:layout_toRightOf="@id/img_main_icon" android:layout_centerVertical="true" />
+</RelativeLayout>
