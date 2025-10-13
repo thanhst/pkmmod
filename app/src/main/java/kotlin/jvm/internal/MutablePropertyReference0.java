@@ -2,7 +2,6 @@ package kotlin.jvm.internal;
 
 import kotlin.SinceKotlin;
 import kotlin.reflect.h;
-import kotlin.reflect.l;
 
 /* loaded from: classes.dex */
 public abstract class MutablePropertyReference0 extends MutablePropertyReference implements kotlin.reflect.h {
@@ -35,7 +34,7 @@ public abstract class MutablePropertyReference0 extends MutablePropertyReference
     }
 
     @Override // kotlin.jvm.internal.MutablePropertyReference, kotlin.jvm.internal.PropertyReference
-    public l.a getGetter() {
+    public a_p0 getGetter() {
         return ((kotlin.reflect.h) getReflected()).getGetter();
     }
 

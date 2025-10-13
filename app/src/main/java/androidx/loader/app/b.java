@@ -16,6 +16,8 @@ import androidx.lifecycle.s;
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 
+import t.a_t;
+
 /* compiled from: LoaderManagerImpl.java */
 /* loaded from: classes.dex */
 class b extends androidx.loader.app.a {
@@ -73,7 +75,7 @@ class b extends androidx.loader.app.a {
         }
 
         @MainThread
-        t.a<D> j(boolean z2) {
+        a_t<D> j(boolean z2) {
             if (b.f2489c) {
                 Log.v("LoaderManager", "  Destroying: " + this);
             }

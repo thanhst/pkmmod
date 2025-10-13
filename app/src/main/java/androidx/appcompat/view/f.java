@@ -7,8 +7,11 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import androidx.annotation.RestrictTo;
-import androidx.appcompat.view.b;
+
 import java.util.ArrayList;
+
+import n.a_n;
+import n.b_n;
 
 /* compiled from: SupportActionModeWrapper.java */
 @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP_PREFIX})
@@ -47,7 +50,7 @@ public class f extends ActionMode {
             if (menu2 != null) {
                 return menu2;
             }
-            androidx.appcompat.view.menu.m mVar = new androidx.appcompat.view.menu.m(this.f349b, (n.a) menu);
+            androidx.appcompat.view.menu.m mVar = new androidx.appcompat.view.menu.m(this.f349b, (a_n) menu);
             this.f351d.put(menu, mVar);
             return mVar;
         }
@@ -64,7 +67,7 @@ public class f extends ActionMode {
 
         @Override // androidx.appcompat.view.b.a
         public boolean c(b bVar, MenuItem menuItem) {
-            return this.f348a.onActionItemClicked(e(bVar), new androidx.appcompat.view.menu.h(this.f349b, (n.b) menuItem));
+            return this.f348a.onActionItemClicked(e(bVar), new androidx.appcompat.view.menu.h(this.f349b, (b_n) menuItem));
         }
 
         @Override // androidx.appcompat.view.b.a
@@ -103,7 +106,7 @@ public class f extends ActionMode {
 
     @Override // android.view.ActionMode
     public Menu getMenu() {
-        return new androidx.appcompat.view.menu.m(this.f346a, (n.a) this.f347b.e());
+        return new androidx.appcompat.view.menu.m(this.f346a, (a_n) this.f347b.e());
     }
 
     @Override // android.view.ActionMode

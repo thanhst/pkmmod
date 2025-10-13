@@ -2,8 +2,11 @@ package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
+import kotlin.coroutines.c;
 import kotlin.t;
 import kotlinx.coroutines.internal.ThreadContextKt;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -22,7 +25,7 @@ final class UndispatchedContextCollector<T> implements kotlinx.coroutines.flow.e
 
     /* renamed from: g, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final p0.p<T, kotlin.coroutines.c<? super t>, Object> emitRef;
+    private final p_p0<T, c<? super t>, Object> emitRef;
 
     public UndispatchedContextCollector(@NotNull kotlinx.coroutines.flow.e<? super T> eVar, @NotNull CoroutineContext coroutineContext) {
         this.emitContext = coroutineContext;

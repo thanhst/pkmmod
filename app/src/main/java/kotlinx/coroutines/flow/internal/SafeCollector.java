@@ -10,6 +10,8 @@ import kotlin.jvm.internal.s;
 import kotlin.t;
 import kotlin.text.StringsKt__IndentKt;
 import kotlinx.coroutines.k1;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -40,7 +42,7 @@ public final class SafeCollector<T> extends ContinuationImpl implements kotlinx.
         super(l.f3758e, EmptyCoroutineContext.INSTANCE);
         this.collector = eVar;
         this.collectContext = coroutineContext;
-        this.collectContextSize = ((Number) coroutineContext.fold(0, new p0.p<Integer, CoroutineContext.a, Integer>() { // from class: kotlinx.coroutines.flow.internal.SafeCollector$collectContextSize$1
+        this.collectContextSize = ((Number) coroutineContext.fold(0, new p_p0<Integer, CoroutineContext.a, Integer>() { // from class: kotlinx.coroutines.flow.internal.SafeCollector$collectContextSize$1
             @NotNull
             public final Integer invoke(int i2, @NotNull CoroutineContext.a aVar) {
                 return Integer.valueOf(i2 + 1);

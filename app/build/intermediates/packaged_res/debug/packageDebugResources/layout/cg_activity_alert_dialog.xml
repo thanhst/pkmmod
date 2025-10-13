@@ -1,75 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:gravity="center_horizontal"
-        android:orientation="vertical"
-        android:background="@drawable/cg_bg_rec_white"
-        android:layout_width="@dimen/dp_z_820"
-        android:layout_height="wrap_content">
-        <TextView
-            android:textSize="@dimen/sp_z_46"
-            android:textColor="@color/cg_color_black"
-            android:id="@+id/txt_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_z_30"
-            android:text="@string/txt_delete_account"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
-        <TextView
-            android:textSize="@dimen/sp_z_36"
-            android:textColor="@color/cg_color_dag"
-            android:gravity="center"
-            android:id="@+id/txt_describe"
-            android:paddingTop="@dimen/dp_z_80"
-            android:paddingBottom="@dimen/dp_z_80"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dp_z_60"
-            android:layout_marginRight="@dimen/dp_z_60"
-            android:layout_below="@+id/txt_title"
-            android:layout_centerHorizontal="true"/>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txt_describe">
-            <View
-                android:id="@+id/up_line"
-                android:background="@color/cg_color_light_gray"
-                android:layout_width="match_parent"
-                android:layout_height="0.4dp"/>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <Button
-                    android:textSize="@dimen/sp_z_46"
-                    android:textColor="@color/cg_color_blue"
-                    android:id="@+id/btn_cancel"
-                    android:background="@color/cg_trancelucent"
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/dp_z_140"
-                    android:text="@string/txt_cancel"
-                    android:layout_weight="1"/>
-                <View
-                    android:id="@+id/divide_line"
-                    android:background="@color/cg_color_light_gray"
-                    android:layout_width="0.4dp"
-                    android:layout_height="@dimen/dp_z_140"/>
-                <Button
-                    android:textSize="@dimen/sp_z_46"
-                    android:textColor="@color/cg_color_blue"
-                    android:id="@+id/btn_confirm"
-                    android:background="@color/cg_trancelucent"
-                    android:layout_width="0dp"
-                    android:layout_height="@dimen/dp_z_140"
-                    android:text="@string/txt_confirm"
-                    android:layout_weight="1"/>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/cg_bg_rec_white" android:layout_width="@dimen/dp_z_820" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_black" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_30" android:text="@string/txt_delete_account" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/sp_z_36" android:textColor="@color/cg_color_dag" android:gravity="center" android:id="@id/txt_describe" android:paddingTop="@dimen/dp_z_80" android:paddingBottom="@dimen/dp_z_80" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_60" android:layout_marginRight="@dimen/dp_z_60" android:layout_below="@id/txt_title" android:layout_centerHorizontal="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/txt_describe">
+            <View android:id="@id/up_line" android:background="@color/cg_color_light_gray" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_blue" android:id="@id/btn_cancel" android:background="@color/cg_trancelucent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_140" android:text="@string/txt_cancel" android:layout_weight="1.0" />
+                <View android:id="@id/divide_line" android:background="@color/cg_color_light_gray" android:layout_width="0.39999998dip" android:layout_height="@dimen/dp_z_140" />
+                <Button android:textSize="@dimen/sp_z_46" android:textColor="@color/cg_color_blue" android:id="@id/btn_confirm" android:background="@color/cg_trancelucent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_z_140" android:text="@string/txt_confirm" android:layout_weight="1.0" />
             </LinearLayout>
         </LinearLayout>
     </RelativeLayout>

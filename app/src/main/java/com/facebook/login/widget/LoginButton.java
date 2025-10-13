@@ -40,12 +40,14 @@ import com.facebook.login.LoginManager;
 import com.facebook.login.LoginResult;
 import com.facebook.login.LoginTargetApp;
 import com.facebook.login.R;
-import com.facebook.login.widget.ToolTipPopup;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
+
+import e.a_e;
 
 /* loaded from: classes.dex */
 public class LoginButton extends FacebookButtonBase {
@@ -727,7 +729,7 @@ public class LoginButton extends FacebookButtonBase {
             return;
         }
         try {
-            setCompoundDrawablesWithIntrinsicBounds(e.a.b(getContext(), com.facebook.common.R.drawable.com_facebook_button_icon), (Drawable) null, (Drawable) null, (Drawable) null);
+            setCompoundDrawablesWithIntrinsicBounds(a_e.b(getContext(), com.facebook.common.R.drawable.com_facebook_button_icon), (Drawable) null, (Drawable) null, (Drawable) null);
         } catch (Throwable th) {
             CrashShieldHandler.handleThrowable(th, this);
         }

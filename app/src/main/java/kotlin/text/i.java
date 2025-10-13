@@ -1,6 +1,8 @@
 package kotlin.text;
 
 import kotlin.Metadata;
+import s0.f_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -9,7 +11,7 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public interface i {
     @NotNull
-    s0.f a();
+    f_s0 a();
 
     @Nullable
     i next();

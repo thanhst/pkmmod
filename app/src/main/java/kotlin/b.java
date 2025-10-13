@@ -3,6 +3,8 @@ package kotlin;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import kotlin.internal.HidesMembers;
+import l0.b_l0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* JADX INFO: Access modifiers changed from: package-private */
@@ -16,7 +18,7 @@ public class b {
         kotlin.jvm.internal.s.e(th, "<this>");
         kotlin.jvm.internal.s.e(exception, "exception");
         if (th != exception) {
-            l0.b.f4023a.a(th, exception);
+            b_l0.F_4023_AL_0.a(th, exception);
         }
     }
 

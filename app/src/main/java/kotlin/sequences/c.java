@@ -4,6 +4,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import kotlin.Metadata;
 import kotlin.jvm.internal.s;
+import p0.a_p0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -14,15 +17,15 @@ final class c<T> implements d<T> {
 
     /* renamed from: a, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final p0.a<T> getInitialValue;
+    private final a_p0<T> getInitialValue;
 
     /* renamed from: b, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final p0.l<T, T> getNextValue;
+    private final l_p0<T, T> getNextValue;
 
     /* compiled from: Sequences.kt */
     @Metadata(bv = {}, d1 = {"\u0000!\n\u0000\n\u0002\u0010(\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\u000b\n\u0002\b\u0007\n\u0002\u0010\b\n\u0002\b\b*\u0001\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00028\u00000\u0001J\b\u0010\u0003\u001a\u00020\u0002H\u0002J\u0010\u0010\u0004\u001a\u00028\u0000H\u0096\u0002¢\u0006\u0004\b\u0004\u0010\u0005J\t\u0010\u0007\u001a\u00020\u0006H\u0096\u0002R$\u0010\r\u001a\u0004\u0018\u00018\u00008\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\b\u0010\t\u001a\u0004\b\n\u0010\u0005\"\u0004\b\u000b\u0010\fR\"\u0010\u0015\u001a\u00020\u000e8\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u000f\u0010\u0010\u001a\u0004\b\u0011\u0010\u0012\"\u0004\b\u0013\u0010\u0014¨\u0006\u0016"}, d2 = {"kotlin/sequences/c$a", "", "Lkotlin/t;", "a", "next", "()Ljava/lang/Object;", "", "hasNext", "e", "Ljava/lang/Object;", "getNextItem", "setNextItem", "(Ljava/lang/Object;)V", "nextItem", "", "f", "I", "getNextState", "()I", "setNextState", "(I)V", "nextState", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
-    public static final class a implements Iterator<T>, q0.a {
+    public static final class a_q0 implements Iterator<T>, q0.a_q0 {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         @Nullable
@@ -34,7 +37,7 @@ final class c<T> implements d<T> {
         /* renamed from: g, reason: collision with root package name */
         final /* synthetic */ c<T> f3496g;
 
-        a(c<T> cVar) {
+        a_q0(c<T> cVar) {
             this.f3496g = cVar;
         }
 
@@ -43,10 +46,10 @@ final class c<T> implements d<T> {
             if (this.nextState == -2) {
                 t2 = (T) ((c) this.f3496g).getInitialValue.invoke();
             } else {
-                p0.l lVar = ((c) this.f3496g).getNextValue;
+                l_p0 lP0Var = ((c) this.f3496g).getNextValue;
                 T t3 = this.nextItem;
                 s.b(t3);
-                t2 = (T) lVar.invoke(t3);
+                t2 = (T) lP0Var.invoke(t3);
             }
             this.nextItem = t2;
             this.nextState = t2 == null ? 0 : 1;
@@ -82,7 +85,7 @@ final class c<T> implements d<T> {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    public c(@NotNull p0.a<? extends T> getInitialValue, @NotNull p0.l<? super T, ? extends T> getNextValue) {
+    public c(@NotNull a_p0<? extends T> getInitialValue, @NotNull l_p0<? super T, ? extends T> getNextValue) {
         s.e(getInitialValue, "getInitialValue");
         s.e(getNextValue, "getNextValue");
         this.getInitialValue = getInitialValue;
@@ -92,6 +95,6 @@ final class c<T> implements d<T> {
     @Override // kotlin.sequences.d
     @NotNull
     public Iterator<T> iterator() {
-        return new a(this);
+        return new a_q0(this);
     }
 }

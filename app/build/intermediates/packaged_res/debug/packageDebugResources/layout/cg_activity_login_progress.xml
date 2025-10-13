@@ -1,147 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <RelativeLayout
-            android:id="@+id/layout_bg"
-            android:background="@drawable/cg_shape_base_bg"
-            android:paddingBottom="@dimen/dp_z_70"
-            android:layout_width="@dimen/dp_z_880"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true">
-            <ImageView
-                android:id="@+id/imageView1"
-                android:visibility="gone"
-                android:layout_width="@dimen/dp_z_240"
-                android:layout_height="@dimen/dp_z_70"
-                android:layout_marginLeft="@dimen/dp_z_36"
-                android:layout_marginTop="@dimen/dp_z_30"
-                android:src="@drawable/cg_logo"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"/>
-            <RelativeLayout
-                android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:id="@+id/layout_account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp_z_130"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true">
-                <TextView
-                    android:textSize="@dimen/sp_z_40"
-                    android:textColor="@color/cg_color_dag"
-                    android:id="@+id/txt_account_type"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_comp_account"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentTop="true"/>
-                <TextView
-                    android:textSize="@dimen/sp_z_40"
-                    android:textColor="@color/cg_color_light_blue2"
-                    android:id="@+id/txt_account"
-                    android:layout_width="@dimen/dp_z_170"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:layout_toRightOf="@+id/txt_account_type"
-                    android:layout_alignBaseline="@+id/txt_account_type"/>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/layout_bg" android:background="@drawable/cg_shape_base_bg" android:paddingBottom="@dimen/dp_z_70" android:layout_width="@dimen/dp_z_880" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ImageView android:id="@id/imageView1" android:visibility="gone" android:layout_width="@dimen/dp_z_240" android:layout_height="@dimen/dp_z_70" android:layout_marginLeft="@dimen/dp_z_36" android:layout_marginTop="@dimen/dp_z_30" android:src="@drawable/cg_logo" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+            <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_account" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_130" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_dag" android:id="@id/txt_account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_comp_account" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_light_blue2" android:id="@id/txt_account" android:layout_width="@dimen/dp_z_170" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/txt_account_type" android:layout_alignBaseline="@id/txt_account_type" />
             </RelativeLayout>
-            <RelativeLayout
-                android:gravity="center_horizontal"
-                android:orientation="vertical"
-                android:id="@+id/layout_pwd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp_z_200"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true">
-                <TextView
-                    android:textSize="@dimen/dp_z_30"
-                    android:textColor="@color/cg_color_999999"
-                    android:id="@+id/txt_pwd"
-                    android:visibility="gone"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_comp_pwd"/>
-                <TextView
-                    android:textSize="@dimen/dp_z_30"
-                    android:textColor="@color/cg_color_light_red"
-                    android:id="@+id/txt_password"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_tips_bind"
-                    android:layout_toRightOf="@+id/txt_pwd"
-                    android:layout_alignBaseline="@+id/txt_pwd"/>
+            <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_200" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/dp_z_30" android:textColor="@color/cg_color_999999" android:id="@id/txt_pwd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_comp_pwd" />
+                <TextView android:textSize="@dimen/dp_z_30" android:textColor="@color/cg_color_light_red" android:id="@id/txt_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_tips_bind" android:layout_toRightOf="@id/txt_pwd" android:layout_alignBaseline="@id/txt_pwd" />
             </RelativeLayout>
-            <RelativeLayout
-                android:paddingLeft="@dimen/dp_z_80"
-                android:paddingTop="@dimen/dp_z_6"
-                android:paddingRight="@dimen/dp_z_50"
-                android:paddingBottom="@dimen/dp_z_6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/dp_z_270"
-                android:layout_centerHorizontal="true">
-                <ProgressBar
-                    android:id="@+id/dk_user_auto_login_circle_progress"
-                    android:layout_width="@dimen/dp_z_38"
-                    android:layout_height="@dimen/dp_z_38"
-                    android:indeterminate="false"
-                    android:indeterminateDrawable="@drawable/cg_loading_progress_auto_login"/>
-                <TextView
-                    android:textSize="@dimen/sp_z_30"
-                    android:textColor="@color/cg_color_dag"
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/dp_z_6"
-                    android:text="@string/txt_logining"
-                    android:layout_toRightOf="@+id/dk_user_auto_login_circle_progress"/>
+            <RelativeLayout android:paddingLeft="@dimen/dp_z_80" android:paddingTop="@dimen/dp_z_6" android:paddingRight="@dimen/dp_z_50" android:paddingBottom="@dimen/dp_z_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_270" android:layout_centerHorizontal="true">
+                <ProgressBar android:id="@id/dk_user_auto_login_circle_progress" android:layout_width="@dimen/dp_z_38" android:layout_height="@dimen/dp_z_38" android:indeterminate="false" android:indeterminateDrawable="@drawable/cg_loading_progress_auto_login" />
+                <TextView android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_dag" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_6" android:text="@string/txt_logining" android:layout_toRightOf="@id/dk_user_auto_login_circle_progress" />
             </RelativeLayout>
-            <RelativeLayout
-                android:background="@color/cg_color_999999"
-                android:layout_width="@dimen/dp_z_660"
-                android:layout_height="@dimen/dp_z_2"
-                android:layout_marginTop="@dimen/dp_z_342"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true"/>
-            <RelativeLayout
-                android:id="@+id/layout_switch"
-                android:background="@drawable/cg_btn5"
-                android:layout_width="@dimen/dp_z_662"
-                android:layout_height="@dimen/dp_z_80"
-                android:layout_marginTop="@dimen/dp_z_370"
-                android:layout_centerHorizontal="true">
-                <TextView
-                    android:textSize="@dimen/sp_z_30"
-                    android:textColor="@color/cg_color_white"
-                    android:id="@+id/txt_logining"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/txt_switch_account"
-                    android:layout_centerInParent="true"/>
-                <ImageView
-                    android:layout_width="@dimen/dp_z_110"
-                    android:layout_height="@dimen/dp_z_40"
-                    android:src="@drawable/cg_img_login"
-                    android:layout_toLeftOf="@+id/txt_logining"
-                    android:layout_centerVertical="true"/>
+            <RelativeLayout android:background="@color/cg_color_999999" android:layout_width="@dimen/dp_z_660" android:layout_height="@dimen/dp_z_2" android:layout_marginTop="@dimen/dp_z_342" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:id="@id/layout_switch" android:background="@drawable/cg_btn5" android:layout_width="@dimen/dp_z_662" android:layout_height="@dimen/dp_z_80" android:layout_marginTop="@dimen/dp_z_370" android:layout_centerHorizontal="true">
+                <TextView android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_white" android:id="@id/txt_logining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_switch_account" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="@dimen/dp_z_110" android:layout_height="@dimen/dp_z_40" android:src="@drawable/cg_img_login" android:layout_toLeftOf="@id/txt_logining" android:layout_centerVertical="true" />
             </RelativeLayout>
         </RelativeLayout>
-        <ImageView
-            android:id="@+id/img_logo"
-            android:layout_width="@dimen/dp_z_350"
-            android:layout_height="@dimen/dp_z_100"
-            android:layout_marginTop="@dimen/dp_f_30"
-            android:src="@drawable/cg_logo"
-            android:layout_alignTop="@+id/layout_bg"
-            android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@id/img_logo" android:layout_width="@dimen/dp_z_350" android:layout_height="@dimen/dp_z_100" android:layout_marginTop="@dimen/dp_f_30" android:src="@drawable/cg_logo" android:layout_alignTop="@id/layout_bg" android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>

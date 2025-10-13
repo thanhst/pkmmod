@@ -1,9 +1,13 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
+import kotlinx.coroutines.channels.n;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,7 +16,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u00002\f\u0010\u0002\u001a\b\u0012\u0004\u0012\u00028\u00000\u0001H\u008a@"}, d2 = {"T", "Lkotlinx/coroutines/channels/n;", "it", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.ChannelFlow$collectToFun$1", f = "ChannelFlow.kt", i = {}, l = {60}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class ChannelFlow$collectToFun$1<T> extends SuspendLambda implements p0.p<kotlinx.coroutines.channels.n<? super T>, kotlin.coroutines.c<? super t>, Object> {
+final class ChannelFlow$collectToFun$1<T> extends SuspendLambda implements p_p0<n<? super T>, c<? super t>, Object> {
     /* synthetic */ Object L$0;
     int label;
     final /* synthetic */ ChannelFlow<T> this$0;

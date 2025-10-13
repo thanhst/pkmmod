@@ -19,11 +19,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresPermission;
 import androidx.annotation.RestrictTo;
-import androidx.browser.trusted.d;
 import androidx.core.app.w;
-import b.b;
+import b.b_b;
 import java.util.Locale;
-import k.g;
+import k.g_k;
 
 /* loaded from: classes.dex */
 public abstract class TrustedWebActivityService extends Service {
@@ -35,9 +34,9 @@ public abstract class TrustedWebActivityService extends Service {
     int f1250f = -1;
 
     /* renamed from: g, reason: collision with root package name */
-    private final b.a f1251g = new a();
+    private final b_b.a f1251g = new a();
 
-    class a extends b.a {
+    class a extends b_b.a {
         a() {
         }
 
@@ -111,7 +110,7 @@ public abstract class TrustedWebActivityService extends Service {
 
     @NonNull
     @BinderThread
-    public abstract g c();
+    public abstract g_k c();
 
     @BinderThread
     public boolean d(@NonNull String str) {
@@ -122,7 +121,7 @@ public abstract class TrustedWebActivityService extends Service {
         if (Build.VERSION.SDK_INT < 26) {
             return true;
         }
-        return b.b(this.f1249e, a(str));
+        return b_b.b(this.f1249e, a(str));
     }
 
     @BinderThread
@@ -182,8 +181,8 @@ public abstract class TrustedWebActivityService extends Service {
         }
         if (Build.VERSION.SDK_INT >= 26) {
             String strA = a(str2);
-            notification = b.a(this, this.f1249e, notification, strA, str2);
-            if (!b.b(this.f1249e, strA)) {
+            notification = b_b.a(this, this.f1249e, notification, strA, str2);
+            if (!b_b.b(this.f1249e, strA)) {
                 return false;
             }
         }

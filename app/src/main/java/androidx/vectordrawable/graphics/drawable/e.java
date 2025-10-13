@@ -10,6 +10,10 @@ import androidx.annotation.RestrictTo;
 import java.io.IOException;
 import org.xmlpull.v1.XmlPullParserException;
 
+import r.a_r;
+import r.b_r;
+import r.c_r;
+
 /* compiled from: AnimationUtilsCompat.java */
 @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP_PREFIX})
 /* loaded from: classes.dex */
@@ -137,13 +141,13 @@ public class e {
         try {
             try {
                 if (i2 == 17563663) {
-                    return new r.a();
+                    return new a_r();
                 }
                 if (i2 == 17563661) {
-                    return new r.b();
+                    return new b_r();
                 }
                 if (i2 == 17563662) {
-                    return new r.c();
+                    return new c_r();
                 }
                 XmlResourceParser animation = context.getResources().getAnimation(i2);
                 Interpolator interpolatorA = a(context, context.getResources(), context.getTheme(), animation);

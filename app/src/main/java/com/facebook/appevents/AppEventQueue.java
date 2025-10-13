@@ -10,7 +10,6 @@ import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 import com.facebook.LoggingBehavior;
-import com.facebook.appevents.AppEventsLogger;
 import com.facebook.appevents.cloudbridge.AppEventsCAPIManager;
 import com.facebook.appevents.cloudbridge.AppEventsConversionsAPITransformerWebRequests;
 import com.facebook.internal.FetchedAppSettings;
@@ -29,6 +28,8 @@ import java.util.concurrent.TimeUnit;
 import kotlin.Metadata;
 import kotlin.jvm.JvmStatic;
 import kotlin.jvm.internal.x;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.json.JSONArray;
@@ -248,7 +249,7 @@ public final class AppEventQueue {
                     Intent intent = new Intent(AppEventsLogger.ACTION_APP_EVENTS_FLUSHED);
                     intent.putExtra(AppEventsLogger.APP_EVENTS_EXTRA_NUM_EVENTS_FLUSHED, flushStatisticsSendEventsToServer.getNumEvents());
                     intent.putExtra(AppEventsLogger.APP_EVENTS_EXTRA_FLUSH_RESULT, flushStatisticsSendEventsToServer.getResult());
-                    u.a.b(FacebookSdk.getApplicationContext()).d(intent);
+                    a_u.b(FacebookSdk.getApplicationContext()).d(intent);
                 }
             } catch (Exception e2) {
                 Log.w(TAG, "Caught unexpected exception while flushing app events: ", e2);

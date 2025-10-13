@@ -3,12 +3,11 @@ package kotlin.coroutines;
 import kotlin.ExperimentalStdlibApi;
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
-import kotlin.coroutines.CoroutineContext;
 import kotlin.coroutines.CoroutineContext.a;
 import kotlin.jvm.internal.s;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.l;
+import p0.l_p0;
 
 /* compiled from: CoroutineContextImpl.kt */
 @SinceKotlin(version = "1.3")
@@ -19,7 +18,7 @@ public abstract class b<B extends CoroutineContext.a, E extends B> implements Co
 
     /* renamed from: e, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final l<CoroutineContext.a, E> safeCast;
+    private final l_p0<a, E> safeCast;
 
     /* renamed from: f, reason: collision with root package name and from kotlin metadata */
     @NotNull
@@ -30,7 +29,7 @@ public abstract class b<B extends CoroutineContext.a, E extends B> implements Co
     /* JADX WARN: Type inference failed for: r2v5 */
     /* JADX WARN: Type inference failed for: r2v6 */
     /* JADX WARN: Type inference failed for: r3v0, types: [java.lang.Object, p0.l<? super kotlin.coroutines.CoroutineContext$a, ? extends E extends B>, p0.l<kotlin.coroutines.CoroutineContext$a, E extends B>] */
-    public b(@NotNull CoroutineContext.b<B> baseKey, @NotNull l<? super CoroutineContext.a, ? extends E> safeCast) {
+    public b(@NotNull CoroutineContext.b<B> baseKey, @NotNull l_p0<? super a, ? extends E> safeCast) {
         s.e(baseKey, "baseKey");
         s.e(safeCast, "safeCast");
         this.safeCast = safeCast;

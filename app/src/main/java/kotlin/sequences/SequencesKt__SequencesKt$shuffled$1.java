@@ -3,19 +3,20 @@ package kotlin.sequences;
 import java.util.List;
 import kotlin.Metadata;
 import kotlin.collections.z;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
 import kotlin.random.Random;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: Sequences.kt */
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\b\u0012\u0004\u0012\u00028\u00000\u0001H\u008a@"}, d2 = {"T", "Lkotlin/sequences/f;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 7, 1})
 @DebugMetadata(c = "kotlin.sequences.SequencesKt__SequencesKt$shuffled$1", f = "Sequences.kt", i = {0, 0}, l = {145}, m = "invokeSuspend", n = {"$this$sequence", "buffer"}, s = {"L$0", "L$1"})
 /* loaded from: classes.dex */
-final class SequencesKt__SequencesKt$shuffled$1 extends RestrictedSuspendLambda implements p<f<Object>, kotlin.coroutines.c<? super t>, Object> {
+final class SequencesKt__SequencesKt$shuffled$1 extends RestrictedSuspendLambda implements p_p0<f<Object>, c<? super t>, Object> {
     final /* synthetic */ Random $random;
     final /* synthetic */ d<Object> $this_shuffled;
     private /* synthetic */ Object L$0;

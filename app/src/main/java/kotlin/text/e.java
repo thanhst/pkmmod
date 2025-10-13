@@ -4,13 +4,17 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 import kotlin.Metadata;
 import kotlin.Pair;
+import p0.p_p0;
+import s0.f_s0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: Strings.kt */
 @Metadata(bv = {}, d1 = {"\u0000:\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0000\n\u0002\u0010\r\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0006\b\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B[\u0012\u0006\u0010\b\u001a\u00020\u0005\u0012\u0006\u0010\f\u001a\u00020\t\u0012\u0006\u0010\u000e\u001a\u00020\t\u0012:\u0010\u0017\u001a6\u0012\u0004\u0012\u00020\u0005\u0012\u0013\u0012\u00110\t¢\u0006\f\b\u0010\u0012\b\b\u0011\u0012\u0004\b\b(\u0012\u0012\u0012\u0012\u0010\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t\u0018\u00010\u00130\u000f¢\u0006\u0002\b\u0014¢\u0006\u0004\b\u0018\u0010\u0019J\u000f\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00020\u0003H\u0096\u0002R\u0014\u0010\b\u001a\u00020\u00058\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0006\u0010\u0007R\u0014\u0010\f\u001a\u00020\t8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\n\u0010\u000bR\u0014\u0010\u000e\u001a\u00020\t8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\r\u0010\u000bRH\u0010\u0017\u001a6\u0012\u0004\u0012\u00020\u0005\u0012\u0013\u0012\u00110\t¢\u0006\f\b\u0010\u0012\b\b\u0011\u0012\u0004\b\b(\u0012\u0012\u0012\u0012\u0010\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t\u0018\u00010\u00130\u000f¢\u0006\u0002\b\u00148\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0015\u0010\u0016¨\u0006\u001a"}, d2 = {"Lkotlin/text/e;", "Lkotlin/sequences/d;", "Ls0/f;", "", "iterator", "", "a", "Ljava/lang/CharSequence;", "input", "", "b", "I", "startIndex", "c", "limit", "Lkotlin/Function2;", "Lkotlin/ParameterName;", "name", "currentIndex", "Lkotlin/Pair;", "Lkotlin/ExtensionFunctionType;", "d", "Lp0/p;", "getNextMatch", "<init>", "(Ljava/lang/CharSequence;IILp0/p;)V", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
 /* loaded from: classes.dex */
-final class e implements kotlin.sequences.d<s0.f> {
+final class e implements kotlin.sequences.d<f_s0> {
 
     /* renamed from: a, reason: collision with root package name and from kotlin metadata */
     @NotNull
@@ -24,11 +28,11 @@ final class e implements kotlin.sequences.d<s0.f> {
 
     /* renamed from: d, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final p0.p<CharSequence, Integer, Pair<Integer, Integer>> getNextMatch;
+    private final p_p0<CharSequence, Integer, Pair<Integer, Integer>> getNextMatch;
 
     /* compiled from: Strings.kt */
     @Metadata(bv = {}, d1 = {"\u0000#\n\u0000\n\u0002\u0010(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\b\n\u0002\b\u001b*\u0001\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001J\b\u0010\u0004\u001a\u00020\u0003H\u0002J\t\u0010\u0005\u001a\u00020\u0002H\u0096\u0002J\t\u0010\u0007\u001a\u00020\u0006H\u0096\u0002R\"\u0010\u000f\u001a\u00020\b8\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\t\u0010\n\u001a\u0004\b\u000b\u0010\f\"\u0004\b\r\u0010\u000eR\"\u0010\u0013\u001a\u00020\b8\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u0010\u0010\n\u001a\u0004\b\u0011\u0010\f\"\u0004\b\u0012\u0010\u000eR\"\u0010\u0017\u001a\u00020\b8\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u0014\u0010\n\u001a\u0004\b\u0015\u0010\f\"\u0004\b\u0016\u0010\u000eR$\u0010\u001e\u001a\u0004\u0018\u00010\u00028\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u0018\u0010\u0019\u001a\u0004\b\u001a\u0010\u001b\"\u0004\b\u001c\u0010\u001dR\"\u0010\"\u001a\u00020\b8\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u001f\u0010\n\u001a\u0004\b \u0010\f\"\u0004\b!\u0010\u000e¨\u0006#"}, d2 = {"kotlin/text/e$a", "", "Ls0/f;", "Lkotlin/t;", "a", "b", "", "hasNext", "", "e", "I", "getNextState", "()I", "setNextState", "(I)V", "nextState", "f", "getCurrentStartIndex", "setCurrentStartIndex", "currentStartIndex", "g", "getNextSearchIndex", "setNextSearchIndex", "nextSearchIndex", "h", "Ls0/f;", "getNextItem", "()Ls0/f;", "setNextItem", "(Ls0/f;)V", "nextItem", "i", "getCounter", "setCounter", "counter", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
-    public static final class a implements Iterator<s0.f>, q0.a {
+    public static final class a_q0 implements Iterator<f_s0>, q0.a_q0 {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         private int nextState = -1;
@@ -41,13 +45,13 @@ final class e implements kotlin.sequences.d<s0.f> {
 
         /* renamed from: h, reason: collision with root package name and from kotlin metadata */
         @Nullable
-        private s0.f nextItem;
+        private f_s0 nextItem;
 
         /* renamed from: i, reason: collision with root package name and from kotlin metadata */
         private int counter;
 
-        a() {
-            int iE = s0.l.e(e.this.startIndex, 0, e.this.input.length());
+        a_q0() {
+            int iE = l_s0.e(e.this.startIndex, 0, e.this.input.length());
             this.currentStartIndex = iE;
             this.nextSearchIndex = iE;
         }
@@ -142,24 +146,24 @@ final class e implements kotlin.sequences.d<s0.f> {
         @Override // java.util.Iterator
         @NotNull
         /* renamed from: b, reason: merged with bridge method [inline-methods] */
-        public s0.f next() {
+        public f_s0 next() {
             if (this.nextState == -1) {
-                a();
+                a_q0();
             }
             if (this.nextState == 0) {
                 throw new NoSuchElementException();
             }
-            s0.f fVar = this.nextItem;
-            kotlin.jvm.internal.s.c(fVar, "null cannot be cast to non-null type kotlin.ranges.IntRange");
+            f_s0 fS0Var = this.nextItem;
+            kotlin.jvm.internal.s.c(fS0Var, "null cannot be cast to non-null type kotlin.ranges.IntRange");
             this.nextItem = null;
             this.nextState = -1;
-            return fVar;
+            return fS0Var;
         }
 
         @Override // java.util.Iterator
         public boolean hasNext() {
             if (this.nextState == -1) {
-                a();
+                a_q0();
             }
             return this.nextState == 1;
         }
@@ -171,7 +175,7 @@ final class e implements kotlin.sequences.d<s0.f> {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    public e(@NotNull CharSequence input, int i2, int i3, @NotNull p0.p<? super CharSequence, ? super Integer, Pair<Integer, Integer>> getNextMatch) {
+    public e(@NotNull CharSequence input, int i2, int i3, @NotNull p_p0<? super CharSequence, ? super Integer, Pair<Integer, Integer>> getNextMatch) {
         kotlin.jvm.internal.s.e(input, "input");
         kotlin.jvm.internal.s.e(getNextMatch, "getNextMatch");
         this.input = input;
@@ -182,7 +186,7 @@ final class e implements kotlin.sequences.d<s0.f> {
 
     @Override // kotlin.sequences.d
     @NotNull
-    public Iterator<s0.f> iterator() {
-        return new a();
+    public Iterator<f_s0> iterator() {
+        return new a_q0();
     }
 }

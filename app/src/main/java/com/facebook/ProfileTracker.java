@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import com.facebook.internal.Validate;
 import kotlin.Metadata;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 public abstract class ProfileTracker {
 
     @NotNull
-    private final u.a broadcastManager;
+    private final a_u broadcastManager;
     private boolean isTracking;
 
     @NotNull
@@ -44,9 +46,9 @@ public abstract class ProfileTracker {
     public ProfileTracker() {
         Validate.sdkInitialized();
         this.receiver = new ProfileBroadcastReceiver(this);
-        u.a aVarB = u.a.b(FacebookSdk.getApplicationContext());
-        kotlin.jvm.internal.s.d(aVarB, "getInstance(FacebookSdk.getApplicationContext())");
-        this.broadcastManager = aVarB;
+        a_u aUVarB = a_u.b(FacebookSdk.getApplicationContext());
+        kotlin.jvm.internal.s.d(aUVarB, "getInstance(FacebookSdk.getApplicationContext())");
+        this.broadcastManager = aUVarB;
         startTracking();
     }
 

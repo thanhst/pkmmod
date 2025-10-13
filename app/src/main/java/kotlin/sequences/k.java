@@ -9,6 +9,8 @@ import java.util.NoSuchElementException;
 import kotlin.Metadata;
 import kotlin.collections.u;
 import kotlin.jvm.internal.s;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* JADX INFO: Access modifiers changed from: package-private */
@@ -20,12 +22,12 @@ public class k extends j {
     /* JADX INFO: Add missing generic type declarations: [T] */
     /* compiled from: Iterables.kt */
     @Metadata(bv = {}, d1 = {"\u0000\u0011\n\u0000\n\u0002\u0010\u001c\n\u0002\u0010(\n\u0002\b\u0002*\u0001\u0000\b\n\u0018\u00002\b\u0012\u0004\u0012\u00028\u00000\u0001J\u000f\u0010\u0003\u001a\b\u0012\u0004\u0012\u00028\u00000\u0002H\u0096\u0002¨\u0006\u0004"}, d2 = {"kotlin/sequences/k$a", "", "", "iterator", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
-    public static final class a<T> implements Iterable<T>, q0.a {
+    public static final class a_q0<T> implements Iterable<T>, q0.a_q0 {
 
         /* renamed from: e, reason: collision with root package name */
         final /* synthetic */ d f3502e;
 
-        public a(d dVar) {
+        public a_q0(d dVar) {
             this.f3502e = dVar;
         }
 
@@ -39,7 +41,7 @@ public class k extends j {
     @NotNull
     public static <T> Iterable<T> g(@NotNull d<? extends T> dVar) {
         s.e(dVar, "<this>");
-        return new a(dVar);
+        return new a_q0(dVar);
     }
 
     public static <T> int h(@NotNull d<? extends T> dVar) {
@@ -70,7 +72,7 @@ public class k extends j {
     }
 
     @NotNull
-    public static <T, R> d<R> j(@NotNull d<? extends T> dVar, @NotNull p0.l<? super T, ? extends R> transform) {
+    public static <T, R> d<R> j(@NotNull d<? extends T> dVar, @NotNull l_p0<? super T, ? extends R> transform) {
         s.e(dVar, "<this>");
         s.e(transform, "transform");
         return new l(dVar, transform);

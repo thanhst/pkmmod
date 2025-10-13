@@ -34,6 +34,9 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
+import v.a_v;
+import v.b_v;
+
 /* loaded from: classes.dex */
 public abstract class MediaBrowserServiceCompat extends Service {
 
@@ -217,7 +220,7 @@ public abstract class MediaBrowserServiceCompat extends Service {
         public final int f2537c;
 
         /* renamed from: d, reason: collision with root package name */
-        public final v.b f2538d;
+        public final b_v f2538d;
 
         /* renamed from: e, reason: collision with root package name */
         public final Bundle f2539e;
@@ -246,7 +249,7 @@ public abstract class MediaBrowserServiceCompat extends Service {
             this.f2535a = str;
             this.f2536b = i2;
             this.f2537c = i3;
-            this.f2538d = new v.b(str, i2, i3);
+            this.f2538d = new b_v(str, i2, i3);
             this.f2539e = bundle;
             this.f2540f = pVar;
         }
@@ -1169,7 +1172,7 @@ public abstract class MediaBrowserServiceCompat extends Service {
             arrayList = new ArrayList<>();
         }
         for (androidx.core.util.d<IBinder, Bundle> dVar : arrayList) {
-            if (iBinder == dVar.f1634a && v.a.a(bundle, dVar.f1635b)) {
+            if (iBinder == dVar.f1634a && a_v.a(bundle, dVar.f1635b)) {
                 return;
             }
         }

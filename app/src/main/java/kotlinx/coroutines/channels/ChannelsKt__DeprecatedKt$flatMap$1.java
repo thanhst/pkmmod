@@ -3,6 +3,8 @@ package kotlinx.coroutines.channels;
 import kotlin.Metadata;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,18 +12,18 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\b\u0012\u0004\u0012\u00028\u00010\u0002H\u008a@"}, d2 = {"E", "R", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$flatMap$1", f = "Deprecated.kt", i = {0, 1, 2}, l = {321, 322, 322}, m = "invokeSuspend", n = {"$this$produce", "$this$produce", "$this$produce"}, s = {"L$0", "L$0", "L$0"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$flatMap$1 extends SuspendLambda implements p0.p {
+final class ChannelsKt__DeprecatedKt$flatMap$1 extends SuspendLambda implements p_p0 {
     final /* synthetic */ ReceiveChannel $this_flatMap;
-    final /* synthetic */ p0.p $transform;
+    final /* synthetic */ p_p0 $transform;
     private /* synthetic */ Object L$0;
     Object L$1;
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    ChannelsKt__DeprecatedKt$flatMap$1(ReceiveChannel receiveChannel, p0.p pVar, kotlin.coroutines.c cVar) {
+    ChannelsKt__DeprecatedKt$flatMap$1(ReceiveChannel receiveChannel, p_p0 pP0Var, kotlin.coroutines.c cVar) {
         super(2, cVar);
         this.$this_flatMap = receiveChannel;
-        this.$transform = pVar;
+        this.$transform = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

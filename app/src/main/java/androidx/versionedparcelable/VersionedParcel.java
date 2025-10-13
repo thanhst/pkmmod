@@ -4,7 +4,7 @@ import android.os.Parcelable;
 import androidx.annotation.RestrictTo;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import y.b;
+import y.b_y;
 
 @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP_PREFIX})
 /* loaded from: classes.dex */
@@ -32,15 +32,15 @@ public abstract class VersionedParcel {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    private void N(b bVar) {
+    private void N(b_y bYVar) {
         try {
-            I(c(bVar.getClass()).getName());
+            I(c(bYVar.getClass()).getName());
         } catch (ClassNotFoundException e2) {
-            throw new RuntimeException(bVar.getClass().getSimpleName() + " does not have a Parcelizer", e2);
+            throw new RuntimeException(bYVar.getClass().getSimpleName() + " does not have a Parcelizer", e2);
         }
     }
 
-    private Class c(Class<? extends b> cls) throws ClassNotFoundException {
+    private Class c(Class<? extends b_y> cls) throws ClassNotFoundException {
         Class cls2 = this.f2739c.get(cls.getName());
         if (cls2 != null) {
             return cls2;
@@ -109,7 +109,7 @@ public abstract class VersionedParcel {
         I(str);
     }
 
-    protected <T extends b> void K(T t2, VersionedParcel versionedParcel) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+    protected <T extends b_y> void K(T t2, VersionedParcel versionedParcel) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         try {
             e(t2.getClass()).invoke(null, t2, versionedParcel);
         } catch (ClassNotFoundException e2) {
@@ -126,20 +126,20 @@ public abstract class VersionedParcel {
         }
     }
 
-    protected void L(b bVar) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
-        if (bVar == null) {
+    protected void L(b_y bYVar) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        if (bYVar == null) {
             I(null);
             return;
         }
-        N(bVar);
+        N(bYVar);
         VersionedParcel versionedParcelB = b();
-        K(bVar, versionedParcelB);
+        K(bYVar, versionedParcelB);
         versionedParcelB.a();
     }
 
-    public void M(b bVar, int i2) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+    public void M(b_y bYVar, int i2) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
         w(i2);
-        L(bVar);
+        L(bYVar);
     }
 
     protected abstract void a();
@@ -170,7 +170,7 @@ public abstract class VersionedParcel {
 
     protected abstract boolean m(int i2);
 
-    protected <T extends b> T n(String str, VersionedParcel versionedParcel) {
+    protected <T extends b_y> T n(String str, VersionedParcel versionedParcel) {
         try {
             return (T) d(str).invoke(null, versionedParcel);
         } catch (ClassNotFoundException e2) {
@@ -205,7 +205,7 @@ public abstract class VersionedParcel {
         return !m(i2) ? str : s();
     }
 
-    protected <T extends b> T u() {
+    protected <T extends b_y> T u() {
         String strS = s();
         if (strS == null) {
             return null;
@@ -213,7 +213,7 @@ public abstract class VersionedParcel {
         return (T) n(strS, b());
     }
 
-    public <T extends b> T v(T t2, int i2) {
+    public <T extends b_y> T v(T t2, int i2) {
         return !m(i2) ? t2 : (T) u();
     }
 

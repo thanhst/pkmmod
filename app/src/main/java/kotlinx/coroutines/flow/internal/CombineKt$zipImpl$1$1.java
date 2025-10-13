@@ -2,6 +2,7 @@ package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
@@ -12,6 +13,10 @@ import kotlinx.coroutines.g0;
 import kotlinx.coroutines.internal.ThreadContextKt;
 import kotlinx.coroutines.l1;
 import kotlinx.coroutines.u;
+import p0.l_p0;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -19,11 +24,11 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0005\u001a\u00020\u0004\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001\"\u0004\b\u0002\u0010\u0002*\u00020\u0003H\u008a@"}, d2 = {"T1", "T2", "R", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1", f = "Combine.kt", i = {0}, l = {129}, m = "invokeSuspend", n = {"second"}, s = {"L$0"})
 /* loaded from: classes.dex */
-final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
+final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
     final /* synthetic */ kotlinx.coroutines.flow.d<Object> $flow;
     final /* synthetic */ kotlinx.coroutines.flow.d<Object> $flow2;
     final /* synthetic */ kotlinx.coroutines.flow.e<Object> $this_unsafeFlow;
-    final /* synthetic */ p0.q<Object, Object, kotlin.coroutines.c<Object>, Object> $transform;
+    final /* synthetic */ q_p0<Object, Object, c<Object>, Object> $transform;
     private /* synthetic */ Object L$0;
     int label;
 
@@ -31,13 +36,13 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
     @Metadata(bv = {}, d1 = {"\u0000\f\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0005\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001\"\u0004\b\u0002\u0010\u00022\u0006\u0010\u0004\u001a\u00020\u0003H\u008a@"}, d2 = {"T1", "T2", "R", "Lkotlin/t;", "it", "<anonymous>"}, k = 3, mv = {1, 6, 0})
     @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1$2", f = "Combine.kt", i = {}, l = {130}, m = "invokeSuspend", n = {}, s = {})
     /* renamed from: kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1$2, reason: invalid class name */
-    static final class AnonymousClass2 extends SuspendLambda implements p0.p<t, kotlin.coroutines.c<? super t>, Object> {
+    static final class AnonymousClass2 extends SuspendLambda implements p_p0<t, c<? super t>, Object> {
         final /* synthetic */ Object $cnt;
         final /* synthetic */ kotlinx.coroutines.flow.d<Object> $flow;
         final /* synthetic */ CoroutineContext $scopeContext;
         final /* synthetic */ ReceiveChannel<Object> $second;
         final /* synthetic */ kotlinx.coroutines.flow.e<Object> $this_unsafeFlow;
-        final /* synthetic */ p0.q<Object, Object, kotlin.coroutines.c<Object>, Object> $transform;
+        final /* synthetic */ q_p0<Object, Object, c<Object>, Object> $transform;
         int label;
 
         /* compiled from: Combine.kt */
@@ -58,27 +63,27 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
             final /* synthetic */ kotlinx.coroutines.flow.e<Object> f3744h;
 
             /* renamed from: i, reason: collision with root package name */
-            final /* synthetic */ p0.q<Object, Object, kotlin.coroutines.c<Object>, Object> f3745i;
+            final /* synthetic */ q_p0<Object, Object, c<Object>, Object> f3745i;
 
             /* compiled from: Combine.kt */
             @Metadata(bv = {}, d1 = {"\u0000\f\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0002\u0010\u0005\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001\"\u0004\b\u0002\u0010\u00022\u0006\u0010\u0004\u001a\u00020\u0003H\u008a@"}, d2 = {"T1", "T2", "R", "Lkotlin/t;", "it", "<anonymous>"}, k = 3, mv = {1, 6, 0})
             @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1$2$1$1", f = "Combine.kt", i = {}, l = {132, 135, 135}, m = "invokeSuspend", n = {}, s = {})
             /* renamed from: kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1$2$1$1, reason: invalid class name and collision with other inner class name */
-            static final class C00631 extends SuspendLambda implements p0.p<t, kotlin.coroutines.c<? super t>, Object> {
+            static final class C00631 extends SuspendLambda implements p_p0<t, c<? super t>, Object> {
                 final /* synthetic */ ReceiveChannel<Object> $second;
                 final /* synthetic */ kotlinx.coroutines.flow.e<Object> $this_unsafeFlow;
-                final /* synthetic */ p0.q<Object, Object, kotlin.coroutines.c<Object>, Object> $transform;
+                final /* synthetic */ q_p0<Object, Object, c<Object>, Object> $transform;
                 final /* synthetic */ Object $value;
                 Object L$0;
                 int label;
 
                 /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
                 /* JADX WARN: Multi-variable type inference failed */
-                C00631(ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, p0.q<Object, Object, ? super kotlin.coroutines.c<Object>, ? extends Object> qVar, Object obj, kotlin.coroutines.c<? super C00631> cVar) {
+                C00631(ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, q_p0<Object, Object, ? super c<Object>, ? extends Object> qP0Var, Object obj, kotlin.coroutines.c<? super C00631> cVar) {
                     super(2, cVar);
                     this.$second = receiveChannel;
                     this.$this_unsafeFlow = eVar;
-                    this.$transform = qVar;
+                    this.$transform = qP0Var;
                     this.$value = obj;
                 }
 
@@ -175,12 +180,12 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
             }
 
             /* JADX WARN: Multi-variable type inference failed */
-            AnonymousClass1(CoroutineContext coroutineContext, Object obj, ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, p0.q<Object, Object, ? super kotlin.coroutines.c<Object>, ? extends Object> qVar) {
+            AnonymousClass1(CoroutineContext coroutineContext, Object obj, ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, q_p0<Object, Object, ? super c<Object>, ? extends Object> qP0Var) {
                 this.f3741e = coroutineContext;
                 this.f3742f = obj;
                 this.f3743g = receiveChannel;
                 this.f3744h = eVar;
-                this.f3745i = qVar;
+                this.f3745i = qP0Var;
             }
 
             /* JADX WARN: Removed duplicated region for block: B:7:0x0013  */
@@ -248,14 +253,14 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
 
         /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
         /* JADX WARN: Multi-variable type inference failed */
-        AnonymousClass2(kotlinx.coroutines.flow.d<Object> dVar, CoroutineContext coroutineContext, Object obj, ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, p0.q<Object, Object, ? super kotlin.coroutines.c<Object>, ? extends Object> qVar, kotlin.coroutines.c<? super AnonymousClass2> cVar) {
+        AnonymousClass2(kotlinx.coroutines.flow.d<Object> dVar, CoroutineContext coroutineContext, Object obj, ReceiveChannel<? extends Object> receiveChannel, kotlinx.coroutines.flow.e<Object> eVar, q_p0<Object, Object, ? super c<Object>, ? extends Object> qP0Var, kotlin.coroutines.c<? super AnonymousClass2> cVar) {
             super(2, cVar);
             this.$flow = dVar;
             this.$scopeContext = coroutineContext;
             this.$cnt = obj;
             this.$second = receiveChannel;
             this.$this_unsafeFlow = eVar;
-            this.$transform = qVar;
+            this.$transform = qP0Var;
         }
 
         @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
@@ -295,12 +300,12 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    CombineKt$zipImpl$1$1(kotlinx.coroutines.flow.e<Object> eVar, kotlinx.coroutines.flow.d<Object> dVar, kotlinx.coroutines.flow.d<Object> dVar2, p0.q<Object, Object, ? super kotlin.coroutines.c<Object>, ? extends Object> qVar, kotlin.coroutines.c<? super CombineKt$zipImpl$1$1> cVar) {
+    CombineKt$zipImpl$1$1(kotlinx.coroutines.flow.e<Object> eVar, kotlinx.coroutines.flow.d<Object> dVar, kotlinx.coroutines.flow.d<Object> dVar2, q_p0<Object, Object, ? super c<Object>, ? extends Object> qP0Var, kotlin.coroutines.c<? super CombineKt$zipImpl$1$1> cVar) {
         super(2, cVar);
         this.$this_unsafeFlow = eVar;
         this.$flow2 = dVar;
         this.$flow = dVar2;
-        this.$transform = qVar;
+        this.$transform = qP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
@@ -357,7 +362,7 @@ final class CombineKt$zipImpl$1$1 extends SuspendLambda implements p0.p<g0, kotl
             ReceiveChannel receiveChannelE = ProduceKt.e(g0Var, null, 0, new CombineKt$zipImpl$1$1$second$1(this.$flow2, null), 3, null);
             final u uVarB = l1.b(null, 1, null);
             final kotlinx.coroutines.flow.e<Object> eVar = this.$this_unsafeFlow;
-            ((s) receiveChannelE).x(new p0.l<Throwable, t>() { // from class: kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1.1
+            ((s) receiveChannelE).x(new l_p0<Throwable, t>() { // from class: kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1.1
                 /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
                 {
                     super(1);

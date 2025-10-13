@@ -8,9 +8,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import com.facebook.AccessToken;
-import com.facebook.GraphRequest;
-import com.facebook.GraphRequestBatch;
+
 import com.facebook.internal.Utility;
 import java.util.Date;
 import java.util.HashSet;
@@ -18,6 +16,8 @@ import java.util.Set;
 import java.util.concurrent.atomic.AtomicBoolean;
 import kotlin.Metadata;
 import kotlin.jvm.JvmStatic;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import org.json.JSONObject;
@@ -64,7 +64,7 @@ public final class AccessTokenManager {
     private Date lastAttemptedTokenExtendDate;
 
     @NotNull
-    private final u.a localBroadcastManager;
+    private final a_u localBroadcastManager;
 
     @NotNull
     private final AtomicBoolean tokenRefreshInProgress;
@@ -121,9 +121,9 @@ public final class AccessTokenManager {
             synchronized (this) {
                 accessTokenManager = AccessTokenManager.instanceField;
                 if (accessTokenManager == null) {
-                    u.a aVarB = u.a.b(FacebookSdk.getApplicationContext());
-                    kotlin.jvm.internal.s.d(aVarB, "getInstance(applicationContext)");
-                    AccessTokenManager accessTokenManager3 = new AccessTokenManager(aVarB, new AccessTokenCache());
+                    a_u aUVarB = a_u.b(FacebookSdk.getApplicationContext());
+                    kotlin.jvm.internal.s.d(aUVarB, "getInstance(applicationContext)");
+                    AccessTokenManager accessTokenManager3 = new AccessTokenManager(aUVarB, new AccessTokenCache());
                     AccessTokenManager.instanceField = accessTokenManager3;
                     accessTokenManager = accessTokenManager3;
                 }
@@ -248,7 +248,7 @@ public final class AccessTokenManager {
         String getGraphPath();
     }
 
-    public AccessTokenManager(@NotNull u.a localBroadcastManager, @NotNull AccessTokenCache accessTokenCache) {
+    public AccessTokenManager(@NotNull a_u localBroadcastManager, @NotNull AccessTokenCache accessTokenCache) {
         kotlin.jvm.internal.s.e(localBroadcastManager, "localBroadcastManager");
         kotlin.jvm.internal.s.e(accessTokenCache, "accessTokenCache");
         this.localBroadcastManager = localBroadcastManager;

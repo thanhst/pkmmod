@@ -1,272 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:paddingLeft="@dimen/dp_z_40"
-    android:paddingTop="@dimen/dp_z_300"
-    android:paddingRight="@dimen/dp_z_40"
-    android:paddingBottom="@dimen/dp_z_300"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:gravity="center"
-        android:background="@drawable/cg_shape_rating_bg"
-        android:paddingLeft="@dimen/dp_z_70"
-        android:paddingTop="@dimen/dp_z_90"
-        android:paddingRight="@dimen/dp_z_70"
-        android:paddingBottom="@dimen/dp_z_90"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <TextView
-            android:textColor="@color/cg_color_light_blue"
-            android:id="@+id/tv_tips"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/dp_z_60"
-            android:text="Chọn ngày sinh của bạn:"/>
-        <DatePicker
-            android:theme="@style/DatePickerTheme"
-            android:id="@+id/date_picker"
-            android:visibility="gone"
-            android:layout_width="@dimen/dp_z_700"
-            android:layout_height="@dimen/dp_z_300"
-            android:layout_below="@+id/tv_tips"
-            android:scaleX="0.8"
-            android:scaleY="0.8"
-            android:minDate="01/01/1918"
-            android:maxDate="01/01/2018"
-            android:spinnersShown="true"
-            android:calendarViewShown="false"/>
-        <RelativeLayout
-            android:gravity="center"
-            android:id="@+id/date_picker_layout1"
-            android:padding="@dimen/dp_z_20"
-            android:layout_width="@dimen/dp_z_780"
-            android:layout_height="@dimen/dp_z_120"
-            android:layout_marginTop="@dimen/dp_z_70"
-            android:layout_below="@+id/tv_tips">
-            <RelativeLayout
-                android:id="@+id/year_block"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="@dimen/dp_z_80">
-                <TextView
-                    android:textColor="@color/cg_color_white"
-                    android:id="@+id/tv_year"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"/>
-                <ImageView
-                    android:layout_width="@dimen/dp_z_16"
-                    android:layout_height="@dimen/dp_z_10"
-                    android:layout_marginRight="@dimen/dp_z_20"
-                    android:src="@drawable/listview_icon"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
+<RelativeLayout android:paddingLeft="@dimen/dp_z_40" android:paddingTop="@dimen/dp_z_300" android:paddingRight="@dimen/dp_z_40" android:paddingBottom="@dimen/dp_z_300" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:background="@drawable/cg_shape_rating_bg" android:paddingLeft="@dimen/dp_z_70" android:paddingTop="@dimen/dp_z_90" android:paddingRight="@dimen/dp_z_70" android:paddingBottom="@dimen/dp_z_90" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textColor="@color/cg_color_light_blue" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_60" android:text="Chọn ngày sinh của bạn:" />
+        <DatePicker android:theme="@style/DatePickerTheme" android:id="@id/date_picker" android:visibility="gone" android:layout_width="@dimen/dp_z_700" android:layout_height="@dimen/dp_z_300" android:layout_below="@id/tv_tips" android:scaleX="0.8" android:scaleY="0.8" android:minDate="01/01/1918" android:maxDate="01/01/2018" android:spinnersShown="true" android:calendarViewShown="false" />
+        <RelativeLayout android:gravity="center" android:id="@id/date_picker_layout1" android:padding="@dimen/dp_z_20" android:layout_width="@dimen/dp_z_780" android:layout_height="@dimen/dp_z_120" android:layout_marginTop="@dimen/dp_z_70" android:layout_below="@id/tv_tips">
+            <RelativeLayout android:id="@id/year_block" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_80">
+                <TextView android:textColor="@color/cg_color_white" android:id="@id/tv_year" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="@dimen/dp_z_16" android:layout_height="@dimen/dp_z_10" android:layout_marginRight="@dimen/dp_z_20" android:src="@drawable/listview_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
             </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/month_block"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="@dimen/dp_z_80"
-                android:layout_marginLeft="@dimen/dp_z_24"
-                android:layout_marginRight="@dimen/dp_z_24"
-                android:layout_toRightOf="@+id/year_block">
-                <TextView
-                    android:textColor="@color/cg_color_white"
-                    android:id="@+id/tv_month"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"/>
-                <ImageView
-                    android:layout_width="@dimen/dp_z_16"
-                    android:layout_height="@dimen/dp_z_10"
-                    android:layout_marginRight="@dimen/dp_z_20"
-                    android:src="@drawable/listview_icon"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
+            <RelativeLayout android:id="@id/month_block" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_80" android:layout_marginLeft="@dimen/dp_z_24" android:layout_marginRight="@dimen/dp_z_24" android:layout_toRightOf="@id/year_block">
+                <TextView android:textColor="@color/cg_color_white" android:id="@id/tv_month" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="@dimen/dp_z_16" android:layout_height="@dimen/dp_z_10" android:layout_marginRight="@dimen/dp_z_20" android:src="@drawable/listview_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
             </RelativeLayout>
-            <RelativeLayout
-                android:id="@+id/day_block"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="@dimen/dp_z_80"
-                android:layout_toRightOf="@+id/month_block">
-                <TextView
-                    android:textColor="@color/cg_color_white"
-                    android:id="@+id/tv_day"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"/>
-                <ImageView
-                    android:layout_width="@dimen/dp_z_16"
-                    android:layout_height="@dimen/dp_z_10"
-                    android:layout_marginRight="@dimen/dp_z_20"
-                    android:src="@drawable/listview_icon"
-                    android:layout_alignParentRight="true"
-                    android:layout_centerVertical="true"/>
+            <RelativeLayout android:id="@id/day_block" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_80" android:layout_toRightOf="@id/month_block">
+                <TextView android:textColor="@color/cg_color_white" android:id="@id/tv_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="@dimen/dp_z_16" android:layout_height="@dimen/dp_z_10" android:layout_marginRight="@dimen/dp_z_20" android:src="@drawable/listview_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
             </RelativeLayout>
         </RelativeLayout>
-        <RelativeLayout
-            android:gravity="center"
-            android:id="@+id/date_picker_layout"
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_z_300">
-            <Spinner
-                android:gravity="center"
-                android:id="@+id/sp_year"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_300"
-                android:layout_height="@dimen/dp_z_100"
-                android:layout_margin="@dimen/dp_z_4"/>
-            <Spinner
-                android:gravity="center"
-                android:id="@+id/sp_month"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_300"
-                android:layout_height="@dimen/dp_z_100"
-                android:layout_margin="@dimen/dp_z_4"
-                android:layout_alignRight="@+id/sp_year"/>
-            <Spinner
-                android:gravity="center"
-                android:id="@+id/sp_day"
-                android:background="@color/cg_color_light_blue"
-                android:layout_width="@dimen/dp_z_300"
-                android:layout_height="@dimen/dp_z_100"
-                android:layout_margin="@dimen/dp_z_4"
-                android:layout_alignRight="@+id/sp_month"/>
+        <RelativeLayout android:gravity="center" android:id="@id/date_picker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_300">
+            <Spinner android:gravity="center" android:id="@id/sp_year" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_300" android:layout_height="@dimen/dp_z_100" android:layout_margin="@dimen/dp_z_4" />
+            <Spinner android:gravity="center" android:id="@id/sp_month" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_300" android:layout_height="@dimen/dp_z_100" android:layout_margin="@dimen/dp_z_4" android:layout_alignRight="@id/sp_year" />
+            <Spinner android:gravity="center" android:id="@id/sp_day" android:background="@color/cg_color_light_blue" android:layout_width="@dimen/dp_z_300" android:layout_height="@dimen/dp_z_100" android:layout_margin="@dimen/dp_z_4" android:layout_alignRight="@id/sp_month" />
         </RelativeLayout>
-        <LinearLayout
-            android:orientation="vertical"
-            android:id="@+id/protocal1"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/dp_z_400"
-            android:layout_marginTop="@dimen/dp_z_80"
-            android:layout_below="@+id/date_picker_layout1">
-            <TextView
-                android:textSize="@dimen/dp_z_60"
-                android:textStyle="bold"
-                android:textColor="@color/cg_color_light_black"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_80"
-                android:text="Lưu ý:"/>
-            <TextView
-                android:textSize="@dimen/dp_z_40"
-                android:textColor="@color/cg_color_light_black"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_60"
-                android:layout_marginTop="@dimen/dp_z_40"
-                android:text="1. Chưa đủ 18 tuổi, không thể chơi game"/>
-            <TextView
-                android:textSize="@dimen/dp_z_40"
-                android:textColor="@color/cg_color_light_black"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2. Thời gian tích lũy chơi game mỗi ngày vượt quá 180 phút sẽ có hại cho sức khỏe, hãy chú ý nghỉ ngơi, quá 180 phút các lợi ích trong game sẽ giảm"/>
+        <LinearLayout android:orientation="vertical" android:id="@id/protocal1" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_400" android:layout_marginTop="@dimen/dp_z_80" android:layout_below="@id/date_picker_layout1">
+            <TextView android:textSize="@dimen/dp_z_60" android:textStyle="bold" android:textColor="@color/cg_color_light_black" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_80" android:text="Lưu ý:" />
+            <TextView android:textSize="@dimen/dp_z_40" android:textColor="@color/cg_color_light_black" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_60" android:layout_marginTop="@dimen/dp_z_40" android:text="1. Chưa đủ 18 tuổi, không thể chơi game" />
+            <TextView android:textSize="@dimen/dp_z_40" android:textColor="@color/cg_color_light_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2. Thời gian tích lũy chơi game mỗi ngày vượt quá 180 phút sẽ có hại cho sức khỏe, hãy chú ý nghỉ ngơi, quá 180 phút các lợi ích trong game sẽ giảm" />
         </LinearLayout>
-        <RelativeLayout
-            android:background="@color/cg_color_grary"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_z_80"
-            android:layout_marginTop="@dimen/dp_z_20"
-            android:layout_below="@+id/protocal1">
-            <CheckBox
-                android:id="@+id/checkBox_agree"
-                android:layout_width="@dimen/dp_z_80"
-                android:layout_height="@dimen/dp_z_80"
-                android:layout_marginRight="@dimen/dp_f_40"
-                android:checked="false"
-                android:layout_toLeftOf="@+id/tv_protocol"
-                android:scaleX="1.5"
-                android:scaleY="1.5"
-                style="@style/CheckboxTheme"/>
-            <TextView
-                android:textSize="@dimen/dp_z_40"
-                android:textColor="@color/cg_color_dag"
-                android:id="@+id/tv_protocol"
-                android:layout_width="wrap_content"
-                android:layout_height="@dimen/dp_z_60"
-                android:layout_centerInParent="true"/>
+        <RelativeLayout android:background="@color/cg_color_grary" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_80" android:layout_marginTop="@dimen/dp_z_20" android:layout_below="@id/protocal1">
+            <CheckBox android:id="@id/checkBox_agree" android:layout_width="@dimen/dp_z_80" android:layout_height="@dimen/dp_z_80" android:layout_marginRight="@dimen/dp_f_40" android:checked="false" android:layout_toLeftOf="@id/tv_protocol" android:scaleX="1.5" android:scaleY="1.5" style="@style/CheckboxTheme" />
+            <TextView android:textSize="@dimen/dp_z_40" android:textColor="@color/cg_color_dag" android:id="@id/tv_protocol" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_60" android:layout_centerInParent="true" />
         </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/year_select_list_layout"
-            android:layout_width="@dimen/dp_z_230"
-            android:layout_height="@dimen/dp_z_280"
-            android:layout_marginLeft="@dimen/dp_z_20"
-            android:layout_marginTop="@dimen/dp_f_20"
-            android:layout_above="@+id/btn_ok"
-            android:layout_below="@+id/date_picker_layout1">
-            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq
-                android:id="@+id/year_select_list"
-                android:background="@drawable/cg_bg_back4"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true">
-                <ListView
-                    android:id="@+id/year_select"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:cacheColorHint="@android:color/transparent"
-                    android:divider="@color/cg_color_grary"
-                    android:dividerHeight="@dimen/dp_z_2"/>
+        <RelativeLayout android:id="@id/year_select_list_layout" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_280" android:layout_marginLeft="@dimen/dp_z_20" android:layout_marginTop="@dimen/dp_f_20" android:layout_above="@id/btn_ok" android:layout_below="@id/date_picker_layout1">
+            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq android:id="@id/year_select_list" android:background="@drawable/cg_bg_back4" android:layout_width="@dimen/dp_z_230" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ListView android:id="@id/year_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
             </com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq>
         </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/month_select_list_layout"
-            android:layout_width="@dimen/dp_z_230"
-            android:layout_height="@dimen/dp_z_280"
-            android:layout_marginLeft="@dimen/dp_z_24"
-            android:layout_marginTop="@dimen/dp_f_20"
-            android:layout_marginRight="@dimen/dp_z_24"
-            android:layout_toRightOf="@+id/year_select_list_layout"
-            android:layout_above="@+id/btn_ok"
-            android:layout_below="@+id/date_picker_layout1">
-            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq
-                android:id="@+id/month_select_list"
-                android:background="@drawable/cg_bg_back4"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true">
-                <ListView
-                    android:id="@+id/month_select"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:cacheColorHint="@android:color/transparent"
-                    android:divider="@color/cg_color_grary"
-                    android:dividerHeight="@dimen/dp_z_2"/>
+        <RelativeLayout android:id="@id/month_select_list_layout" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_280" android:layout_marginLeft="@dimen/dp_z_24" android:layout_marginTop="@dimen/dp_f_20" android:layout_marginRight="@dimen/dp_z_24" android:layout_toRightOf="@id/year_select_list_layout" android:layout_above="@id/btn_ok" android:layout_below="@id/date_picker_layout1">
+            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq android:id="@id/month_select_list" android:background="@drawable/cg_bg_back4" android:layout_width="@dimen/dp_z_230" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ListView android:id="@id/month_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
             </com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq>
         </RelativeLayout>
-        <RelativeLayout
-            android:id="@+id/day_select_list_layout"
-            android:layout_width="@dimen/dp_z_230"
-            android:layout_height="@dimen/dp_z_280"
-            android:layout_marginTop="@dimen/dp_f_20"
-            android:layout_toRightOf="@+id/month_select_list_layout"
-            android:layout_above="@+id/btn_ok"
-            android:layout_below="@+id/date_picker_layout1">
-            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq
-                android:id="@+id/day_select_list"
-                android:background="@drawable/cg_bg_back4"
-                android:layout_width="@dimen/dp_z_230"
-                android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true">
-                <ListView
-                    android:id="@+id/day_select"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:cacheColorHint="@android:color/transparent"
-                    android:divider="@color/cg_color_grary"
-                    android:dividerHeight="@dimen/dp_z_2"/>
+        <RelativeLayout android:id="@id/day_select_list_layout" android:layout_width="@dimen/dp_z_230" android:layout_height="@dimen/dp_z_280" android:layout_marginTop="@dimen/dp_f_20" android:layout_toRightOf="@id/month_select_list_layout" android:layout_above="@id/btn_ok" android:layout_below="@id/date_picker_layout1">
+            <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq android:id="@id/day_select_list" android:background="@drawable/cg_bg_back4" android:layout_width="@dimen/dp_z_230" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ListView android:id="@id/day_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
             </com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq>
         </RelativeLayout>
-        <Button
-            android:textColor="@color/cg_color_white"
-            android:gravity="center"
-            android:id="@+id/btn_ok"
-            android:background="@color/cg_color_gray2"
-            android:paddingBottom="@dimen/dp_z_4"
-            android:layout_width="@dimen/dp_z_284"
-            android:layout_height="@dimen/dp_z_70"
-            android:text="OK"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"/>
+        <Button android:textColor="@color/cg_color_white" android:gravity="center" android:id="@id/btn_ok" android:background="@color/cg_color_gray2" android:paddingBottom="@dimen/dp_z_4" android:layout_width="@dimen/dp_z_284" android:layout_height="@dimen/dp_z_70" android:text="OK" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>

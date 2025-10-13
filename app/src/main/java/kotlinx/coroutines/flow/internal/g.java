@@ -3,6 +3,8 @@ package kotlinx.coroutines.flow.internal;
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.JvmField;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -24,7 +26,7 @@ public final class g implements CoroutineContext {
     }
 
     @Override // kotlin.coroutines.CoroutineContext
-    public <R> R fold(R initial, @NotNull p0.p<? super R, ? super CoroutineContext.a, ? extends R> operation) {
+    public <R> R fold(R initial, @NotNull p_p0<? super R, ? super a, ? extends R> operation) {
         return (R) this.f3757f.fold(initial, operation);
     }
 

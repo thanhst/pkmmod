@@ -2,6 +2,7 @@ package kotlin.text;
 
 import kotlin.Metadata;
 import kotlin.PublishedApi;
+import s0.f_s0;
 
 /* JADX INFO: Access modifiers changed from: package-private */
 /* compiled from: CharJVM.kt */
@@ -10,10 +11,10 @@ import kotlin.PublishedApi;
 public class b {
     @PublishedApi
     public static int a(int i2) {
-        if (new s0.f(2, 36).f(i2)) {
+        if (new f_s0(2, 36).f(i2)) {
             return i2;
         }
-        throw new IllegalArgumentException("radix " + i2 + " was not in valid range " + new s0.f(2, 36));
+        throw new IllegalArgumentException("radix " + i2 + " was not in valid range " + new f_s0(2, 36));
     }
 
     public static final int b(char c2, int i2) {

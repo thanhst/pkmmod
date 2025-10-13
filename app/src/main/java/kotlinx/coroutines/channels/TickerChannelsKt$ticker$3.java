@@ -1,8 +1,12 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.t;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0002\u001a\u00020\u0001*\b\u0012\u0004\u0012\u00020\u00010\u0000H\u008a@"}, d2 = {"Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.TickerChannelsKt$ticker$3", f = "TickerChannels.kt", i = {}, l = {72, 73}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class TickerChannelsKt$ticker$3 extends SuspendLambda implements p0.p<n<? super kotlin.t>, kotlin.coroutines.c<? super kotlin.t>, Object> {
+final class TickerChannelsKt$ticker$3 extends SuspendLambda implements p_p0<n<? super t>, c<? super t>, Object> {
     final /* synthetic */ long $delayMillis;
     final /* synthetic */ long $initialDelayMillis;
     final /* synthetic */ TickerMode $mode;

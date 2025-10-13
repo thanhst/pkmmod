@@ -1,5 +1,6 @@
 package com.lomfsqxinjb.KRgTbxlWh;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.app.AlarmManager;
@@ -52,6 +53,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.view.animation.AlphaAnimation;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebChromeClient;
@@ -69,9 +71,10 @@ import android.widget.TextView;
 import com.adjust.sdk.Constants;
 import com.facebook.internal.security.CertificateUtil;
 import com.facebook.share.internal.ShareConstants;
+import com.helpergames.Logger;
 import com.helpergames.NHelper;
 import com.sfyvctwaqbjhki.uwmpqfh.blfwuhtozemk.DataUtil;
-import com.thucungdoithu9gp.vn.R;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileDescriptor;
@@ -116,7 +119,13 @@ import javax.microedition.khronos.egl.EGLSurface;
 import javax.microedition.khronos.opengles.GL11;
 import org.json.JSONException;
 import org.json.JSONObject;
-
+import j0.j_j0;
+import j0.e_j0;
+import j0.d_j0;
+import j0.b_j0;
+import j0.c_j0;
+import j0.k_j0;
+import com.pokemodpro.vn.R;
 /* loaded from: classes.dex */
 public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletionListener {
     private static String P0 = "";
@@ -133,17 +142,17 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     public static String a1;
     public static int b1;
     public static int c1;
-    public static com.lomfsqxinjb.KRgTbxlWh.c e1;
+    public static c_KRgTbxlWh e1;
     protected static String r1;
     public String D0;
     private HashMap<String, String> S;
 
     /* renamed from: q0, reason: collision with root package name */
     private ProgressDialog f2983q0;
-    public static ArrayList<com.lomfsqxinjb.KRgTbxlWh.c> d1 = new ArrayList<>();
-    public static com.lomfsqxinjb.KRgTbxlWh.a f1 = null;
+    public static ArrayList<c_KRgTbxlWh> d1 = new ArrayList<>();
+    public static a_KRgTbxlWh f1 = null;
     public static String g1 = null;
-    public static j0.j h1 = null;
+    public static j_j0 h1 = null;
     public static String i1 = "56ef91f867e58e33d80011cd";
     public static String j1 = "536D728BE8371E063A1D9C94D86B3BF2";
     public static boolean k1 = true;
@@ -392,6 +401,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             this.f3003e = z2;
         }
 
+        @SuppressLint("WrongConstant")
         @Override // java.lang.Runnable
         public void run() {
             WebView webView = PCJDkVISZlhELOr.this.M0;
@@ -427,7 +437,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // java.lang.Runnable
-        public void run() throws IllegalStateException, IOException, IllegalArgumentException {
+        public void run() throws IllegalStateException, IllegalArgumentException {
             try {
                 PCJDkVISZlhELOr.this.f2990u = new MediaPlayer();
                 PCJDkVISZlhELOr.this.f2990u.setDataSource(this.f3005e, this.f3006f, this.f3007g);
@@ -602,7 +612,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
-    class e0 implements Runnable {
+    static class e0 implements Runnable {
         e0() {
         }
 
@@ -634,7 +644,11 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
 
         @Override // java.lang.Runnable
         public void run() {
-            PCJDkVISZlhELOr.this.R(this.f3031e, this.f3032f, this.f3033g);
+            try {
+                PCJDkVISZlhELOr.this.R(this.f3031e, this.f3032f, this.f3033g);
+            } catch (Throwable e) {
+                throw new RuntimeException(e);
+            }
         }
     }
 
@@ -648,7 +662,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
-    class f0 implements Runnable {
+    static class f0 implements Runnable {
         f0() {
         }
 
@@ -678,12 +692,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // java.lang.Runnable
-        public void run() throws InterruptedException {
+        public void run() {
             while (true) {
                 PCJDkVISZlhELOr pCJDkVISZlhELOr = PCJDkVISZlhELOr.this;
                 if (pCJDkVISZlhELOr.f2956c0 && pCJDkVISZlhELOr.f2957d0) {
                     AssetManager assetManager = PCJDkVISZlhELOr.U0;
-                    PCJDkVISZlhELOr.p1 = j0.e.b(this.f3036e, "", this.f3037f, this.f3038g, true, false);
+                    PCJDkVISZlhELOr.p1 = e_j0.b(this.f3036e, "", this.f3037f, this.f3038g, true, false);
                     return;
                 } else {
                     try {
@@ -706,7 +720,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
-    class g0 implements Runnable {
+    static class g0 implements Runnable {
         g0() {
         }
 
@@ -717,12 +731,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 PCJDkVISZlhELOr.V0.f2983q0.setIndeterminate(false);
                 PCJDkVISZlhELOr.V0.f2983q0.setMessage(PCJDkVISZlhELOr.V0.C0("TryReDownload"));
             }
-            com.lomfsqxinjb.KRgTbxlWh.a aVar = PCJDkVISZlhELOr.f1;
-            aVar.f3200d = j0.e.b(aVar.f3197a, "", aVar.f3198b, "", true, false);
+            a_KRgTbxlWh aKRgTbxlWhVar = PCJDkVISZlhELOr.f1;
+            aKRgTbxlWhVar.f3200d = e_j0.b(aKRgTbxlWhVar.f3197a, "", aKRgTbxlWhVar.f3198b, "", true, false);
         }
     }
 
-    class g1 implements Runnable {
+    static class g1 implements Runnable {
 
         /* renamed from: e, reason: collision with root package name */
         final /* synthetic */ String f3041e;
@@ -732,7 +746,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // java.lang.Runnable
-        public void run() throws Throwable {
+        public void run() {
             try {
                 File file = new File(this.f3041e);
                 String strA1 = PCJDkVISZlhELOr.A1(file);
@@ -742,11 +756,13 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                         file.renameTo(file2);
                     }
                 } else {
-                    com.lomfsqxinjb.KRgTbxlWh.e.a("Invalid predownload obb md5 " + strA1 + " " + PCJDkVISZlhELOr.q1);
+                    e_KRgTbxlWh.a("Invalid predownload obb md5 " + strA1 + " " + PCJDkVISZlhELOr.q1);
                     file.delete();
                 }
             } catch (Exception e2) {
                 e2.printStackTrace();
+            } catch (Throwable e) {
+                throw new RuntimeException(e);
             }
         }
     }
@@ -894,7 +910,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
 
         @Override // java.lang.Runnable
         public void run() {
-            new AlertDialog.Builder(this.f3066e).setMessage(PCJDkVISZlhELOr.this.getString(R.string.MemNotEnough)).setPositiveButton("Ok", new a()).setCancelable(false).show();
+            new AlertDialog.Builder(this.f3066e).setMessage(PCJDkVISZlhELOr.this.getString(com.pokemodpro.vn.R.string.MemNotEnough)).setPositiveButton("Ok", new a()).setCancelable(false).show();
         }
     }
 
@@ -1011,7 +1027,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
 
         @Override // java.lang.Runnable
         public void run() {
-            new AlertDialog.Builder(this.f3077e).setMessage(PCJDkVISZlhELOr.this.getString(R.string.Init_Failed)).setPositiveButton("Ok", new a()).setCancelable(false).show();
+            new AlertDialog.Builder(this.f3077e).setMessage(PCJDkVISZlhELOr.this.getString(com.pokemodpro.vn.R.string.Init_Failed)).setPositiveButton("Ok", new a()).setCancelable(false).show();
         }
     }
 
@@ -1071,7 +1087,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
 
             @Override // java.lang.Runnable
             public void run() {
-                new AlertDialog.Builder(m0.this.f3083a).setMessage(PCJDkVISZlhELOr.this.getString(R.string.OpenGL_Failed)).setPositiveButton("Ok", new a()).setCancelable(false).show();
+                new AlertDialog.Builder(m0.this.f3083a).setMessage(PCJDkVISZlhELOr.this.getString(com.pokemodpro.vn.R.string.OpenGL_Failed)).setPositiveButton("Ok", new a()).setCancelable(false).show();
             }
         }
 
@@ -1079,6 +1095,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             c() {
             }
 
+            @SuppressLint("WrongConstant")
             @Override // java.lang.Runnable
             public void run() {
                 RelativeLayout relativeLayout = PCJDkVISZlhELOr.this.f2989t0;
@@ -1092,6 +1109,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             d() {
             }
 
+            @SuppressLint("WrongConstant")
             @Override // java.lang.Runnable
             public void run() {
                 RelativeLayout relativeLayout = PCJDkVISZlhELOr.this.f2989t0;
@@ -1117,7 +1135,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // android.view.SurfaceHolder.Callback
-        public void surfaceCreated(SurfaceHolder surfaceHolder) throws IllegalStateException, SocketException, UnknownHostException {
+        public void surfaceCreated(SurfaceHolder surfaceHolder) throws IllegalStateException {
             PCJDkVISZlhELOr.this.M = false;
             PCJDkVISZlhELOr.Q0 = surfaceHolder;
             PCJDkVISZlhELOr.this.N = true;
@@ -1127,7 +1145,13 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 zNcallback_5135700f5d3f4a3a8fd53c833a66f5c1 = PCJDkVISZlhELOr.this.s1(surfaceHolder);
             }
             if (PCJDkVISZlhELOr.this.L) {
-                PCJDkVISZlhELOr.this.Y0(false);
+                try {
+                    PCJDkVISZlhELOr.this.Y0(false);
+                } catch (SocketException e) {
+                    throw new RuntimeException(e);
+                } catch (UnknownHostException e) {
+                    throw new RuntimeException(e);
+                }
                 if (!NHelper.b().ncallback_00856e6ed9bc4dde0025683a2866ae62(false)) {
                     Process.killProcess(Process.myPid());
                 }
@@ -1144,9 +1168,15 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // android.view.SurfaceHolder.Callback
-        public void surfaceDestroyed(SurfaceHolder surfaceHolder) throws IllegalStateException, SocketException, UnknownHostException {
+        public void surfaceDestroyed(SurfaceHolder surfaceHolder) throws IllegalStateException {
             if (!PCJDkVISZlhELOr.this.G) {
-                PCJDkVISZlhELOr.this.Y0(true);
+                try {
+                    PCJDkVISZlhELOr.this.Y0(true);
+                } catch (SocketException e) {
+                    throw new RuntimeException(e);
+                } catch (UnknownHostException e) {
+                    throw new RuntimeException(e);
+                }
                 NHelper.b();
                 if (NHelper.ncallback_GetAllowFullRHIReset()) {
                     PCJDkVISZlhELOr.this.r1();
@@ -1180,7 +1210,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // android.content.ServiceConnection
-        public void onServiceConnected(ComponentName componentName, IBinder iBinder) throws InterruptedException {
+        public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
             try {
                 this.f3091b.put(iBinder);
             } catch (InterruptedException unused) {
@@ -1353,12 +1383,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // java.lang.Runnable
-        public void run() throws IllegalStateException, IOException {
+        public void run() throws IllegalStateException {
             try {
                 this.f3109e.setOnPreparedListener(new a());
                 this.f3109e.prepare();
             } catch (Exception e2) {
-                com.lomfsqxinjb.KRgTbxlWh.e.b("Couldn't start video!!!", e2);
+                e_KRgTbxlWh.b("Couldn't start video!!!", e2);
                 this.f3110f.D0();
             }
         }
@@ -1417,7 +1447,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
 
         @Override // java.lang.Runnable
-        public void run() throws JSONException, IOException {
+        public void run() {
             String strValueOf = "";
             try {
                 try {
@@ -1540,7 +1570,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             }
 
             @Override // android.view.SurfaceHolder.Callback
-            public void surfaceCreated(SurfaceHolder surfaceHolder) throws IllegalStateException, IOException, IllegalArgumentException {
+            public void surfaceCreated(SurfaceHolder surfaceHolder) throws IllegalStateException, IllegalArgumentException {
                 if (PCJDkVISZlhELOr.this.f2995x != null && PCJDkVISZlhELOr.this.f2988t == null && surfaceHolder == PCJDkVISZlhELOr.this.f2995x.getHolder()) {
                     try {
                         PCJDkVISZlhELOr.this.f2988t = new MediaPlayer();
@@ -1691,7 +1721,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         @Override // java.lang.Runnable
         public void run() {
             Intent intent = new Intent("android.intent.action.VIEW", Uri.parse(this.f3148e));
-            intent.addFlags(268435456);
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             PCJDkVISZlhELOr.this.startActivity(intent);
         }
     }
@@ -1750,19 +1780,19 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         public void run() {
             if (PCJDkVISZlhELOr.this.T == null) {
                 PCJDkVISZlhELOr.this.T = new LinearLayout(this.f3151e);
-                PCJDkVISZlhELOr.this.T.setOrientation(1);
+                PCJDkVISZlhELOr.this.T.setOrientation(LinearLayout.VERTICAL);
                 LinearLayout linearLayout = PCJDkVISZlhELOr.this.T;
                 PCJDkVISZlhELOr.this.U = new a(this.f3151e);
                 PCJDkVISZlhELOr.this.U.setSingleLine(true);
-                PCJDkVISZlhELOr.this.U.addTextChangedListener(new j0.d(PCJDkVISZlhELOr.this.U, this.f3152f, this.f3153g));
+                PCJDkVISZlhELOr.this.U.addTextChangedListener(new d_j0(PCJDkVISZlhELOr.this.U, this.f3152f, this.f3153g));
                 PCJDkVISZlhELOr.this.U.setLayoutParams(new ViewGroup.LayoutParams(-1, -1));
                 linearLayout.addView(PCJDkVISZlhELOr.this.U, 0);
                 PCJDkVISZlhELOr pCJDkVISZlhELOr = PCJDkVISZlhELOr.this;
                 pCJDkVISZlhELOr.addContentView(pCJDkVISZlhELOr.T, new ViewGroup.LayoutParams(-1, -1));
                 PCJDkVISZlhELOr.this.U.requestFocus();
-                com.lomfsqxinjb.KRgTbxlWh.e.a("FinalText: " + this.f3154h);
+                e_KRgTbxlWh.a("FinalText: " + this.f3154h);
                 PCJDkVISZlhELOr.this.U.setText(this.f3154h);
-                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService("input_method")).showSoftInput(PCJDkVISZlhELOr.this.U, 2);
+                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(PCJDkVISZlhELOr.this.U, 2);
             }
             PCJDkVISZlhELOr.this.V = true;
             PCJDkVISZlhELOr.this.W = this.f3155i;
@@ -1796,7 +1826,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         public void run() {
             if (PCJDkVISZlhELOr.this.T == null) {
                 PCJDkVISZlhELOr.this.T = new LinearLayout(this.f3159e);
-                PCJDkVISZlhELOr.this.T.setOrientation(1);
+                PCJDkVISZlhELOr.this.T.setOrientation(LinearLayout.VERTICAL);
                 LinearLayout linearLayout = PCJDkVISZlhELOr.this.T;
                 PCJDkVISZlhELOr.this.U = new EditText(this.f3159e);
                 PCJDkVISZlhELOr.this.U.setLayoutParams(new ViewGroup.LayoutParams(-1, -2));
@@ -1805,7 +1835,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 pCJDkVISZlhELOr.addContentView(pCJDkVISZlhELOr.T, new ViewGroup.LayoutParams(-1, -1));
                 PCJDkVISZlhELOr.this.U.requestFocus();
                 PCJDkVISZlhELOr.this.U.setText(this.f3160f);
-                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService("input_method")).showSoftInput(PCJDkVISZlhELOr.this.U, 2);
+                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(PCJDkVISZlhELOr.this.U, 2);
             }
             PCJDkVISZlhELOr.this.V = true;
         }
@@ -1937,7 +1967,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                     NHelper.b().ncallback_aa0da4cd257af7f7db4acdd7ed8c3c30(PCJDkVISZlhELOr.this.U.getText().toString().trim(), PCJDkVISZlhELOr.this.W);
                     PCJDkVISZlhELOr.h1.n(PCJDkVISZlhELOr.this.U.getText().toString().trim(), PCJDkVISZlhELOr.this.W);
                 }
-                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService("input_method")).hideSoftInputFromWindow(PCJDkVISZlhELOr.this.U.getWindowToken(), 0);
+                ((InputMethodManager) PCJDkVISZlhELOr.this.getSystemService(Context.INPUT_METHOD_SERVICE)).hideSoftInputFromWindow(PCJDkVISZlhELOr.this.U.getWindowToken(), 0);
                 ((ViewGroup) PCJDkVISZlhELOr.this.T.getParent()).removeView(PCJDkVISZlhELOr.this.T);
                 PCJDkVISZlhELOr.this.T = null;
                 PCJDkVISZlhELOr.this.U = null;
@@ -1970,6 +2000,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         y0() {
         }
 
+        @SuppressLint("WrongConstant")
         @Override // java.lang.Runnable
         public void run() {
             Log.d("HO", "call hide splash");
@@ -2057,6 +2088,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             this.f3188m = str;
         }
 
+        @SuppressLint("WrongConstant")
         @Override // java.lang.Runnable
         public void run() {
             PCJDkVISZlhELOr.this.X().setLayoutParams(new AbsoluteLayout.LayoutParams(this.f3180e, this.f3181f, this.f3182g, this.f3183h));
@@ -2089,10 +2121,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     public static String A1(File file) throws Throwable {
-        String str;
+        Logger.d("Hàm này làm gì đây ta, không biết nữa, nó đặt tên linh tinh quá!");
+        String str = "";
         FileInputStream fileInputStream = null;
         String string = null;
         fileInputStream = null;
+        Exception e;
         try {
             try {
                 FileInputStream fileInputStream2 = new FileInputStream(file);
@@ -2145,46 +2179,47 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                     throw th;
                 }
             } catch (Throwable th2) {
-                th = th2;
+                Throwable th = th2;
             }
         } catch (Exception e6) {
             e = e6;
             str = null;
         }
+        return str;
     }
 
-    public static void E0(int i2, String str, boolean z2) {
-        com.lomfsqxinjb.KRgTbxlWh.c cVar = e1;
+    public static void E0(int i2, String str, boolean z2) throws Throwable {
+        c_KRgTbxlWh cKRgTbxlWhVar = e1;
         boolean z3 = true;
-        if (cVar != null && cVar.f3200d == i2) {
+        if (cKRgTbxlWhVar != null && cKRgTbxlWhVar.f3200d == i2) {
             if (z2) {
-                int i3 = cVar.f3201e;
+                int i3 = cKRgTbxlWhVar.f3201e;
                 if (i3 > 10) {
                     new File(e1.f3198b).delete();
                     PCJDkVISZlhELOr pCJDkVISZlhELOr = V0;
                     pCJDkVISZlhELOr.h2(pCJDkVISZlhELOr.C0("NotifyPlayer"), V0.C0("DownloadReboot"), V0.C0("Confirm"), "", false, false, 0);
                 } else {
-                    cVar.f3201e = i3 + 1;
-                    cVar.f3200d = j0.e.b(cVar.f3197a, "", cVar.f3198b, "", true, false);
+                    cKRgTbxlWhVar.f3201e = i3 + 1;
+                    cKRgTbxlWhVar.f3200d = e_j0.b(cKRgTbxlWhVar.f3197a, "", cKRgTbxlWhVar.f3198b, "", true, false);
                 }
-            } else if (cVar.a()) {
+            } else if (cKRgTbxlWhVar.a()) {
                 d1.remove(e1);
                 e1 = null;
                 if (d1.size() == 0) {
-                    b1 = j0.e.g(X0, false);
+                    b1 = e_j0.g(X0, false);
                 } else {
-                    com.lomfsqxinjb.KRgTbxlWh.c cVar2 = d1.get(0);
-                    e1 = cVar2;
-                    cVar2.f3200d = j0.e.b(cVar2.f3197a, "", cVar2.f3198b, "", true, false);
+                    c_KRgTbxlWh cKRgTbxlWhVar2 = d1.get(0);
+                    e1 = cKRgTbxlWhVar2;
+                    cKRgTbxlWhVar2.f3200d = e_j0.b(cKRgTbxlWhVar2.f3197a, "", cKRgTbxlWhVar2.f3198b, "", true, false);
                 }
             } else {
-                c1 = j0.e.g(a1, false);
+                c1 = e_j0.g(a1, false);
                 d1.clear();
                 e1 = null;
             }
         }
-        com.lomfsqxinjb.KRgTbxlWh.a aVar = f1;
-        if (aVar != null && i2 == aVar.f3200d) {
+        a_KRgTbxlWh aKRgTbxlWhVar = f1;
+        if (aKRgTbxlWhVar != null && i2 == aKRgTbxlWhVar.f3200d) {
             if (!z2) {
                 V0.f2958e.post(new e0());
                 if (f1.a()) {
@@ -2229,10 +2264,10 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                         Z0 = "http://" + Z0;
                     }
                 } catch (JSONException unused) {
-                    b1 = j0.e.g(X0, false);
+                    b1 = e_j0.g(X0, false);
                 }
             } else {
-                b1 = j0.e.g(X0, false);
+                b1 = e_j0.g(X0, false);
             }
         }
         int i4 = c1;
@@ -2240,7 +2275,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             return;
         }
         if (z2) {
-            c1 = j0.e.g(a1, false);
+            c1 = e_j0.g(a1, false);
             return;
         }
         c1 = 0;
@@ -2251,24 +2286,26 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             Iterator<String> itKeys = jSONObject3.keys();
             while (itKeys.hasNext()) {
                 String next = itKeys.next();
-                com.lomfsqxinjb.KRgTbxlWh.c cVar = new com.lomfsqxinjb.KRgTbxlWh.c();
-                cVar.f3197a = string3 + "/" + next;
-                cVar.f3199c = jSONObject3.getJSONObject(next).getString("md5");
-                cVar.f3198b = V0.W() + next;
-                if (!cVar.a()) {
-                    d1.add(cVar);
-                    new File(cVar.f3198b).delete();
+                c_KRgTbxlWh cKRgTbxlWhVar = new c_KRgTbxlWh();
+                cKRgTbxlWhVar.f3197a = string3 + "/" + next;
+                cKRgTbxlWhVar.f3199c = jSONObject3.getJSONObject(next).getString("md5");
+                cKRgTbxlWhVar.f3198b = V0.W() + next;
+                if (!cKRgTbxlWhVar.a()) {
+                    d1.add(cKRgTbxlWhVar);
+                    new File(cKRgTbxlWhVar.f3198b).delete();
                 }
             }
             if (d1.size() <= 0) {
                 V0.y2();
                 return;
             }
-            com.lomfsqxinjb.KRgTbxlWh.c cVar2 = d1.get(0);
-            e1 = cVar2;
-            cVar2.f3200d = j0.e.b(cVar2.f3197a, "", cVar2.f3198b, "", true, false);
+            c_KRgTbxlWh cKRgTbxlWhVar2 = d1.get(0);
+            e1 = cKRgTbxlWhVar2;
+            cKRgTbxlWhVar2.f3200d = e_j0.b(cKRgTbxlWhVar2.f3197a, "", cKRgTbxlWhVar2.f3198b, "", true, false);
         } catch (JSONException unused2) {
-            c1 = j0.e.g(a1, false);
+            c1 = e_j0.g(a1, false);
+        } catch (Throwable e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -2278,21 +2315,21 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
 
     public static void H0(int i2, int i3, int i4) {
         for (int i5 = 0; i5 < d1.size(); i5++) {
-            com.lomfsqxinjb.KRgTbxlWh.c cVar = d1.get(i5);
-            int i6 = cVar.f3200d;
+            c_KRgTbxlWh cKRgTbxlWhVar = d1.get(i5);
+            int i6 = cKRgTbxlWhVar.f3200d;
             if (i6 != 0 && i6 == i2 && i3 > 0) {
-                cVar.f3202f = i4 / i3;
-                cVar.f3203g = i4;
-                cVar.f3204h = i3;
+                cKRgTbxlWhVar.f3202f = i4 / i3;
+                cKRgTbxlWhVar.f3203g = i4;
+                cKRgTbxlWhVar.f3204h = i3;
             }
         }
-        com.lomfsqxinjb.KRgTbxlWh.a aVar = f1;
-        if (aVar == null || aVar.f3200d != i2) {
+        a_KRgTbxlWh aKRgTbxlWhVar = f1;
+        if (aKRgTbxlWhVar == null || aKRgTbxlWhVar.f3200d != i2) {
             return;
         }
-        aVar.f3202f = i4 / i3;
-        aVar.f3203g = i4;
-        aVar.f3204h = i3;
+        aKRgTbxlWhVar.f3202f = i4 / i3;
+        aKRgTbxlWhVar.f3203g = i4;
+        aKRgTbxlWhVar.f3204h = i3;
     }
 
     /* JADX INFO: Access modifiers changed from: private */
@@ -2301,11 +2338,11 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         if (this.y0 != null) {
             NHelper.b();
             int iNcallback_GetStartupLoadingProgress = (int) (NHelper.ncallback_GetStartupLoadingProgress() * 100.0f);
-            ProgressBar progressBar = (ProgressBar) this.y0.findViewById(R.id.start_loading_progress);
+            ProgressBar progressBar = (ProgressBar) this.y0.findViewById(com.pokemodpro.vn.R.id.start_loading_progress);
             if (progressBar != null) {
                 progressBar.setProgress(iNcallback_GetStartupLoadingProgress);
             }
-            TextView textView = (TextView) this.y0.findViewById(R.id.progressText);
+            TextView textView = (TextView) this.y0.findViewById(com.pokemodpro.vn.R.id.progressText);
             if (textView != null) {
                 textView.setText(String.valueOf(iNcallback_GetStartupLoadingProgress) + "%");
             }
@@ -2315,9 +2352,9 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             if (i2 >= d1.size()) {
                 break;
             }
-            com.lomfsqxinjb.KRgTbxlWh.c cVar = d1.get(i2);
-            if (cVar.f3200d != 0) {
-                String str = C0("DownloadUpdate") + ((int) (cVar.f3202f * 100.0f)) + "%";
+            c_KRgTbxlWh cKRgTbxlWhVar = d1.get(i2);
+            if (cKRgTbxlWhVar.f3200d != 0) {
+                String str = C0("DownloadUpdate") + ((int) (cKRgTbxlWhVar.f3202f * 100.0f)) + "%";
                 TextView textView2 = V0.f2987s0;
                 if (textView2 != null) {
                     textView2.setText(str);
@@ -2326,20 +2363,20 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 i2++;
             }
         }
-        com.lomfsqxinjb.KRgTbxlWh.a aVar = f1;
-        if (aVar != null && aVar.f3200d != 0 && (progressDialog = this.f2983q0) != null && progressDialog.isShowing()) {
+        a_KRgTbxlWh aKRgTbxlWhVar = f1;
+        if (aKRgTbxlWhVar != null && aKRgTbxlWhVar.f3200d != 0 && (progressDialog = this.f2983q0) != null && progressDialog.isShowing()) {
             this.f2983q0.setProgressNumberFormat(String.format("%.2fM/%.2fM", Float.valueOf(f1.f3203g / 1048576.0f), Float.valueOf(f1.f3204h / 1048576.0f)));
             this.f2983q0.setProgress((int) (f1.f3202f * 100.0f));
         }
         View view = this.A0;
         if (view != null) {
-            ProgressBar progressBar2 = (ProgressBar) view.findViewById(R.id.map_loading_progress);
+            ProgressBar progressBar2 = (ProgressBar) view.findViewById(com.pokemodpro.vn.R.id.map_loading_progress);
             NHelper.b();
             int iNcallback_GetMapLoadingProgress = (int) (NHelper.ncallback_GetMapLoadingProgress() * 100.0f);
             if (progressBar2 != null) {
                 progressBar2.setProgress(iNcallback_GetMapLoadingProgress);
             }
-            TextView textView3 = (TextView) this.A0.findViewById(R.id.map_progressText);
+            TextView textView3 = (TextView) this.A0.findViewById(com.pokemodpro.vn.R.id.map_progressText);
             if (textView3 != null) {
                 textView3.setText(String.valueOf(iNcallback_GetMapLoadingProgress) + "%");
             }
@@ -2352,7 +2389,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 String packageName = getApplicationContext().getPackageName();
                 this.f2963g0 = getFilesDir() + "/";
                 String str = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/obb/" + packageName + "/";
-                if (j0.b.b().a()) {
+                if (b_j0.b().a()) {
                     str = this.f2963g0 + "obb/" + packageName + "/";
                 }
                 if (this.C) {
@@ -2366,7 +2403,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                     String str2 = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Android/obb/" + getApplicationContext().getPackageName();
                     try {
                         this.f2977n0 = str + ("main." + getPackageManager().getPackageInfo(getPackageName(), 0).versionCode + "." + getApplicationContext().getPackageName() + ".obb");
-                        if (j0.b.b().a()) {
+                        if (b_j0.b().a()) {
                             this.f2977n0 = str2 + "/" + ("main." + getPackageManager().getPackageInfo(getPackageName(), 0).versionCode + "." + getApplicationContext().getPackageName() + ".obb");
                         }
                     } catch (PackageManager.NameNotFoundException unused) {
@@ -2376,7 +2413,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                         if (!file.exists()) {
                             file.mkdirs();
                         }
-                        if (j0.b.b().a()) {
+                        if (b_j0.b().a()) {
                             File file2 = new File(str2);
                             if (!file2.exists()) {
                                 file2.mkdirs();
@@ -2436,7 +2473,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     public static String V0(File file) throws IOException {
-        BufferedReader bufferedReader;
+        BufferedReader bufferedReader = null;
         String line;
         StringBuilder sb = new StringBuilder();
         try {
@@ -2696,7 +2733,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         return D1(eGLConfigParms);
     }
 
-    public void H() throws SocketException, UnknownHostException {
+    public void H() throws IOException {
         s1 = true;
         j3();
         R0 = getApplicationContext().getSharedPreferences(getPackageName(), 0);
@@ -2783,12 +2820,13 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void L0(String str) {
         if (this.B0 == null) {
-            View viewInflate = View.inflate(this, R.layout.maploadingview, null);
+            View viewInflate = View.inflate(this, com.pokemodpro.vn.R.layout.maploadingview, null);
             this.B0 = viewInflate;
-            this.C0 = (TextView) viewInflate.findViewById(R.id.textView_text);
-            this.E0 = (ProgressBar) this.B0.findViewById(R.id.progressBar_loading);
+            this.C0 = (TextView) viewInflate.findViewById(com.pokemodpro.vn.R.id.textView_text);
+            this.E0 = (ProgressBar) this.B0.findViewById(com.pokemodpro.vn.R.id.progressBar_loading);
             addContentView(this.B0, new ViewGroup.LayoutParams(-1, -1));
         }
         this.C0.setText(str);
@@ -2809,27 +2847,28 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void M0() {
         if (this.A0 == null) {
-            View viewInflate = View.inflate(this, R.layout.new_map_loading, null);
+            View viewInflate = View.inflate(this, com.pokemodpro.vn.R.layout.new_map_loading, null);
             this.A0 = viewInflate;
             if (viewInflate != null) {
                 Random random = new Random();
-                ImageView imageView = (ImageView) this.A0.findViewById(R.id.bg_image);
+                ImageView imageView = (ImageView) this.A0.findViewById(com.pokemodpro.vn.R.id.bg_image);
                 if (imageView != null) {
                     try {
                         NHelper.b();
                         if (NHelper.ncallback_GetContentType() == 2) {
-                            imageView.setImageBitmap(BitmapFactory.decodeResource(getResources(), R.drawable.maploading_safety));
+                            imageView.setImageBitmap(BitmapFactory.decodeResource(getResources(), com.pokemodpro.vn.R.drawable.maploading_safety));
                         } else {
-                            imageView.setImageBitmap(BitmapFactory.decodeResource(getResources(), new int[]{R.drawable.maploading1, R.drawable.maploading2, R.drawable.maploading3, R.drawable.maploading4, R.drawable.maploading5, R.drawable.maploading6, R.drawable.maploading7, R.drawable.maploading8, R.drawable.maploading9}[(int) (random.nextDouble() * 8.0d)]));
+                            imageView.setImageBitmap(BitmapFactory.decodeResource(getResources(), new int[]{com.pokemodpro.vn.R.drawable.maploading1, com.pokemodpro.vn.R.drawable.maploading2, com.pokemodpro.vn.R.drawable.maploading3, com.pokemodpro.vn.R.drawable.maploading4, com.pokemodpro.vn.R.drawable.maploading5, com.pokemodpro.vn.R.drawable.maploading6, com.pokemodpro.vn.R.drawable.maploading7, com.pokemodpro.vn.R.drawable.maploading8, com.pokemodpro.vn.R.drawable.maploading9}[(int) (random.nextDouble() * 8.0d)]));
                         }
                         imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
                     } catch (Exception e2) {
                         e2.printStackTrace();
                     }
                 }
-                TextView textView = (TextView) this.A0.findViewById(R.id.map_loading_game_tip);
+                TextView textView = (TextView) this.A0.findViewById(com.pokemodpro.vn.R.id.map_loading_game_tip);
                 if (textView != null) {
                     try {
                         if (this.I0.size() > 0) {
@@ -2855,7 +2894,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     public int M2(String str, String str2, String str3, boolean z2, String str4) {
-        return j0.e.b(str, str2, str3, str4, z2, true);
+        return e_j0.b(str, str2, str3, str4, z2, true);
     }
 
     public void N() {
@@ -2877,16 +2916,19 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         } catch (Exception e2) {
             e2.printStackTrace();
             return false;
+        } catch (Throwable e) {
+            throw new RuntimeException(e);
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void O0() {
-        View viewInflate = View.inflate(this, R.layout.start_loading_with_tip, null);
+        View viewInflate = View.inflate(this, com.pokemodpro.vn.R.layout.start_loading_with_tip, null);
         this.y0 = viewInflate;
         if (viewInflate != null) {
             addContentView(viewInflate, new ViewGroup.LayoutParams(-1, -1));
         }
-        TextView textView = (TextView) this.y0.findViewById(R.id.loading_game_tip);
+        TextView textView = (TextView) this.y0.findViewById(com.pokemodpro.vn.R.id.loading_game_tip);
         if (textView != null) {
             try {
                 if (this.I0.size() > 0) {
@@ -2924,6 +2966,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         k1(i2);
     }
 
+    @SuppressLint("WrongConstant")
     public void P() {
         View view = this.B0;
         if (view != null) {
@@ -2938,7 +2981,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 this.f2990u.pause();
             }
         } catch (Exception e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("Failed PauseSong ", e2);
+            e_KRgTbxlWh.b("Failed PauseSong ", e2);
         }
         this.f2992v = false;
     }
@@ -2951,11 +2994,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         return U0;
     }
 
+    @SuppressLint("WrongConstant")
     public void Q() {
         View view = this.A0;
         if (view != null) {
             try {
-                ImageView imageView = (ImageView) view.findViewById(R.id.bg_image);
+                ImageView imageView = (ImageView) view.findViewById(com.pokemodpro.vn.R.id.bg_image);
                 if (imageView != null) {
                     Drawable drawable = imageView.getDrawable();
                     if (drawable != null && (drawable instanceof BitmapDrawable)) {
@@ -2993,98 +3037,79 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public void R(java.lang.String r7, java.lang.String r8, java.lang.String r9) {
-        /*
-            r6 = this;
-            java.lang.StringBuilder r0 = new java.lang.StringBuilder
-            r0.<init>()
-            java.io.File r1 = r6.getFilesDir()
-            r0.append(r1)
-            java.lang.String r1 = "/"
-            r0.append(r1)
-            java.lang.String r0 = r0.toString()
-            r2 = 0
-            java.lang.String r3 = android.os.Environment.getExternalStorageState()     // Catch: java.lang.Exception -> L36
-            java.lang.String r4 = "mounted"
-            boolean r3 = r3.equals(r4)     // Catch: java.lang.Exception -> L36
-            if (r3 == 0) goto L3a
-            java.lang.StringBuilder r3 = new java.lang.StringBuilder     // Catch: java.lang.Exception -> L36
-            r3.<init>()     // Catch: java.lang.Exception -> L36
-            java.io.File r4 = r6.getExternalFilesDir(r2)     // Catch: java.lang.Exception -> L36
-            r3.append(r4)     // Catch: java.lang.Exception -> L36
-            r3.append(r1)     // Catch: java.lang.Exception -> L36
-            java.lang.String r0 = r3.toString()     // Catch: java.lang.Exception -> L36
-            goto L3a
-        L36:
-            r1 = move-exception
-            r1.printStackTrace()
-        L3a:
-            java.io.File r1 = new java.io.File
-            java.lang.StringBuilder r3 = new java.lang.StringBuilder
-            r3.<init>()
-            r3.append(r0)
-            java.lang.String r4 = "/Apk"
-            r3.append(r4)
-            java.lang.String r3 = r3.toString()
-            r1.<init>(r3)
-            r1.mkdirs()
-            java.lang.StringBuilder r1 = new java.lang.StringBuilder
-            r1.<init>()
-            r1.append(r0)
-            java.lang.String r0 = "/Apk/"
-            r1.append(r0)
-            r1.append(r8)
-            java.lang.String r8 = r1.toString()
-            r6.b0()
-            android.app.ProgressDialog r0 = r6.f2983q0
-            r0.show()
-            com.lomfsqxinjb.KRgTbxlWh.a r0 = new com.lomfsqxinjb.KRgTbxlWh.a
-            r0.<init>()
-            com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.f1 = r0
-            r0.f3197a = r7
-            r0.f3199c = r9
-            r0.f3198b = r8
-            java.io.File r7 = new java.io.File
-            r7.<init>(r8)
-            boolean r7 = r7.exists()
-            r9 = 1
-            r0 = 0
-            if (r7 == 0) goto La3
-            android.widget.TextView r7 = r6.f2987s0
-            if (r7 == 0) goto L96
-            java.lang.String r1 = "checking_exist_apk"
-            java.lang.String r1 = r6.C0(r1)
-            r7.setText(r1)
-        L96:
-            com.lomfsqxinjb.KRgTbxlWh.a r7 = com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.f1
-            boolean r7 = r7.a()
-            if (r7 == 0) goto La3
-            r6.c0(r8)
-            r7 = 1
-            goto La4
-        La3:
-            r7 = 0
-        La4:
-            if (r7 == 0) goto Lb0
-            com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.f1 = r2
-            com.helpergames.NHelper r7 = com.helpergames.NHelper.b()
-            r7.ncallback_8f5798509bc86eeb660201c67bddfc93(r0, r9)
-            goto Lc2
-        Lb0:
-            com.lomfsqxinjb.KRgTbxlWh.a r7 = com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.f1
-            java.lang.String r0 = r7.f3197a
-            java.lang.String r2 = r7.f3198b
-            r4 = 1
-            r5 = 0
-            java.lang.String r1 = ""
-            java.lang.String r3 = ""
-            int r8 = j0.e.b(r0, r1, r2, r3, r4, r5)
-            r7.f3200d = r8
-        Lc2:
-            return
-        */
-        throw new UnsupportedOperationException("Method not decompiled: com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.R(java.lang.String, java.lang.String, java.lang.String):void");
+    public void R(String url, String apkName, String extra) throws Throwable {
+        String basePath;
+
+        // Mặc định lưu trong internal storage
+        basePath = getFilesDir() + "/";
+
+        // Nếu external storage sẵn sàng thì chuyển sang đó
+        try {
+            if (Environment.getExternalStorageState().equals("mounted")) {
+                basePath = getExternalFilesDir(null) + "/";
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        // Tạo thư mục /Apk/
+        File apkDir = new File(basePath + "Apk");
+        apkDir.mkdirs();
+
+        // Đường dẫn file apk cần tải / xử lý
+        String fullApkPath = basePath + "Apk/" + apkName;
+
+        // Hiển thị progress dialog
+        b0(); // setup progress dialog
+        if (this.f2983q0 != null)
+            this.f2983q0.show();
+
+        // Tạo instance com.lomfsqxinjb.KRgTbxlWh.a
+        a_KRgTbxlWh task = new a_KRgTbxlWh();
+        PCJDkVISZlhELOr.f1 = task;
+
+        // Gán dữ liệu cho task
+        task.f3197a = url;
+        task.f3198b = fullApkPath;
+        task.f3199c = extra;
+
+        File file = new File(fullApkPath);
+        boolean existed = file.exists();
+        boolean handled = false;
+
+        if (existed) {
+            // Nếu có TextView thì hiển thị "checking_exist_apk"
+            if (this.f2987s0 != null) {
+                String msg = C0("checking_exist_apk");
+                this.f2987s0.setText(msg);
+            }
+
+            // Kiểm tra tính hợp lệ qua task.a()
+            if (task.a()) {
+                c0(fullApkPath); // xử lý file apk
+                handled = true;
+            }
+        }
+
+        if (handled) {
+            // Reset lại f1
+            PCJDkVISZlhELOr.f1 = null;
+            // Gọi callback thành công
+            NHelper.b().ncallback_8f5798509bc86eeb660201c67bddfc93(0, 1);
+        } else {
+            // Nếu chưa có file, gọi j0.e.b(...) để xử lý
+            int result = e_j0.b(
+                    task.f3197a,     // url
+                    "",         // param 2
+                    task.f3198b,     // apk path
+                    "",         // param 4
+                    true,       // param 5
+                    false       // param 6
+            );
+            task.f3200d = result;
+        }
     }
+
 
     public int R0(int i2, boolean z2) {
         return this.f2984r.play(i2, 0.0f, 0.0f, 0, z2 ? -1 : 0, 1.0f);
@@ -3112,10 +3137,10 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 i5 = 2;
                 break;
         }
-        ((NotificationManager) getSystemService("notification")).cancel(i5);
-        AlarmManager alarmManager = (AlarmManager) getSystemService("alarm");
+        ((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).cancel(i5);
+        AlarmManager alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
         Intent intent = new Intent(this, (Class<?>) VGTARlgvP.class);
-        PendingIntent broadcast = PendingIntent.getBroadcast(this, Integer.valueOf(i2).intValue(), intent, 603979776);
+        @SuppressLint("WrongConstant") PendingIntent broadcast = PendingIntent.getBroadcast(this, Integer.valueOf(i2).intValue(), intent, 603979776);
         if (broadcast != null) {
             broadcast.cancel();
         }
@@ -3128,59 +3153,85 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         intent.putExtra("id", i2);
         intent.putExtra(ShareConstants.WEB_DIALOG_PARAM_TITLE, new String(str));
         intent.putExtra("content", new String(str2));
-        PendingIntent broadcast2 = PendingIntent.getBroadcast(this, i2, intent, 67108864);
+        PendingIntent broadcast2 = PendingIntent.getBroadcast(this, i2, intent, PendingIntent.FLAG_IMMUTABLE);
         long timeInMillis = calendar.getTimeInMillis();
         long jCurrentTimeMillis = System.currentTimeMillis();
         long timeInMillis2 = calendar.getTimeInMillis();
         if (timeInMillis <= jCurrentTimeMillis) {
             timeInMillis2 += 86400000;
         }
-        alarmManager.setRepeating(0, timeInMillis2, 86400000L, broadcast2);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, timeInMillis2, 86400000L, broadcast2);
     }
 
-    public String S() {
+    public String S() throws PackageManager.NameNotFoundException {
         return w1();
     }
-
     public void S0() {
+        // Gọi một hàm khởi tạo/chuẩn bị nào đó (có thể là reset UI)
         n1();
-        Environment.getExternalStorageState().equals("mounted");
-        RelativeLayout relativeLayout = this.f2985r0;
-        if (relativeLayout != null) {
-            ViewGroup viewGroup = (ViewGroup) relativeLayout.getParent();
-            if (viewGroup != null) {
-                viewGroup.removeView(this.f2985r0);
+
+        // Kiểm tra nếu SD card (external storage) có sẵn
+        String state = Environment.getExternalStorageState();
+        boolean mounted = "mounted".equals(state);
+
+        // Nếu có layout thì gỡ bỏ khỏi parent view
+        if (this.f2985r0 != null) {
+            ViewParent parent = this.f2985r0.getParent();
+            if (parent instanceof ViewGroup) {
+                ((ViewGroup) parent).removeView(this.f2985r0);
             }
             this.f2985r0 = null;
             this.f2987s0 = null;
         }
+
+        // ==== Đo dung lượng trống của external storage ====
+        long freeMB = 0;
         try {
-            new StatFs(Environment.getExternalStorageDirectory().getAbsolutePath()).restat(Environment.getExternalStorageDirectory().getAbsolutePath());
-            long blockSize = (r0.getBlockSize() * r0.getFreeBlocks()) / PlaybackStateCompat.ACTION_SET_CAPTIONING_ENABLED;
-        } catch (Exception e2) {
-            e2.printStackTrace();
+            StatFs stat = new StatFs(Environment.getExternalStorageDirectory().getAbsolutePath());
+            stat.restat(Environment.getExternalStorageDirectory().getAbsolutePath());
+            long blockSize = stat.getBlockSize();
+            long freeBlocks = stat.getFreeBlocks();
+            freeMB = (blockSize * freeBlocks) / 1048576L; // chuyển thành MB
+        } catch (Exception e) {
+            e.printStackTrace();
         }
-        NHelper.b().ncallback_8f3b0d49d4703c30fa0c65719a7c4146(getResources().getConfiguration().locale.getLanguage());
-        getWindowManager().getDefaultDisplay().getMetrics(new DisplayMetrics());
-        float fSqrt = (float) Math.sqrt(((float) Math.pow((1.0f / r0.xdpi) * r0.widthPixels, 2.0d)) + ((float) Math.pow((1.0f / r0.ydpi) * r0.heightPixels, 2.0d)));
-        getPackageManager();
+
+        // ==== Lấy ngôn ngữ hiện tại ====
+        String lang = getResources().getConfiguration().locale.getLanguage();
+
+        // Gửi callback sang native/helper
+        com.helpergames.NHelper.b().ncallback_8f3b0d49d4703c30fa0c65719a7c4146(lang);
+
+        // ==== Lấy kích thước màn hình ====
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        float widthInches = metrics.widthPixels / metrics.xdpi;
+        float heightInches = metrics.heightPixels / metrics.ydpi;
+        float diagonalInches = (float) Math.sqrt(widthInches * widthInches + heightInches * heightInches);
+
+        // ==== Lấy model và thông tin thiết bị ====
         try {
-            String strZ1 = z1();
-            String str = Build.MODEL;
-            if (str == null) {
-                str = "";
-            }
-            String strX1 = x1();
-            NHelper.b();
-            NHelper.ncallback_UpdateDeviceInfo(str, Build.VERSION.RELEASE, strZ1, strX1, "");
-        } catch (Exception e3) {
-            e3.printStackTrace();
+            String pkg = z1();
+            String model = Build.MODEL != null ? Build.MODEL : "";
+            String pkgVer = x1();
+            String osVer = Build.VERSION.RELEASE;
+
+            com.helpergames.NHelper.ncallback_UpdateDeviceInfo(model, osVer, pkg, pkgVer, "");
+        } catch (Exception e) {
+            e.printStackTrace();
         }
+
+        // ==== Đánh dấu là đã khởi tạo ====
         this.f2960f = true;
-        if (NHelper.b().ncallback_15b30b7c011845d8e98ab04054819bb5(this.O, this.P, fSqrt, false)) {
-            return;
+
+        // ==== Gọi callback khởi tạo với kích thước ====
+        boolean ok = com.helpergames.NHelper.b()
+                .ncallback_15b30b7c011845d8e98ab04054819bb5(O, P, diagonalInches, false);
+
+        if (!ok) {
+            this.f2958e.post(new PCJDkVISZlhELOr.l0( this));
         }
-        this.f2958e.post(new l0(this));
     }
 
     public float S1() throws IOException, NumberFormatException {
@@ -3234,7 +3285,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         try {
             q1 = str2;
             if (new File(str3.substring(0, str3.lastIndexOf(".")) + ".pobb").exists()) {
-                com.lomfsqxinjb.KRgTbxlWh.e.a("pobb exists, ignoring....");
+                e_KRgTbxlWh.a("pobb exists, ignoring....");
             } else if (new File(str3).exists()) {
                 G0(str3);
             } else {
@@ -3254,11 +3305,11 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     public int U1(String str, String str2) {
-        return str2.length() == 0 ? j0.e.g(str, true) : j0.e.h(str, str2);
+        return str2.length() == 0 ? e_j0.g(str, true) : e_j0.h(str, str2);
     }
 
     public void U2(int i2) {
-        j0.e.a(i2);
+        e_j0.a(i2);
     }
 
     public void V1(String str) {
@@ -3283,7 +3334,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         try {
             strValueOf = String.valueOf(getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
         } catch (PackageManager.NameNotFoundException e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("", e2);
+            e_KRgTbxlWh.b("", e2);
             strValueOf = "0.1.1";
         }
         return this.f2963g0 + getPackageName() + "/Update/" + strValueOf + "/DataAndroid/";
@@ -3297,11 +3348,11 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             }
             this.f2990u.start();
         } catch (Exception e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("Failed RestoreMusic ", e2);
+            e_KRgTbxlWh.b("Failed RestoreMusic ", e2);
         }
     }
 
-    public void W1(FileDescriptor fileDescriptor, long j2, long j3) {
+    public void W1(FileDescriptor fileDescriptor, long j2, long j3) throws InterruptedException {
         f1(fileDescriptor, j2, j3);
     }
 
@@ -3309,6 +3360,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         return Y0;
     }
 
+    @SuppressLint("WrongConstant")
     public WebView X() {
         if (this.M0 == null) {
             WebView webView = new WebView(this);
@@ -3345,7 +3397,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 D0();
             }
         } catch (Exception e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("Failed Pause Movie ", e2);
+            e_KRgTbxlWh.b("Failed Pause Movie ", e2);
         }
         try {
             MediaPlayer mediaPlayer = this.f2990u;
@@ -3354,7 +3406,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             }
             this.f2990u.pause();
         } catch (Exception e3) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("Failed HaltMusic ", e3);
+            e_KRgTbxlWh.b("Failed HaltMusic ", e3);
         }
     }
 
@@ -3388,7 +3440,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             wakeLock2.release();
             this.f2961f0 = null;
         }
-        PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) getSystemService("power")).newWakeLock(26, "DoNotDimScreen");
+        @SuppressLint("InvalidWakeLockTag") PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) getSystemService(Context.POWER_SERVICE)).newWakeLock(26, "DoNotDimScreen");
         this.f2961f0 = wakeLockNewWakeLock;
         wakeLockNewWakeLock.acquire();
         W0();
@@ -3512,13 +3564,13 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             this.f2972l.eglGetError();
             return false;
         } catch (Exception e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.a("Failed makeCurrent with exception:" + e2.getMessage());
+            e_KRgTbxlWh.a("Failed makeCurrent with exception:" + e2.getMessage());
             e2.printStackTrace();
             return false;
         }
     }
 
-    public void d0() {
+    public void d0() throws IOException {
         B0();
     }
 
@@ -3572,7 +3624,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
                 this.f2990u.start();
             }
         } catch (Exception e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("Failed StartSong ", e2);
+            e_KRgTbxlWh.b("Failed StartSong ", e2);
         }
         this.f2992v = true;
     }
@@ -3640,7 +3692,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         this.f2958e.post(new a1());
     }
 
-    public String g2() {
+    public String g2() throws PackageManager.NameNotFoundException {
         return new String(S());
     }
 
@@ -3718,7 +3770,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         n0 n0Var = new n0();
         this.f2955b0 = n0Var;
         this.f2958e.post(n0Var);
-        PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) getSystemService("power")).newWakeLock(26, "ScreenUp");
+        @SuppressLint("InvalidWakeLockTag") PowerManager.WakeLock wakeLockNewWakeLock = ((PowerManager) getSystemService(Context.POWER_SERVICE)).newWakeLock(26, "ScreenUp");
         this.f2961f0 = wakeLockNewWakeLock;
         wakeLockNewWakeLock.acquire();
         return true;
@@ -3742,7 +3794,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public java.lang.String j2() {
+    public String j2() {
         /*
             r6 = this;
             java.lang.String r0 = com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.r1
@@ -3828,9 +3880,9 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         throw new UnsupportedOperationException("Method not decompiled: com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr.j2():java.lang.String");
     }
 
-    public boolean j3() throws SocketException, UnknownHostException {
+    public boolean j3() throws IOException {
         setVolumeControlStream(3);
-        ActivityManager activityManager = (ActivityManager) getSystemService("activity");
+        ActivityManager activityManager = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
         ActivityManager.MemoryInfo memoryInfo = new ActivityManager.MemoryInfo();
         activityManager.getMemoryInfo(memoryInfo);
         this.J = NHelper.b().ncallback_58a7606c6850cf1d1c10f3b7539d020e(memoryInfo.availMem);
@@ -3844,12 +3896,12 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         try {
             this.f2969j0 = getPackageManager().getApplicationInfo(getPackageName(), 0).sourceDir;
         } catch (PackageManager.NameNotFoundException e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("", e2);
+            e_KRgTbxlWh.b("", e2);
         }
         try {
             this.f2971k0 = String.valueOf(getPackageManager().getPackageInfo(getPackageName(), 0).versionCode);
         } catch (PackageManager.NameNotFoundException e3) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("", e3);
+            e_KRgTbxlWh.b("", e3);
         }
         N();
         l1();
@@ -3918,8 +3970,9 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
     }
 
+    @SuppressLint("WrongConstant")
     public void l2(int i2) {
-        ((AlarmManager) getSystemService("alarm")).cancel(PendingIntent.getBroadcast(this, Integer.valueOf(i2).intValue(), new Intent(this, (Class<?>) VGTARlgvP.class), 603979776));
+        ((AlarmManager) getSystemService(Context.ALARM_SERVICE)).cancel(PendingIntent.getBroadcast(this, Integer.valueOf(i2).intValue(), new Intent(this, (Class<?>) VGTARlgvP.class),603979776));
     }
 
     public void m0(String str) {
@@ -3939,7 +3992,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     public void n1() {
-        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService("connectivity");
+        ConnectivityManager connectivityManager = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         if (connectivityManager != null) {
             NetworkInfo networkInfo = connectivityManager.getNetworkInfo(1);
             if (networkInfo == null || !networkInfo.isConnectedOrConnecting()) {
@@ -3975,7 +4028,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     protected void onActivityResult(int i2, int i3, Intent intent) {
         super.onActivityResult(i2, i3, intent);
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.k(i2, i3, intent);
         }
@@ -3994,7 +4047,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     }
 
     @Override // android.app.Activity
-    public void onCreate(Bundle bundle) throws IOException {
+    public void onCreate(Bundle bundle) {
         NHelper.b().a(this);
         super.onCreate(bundle);
         V0 = this;
@@ -4007,7 +4060,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             this.D0 = extras.getString("DataString");
         }
         this.f2958e = new Handler();
-        j0.j jVarA = j0.c.a();
+        j_j0 jVarA = c_j0.a();
         h1 = jVarA;
         jVarA.h(this);
         h1.l(bundle);
@@ -4016,10 +4069,11 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         }
         P0 = getPackageName();
         ActivityManager.MemoryInfo memoryInfo = new ActivityManager.MemoryInfo();
-        ((ActivityManager) getSystemService("activity")).getMemoryInfo(memoryInfo);
+        ((ActivityManager) getSystemService(Context.ACTIVITY_SERVICE)).getMemoryInfo(memoryInfo);
         T0 = memoryInfo.availMem;
-        Debug.getMemoryInfo(new Debug.MemoryInfo());
-        S0 = r7.getTotalPss() * 1024;
+        Debug.MemoryInfo memInfo = new Debug.MemoryInfo();
+        Debug.getMemoryInfo(memInfo);
+        S0 = memInfo.getTotalPss() * 1024;
         AssetManager assets = getAssets();
         U0 = assets;
         try {
@@ -4040,12 +4094,20 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         try {
             J(getPackageManager().getPackageInfo(getPackageName(), 0).versionCode, 0);
         } catch (PackageManager.NameNotFoundException e2) {
-            com.lomfsqxinjb.KRgTbxlWh.e.b("", e2);
+            e_KRgTbxlWh.b("", e2);
         }
-        H();
-        com.lomfsqxinjb.KRgTbxlWh.b.a(this);
+        try {
+            H();
+        } catch (SocketException e) {
+            throw new RuntimeException(e);
+        } catch (UnknownHostException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        b_KRgTbxlWh.a(this);
         GmRXkjgJBQEyF.k(getApplicationContext());
-        j0.e.i();
+        e_j0.i();
         this.f2981p0.scheduleAtFixedRate(new w(), 1L, 100L);
         n1 = new o1();
         this.H0 = new q1();
@@ -4063,20 +4125,24 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
         } catch (Exception e4) {
             e4.printStackTrace();
         }
-        U0();
+        try {
+            U0();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override // android.app.Activity
     public void onDestroy() {
         SharedPreferences.Editor editorEdit;
-        j0.e.j();
+        e_j0.j();
         SharedPreferences sharedPreferences = R0;
         if (sharedPreferences != null && (editorEdit = sharedPreferences.edit()) != null) {
             editorEdit.putString("language", "null");
             editorEdit.commit();
         }
         super.onDestroy();
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.m();
         }
@@ -4116,7 +4182,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     protected void onNewIntent(Intent intent) {
         super.onNewIntent(intent);
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.o(intent);
         }
@@ -4126,7 +4192,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     protected void onPause() throws IllegalStateException {
         super.onPause();
         this.f2966i = false;
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.p();
         }
@@ -4138,7 +4204,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     public void onRequestPermissionsResult(int i2, String[] strArr, int[] iArr) {
         super.onRequestPermissionsResult(i2, strArr, iArr);
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.q(i2, strArr, iArr);
         }
@@ -4147,7 +4213,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     protected void onRestart() {
         super.onRestart();
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.r();
         }
@@ -4156,7 +4222,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     protected void onResume() throws IllegalStateException {
         super.onResume();
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.s();
         }
@@ -4171,7 +4237,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     @Override // android.app.Activity
     protected void onStart() {
         super.onStart();
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.t();
         }
@@ -4187,7 +4253,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             editorEdit.putFloat("lw_resolution_scale", R0.getFloat("cur_resolution_scale", 1.0f));
             editorEdit.commit();
         }
-        j0.j jVar = h1;
+        j_j0 jVar = h1;
         if (jVar != null) {
             jVar.u();
         }
@@ -4223,7 +4289,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     public void onWindowFocusChanged(boolean z2) {
         this.K = z2;
         if (z2) {
-            j0.k.a(this);
+            k_j0.a(this);
             RelativeLayout relativeLayout = this.f2989t0;
             if (relativeLayout != null) {
                 relativeLayout.invalidate();
@@ -4363,7 +4429,7 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
             Intent intent = new Intent("com.google.android.gms.ads.identifier.service.START");
             intent.setPackage("com.google.android.gms");
             try {
-                if (!context.bindService(intent, m1Var, 1)) {
+                if (!context.bindService(intent, m1Var, Context.BIND_AUTO_CREATE)) {
                     throw new IOException("Google Play connection failed");
                 }
                 try {
@@ -4410,14 +4476,10 @@ public class PCJDkVISZlhELOr extends Activity implements MediaPlayer.OnCompletio
     public String w1() throws PackageManager.NameNotFoundException {
         PackageManager packageManager;
         ApplicationInfo applicationInfo = null;
+        packageManager = getApplicationContext().getPackageManager();
         try {
-            packageManager = getApplicationContext().getPackageManager();
-            try {
-                applicationInfo = packageManager.getApplicationInfo(getPackageName(), 0);
-            } catch (PackageManager.NameNotFoundException unused) {
-            }
-        } catch (PackageManager.NameNotFoundException unused2) {
-            packageManager = null;
+            applicationInfo = packageManager.getApplicationInfo(getPackageName(), 0);
+        } catch (PackageManager.NameNotFoundException unused) {
         }
         return (String) packageManager.getApplicationLabel(applicationInfo);
     }

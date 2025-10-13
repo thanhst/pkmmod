@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.view.d;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.h;
-import e.a;
+import e.a_e;
 
 /* loaded from: classes.dex */
 public final class DrawableDecoderCompat {
@@ -29,7 +29,7 @@ public final class DrawableDecoderCompat {
         if (theme != null) {
             context = new d(context, theme);
         }
-        return a.b(context, i2);
+        return a_e.b(context, i2);
     }
 
     public static Drawable getDrawable(Context context, @DrawableRes int i2, @Nullable Resources.Theme theme) {

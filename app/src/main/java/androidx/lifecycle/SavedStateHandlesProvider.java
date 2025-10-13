@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.C0077b;
 import java.util.Map;
 import kotlin.Metadata;
+import p0.a_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -31,7 +33,7 @@ public final class SavedStateHandlesProvider implements C0077b.c {
         kotlin.jvm.internal.s.e(savedStateRegistry, "savedStateRegistry");
         kotlin.jvm.internal.s.e(viewModelStoreOwner, "viewModelStoreOwner");
         this.savedStateRegistry = savedStateRegistry;
-        this.viewModel = kotlin.f.a(new p0.a<x>() { // from class: androidx.lifecycle.SavedStateHandlesProvider$viewModel$2
+        this.viewModel = kotlin.f.a(new a_p0<x>() { // from class: androidx.lifecycle.SavedStateHandlesProvider$viewModel$2
             {
                 super(0);
             }

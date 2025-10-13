@@ -9,12 +9,12 @@ import kotlin.jvm.internal.Lambda;
 import kotlin.jvm.internal.s;
 import kotlin.t;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: AppEventsConversionsAPITransformerWebRequests.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u0012\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0005\u001a\u00020\u00042\b\u0010\u0001\u001a\u0004\u0018\u00010\u00002\b\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\n"}, d2 = {"", "<anonymous parameter 0>", "", "responseCode", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 5, 1})
 /* loaded from: classes.dex */
-final class AppEventsConversionsAPITransformerWebRequests$transformGraphRequestAndSendToCAPIGEndPoint$1$1 extends Lambda implements p<String, Integer, t> {
+final class AppEventsConversionsAPITransformerWebRequests$transformGraphRequestAndSendToCAPIGEndPoint$1$1 extends Lambda implements p_p0<String, Integer, t> {
     final /* synthetic */ List<Map<String, Object>> $processedEvents;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */

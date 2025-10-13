@@ -12,7 +12,7 @@ import kotlin.t;
 import kotlinx.coroutines.h1;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.l;
+import p0.l_p0;
 
 /* compiled from: DebugProbesImpl.kt */
 @Metadata(bv = {}, d1 = {"\u0000P\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u000f\n\u0002\u0018\u0002\n\u0002\b\u0006\bÀ\u0002\u0018\u00002\u00020\u0001:\u00010B\t\b\u0002¢\u0006\u0004\b.\u0010/J\u001d\u0010\u0005\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u0002H\u0002¢\u0006\u0004\b\u0005\u0010\u0006J\u0017\u0010\b\u001a\u00020\u0003*\u0006\u0012\u0002\b\u00030\u0007H\u0002¢\u0006\u0004\b\b\u0010\tJ\u0016\u0010\u000b\u001a\u0004\u0018\u00010\n*\u00020\nH\u0082\u0010¢\u0006\u0004\b\u000b\u0010\fJ\u001b\u0010\u000e\u001a\u00020\u00042\n\u0010\r\u001a\u0006\u0012\u0002\b\u00030\u0007H\u0002¢\u0006\u0004\b\u000e\u0010\u000fR\u0014\u0010\u0013\u001a\u00020\u00108\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0011\u0010\u0012R$\u0010\u0017\u001a\u0012\u0012\b\u0012\u0006\u0012\u0002\b\u00030\u0007\u0012\u0004\u0012\u00020\u00030\u00148\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0015\u0010\u0016R\u0016\u0010\u0019\u001a\u00020\u00188\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0019\u0010\u001aR\u0014\u0010\u001d\u001a\u00020\u001b8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u000e\u0010\u001cR\"\u0010#\u001a\u00020\u00038\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b\u000b\u0010\u001e\u001a\u0004\b\u001f\u0010 \"\u0004\b!\u0010\"R\"\u0010'\u001a\u00020\u00038\u0006@\u0006X\u0086\u000e¢\u0006\u0012\n\u0004\b$\u0010\u001e\u001a\u0004\b%\u0010 \"\u0004\b&\u0010\"R\"\u0010*\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0004\u0018\u00010\u00028\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b(\u0010)R \u0010-\u001a\u000e\u0012\u0004\u0012\u00020\n\u0012\u0004\u0012\u00020+0\u00148\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b,\u0010\u0016¨\u00061"}, d2 = {"Lkotlinx/coroutines/debug/internal/d;", "", "Lkotlin/Function1;", "", "Lkotlin/t;", "d", "()Lp0/l;", "Lkotlinx/coroutines/debug/internal/d$a;", "e", "(Lkotlinx/coroutines/debug/internal/d$a;)Z", "Lkotlin/coroutines/jvm/internal/c;", "g", "(Lkotlin/coroutines/jvm/internal/c;)Lkotlin/coroutines/jvm/internal/c;", "owner", "f", "(Lkotlinx/coroutines/debug/internal/d$a;)V", "Ljava/text/SimpleDateFormat;", "b", "Ljava/text/SimpleDateFormat;", "dateFormat", "Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap;", "c", "Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap;", "capturedCoroutinesMap", "", "installations", "I", "Ljava/util/concurrent/locks/ReentrantReadWriteLock;", "Ljava/util/concurrent/locks/ReentrantReadWriteLock;", "coroutineStateLock", "Z", "getSanitizeStackTraces", "()Z", "setSanitizeStackTraces", "(Z)V", "sanitizeStackTraces", "h", "getEnableCreationStackTraces", "setEnableCreationStackTraces", "enableCreationStackTraces", "i", "Lp0/l;", "dynamicAttach", "Lkotlinx/coroutines/debug/internal/DebugCoroutineInfoImpl;", "j", "callerInfoCache", "<init>", "()V", "a", "kotlinx-coroutines-core"}, k = 1, mv = {1, 6, 0})
@@ -50,7 +50,7 @@ public final class d {
 
     /* renamed from: i, reason: collision with root package name and from kotlin metadata */
     @Nullable
-    private static final l<Boolean, t> dynamicAttach;
+    private static final l_p0<Boolean, t> dynamicAttach;
     private static volatile int installations;
 
     /* renamed from: j, reason: collision with root package name and from kotlin metadata */
@@ -139,7 +139,7 @@ public final class d {
     private d() {
     }
 
-    private final l<Boolean, t> d() {
+    private final l_p0<Boolean, t> d() {
         Object objM158constructorimpl;
         Object objNewInstance;
         try {
@@ -152,11 +152,11 @@ public final class d {
         if (objNewInstance == null) {
             throw new NullPointerException("null cannot be cast to non-null type kotlin.Function1<kotlin.Boolean, kotlin.Unit>");
         }
-        objM158constructorimpl = Result.m158constructorimpl((l) y.b(objNewInstance, 1));
+        objM158constructorimpl = Result.m158constructorimpl((l_p0) y.b(objNewInstance, 1));
         if (Result.m164isFailureimpl(objM158constructorimpl)) {
             objM158constructorimpl = null;
         }
-        return (l) objM158constructorimpl;
+        return (l_p0) objM158constructorimpl;
     }
 
     /* JADX INFO: Access modifiers changed from: private */

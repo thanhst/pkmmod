@@ -1,41 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:padding="@dimen/dp_z_6"
-        android:layout_width="@dimen/dp_z_904"
-        android:layout_height="@dimen/dp_z_134"
-        android:layout_marginTop="@dimen/dp_z_40">
-        <EditText
-            android:textSize="@dimen/sp_z_35"
-            android:textColor="@color/cg_color_black"
-            android:gravity="center_vertical"
-            android:id="@+id/edit_acc"
-            android:background="@drawable/edit_style_2"
-            android:paddingLeft="@dimen/dp_z_120"
-            android:layout_width="@dimen/dp_z_904"
-            android:layout_height="@dimen/dp_z_122"
-            android:hint="@string/txt_hint_account"
-            android:singleLine="true"
-            android:maxLength="50"
-            android:imeOptions="flagNoExtractUi"/>
-        <ImageView
-            android:background="@drawable/cg_uhead"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dp_z_34"
-            android:layout_marginTop="@dimen/dp_z_34"/>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="@dimen/dp_z_6" android:layout_width="@dimen/dp_z_904" android:layout_height="@dimen/dp_z_134" android:layout_marginTop="@dimen/dp_z_40">
+        <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_black" android:gravity="center_vertical" android:id="@id/edit_acc" android:background="@drawable/edit_style_2" android:paddingLeft="@dimen/dp_z_120" android:layout_width="@dimen/dp_z_904" android:layout_height="@dimen/dp_z_122" android:hint="@string/txt_hint_account" android:singleLine="true" android:maxLength="50" android:imeOptions="flagNoExtractUi" />
+        <ImageView android:background="@drawable/cg_uhead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_34" android:layout_marginTop="@dimen/dp_z_34" />
     </RelativeLayout>
-    <Button
-        android:textSize="@dimen/sp_z_44"
-        android:textColor="@color/cg_color_white"
-        android:id="@+id/btn_confirm"
-        android:background="@drawable/cg_btn5"
-        android:layout_width="@dimen/dp_z_896"
-        android:layout_height="@dimen/dp_z_104"
-        android:layout_marginTop="@dimen/dp_z_30"
-        android:text="@string/txt_confirm"/>
+    <Button android:textSize="@dimen/sp_z_44" android:textColor="@color/cg_color_white" android:id="@id/btn_confirm" android:background="@drawable/cg_btn5" android:layout_width="@dimen/dp_z_896" android:layout_height="@dimen/dp_z_104" android:layout_marginTop="@dimen/dp_z_30" android:text="@string/txt_confirm" />
 </LinearLayout>

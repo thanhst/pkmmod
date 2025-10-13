@@ -4,10 +4,16 @@ import kotlin.BuilderInference;
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
 import kotlin.coroutines.EmptyCoroutineContext;
+import kotlin.coroutines.c;
+import kotlin.t;
 import kotlinx.coroutines.CoroutineContextKt;
 import kotlinx.coroutines.CoroutineStart;
 import kotlinx.coroutines.ExperimentalCoroutinesApi;
 import kotlinx.coroutines.g0;
+import p0.a_p0;
+import p0.l_p0;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -21,7 +27,7 @@ public final class ProduceKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final java.lang.Object a(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.n<?> r4, @org.jetbrains.annotations.NotNull p0.a<kotlin.t> r5, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r6) {
+    public static final java.lang.Object a(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.n<?> r4, @org.jetbrains.annotations.NotNull a_p0<t> r5, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r6) {
         /*
             boolean r0 = r6 instanceof kotlinx.coroutines.channels.ProduceKt$awaitClose$1
             if (r0 == 0) goto L13
@@ -106,22 +112,22 @@ public final class ProduceKt {
     }
 
     @NotNull
-    public static final <E> ReceiveChannel<E> b(@NotNull g0 g0Var, @NotNull CoroutineContext coroutineContext, int i2, @NotNull BufferOverflow bufferOverflow, @NotNull CoroutineStart coroutineStart, @Nullable p0.l<? super Throwable, kotlin.t> lVar, @BuilderInference @NotNull p0.p<? super n<? super E>, ? super kotlin.coroutines.c<? super kotlin.t>, ? extends Object> pVar) {
+    public static final <E> ReceiveChannel<E> b(@NotNull g0 g0Var, @NotNull CoroutineContext coroutineContext, int i2, @NotNull BufferOverflow bufferOverflow, @NotNull CoroutineStart coroutineStart, @Nullable l_p0<? super Throwable, t> lP0Var, @BuilderInference @NotNull p_p0<? super n<? super E>, ? super c<? super t>, ? extends Object> pP0Var) {
         m mVar = new m(CoroutineContextKt.d(g0Var, coroutineContext), g.b(i2, bufferOverflow, null, 4, null));
-        if (lVar != null) {
-            mVar.i(lVar);
+        if (lP0Var != null) {
+            mVar.i(lP0Var);
         }
-        mVar.N0(coroutineStart, mVar, pVar);
+        mVar.N0(coroutineStart, mVar, pP0Var);
         return mVar;
     }
 
     @ExperimentalCoroutinesApi
     @NotNull
-    public static final <E> ReceiveChannel<E> c(@NotNull g0 g0Var, @NotNull CoroutineContext coroutineContext, int i2, @BuilderInference @NotNull p0.p<? super n<? super E>, ? super kotlin.coroutines.c<? super kotlin.t>, ? extends Object> pVar) {
-        return b(g0Var, coroutineContext, i2, BufferOverflow.SUSPEND, CoroutineStart.DEFAULT, null, pVar);
+    public static final <E> ReceiveChannel<E> c(@NotNull g0 g0Var, @NotNull CoroutineContext coroutineContext, int i2, @BuilderInference @NotNull p_p0<? super n<? super E>, ? super c<? super t>, ? extends Object> pP0Var) {
+        return b(g0Var, coroutineContext, i2, BufferOverflow.SUSPEND, CoroutineStart.DEFAULT, null, pP0Var);
     }
 
-    public static /* synthetic */ ReceiveChannel d(g0 g0Var, CoroutineContext coroutineContext, int i2, BufferOverflow bufferOverflow, CoroutineStart coroutineStart, p0.l lVar, p0.p pVar, int i3, Object obj) {
+    public static /* synthetic */ ReceiveChannel d(g0 g0Var, CoroutineContext coroutineContext, int i2, BufferOverflow bufferOverflow, CoroutineStart coroutineStart, l_p0 lP0Var, p_p0 pP0Var, int i3, Object obj) {
         if ((i3 & 1) != 0) {
             coroutineContext = EmptyCoroutineContext.INSTANCE;
         }
@@ -136,18 +142,18 @@ public final class ProduceKt {
         }
         CoroutineStart coroutineStart2 = coroutineStart;
         if ((i3 & 16) != 0) {
-            lVar = null;
+            lP0Var = null;
         }
-        return b(g0Var, coroutineContext2, i4, bufferOverflow2, coroutineStart2, lVar, pVar);
+        return b(g0Var, coroutineContext2, i4, bufferOverflow2, coroutineStart2, lP0Var, pP0Var);
     }
 
-    public static /* synthetic */ ReceiveChannel e(g0 g0Var, CoroutineContext coroutineContext, int i2, p0.p pVar, int i3, Object obj) {
+    public static /* synthetic */ ReceiveChannel e(g0 g0Var, CoroutineContext coroutineContext, int i2, p_p0 pP0Var, int i3, Object obj) {
         if ((i3 & 1) != 0) {
             coroutineContext = EmptyCoroutineContext.INSTANCE;
         }
         if ((i3 & 2) != 0) {
             i2 = 0;
         }
-        return c(g0Var, coroutineContext, i2, pVar);
+        return c(g0Var, coroutineContext, i2, pP0Var);
     }
 }

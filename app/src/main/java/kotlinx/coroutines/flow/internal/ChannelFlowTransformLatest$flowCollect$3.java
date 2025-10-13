@@ -1,12 +1,16 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.jvm.internal.Ref$ObjectRef;
 import kotlin.t;
 import kotlinx.coroutines.g0;
 import kotlinx.coroutines.h1;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -14,7 +18,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\u00020\u0002H\u008a@"}, d2 = {"T", "R", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3", f = "Merge.kt", i = {}, l = {27}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class ChannelFlowTransformLatest$flowCollect$3 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
+final class ChannelFlowTransformLatest$flowCollect$3 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
     final /* synthetic */ kotlinx.coroutines.flow.e<R> $collector;
     private /* synthetic */ Object L$0;
     int label;
@@ -41,7 +45,7 @@ final class ChannelFlowTransformLatest$flowCollect$3 extends SuspendLambda imple
         @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\u00020\u0002H\u008a@"}, d2 = {"T", "R", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
         @DebugMetadata(c = "kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2", f = "Merge.kt", i = {}, l = {34}, m = "invokeSuspend", n = {}, s = {})
         /* renamed from: kotlinx.coroutines.flow.internal.ChannelFlowTransformLatest$flowCollect$3$1$2, reason: invalid class name */
-        static final class AnonymousClass2 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
+        static final class AnonymousClass2 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
             final /* synthetic */ kotlinx.coroutines.flow.e<R> $collector;
             final /* synthetic */ T $value;
             int label;
@@ -75,11 +79,11 @@ final class ChannelFlowTransformLatest$flowCollect$3 extends SuspendLambda imple
                 int i2 = this.label;
                 if (i2 == 0) {
                     kotlin.h.b(obj);
-                    p0.q qVar = ((ChannelFlowTransformLatest) this.this$0).transform;
+                    q_p0 qP0Var = ((ChannelFlowTransformLatest) this.this$0).transform;
                     Object obj2 = this.$collector;
                     T t2 = this.$value;
                     this.label = 1;
-                    if (qVar.invoke(obj2, t2, this) == objD) {
+                    if (qP0Var.invoke(obj2, t2, this) == objD) {
                         return objD;
                     }
                 } else {

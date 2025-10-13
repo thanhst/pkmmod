@@ -1,8 +1,12 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.t;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\b\u0012\u0004\u0012\u00028\u00000\u0002H\u008a@"}, d2 = {"E", "K", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$distinctBy$1", f = "Deprecated.kt", i = {0, 0, 1, 1, 1, 2, 2, 2}, l = {387, 388, 390}, m = "invokeSuspend", n = {"$this$produce", "keys", "$this$produce", "keys", "e", "$this$produce", "keys", "k"}, s = {"L$0", "L$1", "L$0", "L$1", "L$3", "L$0", "L$1", "L$3"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$distinctBy$1 extends SuspendLambda implements p0.p<n<Object>, kotlin.coroutines.c<? super kotlin.t>, Object> {
-    final /* synthetic */ p0.p<Object, kotlin.coroutines.c<Object>, Object> $selector;
+final class ChannelsKt__DeprecatedKt$distinctBy$1 extends SuspendLambda implements p_p0<n<Object>, c<? super t>, Object> {
+    final /* synthetic */ p_p0<Object, c<Object>, Object> $selector;
     final /* synthetic */ ReceiveChannel<Object> $this_distinctBy;
     private /* synthetic */ Object L$0;
     Object L$1;
@@ -21,10 +25,10 @@ final class ChannelsKt__DeprecatedKt$distinctBy$1 extends SuspendLambda implemen
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    ChannelsKt__DeprecatedKt$distinctBy$1(ReceiveChannel<Object> receiveChannel, p0.p<Object, ? super kotlin.coroutines.c<Object>, ? extends Object> pVar, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$distinctBy$1> cVar) {
+    ChannelsKt__DeprecatedKt$distinctBy$1(ReceiveChannel<Object> receiveChannel, p_p0<Object, ? super c<Object>, ? extends Object> pP0Var, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$distinctBy$1> cVar) {
         super(2, cVar);
         this.$this_distinctBy = receiveChannel;
-        this.$selector = pVar;
+        this.$selector = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

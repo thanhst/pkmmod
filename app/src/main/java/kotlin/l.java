@@ -4,6 +4,8 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 import kotlin.jvm.JvmInline;
+import q0.a_q0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: UByteArray.kt */
@@ -12,11 +14,11 @@ import org.jetbrains.annotations.NotNull;
 @ExperimentalUnsignedTypes
 @JvmInline
 /* loaded from: classes.dex */
-public final class l implements Collection<k>, q0.a {
+public final class l implements Collection<k>, a_q0 {
 
     /* compiled from: UByteArray.kt */
     @Metadata(bv = {}, d1 = {"\u0000$\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u0012\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0006\b\u0002\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001B\u000f\u0012\u0006\u0010\n\u001a\u00020\u0007¢\u0006\u0004\b\u000f\u0010\u0010J\t\u0010\u0004\u001a\u00020\u0003H\u0096\u0002J\u0016\u0010\u0005\u001a\u00020\u0002H\u0096\u0002ø\u0001\u0000ø\u0001\u0001¢\u0006\u0004\b\u0005\u0010\u0006R\u0014\u0010\n\u001a\u00020\u00078\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\b\u0010\tR\u0016\u0010\u000e\u001a\u00020\u000b8\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\f\u0010\rø\u0001\u0001\u0082\u0002\b\n\u0002\b!\n\u0002\b\u0019¨\u0006\u0011"}, d2 = {"Lkotlin/l$a;", "", "Lkotlin/k;", "", "hasNext", "a", "()B", "", "e", "[B", "array", "", "f", "I", "index", "<init>", "([B)V", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
-    private static final class a implements Iterator<k>, q0.a {
+    private static final class a_q0 implements Iterator<k>, q0.a_q0 {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         @NotNull
@@ -25,7 +27,7 @@ public final class l implements Collection<k>, q0.a {
         /* renamed from: f, reason: collision with root package name and from kotlin metadata */
         private int index;
 
-        public a(@NotNull byte[] array) {
+        public a_q0(@NotNull byte[] array) {
             kotlin.jvm.internal.s.e(array, "array");
             this.array = array;
         }
@@ -58,6 +60,6 @@ public final class l implements Collection<k>, q0.a {
 
     @NotNull
     public static Iterator<k> a(byte[] bArr) {
-        return new a(bArr);
+        return new a_q0(bArr);
     }
 }

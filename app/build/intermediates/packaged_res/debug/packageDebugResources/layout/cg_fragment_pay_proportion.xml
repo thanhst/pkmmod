@@ -1,40 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="@drawable/cg_bg1"
-    android:layout_width="@dimen/dp_z_1226"
-    android:layout_height="@dimen/dp_z_684">
-    <TextView
-        android:textSize="@dimen/sp_z_35"
-        android:textColor="@color/cg_color_trans_gray"
-        android:gravity="center"
-        android:id="@+id/txt_btn"
-        android:layout_width="@dimen/dp_z_1070"
-        android:layout_height="@dimen/dp_z_120"
-        android:text="@string/txt_pay_card_page"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
-    <TextView
-        android:textSize="@dimen/sp_z_35"
-        android:textColor="@color/cg_color_trans_gray"
-        android:gravity="center"
-        android:layout_width="@dimen/dp_z_1070"
-        android:layout_height="@dimen/dp_z_40"
-        android:text="∧"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"/>
-    <RelativeLayout
-        android:background="@drawable/cg_bg_back6"
-        android:padding="@dimen/dp_z_4"
-        android:layout_width="@dimen/dp_z_1000"
-        android:layout_height="@dimen/dp_z_520"
-        android:layout_below="@+id/txt_btn"
-        android:layout_centerHorizontal="true">
-        <ListView
-            android:id="@+id/list_proportion"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:listSelector="@android:color/transparent"
-            android:cacheColorHint="@android:color/transparent"/>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cg_bg1" android:layout_width="@dimen/dp_z_1226" android:layout_height="@dimen/dp_z_684"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_trans_gray" android:gravity="center" android:id="@id/txt_btn" android:layout_width="@dimen/dp_z_1070" android:layout_height="@dimen/dp_z_120" android:text="@string/txt_pay_card_page" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_trans_gray" android:gravity="center" android:layout_width="@dimen/dp_z_1070" android:layout_height="@dimen/dp_z_40" android:text="∧" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:background="@drawable/cg_bg_back6" android:padding="@dimen/dp_z_4" android:layout_width="@dimen/dp_z_1000" android:layout_height="@dimen/dp_z_520" android:layout_below="@id/txt_btn" android:layout_centerHorizontal="true">
+        <ListView android:id="@id/list_proportion" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" />
     </RelativeLayout>
 </RelativeLayout>

@@ -2,6 +2,8 @@ package kotlinx.coroutines.internal;
 
 import java.util.concurrent.atomic.AtomicReferenceArray;
 import kotlin.Metadata;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -37,7 +39,7 @@ public final class y<T> {
             atomicReferenceArray.set(index, value);
             return;
         }
-        AtomicReferenceArray<T> atomicReferenceArray2 = new AtomicReferenceArray<>(s0.l.a(index + 1, length * 2));
+        AtomicReferenceArray<T> atomicReferenceArray2 = new AtomicReferenceArray<>(l_s0.a(index + 1, length * 2));
         for (int i2 = 0; i2 < length; i2++) {
             atomicReferenceArray2.set(i2, atomicReferenceArray.get(i2));
         }

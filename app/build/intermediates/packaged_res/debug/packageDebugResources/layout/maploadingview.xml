@@ -1,46 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:id="@+id/maploadingview"
-    android:clickable="true"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
-        android:gravity="center_vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp">
-        <RelativeLayout
-            android:layout_width="133dp"
-            android:layout_height="wrap_content">
-            <ImageView
-                android:id="@+id/imageView1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/map_loading_bg"
-                android:scaleType="fitXY"
-                android:layout_alignLeft="@+id/progressBar_loading"
-                android:layout_alignTop="@+id/textView_text"
-                android:layout_alignRight="@+id/textView_text"
-                android:layout_alignBottom="@+id/textView_text"/>
-            <ProgressBar
-                android:id="@+id/progressBar_loading"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_toLeftOf="@+id/textView_text"
-                android:layout_centerVertical="true"
-                style="?android:attr/progressBarStyleSmall"/>
-            <TextView
-                android:textSize="18dp"
-                android:textColor="#ffffffff"
-                android:gravity="center"
-                android:id="@+id/textView_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"/>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/maploadingview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip">
+        <RelativeLayout android:layout_width="133.0dip" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/map_loading_bg" android:scaleType="fitXY" android:layout_alignLeft="@id/progressBar_loading" android:layout_alignTop="@id/textView_text" android:layout_alignRight="@id/textView_text" android:layout_alignBottom="@id/textView_text" />
+            <ProgressBar android:id="@id/progressBar_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/textView_text" android:layout_centerVertical="true" style="?android:progressBarStyleSmall" />
+            <TextView android:textSize="18.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/textView_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TextView" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
         </RelativeLayout>
     </LinearLayout>
 </LinearLayout>

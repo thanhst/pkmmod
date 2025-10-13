@@ -4,13 +4,12 @@ import com.facebook.appevents.internal.ViewHierarchyConstants;
 import java.io.Serializable;
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
-import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.internal.Ref$IntRef;
 import kotlin.jvm.internal.s;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: CoroutineContextImpl.kt */
 @SinceKotlin(version = "1.3")
@@ -92,7 +91,7 @@ public final class CombinedContext implements CoroutineContext, Serializable {
         int size = size();
         final CoroutineContext[] coroutineContextArr = new CoroutineContext[size];
         final Ref$IntRef ref$IntRef = new Ref$IntRef();
-        fold(t.f3507a, new p<t, CoroutineContext.a, t>() { // from class: kotlin.coroutines.CombinedContext.writeReplace.1
+        fold(t.f3507a, new p_p0<t, a, t>() { // from class: kotlin.coroutines.CombinedContext.writeReplace.1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(2);
@@ -134,7 +133,7 @@ public final class CombinedContext implements CoroutineContext, Serializable {
     }
 
     @Override // kotlin.coroutines.CoroutineContext
-    public <R> R fold(R initial, @NotNull p<? super R, ? super CoroutineContext.a, ? extends R> operation) {
+    public <R> R fold(R initial, @NotNull p_p0<? super R, ? super a, ? extends R> operation) {
         s.e(operation, "operation");
         return operation.invoke((Object) this.left.fold(initial, operation), this.element);
     }
@@ -180,7 +179,7 @@ public final class CombinedContext implements CoroutineContext, Serializable {
 
     @NotNull
     public String toString() {
-        return '[' + ((String) fold("", new p<String, CoroutineContext.a, String>() { // from class: kotlin.coroutines.CombinedContext.toString.1
+        return '[' + ((String) fold("", new p_p0<String, a, String>() { // from class: kotlin.coroutines.CombinedContext.toString.1
             @Override // p0.p
             @NotNull
             public final String invoke(@NotNull String acc, @NotNull CoroutineContext.a element) {

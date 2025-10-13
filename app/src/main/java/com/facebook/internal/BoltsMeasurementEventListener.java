@@ -12,6 +12,8 @@ import java.util.Set;
 import kotlin.Metadata;
 import kotlin.jvm.JvmStatic;
 import kotlin.text.Regex;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -136,9 +138,9 @@ public final class BoltsMeasurementEventListener extends BroadcastReceiver {
             return;
         }
         try {
-            u.a aVarB = u.a.b(this.applicationContext);
-            kotlin.jvm.internal.s.d(aVarB, "getInstance(applicationContext)");
-            aVarB.e(this);
+            a_u aUVarB = a_u.b(this.applicationContext);
+            kotlin.jvm.internal.s.d(aUVarB, "getInstance(applicationContext)");
+            aUVarB.e(this);
         } catch (Throwable th) {
             CrashShieldHandler.handleThrowable(th, this);
         }
@@ -163,9 +165,9 @@ public final class BoltsMeasurementEventListener extends BroadcastReceiver {
             return;
         }
         try {
-            u.a aVarB = u.a.b(this.applicationContext);
-            kotlin.jvm.internal.s.d(aVarB, "getInstance(applicationContext)");
-            aVarB.c(this, new IntentFilter(MEASUREMENT_EVENT_NOTIFICATION_NAME));
+            a_u aUVarB = a_u.b(this.applicationContext);
+            kotlin.jvm.internal.s.d(aUVarB, "getInstance(applicationContext)");
+            aUVarB.c(this, new IntentFilter(MEASUREMENT_EVENT_NOTIFICATION_NAME));
         } catch (Throwable th) {
             CrashShieldHandler.handleThrowable(th, this);
         }

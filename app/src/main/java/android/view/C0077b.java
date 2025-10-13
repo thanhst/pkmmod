@@ -2,12 +2,12 @@ package android.view;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.view.Recreator;
+
 import androidx.annotation.MainThread;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.k;
 import androidx.lifecycle.m;
-import i.b;
+import i.b_i;
 import java.util.Iterator;
 import java.util.Map;
 import kotlin.Metadata;
@@ -43,7 +43,7 @@ public final class C0077b {
 
     /* renamed from: a, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final b<String, c> components = new b<>();
+    private final b_i<String, c> components = new b_i<>();
 
     /* renamed from: f, reason: collision with root package name and from kotlin metadata */
     private boolean isAllowingSavingState = true;
@@ -165,7 +165,7 @@ public final class C0077b {
         if (bundle2 != null) {
             bundle.putAll(bundle2);
         }
-        b<String, c>.d dVarC = this.components.c();
+        b_i<String, c>.d dVarC = this.components.c();
         s.d(dVarC, "this.components.iteratorWithAdditions()");
         while (dVarC.hasNext()) {
             Map.Entry next = dVarC.next();

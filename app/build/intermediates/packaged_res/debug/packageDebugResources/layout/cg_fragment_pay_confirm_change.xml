@@ -1,99 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="@drawable/cg_bg_back7"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <include
-        android:id="@+id/layout_title"
-        layout="@layout/cg_card_title_lay"/>
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/layout_title">
-        <TextView
-            android:textSize="@dimen/sp_z_40"
-            android:textColor="@color/cg_color_gray4"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/dp_z_50"
-            android:layout_marginLeft="@dimen/dp_z_58"
-            android:layout_marginTop="@dimen/dp_z_90"
-            android:text="@string/txt_name_product"/>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_z_100"
-            android:layout_marginLeft="@dimen/dp_z_58"
-            android:layout_marginTop="@dimen/dp_z_18"
-            android:layout_marginRight="@dimen/dp_z_58">
-            <TextView
-                android:textSize="@dimen/sp_z_40"
-                android:textColor="@color/cg_color_black"
-                android:gravity="center"
-                android:id="@+id/tv_product"
-                android:background="@color/cg_color_white"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="4.99 USD"
-                android:drawableRight="@drawable/cg_shape_triangle_top"/>
-            <ImageView
-                android:layout_width="@dimen/dp_z_60"
-                android:layout_height="@dimen/dp_z_60"
-                android:layout_marginRight="@dimen/dp_z_6"
-                android:src="@drawable/cg_login_select_icon"
-                android:scaleType="fitXY"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"/>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/cg_bg_back7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/layout_title" layout="@layout/cg_card_title_lay" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/layout_title">
+        <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_gray4" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_50" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginTop="@dimen/dp_z_90" android:text="@string/txt_name_product" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_100" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginTop="@dimen/dp_z_18" android:layout_marginRight="@dimen/dp_z_58">
+            <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_black" android:gravity="center" android:id="@id/tv_product" android:background="@color/cg_color_white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="4.99 USD" android:drawableRight="@drawable/cg_shape_triangle_top" />
+            <ImageView android:layout_width="@dimen/dp_z_60" android:layout_height="@dimen/dp_z_60" android:layout_marginRight="@dimen/dp_z_6" android:src="@drawable/cg_login_select_icon" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
         </RelativeLayout>
-        <TextView
-            android:textSize="@dimen/sp_z_40"
-            android:textColor="@color/cg_color_gray4"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/dp_z_50"
-            android:layout_marginLeft="@dimen/dp_z_64"
-            android:layout_marginTop="@dimen/dp_z_70"
-            android:text="@string/txt_need_pay"/>
-        <TextView
-            android:textSize="@dimen/sp_z_56"
-            android:textColor="@color/cg_color_light_black1"
-            android:id="@+id/tv_virtual_coin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/dp_z_64"
-            android:layout_marginTop="@dimen/dp_z_20"
-            android:text="0KRW"/>
-        <Button
-            android:textSize="@dimen/sp_z_40"
-            android:textColor="@color/cg_color_white"
-            android:layout_gravity="center_horizontal"
-            android:id="@+id/btn_buy"
-            android:background="@drawable/cg_btn_bg_light_blue3"
-            android:layout_width="@dimen/dp_z_690"
-            android:layout_height="@dimen/dp_z_110"
-            android:layout_marginTop="@dimen/dp_z_60"
-            android:text="@string/cg_txt_consume_buy"/>
+        <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_gray4" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_50" android:layout_marginLeft="@dimen/dp_z_64" android:layout_marginTop="@dimen/dp_z_70" android:text="@string/txt_need_pay" />
+        <TextView android:textSize="@dimen/sp_z_56" android:textColor="@color/cg_color_light_black1" android:id="@id/tv_virtual_coin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_64" android:layout_marginTop="@dimen/dp_z_20" android:text="0KRW" />
+        <Button android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_white" android:layout_gravity="center_horizontal" android:id="@id/btn_buy" android:background="@drawable/cg_btn_bg_light_blue3" android:layout_width="@dimen/dp_z_690" android:layout_height="@dimen/dp_z_110" android:layout_marginTop="@dimen/dp_z_60" android:text="@string/cg_txt_consume_buy" />
     </LinearLayout>
-    <RelativeLayout
-        android:id="@+id/layout_select_list_layout"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_z_500"
-        android:layout_marginLeft="@dimen/dp_z_58"
-        android:layout_marginTop="@dimen/dp_z_360"
-        android:layout_marginRight="@dimen/dp_z_58"
-        android:layout_centerHorizontal="true">
-        <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq
-            android:id="@+id/layout_select_list"
-            android:background="@color/cg_color_white"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true">
-            <ListView
-                android:id="@+id/list_select"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:cacheColorHint="@android:color/transparent"
-                android:divider="@color/cg_color_grary"
-                android:dividerHeight="@dimen/dp_z_2"/>
+    <RelativeLayout android:id="@id/layout_select_list_layout" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_500" android:layout_marginLeft="@dimen/dp_z_58" android:layout_marginTop="@dimen/dp_z_360" android:layout_marginRight="@dimen/dp_z_58" android:layout_centerHorizontal="true">
+        <com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq android:id="@id/layout_select_list" android:background="@color/cg_color_white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <ListView android:id="@id/list_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@android:color/transparent" android:divider="@color/cg_color_grary" android:dividerHeight="@dimen/dp_z_2" />
         </com.sfyvctwaqbjhki.uwmpqfh.qnaumypvbsxtz.SmMyRuq>
     </RelativeLayout>
 </RelativeLayout>

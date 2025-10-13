@@ -15,6 +15,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
+import s.a_s;
+
 /* loaded from: classes.dex */
 public class SupportRequestManagerFragment extends Fragment {
     private static final String TAG = "SupportRMFragment";
@@ -113,7 +115,7 @@ public class SupportRequestManagerFragment extends Fragment {
 
     @Override // androidx.fragment.app.Fragment, androidx.lifecycle.i
     @NonNull
-    public /* bridge */ /* synthetic */ s.a getDefaultViewModelCreationExtras() {
+    public /* bridge */ /* synthetic */ a_s getDefaultViewModelCreationExtras() {
         return h.a(this);
     }
 

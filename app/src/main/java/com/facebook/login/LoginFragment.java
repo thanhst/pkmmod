@@ -13,11 +13,15 @@ import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
-import com.facebook.login.LoginClient;
+
 import com.facebook.share.internal.ShareConstants;
+
+import d.c_d;
 import kotlin.Metadata;
 import kotlin.jvm.internal.s;
 import kotlin.t;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -53,8 +57,8 @@ public class LoginFragment extends Fragment {
     @Nullable
     private LoginClient.Request request;
 
-    private final p0.l<ActivityResult, t> getLoginMethodHandlerCallback(final FragmentActivity fragmentActivity) {
-        return new p0.l<ActivityResult, t>() { // from class: com.facebook.login.LoginFragment.getLoginMethodHandlerCallback.1
+    private final l_p0<ActivityResult, t> getLoginMethodHandlerCallback(final FragmentActivity fragmentActivity) {
+        return new l_p0<ActivityResult, t>() { // from class: com.facebook.login.LoginFragment.getLoginMethodHandlerCallback.1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(1);
@@ -107,7 +111,7 @@ public class LoginFragment extends Fragment {
 
     /* JADX INFO: Access modifiers changed from: private */
     /* renamed from: onCreate$lambda-1, reason: not valid java name */
-    public static final void m144onCreate$lambda1(p0.l tmp0, ActivityResult activityResult) {
+    public static final void m144onCreate$lambda1(l_p0 tmp0, ActivityResult activityResult) {
         s.e(tmp0, "$tmp0");
         tmp0.invoke(activityResult);
     }
@@ -206,9 +210,9 @@ public class LoginFragment extends Fragment {
         if (intent != null && (bundleExtra = intent.getBundleExtra(REQUEST_KEY)) != null) {
             this.request = (LoginClient.Request) bundleExtra.getParcelable("request");
         }
-        d.c cVar = new d.c();
-        final p0.l<ActivityResult, t> loginMethodHandlerCallback = getLoginMethodHandlerCallback(activity);
-        android.view.result.b<Intent> bVarRegisterForActivityResult = registerForActivityResult(cVar, new android.view.result.a() { // from class: com.facebook.login.k
+        c_d cDVar = new c_d();
+        final l_p0<ActivityResult, t> loginMethodHandlerCallback = getLoginMethodHandlerCallback(activity);
+        android.view.result.b<Intent> bVarRegisterForActivityResult = registerForActivityResult(cDVar, new android.view.result.a() { // from class: com.facebook.login.k
             @Override // android.view.result.a
             public final void onActivityResult(Object obj) {
                 LoginFragment.m144onCreate$lambda1(loginMethodHandlerCallback, (ActivityResult) obj);

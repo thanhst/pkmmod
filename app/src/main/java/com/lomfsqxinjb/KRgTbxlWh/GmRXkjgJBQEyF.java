@@ -5,8 +5,10 @@ import android.graphics.Bitmap;
 import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.util.Log;
+
+import com.helpergames.Logger;
 import com.helpergames.NHelper;
-import j0.l;
+import j0.l_j0;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.util.LinkedList;
@@ -164,7 +166,7 @@ public class GmRXkjgJBQEyF {
         paint.setTextSize(i2);
         paint.setAntiAlias(true);
         try {
-            paint.setTypeface(l.a(f2949a, str));
+            paint.setTypeface(l_j0.a(f2949a, str));
         } catch (Exception unused) {
             Log.e("GmRXkjgJBQEyF", "error to create ttf type face: " + str);
             paint.setTypeface(Typeface.create(Typeface.DEFAULT, 0));
@@ -204,6 +206,7 @@ public class GmRXkjgJBQEyF {
     }
 
     private static String[] l(String str, int i2, int i3, Paint paint) {
+        Logger.d("Có vẻ là cái hàm này để vẽ giao diện, hàm L");
         String[] strArrSplit = str.split("\\n");
         Paint.FontMetricsInt fontMetricsInt = paint.getFontMetricsInt();
         int iCeil = i3 / ((int) Math.ceil(fontMetricsInt.bottom - fontMetricsInt.top));

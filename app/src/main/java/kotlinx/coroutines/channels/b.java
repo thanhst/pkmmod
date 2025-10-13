@@ -6,11 +6,14 @@ import kotlin.Metadata;
 import kotlin.Result;
 import kotlin.jvm.JvmField;
 import kotlin.jvm.internal.y;
+import kotlin.t;
 import kotlinx.coroutines.i0;
 import kotlinx.coroutines.internal.LockFreeLinkedListNode;
 import kotlinx.coroutines.internal.OnUndeliveredElementKt;
 import kotlinx.coroutines.internal.UndeliveredElementException;
 import kotlinx.coroutines.internal.d0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -25,7 +28,7 @@ public abstract class b<E> implements s<E> {
     /* renamed from: e, reason: collision with root package name and from kotlin metadata */
     @JvmField
     @Nullable
-    protected final p0.l<E, kotlin.t> onUndeliveredElement;
+    protected final l_p0<E, t> onUndeliveredElement;
 
     /* renamed from: f, reason: collision with root package name and from kotlin metadata */
     @NotNull
@@ -108,8 +111,8 @@ public abstract class b<E> implements s<E> {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    public b(@Nullable p0.l<? super E, kotlin.t> lVar) {
-        this.onUndeliveredElement = lVar;
+    public b(@Nullable l_p0<? super E, t> lP0Var) {
+        this.onUndeliveredElement = lP0Var;
     }
 
     /* JADX WARN: Removed duplicated region for block: B:26:0x0061  */
@@ -274,8 +277,8 @@ public abstract class b<E> implements s<E> {
         UndeliveredElementException undeliveredElementExceptionD;
         m(jVar);
         Throwable thY = jVar.Y();
-        p0.l<E, kotlin.t> lVar = this.onUndeliveredElement;
-        if (lVar == null || (undeliveredElementExceptionD = OnUndeliveredElementKt.d(lVar, e2, null, 2, null)) == null) {
+        l_p0<E, t> lP0Var = this.onUndeliveredElement;
+        if (lP0Var == null || (undeliveredElementExceptionD = OnUndeliveredElementKt.d(lP0Var, e2, null, 2, null)) == null) {
             Result.Companion companion = Result.INSTANCE;
             cVar.resumeWith(Result.m158constructorimpl(kotlin.h.a(thY)));
         } else {
@@ -291,7 +294,7 @@ public abstract class b<E> implements s<E> {
         if (obj == null || obj == (d0Var = kotlinx.coroutines.channels.a.f3580f) || !kotlin.i.a(f3581g, this, obj, d0Var)) {
             return;
         }
-        ((p0.l) y.b(obj, 1)).invoke(cause);
+        ((l_p0) y.b(obj, 1)).invoke(cause);
     }
 
     /* JADX INFO: Access modifiers changed from: private */
@@ -556,7 +559,7 @@ public abstract class b<E> implements s<E> {
     }
 
     @Override // kotlinx.coroutines.channels.s
-    public void x(@NotNull p0.l<? super Throwable, kotlin.t> handler) {
+    public void x(@NotNull l_p0<? super Throwable, t> handler) {
         AtomicReferenceFieldUpdater atomicReferenceFieldUpdater = f3581g;
         if (!kotlin.i.a(atomicReferenceFieldUpdater, this, null, handler)) {
             Object obj = this.onCloseHandler;

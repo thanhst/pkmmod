@@ -1,7 +1,6 @@
 package kotlin.jvm.internal;
 
 import kotlin.SinceKotlin;
-import kotlin.reflect.l;
 
 /* loaded from: classes.dex */
 public abstract class PropertyReference0 extends PropertyReference implements kotlin.reflect.l {
@@ -32,7 +31,7 @@ public abstract class PropertyReference0 extends PropertyReference implements ko
     }
 
     @Override // kotlin.jvm.internal.PropertyReference
-    public l.a getGetter() {
+    public a_p0 getGetter() {
         return ((kotlin.reflect.l) getReflected()).getGetter();
     }
 

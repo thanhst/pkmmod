@@ -1,6 +1,8 @@
 package kotlin.text;
 
 import kotlin.Metadata;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,10 +12,10 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public class l {
     /* JADX WARN: Multi-variable type inference failed */
-    public static <T> void a(@NotNull Appendable appendable, T t2, @Nullable p0.l<? super T, ? extends CharSequence> lVar) {
+    public static <T> void a(@NotNull Appendable appendable, T t2, @Nullable l_p0<? super T, ? extends CharSequence> lP0Var) {
         kotlin.jvm.internal.s.e(appendable, "<this>");
-        if (lVar != null) {
-            appendable.append(lVar.invoke(t2));
+        if (lP0Var != null) {
+            appendable.append(lP0Var.invoke(t2));
             return;
         }
         if (t2 == 0 ? true : t2 instanceof CharSequence) {

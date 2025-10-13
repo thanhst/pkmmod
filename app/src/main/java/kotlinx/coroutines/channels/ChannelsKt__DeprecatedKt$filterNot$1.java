@@ -3,6 +3,8 @@ package kotlinx.coroutines.channels;
 import kotlin.Metadata;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,15 +12,15 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\n\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u00002\u0006\u0010\u0001\u001a\u00028\u0000H\u008a@"}, d2 = {"E", "it", "", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filterNot$1", f = "Deprecated.kt", i = {}, l = {222}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$filterNot$1 extends SuspendLambda implements p0.p {
-    final /* synthetic */ p0.p $predicate;
+final class ChannelsKt__DeprecatedKt$filterNot$1 extends SuspendLambda implements p_p0 {
+    final /* synthetic */ p_p0 $predicate;
     /* synthetic */ Object L$0;
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    ChannelsKt__DeprecatedKt$filterNot$1(p0.p pVar, kotlin.coroutines.c cVar) {
+    ChannelsKt__DeprecatedKt$filterNot$1(p_p0 pP0Var, kotlin.coroutines.c cVar) {
         super(2, cVar);
-        this.$predicate = pVar;
+        this.$predicate = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
@@ -43,9 +45,9 @@ final class ChannelsKt__DeprecatedKt$filterNot$1 extends SuspendLambda implement
         if (i2 == 0) {
             kotlin.h.b(obj);
             Object obj2 = this.L$0;
-            p0.p pVar = this.$predicate;
+            p_p0 pP0Var = this.$predicate;
             this.label = 1;
-            obj = pVar.invoke(obj2, this);
+            obj = pP0Var.invoke(obj2, this);
             if (obj == objD) {
                 return objD;
             }

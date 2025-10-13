@@ -1,8 +1,11 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0000\u0010\u0004\u001a\u00020\u0003\"\b\b\u0000\u0010\u0001*\u00020\u00002\b\u0010\u0002\u001a\u0004\u0018\u00018\u0000H\u008a@"}, d2 = {"", "E", "it", "", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filterNotNull$1", f = "Deprecated.kt", i = {}, l = {}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$filterNotNull$1 extends SuspendLambda implements p0.p<Object, kotlin.coroutines.c<? super Boolean>, Object> {
+final class ChannelsKt__DeprecatedKt$filterNotNull$1 extends SuspendLambda implements p_p0<Object, c<? super Boolean>, Object> {
     /* synthetic */ Object L$0;
     int label;
 

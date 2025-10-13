@@ -3,6 +3,9 @@ package kotlinx.coroutines.channels;
 import kotlin.Metadata;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,8 +13,8 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\b\u0012\u0004\u0012\u00028\u00000\u0001H\u008a@"}, d2 = {"E", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filterIndexed$1", f = "Deprecated.kt", i = {0, 0, 1, 1, 1, 2, 2}, l = {211, 212, 212}, m = "invokeSuspend", n = {"$this$produce", "index", "$this$produce", "e", "index", "$this$produce", "index"}, s = {"L$0", "I$0", "L$0", "L$2", "I$0", "L$0", "I$0"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$filterIndexed$1 extends SuspendLambda implements p0.p {
-    final /* synthetic */ p0.q $predicate;
+final class ChannelsKt__DeprecatedKt$filterIndexed$1 extends SuspendLambda implements p_p0 {
+    final /* synthetic */ q_p0 $predicate;
     final /* synthetic */ ReceiveChannel $this_filterIndexed;
     int I$0;
     private /* synthetic */ Object L$0;
@@ -20,10 +23,10 @@ final class ChannelsKt__DeprecatedKt$filterIndexed$1 extends SuspendLambda imple
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    ChannelsKt__DeprecatedKt$filterIndexed$1(ReceiveChannel receiveChannel, p0.q qVar, kotlin.coroutines.c cVar) {
+    ChannelsKt__DeprecatedKt$filterIndexed$1(ReceiveChannel receiveChannel, q_p0 qP0Var, kotlin.coroutines.c cVar) {
         super(2, cVar);
         this.$this_filterIndexed = receiveChannel;
-        this.$predicate = qVar;
+        this.$predicate = qP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

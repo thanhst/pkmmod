@@ -2,19 +2,20 @@ package kotlin.sequences;
 
 import java.util.Iterator;
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: _Sequences.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\b\b\u0001\u0010\u0001*\u00028\u0000*\b\u0012\u0004\u0012\u00028\u00000\u0002H\u008a@"}, d2 = {"S", "T", "Lkotlin/sequences/f;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 7, 1})
 @DebugMetadata(c = "kotlin.sequences.SequencesKt___SequencesKt$runningReduce$1", f = "_Sequences.kt", i = {0, 0, 0, 1, 1, 1}, l = {2344, 2347}, m = "invokeSuspend", n = {"$this$sequence", "iterator", "accumulator", "$this$sequence", "iterator", "accumulator"}, s = {"L$0", "L$1", "L$2", "L$0", "L$1", "L$2"})
 /* loaded from: classes.dex */
-final class SequencesKt___SequencesKt$runningReduce$1 extends RestrictedSuspendLambda implements p<f<Object>, kotlin.coroutines.c<? super t>, Object> {
-    final /* synthetic */ p<Object, Object, Object> $operation;
+final class SequencesKt___SequencesKt$runningReduce$1 extends RestrictedSuspendLambda implements p_p0<f<Object>, c<? super t>, Object> {
+    final /* synthetic */ p_p0<Object, Object, Object> $operation;
     final /* synthetic */ d<Object> $this_runningReduce;
     private /* synthetic */ Object L$0;
     Object L$1;
@@ -22,10 +23,10 @@ final class SequencesKt___SequencesKt$runningReduce$1 extends RestrictedSuspendL
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    SequencesKt___SequencesKt$runningReduce$1(d<Object> dVar, p<Object, Object, Object> pVar, kotlin.coroutines.c<? super SequencesKt___SequencesKt$runningReduce$1> cVar) {
+    SequencesKt___SequencesKt$runningReduce$1(d<Object> dVar, p_p0<Object, Object, Object> pP0Var, kotlin.coroutines.c<? super SequencesKt___SequencesKt$runningReduce$1> cVar) {
         super(2, cVar);
         this.$this_runningReduce = dVar;
-        this.$operation = pVar;
+        this.$operation = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

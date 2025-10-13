@@ -1,8 +1,13 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.t;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,9 +15,9 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\b\u0012\u0004\u0012\u00028\u00010\u0002H\u008a@"}, d2 = {"E", "R", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$mapIndexed$1", f = "Deprecated.kt", i = {0, 0, 1, 1, 2, 2}, l = {344, 345, 345}, m = "invokeSuspend", n = {"$this$produce", "index", "$this$produce", "index", "$this$produce", "index"}, s = {"L$0", "I$0", "L$0", "I$0", "L$0", "I$0"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$mapIndexed$1 extends SuspendLambda implements p0.p<n<Object>, kotlin.coroutines.c<? super kotlin.t>, Object> {
+final class ChannelsKt__DeprecatedKt$mapIndexed$1 extends SuspendLambda implements p_p0<n<Object>, c<? super t>, Object> {
     final /* synthetic */ ReceiveChannel<Object> $this_mapIndexed;
-    final /* synthetic */ p0.q<Integer, Object, kotlin.coroutines.c<Object>, Object> $transform;
+    final /* synthetic */ q_p0<Integer, Object, c<Object>, Object> $transform;
     int I$0;
     private /* synthetic */ Object L$0;
     Object L$1;
@@ -21,10 +26,10 @@ final class ChannelsKt__DeprecatedKt$mapIndexed$1 extends SuspendLambda implemen
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    ChannelsKt__DeprecatedKt$mapIndexed$1(ReceiveChannel<Object> receiveChannel, p0.q<? super Integer, Object, ? super kotlin.coroutines.c<Object>, ? extends Object> qVar, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$mapIndexed$1> cVar) {
+    ChannelsKt__DeprecatedKt$mapIndexed$1(ReceiveChannel<Object> receiveChannel, q_p0<? super Integer, Object, ? super c<Object>, ? extends Object> qP0Var, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$mapIndexed$1> cVar) {
         super(2, cVar);
         this.$this_mapIndexed = receiveChannel;
-        this.$transform = qVar;
+        this.$transform = qP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

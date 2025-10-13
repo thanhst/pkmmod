@@ -14,6 +14,7 @@ import kotlin.Metadata;
 import kotlin.collections.i;
 import kotlin.collections.m;
 import kotlin.jvm.internal.s;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -36,7 +37,7 @@ public final class ListBuilder<E> extends kotlin.collections.e<E> implements Ran
 
     /* compiled from: ListBuilder.kt */
     @Metadata(bv = {}, d1 = {"\u0000*\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010+\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u000b\b\u0002\u0018\u0000*\u0004\b\u0001\u0010\u00012\b\u0012\u0004\u0012\u00028\u00010\u0002B\u001f\b\u0016\u0012\f\u0010\u0015\u001a\b\u0012\u0004\u0012\u00028\u00010\u0012\u0012\u0006\u0010\u0018\u001a\u00020\u0006¢\u0006\u0004\b\u001b\u0010\u001cJ\b\u0010\u0004\u001a\u00020\u0003H\u0016J\t\u0010\u0005\u001a\u00020\u0003H\u0096\u0002J\b\u0010\u0007\u001a\u00020\u0006H\u0016J\b\u0010\b\u001a\u00020\u0006H\u0016J\u000f\u0010\t\u001a\u00028\u0001H\u0016¢\u0006\u0004\b\t\u0010\nJ\u0010\u0010\u000b\u001a\u00028\u0001H\u0096\u0002¢\u0006\u0004\b\u000b\u0010\nJ\u0017\u0010\u000e\u001a\u00020\r2\u0006\u0010\f\u001a\u00028\u0001H\u0016¢\u0006\u0004\b\u000e\u0010\u000fJ\u0017\u0010\u0010\u001a\u00020\r2\u0006\u0010\f\u001a\u00028\u0001H\u0016¢\u0006\u0004\b\u0010\u0010\u000fJ\b\u0010\u0011\u001a\u00020\rH\u0016R\u001a\u0010\u0015\u001a\b\u0012\u0004\u0012\u00028\u00010\u00128\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0013\u0010\u0014R\u0016\u0010\u0018\u001a\u00020\u00068\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0016\u0010\u0017R\u0016\u0010\u001a\u001a\u00020\u00068\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0019\u0010\u0017¨\u0006\u001d"}, d2 = {"Lkotlin/collections/builders/ListBuilder$a;", "E", "", "", "hasPrevious", "hasNext", "", "previousIndex", "nextIndex", "previous", "()Ljava/lang/Object;", "next", "element", "Lkotlin/t;", "set", "(Ljava/lang/Object;)V", "add", "remove", "Lkotlin/collections/builders/ListBuilder;", "e", "Lkotlin/collections/builders/ListBuilder;", "list", "f", "I", "index", "g", "lastIndex", "<init>", "(Lkotlin/collections/builders/ListBuilder;I)V", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
-    private static final class a<E> implements ListIterator<E>, q0.a {
+    private static final class a_q0<E> implements ListIterator<E>, q0.a_q0 {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         @NotNull
@@ -48,7 +49,7 @@ public final class ListBuilder<E> extends kotlin.collections.e<E> implements Ran
         /* renamed from: g, reason: collision with root package name and from kotlin metadata */
         private int lastIndex;
 
-        public a(@NotNull ListBuilder<E> list, int i2) {
+        public a_q0(@NotNull ListBuilder<E> list, int i2) {
             s.e(list, "list");
             this.list = list;
             this.index = i2;
@@ -340,7 +341,7 @@ public final class ListBuilder<E> extends kotlin.collections.e<E> implements Ran
     @Override // java.util.AbstractList, java.util.AbstractCollection, java.util.Collection, java.lang.Iterable, java.util.List
     @NotNull
     public Iterator<E> iterator() {
-        return new a(this, 0);
+        return new a_q0(this, 0);
     }
 
     @Override // java.util.AbstractList, java.util.List
@@ -356,7 +357,7 @@ public final class ListBuilder<E> extends kotlin.collections.e<E> implements Ran
     @Override // java.util.AbstractList, java.util.List
     @NotNull
     public ListIterator<E> listIterator() {
-        return new a(this, 0);
+        return new a_q0(this, 0);
     }
 
     @Override // java.util.AbstractCollection, java.util.Collection, java.util.List
@@ -450,7 +451,7 @@ public final class ListBuilder<E> extends kotlin.collections.e<E> implements Ran
     @NotNull
     public ListIterator<E> listIterator(int index) {
         kotlin.collections.b.INSTANCE.b(index, this.length);
-        return new a(this, index);
+        return new a_q0(this, index);
     }
 
     @Override // kotlin.collections.e, java.util.AbstractList, java.util.List

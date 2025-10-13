@@ -2,6 +2,9 @@ package kotlinx.coroutines.internal;
 
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
+import kotlin.t;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,8 +13,8 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public final class OnUndeliveredElementKt {
     @NotNull
-    public static final <E> p0.l<Throwable, kotlin.t> a(@NotNull final p0.l<? super E, kotlin.t> lVar, final E e2, @NotNull final CoroutineContext coroutineContext) {
-        return new p0.l<Throwable, kotlin.t>() { // from class: kotlinx.coroutines.internal.OnUndeliveredElementKt$bindCancellationFun$1
+    public static final <E> l_p0<Throwable, t> a(@NotNull final l_p0<? super E, t> lP0Var, final E e2, @NotNull final CoroutineContext coroutineContext) {
+        return new l_p0<Throwable, t>() { // from class: kotlinx.coroutines.internal.OnUndeliveredElementKt$bindCancellationFun$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             /* JADX WARN: Multi-variable type inference failed */
             {
@@ -26,13 +29,13 @@ public final class OnUndeliveredElementKt {
 
             /* renamed from: invoke, reason: avoid collision after fix types in other method */
             public final void invoke2(@NotNull Throwable th) {
-                OnUndeliveredElementKt.b(lVar, e2, coroutineContext);
+                OnUndeliveredElementKt.b(lP0Var, e2, coroutineContext);
             }
         };
     }
 
-    public static final <E> void b(@NotNull p0.l<? super E, kotlin.t> lVar, E e2, @NotNull CoroutineContext coroutineContext) {
-        UndeliveredElementException undeliveredElementExceptionC = c(lVar, e2, null);
+    public static final <E> void b(@NotNull l_p0<? super E, t> lP0Var, E e2, @NotNull CoroutineContext coroutineContext) {
+        UndeliveredElementException undeliveredElementExceptionC = c(lP0Var, e2, null);
         if (undeliveredElementExceptionC == null) {
             return;
         }
@@ -41,9 +44,9 @@ public final class OnUndeliveredElementKt {
 
     /* JADX WARN: Multi-variable type inference failed */
     @Nullable
-    public static final <E> UndeliveredElementException c(@NotNull p0.l<? super E, kotlin.t> lVar, E e2, @Nullable UndeliveredElementException undeliveredElementException) {
+    public static final <E> UndeliveredElementException c(@NotNull l_p0<? super E, t> lP0Var, E e2, @Nullable UndeliveredElementException undeliveredElementException) {
         try {
-            lVar.invoke(e2);
+            lP0Var.invoke(e2);
         } catch (Throwable th) {
             if (undeliveredElementException == null || undeliveredElementException.getCause() == th) {
                 return new UndeliveredElementException(kotlin.jvm.internal.s.m("Exception in undelivered element handler for ", e2), th);
@@ -53,10 +56,10 @@ public final class OnUndeliveredElementKt {
         return undeliveredElementException;
     }
 
-    public static /* synthetic */ UndeliveredElementException d(p0.l lVar, Object obj, UndeliveredElementException undeliveredElementException, int i2, Object obj2) {
+    public static /* synthetic */ UndeliveredElementException d(l_p0 lP0Var, Object obj, UndeliveredElementException undeliveredElementException, int i2, Object obj2) {
         if ((i2 & 2) != 0) {
             undeliveredElementException = null;
         }
-        return c(lVar, obj, undeliveredElementException);
+        return c(lP0Var, obj, undeliveredElementException);
     }
 }

@@ -5,13 +5,13 @@ import androidx.annotation.MainThread;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.app.j;
-import d.a;
+import d.a_d;
 
 /* compiled from: ActivityResultLauncher.java */
 /* loaded from: classes.dex */
 public abstract class b<I> {
     @NonNull
-    public abstract a<I, ?> a();
+    public abstract a_d<I, ?> a();
 
     public void b(@SuppressLint({"UnknownNullness"}) I i2) {
         c(i2, null);

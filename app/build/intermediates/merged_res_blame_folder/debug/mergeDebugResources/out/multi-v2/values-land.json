@@ -4,20 +4,20 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-land\\dimens.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-land\\dimens.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
-                        "startOffsets": "57,128,200",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "122,194,263"
+                        "startOffsets": "57,131,206",
+                        "endColumns": "72,73,70",
+                        "endOffsets": "125,200,272"
                     },
                     "to": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
+                        "startOffsets": "55,128,202",
+                        "endColumns": "72,73,70",
+                        "endOffsets": "123,197,268"
                     }
                 }
             ]

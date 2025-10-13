@@ -6,7 +6,7 @@ import android.util.AttributeSet;
 import com.facebook.common.R;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.CallbackManagerImpl;
-import e.a;
+import e.a_e;
 
 /* loaded from: classes.dex */
 public final class ShareButton extends ShareButtonBase {
@@ -17,7 +17,7 @@ public final class ShareButton extends ShareButtonBase {
     @Override // com.facebook.share.widget.ShareButtonBase, com.facebook.FacebookButtonBase
     protected void configureButton(Context context, AttributeSet attributeSet, int i2, int i3) {
         super.configureButton(context, attributeSet, i2, i3);
-        setCompoundDrawablesWithIntrinsicBounds(a.b(getContext(), R.drawable.com_facebook_button_icon), (Drawable) null, (Drawable) null, (Drawable) null);
+        setCompoundDrawablesWithIntrinsicBounds(a_e.b(getContext(), R.drawable.com_facebook_button_icon), (Drawable) null, (Drawable) null, (Drawable) null);
     }
 
     @Override // com.facebook.FacebookButtonBase

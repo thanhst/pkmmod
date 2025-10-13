@@ -1,18 +1,20 @@
 package kotlinx.coroutines.debug.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
+import kotlin.sequences.f;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: DebugCoroutineInfoImpl.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002*\b\u0012\u0004\u0012\u00020\u00010\u0000H\u008a@"}, d2 = {"Lkotlin/sequences/f;", "Ljava/lang/StackTraceElement;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.debug.internal.DebugCoroutineInfoImpl$creationStackTrace$1", f = "DebugCoroutineInfoImpl.kt", i = {}, l = {75}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class DebugCoroutineInfoImpl$creationStackTrace$1 extends RestrictedSuspendLambda implements p<kotlin.sequences.f<? super StackTraceElement>, kotlin.coroutines.c<? super t>, Object> {
+final class DebugCoroutineInfoImpl$creationStackTrace$1 extends RestrictedSuspendLambda implements p_p0<f<? super StackTraceElement>, c<? super t>, Object> {
     final /* synthetic */ h $bottom;
     private /* synthetic */ Object L$0;
     int label;

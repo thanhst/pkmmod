@@ -4,22 +4,22 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-v26\\styles.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-v26\\styles.xml",
                     "from": {
-                        "startLines": "2,4,6,9,12,16",
+                        "startLines": "2,3,5,8,11,4",
                         "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "57,153,261,426,603,853",
-                        "endLines": "3,5,8,11,15,17",
-                        "endColumns": "12,12,12,12,12,12",
-                        "endOffsets": "147,255,420,597,847,961"
+                        "startOffsets": "57,141,339,499,671,237",
+                        "endLines": "2,3,7,10,14,4",
+                        "endColumns": "82,94,12,12,12,100",
+                        "endOffsets": "135,231,493,665,915,333"
                     },
                     "to": {
-                        "startLines": "2,4,6,9,12,16",
+                        "startLines": "2,3,4,7,10,14",
                         "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,149,255,417,591,837",
-                        "endLines": "3,5,8,11,15,17",
-                        "endColumns": "12,12,12,12,12,12",
-                        "endOffsets": "144,250,412,586,832,944"
+                        "startOffsets": "55,137,231,388,557,803",
+                        "endLines": "2,3,6,9,13,14",
+                        "endColumns": "81,93,12,12,12,99",
+                        "endOffsets": "132,226,383,552,798,898"
                     }
                 }
             ]

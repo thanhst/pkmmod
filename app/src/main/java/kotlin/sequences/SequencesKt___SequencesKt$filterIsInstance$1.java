@@ -3,13 +3,15 @@ package kotlin.sequences;
 import kotlin.Metadata;
 import kotlin.jvm.internal.Lambda;
 import kotlin.jvm.internal.s;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 /* compiled from: _Sequences.kt */
 @Metadata(d1 = {"\u0000\u0012\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\u0010\u0000\u001a\u00020\u0001\"\u0006\b\u0000\u0010\u0002\u0018\u00012\b\u0010\u0003\u001a\u0004\u0018\u00010\u0004H\n¢\u0006\u0004\b\u0005\u0010\u0006"}, d2 = {"<anonymous>", "", "R", "it", "", "invoke", "(Ljava/lang/Object;)Ljava/lang/Boolean;"}, k = 3, mv = {1, 7, 1}, xi = 176)
 /* loaded from: classes.dex */
-public final class SequencesKt___SequencesKt$filterIsInstance$1 extends Lambda implements p0.l<Object, Boolean> {
+public final class SequencesKt___SequencesKt$filterIsInstance$1 extends Lambda implements l_p0<Object, Boolean> {
     public static final SequencesKt___SequencesKt$filterIsInstance$1 INSTANCE = new SequencesKt___SequencesKt$filterIsInstance$1();
 
     public SequencesKt___SequencesKt$filterIsInstance$1() {

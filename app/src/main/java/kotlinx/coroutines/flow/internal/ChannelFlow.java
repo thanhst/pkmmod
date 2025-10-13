@@ -5,6 +5,7 @@ import kotlin.Metadata;
 import kotlin.collections.CollectionsKt___CollectionsKt;
 import kotlin.coroutines.CoroutineContext;
 import kotlin.coroutines.EmptyCoroutineContext;
+import kotlin.coroutines.c;
 import kotlin.jvm.JvmField;
 import kotlin.jvm.internal.s;
 import kotlin.t;
@@ -13,9 +14,12 @@ import kotlinx.coroutines.InternalCoroutinesApi;
 import kotlinx.coroutines.channels.BufferOverflow;
 import kotlinx.coroutines.channels.ProduceKt;
 import kotlinx.coroutines.channels.ReceiveChannel;
+import kotlinx.coroutines.channels.n;
 import kotlinx.coroutines.g0;
 import kotlinx.coroutines.h0;
 import kotlinx.coroutines.i0;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -125,7 +129,7 @@ public abstract class ChannelFlow<T> implements k<T> {
     protected abstract ChannelFlow<T> i(@NotNull CoroutineContext context, int capacity, @NotNull BufferOverflow onBufferOverflow);
 
     @NotNull
-    public final p0.p<kotlinx.coroutines.channels.n<? super T>, kotlin.coroutines.c<? super t>, Object> j() {
+    public final p_p0<n<? super T>, c<? super t>, Object> j() {
         return new ChannelFlow$collectToFun$1(this, null);
     }
 

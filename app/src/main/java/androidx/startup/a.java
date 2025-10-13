@@ -12,7 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import x.b;
+
+import w.a_w;
+import x.b_x;
 
 /* compiled from: AppInitializer.java */
 /* loaded from: classes.dex */
@@ -30,7 +32,7 @@ public final class a {
 
     /* renamed from: b, reason: collision with root package name */
     @NonNull
-    final Set<Class<? extends w.a<?>>> f2635b = new HashSet();
+    final Set<Class<? extends a_w<?>>> f2635b = new HashSet();
 
     /* renamed from: a, reason: collision with root package name */
     @NonNull
@@ -41,13 +43,13 @@ public final class a {
     }
 
     @NonNull
-    private <T> T d(@NonNull Class<? extends w.a<?>> cls, @NonNull Set<Class<?>> set) {
+    private <T> T d(@NonNull Class<? extends a_w<?>> cls, @NonNull Set<Class<?>> set) {
         T t2;
-        if (b.d()) {
+        if (b_x.d()) {
             try {
-                b.a(cls.getSimpleName());
+                b_x.a(cls.getSimpleName());
             } finally {
-                b.b();
+                b_x.b();
             }
         }
         if (set.contains(cls)) {
@@ -58,16 +60,16 @@ public final class a {
         } else {
             set.add(cls);
             try {
-                w.a<?> aVarNewInstance = cls.getDeclaredConstructor(new Class[0]).newInstance(new Object[0]);
-                List<Class<? extends w.a<?>>> listA = aVarNewInstance.a();
+                a_w<?> aWVarNewInstance = cls.getDeclaredConstructor(new Class[0]).newInstance(new Object[0]);
+                List<Class<? extends a_w<?>>> listA = aWVarNewInstance.a();
                 if (!listA.isEmpty()) {
-                    for (Class<? extends w.a<?>> cls2 : listA) {
+                    for (Class<? extends a_w<?>> cls2 : listA) {
                         if (!this.f2634a.containsKey(cls2)) {
                             d(cls2, set);
                         }
                     }
                 }
-                t2 = (T) aVarNewInstance.b(this.f2636c);
+                t2 = (T) aWVarNewInstance.b(this.f2636c);
                 set.remove(cls);
                 this.f2634a.put(cls, t2);
             } catch (Throwable th) {
@@ -92,13 +94,13 @@ public final class a {
     void a() {
         try {
             try {
-                b.a("Startup");
+                b_x.a("Startup");
                 b(this.f2636c.getPackageManager().getProviderInfo(new ComponentName(this.f2636c.getPackageName(), InitializationProvider.class.getName()), 128).metaData);
             } catch (PackageManager.NameNotFoundException e2) {
                 throw new StartupException(e2);
             }
         } finally {
-            b.b();
+            b_x.b();
         }
     }
 
@@ -111,12 +113,12 @@ public final class a {
                 for (String str : bundle.keySet()) {
                     if (string.equals(bundle.getString(str, null))) {
                         Class<?> cls = Class.forName(str);
-                        if (w.a.class.isAssignableFrom(cls)) {
+                        if (a_w.class.isAssignableFrom(cls)) {
                             this.f2635b.add(cls);
                         }
                     }
                 }
-                Iterator<Class<? extends w.a<?>>> it = this.f2635b.iterator();
+                Iterator<Class<? extends a_w<?>>> it = this.f2635b.iterator();
                 while (it.hasNext()) {
                     d(it.next(), hashSet);
                 }
@@ -127,7 +129,7 @@ public final class a {
     }
 
     @NonNull
-    <T> T c(@NonNull Class<? extends w.a<?>> cls) {
+    <T> T c(@NonNull Class<? extends a_w<?>> cls) {
         T t2;
         synchronized (f2633e) {
             t2 = (T) this.f2634a.get(cls);
@@ -139,11 +141,11 @@ public final class a {
     }
 
     @NonNull
-    public <T> T f(@NonNull Class<? extends w.a<T>> cls) {
+    public <T> T f(@NonNull Class<? extends a_w<T>> cls) {
         return (T) c(cls);
     }
 
-    public boolean g(@NonNull Class<? extends w.a<?>> cls) {
+    public boolean g(@NonNull Class<? extends a_w<?>> cls) {
         return this.f2635b.contains(cls);
     }
 }

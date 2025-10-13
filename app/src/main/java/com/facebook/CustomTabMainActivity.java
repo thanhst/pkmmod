@@ -14,6 +14,8 @@ import com.facebook.internal.Utility;
 import com.facebook.login.LoginTargetApp;
 import kotlin.Metadata;
 import kotlin.jvm.JvmField;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -93,7 +95,7 @@ public final class CustomTabMainActivity extends Activity {
     private final void sendResult(int i2, Intent intent) {
         BroadcastReceiver broadcastReceiver = this.redirectReceiver;
         if (broadcastReceiver != null) {
-            u.a.b(this).e(broadcastReceiver);
+            a_u.b(this).e(broadcastReceiver);
         }
         if (intent != null) {
             String stringExtra = intent.getStringExtra(EXTRA_URL);
@@ -149,7 +151,7 @@ public final class CustomTabMainActivity extends Activity {
                 }
             };
             this.redirectReceiver = broadcastReceiver;
-            u.a.b(this).c(broadcastReceiver, new IntentFilter(str));
+            a_u.b(this).c(broadcastReceiver, new IntentFilter(str));
         }
     }
 
@@ -158,7 +160,7 @@ public final class CustomTabMainActivity extends Activity {
         kotlin.jvm.internal.s.e(intent, "intent");
         super.onNewIntent(intent);
         if (kotlin.jvm.internal.s.a(REFRESH_ACTION, intent.getAction())) {
-            u.a.b(this).d(new Intent(CustomTabActivity.DESTROY_ACTION));
+            a_u.b(this).d(new Intent(CustomTabActivity.DESTROY_ACTION));
             sendResult(-1, intent);
         } else if (kotlin.jvm.internal.s.a(CustomTabActivity.CUSTOM_TAB_REDIRECT_ACTION, intent.getAction())) {
             sendResult(-1, intent);

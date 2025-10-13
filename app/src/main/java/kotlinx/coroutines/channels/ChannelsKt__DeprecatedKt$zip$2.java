@@ -1,8 +1,12 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.t;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,10 +14,10 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0005\u001a\u00020\u0004\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001\"\u0004\b\u0002\u0010\u0002*\b\u0012\u0004\u0012\u00028\u00020\u0003H\u008a@"}, d2 = {"E", "R", "V", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$zip$2", f = "Deprecated.kt", i = {0, 0, 0, 1, 1, 1, 1, 2, 2, 2}, l = {487, 469, 471}, m = "invokeSuspend", n = {"$this$produce", "otherIterator", "$this$consume$iv$iv", "$this$produce", "otherIterator", "$this$consume$iv$iv", "element1", "$this$produce", "otherIterator", "$this$consume$iv$iv"}, s = {"L$0", "L$1", "L$3", "L$0", "L$1", "L$3", "L$5", "L$0", "L$1", "L$3"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$zip$2 extends SuspendLambda implements p0.p<n<Object>, kotlin.coroutines.c<? super kotlin.t>, Object> {
+final class ChannelsKt__DeprecatedKt$zip$2 extends SuspendLambda implements p_p0<n<Object>, c<? super t>, Object> {
     final /* synthetic */ ReceiveChannel<Object> $other;
     final /* synthetic */ ReceiveChannel<Object> $this_zip;
-    final /* synthetic */ p0.p<Object, Object, Object> $transform;
+    final /* synthetic */ p_p0<Object, Object, Object> $transform;
     private /* synthetic */ Object L$0;
     Object L$1;
     Object L$2;
@@ -23,11 +27,11 @@ final class ChannelsKt__DeprecatedKt$zip$2 extends SuspendLambda implements p0.p
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    ChannelsKt__DeprecatedKt$zip$2(ReceiveChannel<Object> receiveChannel, ReceiveChannel<Object> receiveChannel2, p0.p<Object, Object, Object> pVar, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$zip$2> cVar) {
+    ChannelsKt__DeprecatedKt$zip$2(ReceiveChannel<Object> receiveChannel, ReceiveChannel<Object> receiveChannel2, p_p0<Object, Object, Object> pP0Var, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$zip$2> cVar) {
         super(2, cVar);
         this.$other = receiveChannel;
         this.$this_zip = receiveChannel2;
-        this.$transform = pVar;
+        this.$transform = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

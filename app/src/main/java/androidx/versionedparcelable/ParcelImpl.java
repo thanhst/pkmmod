@@ -5,7 +5,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import androidx.annotation.RestrictTo;
 import java.lang.reflect.InvocationTargetException;
-import y.b;
+import y.b_y;
 
 @SuppressLint({"BanParcelableUsage"})
 @RestrictTo({RestrictTo.Scope.LIBRARY})
@@ -14,7 +14,7 @@ public class ParcelImpl implements Parcelable {
     public static final Parcelable.Creator<ParcelImpl> CREATOR = new a();
 
     /* renamed from: e, reason: collision with root package name */
-    private final b f2736e;
+    private final b_y f2736e;
 
     static class a implements Parcelable.Creator<ParcelImpl> {
         a() {
@@ -33,11 +33,11 @@ public class ParcelImpl implements Parcelable {
         }
     }
 
-    public ParcelImpl(b bVar) {
-        this.f2736e = bVar;
+    public ParcelImpl(b_y bYVar) {
+        this.f2736e = bYVar;
     }
 
-    public <T extends b> T a() {
+    public <T extends b_y> T a() {
         return (T) this.f2736e;
     }
 

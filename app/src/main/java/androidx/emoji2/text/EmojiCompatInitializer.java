@@ -5,15 +5,16 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.annotation.WorkerThread;
-import androidx.emoji2.text.EmojiCompat;
 import androidx.lifecycle.Lifecycle;
 import androidx.lifecycle.ProcessLifecycleInitializer;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ThreadPoolExecutor;
 
+import w.a_w;
+
 /* loaded from: classes.dex */
-public class EmojiCompatInitializer implements w.a<Boolean> {
+public class EmojiCompatInitializer implements a_w<Boolean> {
 
     @RequiresApi(19)
     static class a extends EmojiCompat.c {
@@ -113,7 +114,7 @@ public class EmojiCompatInitializer implements w.a<Boolean> {
 
     @Override // w.a
     @NonNull
-    public List<Class<? extends w.a<?>>> a() {
+    public List<Class<? extends a_w<?>>> a() {
         return Collections.singletonList(ProcessLifecycleInitializer.class);
     }
 

@@ -9,6 +9,8 @@ import kotlinx.coroutines.ExecutorCoroutineDispatcher;
 import kotlinx.coroutines.InternalCoroutinesApi;
 import kotlinx.coroutines.internal.e0;
 import kotlinx.coroutines.internal.g0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Dispatcher.kt */
@@ -22,7 +24,7 @@ public final class a extends ExecutorCoroutineDispatcher implements Executor {
 
     /* renamed from: h, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private static final CoroutineDispatcher default = l.f3935f.n(g0.d("kotlinx.coroutines.io.parallelism", s0.l.a(64, e0.a()), 0, 0, 12, null));
+    private static final CoroutineDispatcher default = l.f3935f.n(g0.d("kotlinx.coroutines.io.parallelism", l_s0.a(64, e0.a()), 0, 0, 12, null));
 
     private a() {
     }

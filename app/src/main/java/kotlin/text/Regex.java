@@ -14,10 +14,18 @@ import kotlin.PublishedApi;
 import kotlin.SinceKotlin;
 import kotlin.WasExperimental;
 import kotlin.collections.z;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
 import kotlin.jvm.internal.FunctionReferenceImpl;
 import kotlin.sequences.SequencesKt__SequencesKt;
+import kotlin.sequences.f;
+import kotlin.t;
+import p0.a_p0;
+import p0.l_p0;
+import p0.p_p0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -87,7 +95,7 @@ public final class Regex implements Serializable {
     /* compiled from: Regex.kt */
     @Metadata(k = 3, mv = {1, 7, 1}, xi = 48)
     /* renamed from: kotlin.text.Regex$findAll$2, reason: invalid class name */
-    /* synthetic */ class AnonymousClass2 extends FunctionReferenceImpl implements p0.l<i, i> {
+    /* synthetic */ class AnonymousClass2 extends FunctionReferenceImpl implements l_p0<i, i> {
         public static final AnonymousClass2 INSTANCE = new AnonymousClass2();
 
         AnonymousClass2() {
@@ -106,7 +114,7 @@ public final class Regex implements Serializable {
     @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002*\b\u0012\u0004\u0012\u00020\u00010\u0000H\u008a@"}, d2 = {"Lkotlin/sequences/f;", "", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 7, 1})
     @DebugMetadata(c = "kotlin.text.Regex$splitToSequence$1", f = "Regex.kt", i = {1, 1, 1}, l = {276, 284, 288}, m = "invokeSuspend", n = {"$this$sequence", "matcher", "splitCount"}, s = {"L$0", "L$1", "I$0"})
     /* renamed from: kotlin.text.Regex$splitToSequence$1, reason: invalid class name and case insensitive filesystem */
-    static final class C00831 extends RestrictedSuspendLambda implements p0.p<kotlin.sequences.f<? super String>, kotlin.coroutines.c<? super kotlin.t>, Object> {
+    static final class C00831 extends RestrictedSuspendLambda implements p_p0<f<? super String>, c<? super t>, Object> {
         final /* synthetic */ CharSequence $input;
         final /* synthetic */ int $limit;
         int I$0;
@@ -303,7 +311,7 @@ public final class Regex implements Serializable {
     public final kotlin.sequences.d<i> findAll(@NotNull final CharSequence input, final int startIndex) {
         kotlin.jvm.internal.s.e(input, "input");
         if (startIndex >= 0 && startIndex <= input.length()) {
-            return SequencesKt__SequencesKt.f(new p0.a<i>() { // from class: kotlin.text.Regex.findAll.1
+            return SequencesKt__SequencesKt.f(new a_p0<i>() { // from class: kotlin.text.Regex.findAll.1
                 /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
                 {
                     super(0);
@@ -328,7 +336,7 @@ public final class Regex implements Serializable {
         final int iFlags = this.nativePattern.flags();
         EnumSet enumSetAllOf = EnumSet.allOf(RegexOption.class);
         kotlin.jvm.internal.s.d(enumSetAllOf, "");
-        z.u(enumSetAllOf, new p0.l<RegexOption, Boolean>() { // from class: kotlin.text.Regex$special$$inlined$fromInt$1
+        z.u(enumSetAllOf, new l_p0<RegexOption, Boolean>() { // from class: kotlin.text.Regex$special$$inlined$fromInt$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(1);
@@ -413,7 +421,7 @@ public final class Regex implements Serializable {
         if (limit == 1 || !matcher.find()) {
             return kotlin.collections.t.e(input.toString());
         }
-        ArrayList arrayList = new ArrayList(limit > 0 ? s0.l.c(limit, 10) : 10);
+        ArrayList arrayList = new ArrayList(limit > 0 ? l_s0.c(limit, 10) : 10);
         int iEnd = 0;
         int i2 = limit - 1;
         do {
@@ -450,7 +458,7 @@ public final class Regex implements Serializable {
     }
 
     @NotNull
-    public final String replace(@NotNull CharSequence input, @NotNull p0.l<? super i, ? extends CharSequence> transform) {
+    public final String replace(@NotNull CharSequence input, @NotNull l_p0<? super i, ? extends CharSequence> transform) {
         kotlin.jvm.internal.s.e(input, "input");
         kotlin.jvm.internal.s.e(transform, "transform");
         int iIntValue = 0;
