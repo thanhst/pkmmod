@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="@dimen/dp_z_1898" android:layout_height="@dimen/dp_z_1044">
-        <include android:id="@id/include_1" layout="@layout/cg_background_all" />
-        <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY android:id="@id/layout_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_z_10" android:layout_marginTop="@dimen/dp_z_168" android:layout_marginRight="@dimen/dp_z_10" />
-    </RelativeLayout>
-</LinearLayout>

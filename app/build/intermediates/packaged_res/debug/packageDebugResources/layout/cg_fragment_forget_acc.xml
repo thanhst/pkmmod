@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center" android:background="@drawable/cg_bg_back5" android:layout_width="@dimen/dp_z_748" android:layout_height="@dimen/dp_z_370">
-        <TextView android:textSize="@dimen/sp_z_40" android:textColor="@color/cg_color_grary" android:layout_width="@dimen/dp_z_428" android:layout_height="wrap_content" android:text="@string/ui_forget_account_hint" />
-    </RelativeLayout>
-</LinearLayout>

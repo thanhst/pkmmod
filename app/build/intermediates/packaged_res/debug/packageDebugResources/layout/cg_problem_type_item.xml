@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_width="@dimen/dp_z_250" android:layout_height="@dimen/dp_z_100">
-        <ImageView android:id="@id/img_bg" android:background="@drawable/cg_bg_btn_purse" android:layout_width="@dimen/dp_z_196" android:layout_height="@dimen/dp_z_80" android:layout_centerInParent="true" />
-        <TextView android:textSize="@dimen/sp_z_32" android:gravity="center" android:id="@id/txt_name" android:layout_width="@dimen/dp_z_190" android:layout_height="@dimen/dp_z_80" android:text="@string/txt_probleme_acc" android:layout_centerInParent="true" />
-    </RelativeLayout>
-</LinearLayout>

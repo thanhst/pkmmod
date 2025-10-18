@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_block" android:layout_width="@dimen/dp_z_70" android:layout_height="@dimen/dp_z_132"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/dk_iv_sus_account" android:visibility="invisible" android:layout_width="@dimen/dp_z_48" android:layout_height="@dimen/dp_z_46" android:layout_marginTop="@dimen/dp_z_20" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="@dimen/sp_z_20" android:textColor="@color/cg_color_black" android:gravity="center_horizontal" android:id="@id/dk_tv_sus_account" android:visibility="invisible" android:layout_width="@dimen/dp_z_70" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_84" android:text="用户中心" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
-</RelativeLayout>

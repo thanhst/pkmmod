@@ -1,6 +1,0 @@
-com.pokemodpro.vn.app-resValues-0 D:\Decode\pkmmod\app\build\generated\res\resValues\debug
-com.pokemodpro.vn.app-packageDebugResources-1 D:\Decode\pkmmod\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.pokemodpro.vn.app-packageDebugResources-2 D:\Decode\pkmmod\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.pokemodpro.vn.app-debug-3 D:\Decode\pkmmod\app\build\intermediates\merged_res\debug\mergeDebugResources
-com.pokemodpro.vn.app-debug-4 D:\Decode\pkmmod\app\src\debug\res
-com.pokemodpro.vn.app-main-5 D:\Decode\pkmmod\app\src\main\res
