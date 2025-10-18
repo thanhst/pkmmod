@@ -1,13 +1,11 @@
 package android.widget;
 
-import android.annotation.Nullable;
 import android.content.res.Resources;
+
+import androidx.annotation.Nullable;
 
 /* loaded from: classes.dex */
 public /* synthetic */ interface ThemedSpinnerAdapter extends SpinnerAdapter {
-    static {
-        throw new NoClassDefFoundError();
-    }
 
     @Nullable
     /* synthetic */ Resources.Theme getDropDownViewTheme();

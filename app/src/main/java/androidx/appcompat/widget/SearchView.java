@@ -50,6 +50,7 @@ import androidx.appcompat.R$id;
 import androidx.appcompat.R$layout;
 import androidx.appcompat.R$string;
 import androidx.appcompat.R$styleable;
+import androidx.appcompat.view.c;
 import androidx.core.view.ViewCompat;
 import androidx.cursoradapter.widget.CursorAdapter;
 import androidx.customview.view.AbsSavedState;
@@ -59,7 +60,7 @@ import java.lang.reflect.Method;
 import java.util.WeakHashMap;
 
 /* loaded from: classes.dex */
-public class SearchView extends LinearLayoutCompat implements androidx.appcompat.view.c {
+public class SearchView extends LinearLayoutCompat implements c {
 
     /* renamed from: u0, reason: collision with root package name */
     static final o f736u0;
@@ -79,9 +80,9 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
     private final CharSequence N;
     private m O;
     private l P;
-    View.OnFocusChangeListener Q;
+    OnFocusChangeListener Q;
     private n R;
-    private View.OnClickListener S;
+    private OnClickListener S;
     private boolean T;
     private boolean U;
     CursorAdapter V;
@@ -130,10 +131,10 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
     private final WeakHashMap<String, Drawable.ConstantState> f750n0;
 
     /* renamed from: o0, reason: collision with root package name */
-    private final View.OnClickListener f751o0;
+    private final OnClickListener f751o0;
 
     /* renamed from: p0, reason: collision with root package name */
-    View.OnKeyListener f752p0;
+    OnKeyListener f752p0;
 
     /* renamed from: q0, reason: collision with root package name */
     private final TextView.OnEditorActionListener f753q0;
@@ -169,12 +170,12 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
     final ImageView f763z;
 
     static class SavedState extends AbsSavedState {
-        public static final Parcelable.Creator<SavedState> CREATOR = new a();
+        public static final Creator<SavedState> CREATOR = new a();
 
         /* renamed from: g, reason: collision with root package name */
         boolean f764g;
 
-        class a implements Parcelable.ClassLoaderCreator<SavedState> {
+        static class a implements ClassLoaderCreator<SavedState> {
             a() {
             }
 
@@ -276,7 +277,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
 
         void d() {
             if (this.f767k) {
-                ((InputMethodManager) getContext().getSystemService("input_method")).showSoftInput(this, 0);
+                ((InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE)).showSoftInput(this, 0);
                 this.f767k = false;
             }
         }
@@ -299,13 +300,19 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         @Override // android.view.View
         protected void onFinishInflate() {
             super.onFinishInflate();
-            setMinWidth((int) TypedValue.applyDimension(1, getSearchViewTextMinWidthDp(), getResources().getDisplayMetrics()));
+            setMinWidth((int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, getSearchViewTextMinWidthDp(), getResources().getDisplayMetrics()));
         }
 
         @Override // android.widget.AutoCompleteTextView, android.widget.TextView, android.view.View
-        protected void onFocusChanged(boolean z2, int i2, Rect rect) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        protected void onFocusChanged(boolean z2, int i2, Rect rect) throws IllegalArgumentException {
             super.onFocusChanged(z2, i2, rect);
-            this.f766j.V();
+            try {
+                this.f766j.V();
+            } catch (IllegalAccessException e) {
+                throw new RuntimeException(e);
+            } catch (InvocationTargetException e) {
+                throw new RuntimeException(e);
+            }
         }
 
         @Override // android.widget.AutoCompleteTextView, android.widget.TextView, android.view.View
@@ -333,13 +340,20 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
             return super.onKeyPreIme(i2, keyEvent);
         }
 
+        @SuppressLint("WrongConstant")
         @Override // android.widget.AutoCompleteTextView, android.widget.TextView, android.view.View
-        public void onWindowFocusChanged(boolean z2) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        public void onWindowFocusChanged(boolean z2) throws IllegalArgumentException {
             super.onWindowFocusChanged(z2);
             if (z2 && this.f766j.hasFocus() && getVisibility() == 0) {
                 this.f767k = true;
                 if (SearchView.I(getContext())) {
-                    b();
+                    try {
+                        b();
+                    } catch (IllegalAccessException e) {
+                        throw new RuntimeException(e);
+                    } catch (InvocationTargetException e) {
+                        throw new RuntimeException(e);
+                    }
                 }
             }
         }
@@ -353,7 +367,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
 
         void setImeVisibility(boolean z2) {
-            InputMethodManager inputMethodManager = (InputMethodManager) getContext().getSystemService("input_method");
+            InputMethodManager inputMethodManager = (InputMethodManager) getContext().getSystemService(Context.INPUT_METHOD_SERVICE);
             if (!z2) {
                 this.f767k = false;
                 removeCallbacks(this.f768l);
@@ -427,21 +441,21 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
     }
 
-    class d implements View.OnFocusChangeListener {
+    class d implements OnFocusChangeListener {
         d() {
         }
 
         @Override // android.view.View.OnFocusChangeListener
         public void onFocusChange(View view, boolean z2) {
             SearchView searchView = SearchView.this;
-            View.OnFocusChangeListener onFocusChangeListener = searchView.Q;
+            OnFocusChangeListener onFocusChangeListener = searchView.Q;
             if (onFocusChangeListener != null) {
                 onFocusChangeListener.onFocusChange(searchView, z2);
             }
         }
     }
 
-    class e implements View.OnLayoutChangeListener {
+    class e implements OnLayoutChangeListener {
         e() {
         }
 
@@ -451,12 +465,12 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
     }
 
-    class f implements View.OnClickListener {
+    class f implements OnClickListener {
         f() {
         }
 
         @Override // android.view.View.OnClickListener
-        public void onClick(View view) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        public void onClick(View view) throws IllegalArgumentException {
             SearchView searchView = SearchView.this;
             if (view == searchView.f761x) {
                 searchView.R();
@@ -471,12 +485,18 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
             } else if (view == searchView.A) {
                 searchView.W();
             } else if (view == searchView.f756t) {
-                searchView.D();
+                try {
+                    searchView.D();
+                } catch (IllegalAccessException e) {
+                    throw new RuntimeException(e);
+                } catch (InvocationTargetException e) {
+                    throw new RuntimeException(e);
+                }
             }
         }
     }
 
-    class g implements View.OnKeyListener {
+    class g implements OnKeyListener {
         g() {
         }
 
@@ -487,7 +507,13 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
                 return false;
             }
             if (searchView.f756t.isPopupShowing() && SearchView.this.f756t.getListSelection() != -1) {
-                return SearchView.this.T(view, i2, keyEvent);
+                try {
+                    return SearchView.this.T(view, i2, keyEvent);
+                } catch (IllegalAccessException e) {
+                    throw new RuntimeException(e);
+                } catch (InvocationTargetException e) {
+                    throw new RuntimeException(e);
+                }
             }
             if (SearchView.this.f756t.c() || !keyEvent.hasNoModifiers() || keyEvent.getAction() != 1 || i2 != 66) {
                 return false;
@@ -682,7 +708,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         @Override // android.view.TouchDelegate
         public boolean onTouchEvent(MotionEvent motionEvent) {
             boolean z2;
-            boolean z3;
+            boolean z3 = false;
             int x2 = (int) motionEvent.getX();
             int y2 = (int) motionEvent.getY();
             int action = motionEvent.getAction();
@@ -726,7 +752,11 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
     }
 
     static {
-        f736u0 = Build.VERSION.SDK_INT < 29 ? new o() : null;
+        try {
+            f736u0 = Build.VERSION.SDK_INT < 29 ? new o() : null;
+        } catch (NoSuchMethodException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public SearchView(@NonNull Context context) {
@@ -737,7 +767,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         ComponentName searchActivity = searchableInfo.getSearchActivity();
         Intent intent2 = new Intent("android.intent.action.SEARCH");
         intent2.setComponent(searchActivity);
-        PendingIntent activity = PendingIntent.getActivity(getContext(), 0, intent2, 1107296256);
+        @SuppressLint("WrongConstant") PendingIntent activity = PendingIntent.getActivity(getContext(), 0, intent2, 1107296256);
         Bundle bundle = new Bundle();
         Bundle bundle2 = this.f747k0;
         if (bundle2 != null) {
@@ -859,6 +889,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
     }
 
+    @SuppressLint("WrongConstant")
     private void a0() {
         boolean z2 = true;
         boolean z3 = !TextUtils.isEmpty(this.f756t.getText());
@@ -904,14 +935,17 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
     }
 
+    @SuppressLint("WrongConstant")
     private void e0() {
         this.f760w.setVisibility((J() && (this.f762y.getVisibility() == 0 || this.A.getVisibility() == 0)) ? 0 : 8);
     }
 
+    @SuppressLint("WrongConstant")
     private void f0(boolean z2) {
         this.f762y.setVisibility((this.W && J() && hasFocus() && (z2 || !this.f741e0)) ? 0 : 8);
     }
 
+    @SuppressLint("WrongConstant")
     private void g0(boolean z2) {
         this.U = z2;
         int i2 = z2 ? 0 : 8;
@@ -933,6 +967,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         return getContext().getResources().getDimensionPixelSize(R$dimen.abc_search_view_preferred_width);
     }
 
+    @SuppressLint("WrongConstant")
     private void h0(boolean z2) {
         int i2 = 8;
         if (this.f741e0 && !H() && z2) {
@@ -949,7 +984,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
 
     private Intent y(String str, Uri uri, String str2, String str3, int i2, String str4) {
         Intent intent = new Intent(str);
-        intent.addFlags(268435456);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         if (uri != null) {
             intent.setData(uri);
         }
@@ -1063,7 +1098,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         g0(false);
         this.f756t.requestFocus();
         this.f756t.setImeVisibility(true);
-        View.OnClickListener onClickListener = this.S;
+        OnClickListener onClickListener = this.S;
         if (onClickListener != null) {
             onClickListener.onClick(this);
         }
@@ -1263,6 +1298,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         }
     }
 
+    @SuppressLint("WrongConstant")
     @Override // androidx.appcompat.widget.LinearLayoutCompat, android.view.View
     protected void onMeasure(int i2, int i3) {
         int i4;
@@ -1270,8 +1306,8 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
             super.onMeasure(i2, i3);
             return;
         }
-        int mode = View.MeasureSpec.getMode(i2);
-        int size = View.MeasureSpec.getSize(i2);
+        int mode = MeasureSpec.getMode(i2);
+        int size = MeasureSpec.getSize(i2);
         if (mode == Integer.MIN_VALUE) {
             int i5 = this.f740d0;
             size = i5 > 0 ? Math.min(i5, size) : Math.min(getPreferredWidth(), size);
@@ -1283,14 +1319,14 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         } else if (mode == 1073741824 && (i4 = this.f740d0) > 0) {
             size = Math.min(i4, size);
         }
-        int mode2 = View.MeasureSpec.getMode(i3);
-        int size2 = View.MeasureSpec.getSize(i3);
+        int mode2 = MeasureSpec.getMode(i3);
+        int size2 = MeasureSpec.getSize(i3);
         if (mode2 == Integer.MIN_VALUE) {
             size2 = Math.min(getPreferredHeight(), size2);
         } else if (mode2 == 0) {
             size2 = getPreferredHeight();
         }
-        super.onMeasure(View.MeasureSpec.makeMeasureSpec(size, 1073741824), View.MeasureSpec.makeMeasureSpec(size2, 1073741824));
+        super.onMeasure(MeasureSpec.makeMeasureSpec(size, 1073741824), MeasureSpec.makeMeasureSpec(size2, 1073741824));
     }
 
     @Override // android.view.View
@@ -1372,7 +1408,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         this.P = lVar;
     }
 
-    public void setOnQueryTextFocusChangeListener(View.OnFocusChangeListener onFocusChangeListener) {
+    public void setOnQueryTextFocusChangeListener(OnFocusChangeListener onFocusChangeListener) {
         this.Q = onFocusChangeListener;
     }
 
@@ -1380,7 +1416,7 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         this.O = mVar;
     }
 
-    public void setOnSearchClickListener(View.OnClickListener onClickListener) {
+    public void setOnSearchClickListener(OnClickListener onClickListener) {
         this.S = onClickListener;
     }
 
@@ -1525,11 +1561,11 @@ public class SearchView extends LinearLayoutCompat implements androidx.appcompat
         k2VarU.v();
         Intent intent = new Intent("android.speech.action.WEB_SEARCH");
         this.L = intent;
-        intent.addFlags(268435456);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         intent.putExtra("android.speech.extra.LANGUAGE_MODEL", "web_search");
         Intent intent2 = new Intent("android.speech.action.RECOGNIZE_SPEECH");
         this.M = intent2;
-        intent2.addFlags(268435456);
+        intent2.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         View viewFindViewById3 = findViewById(searchAutoComplete.getDropDownAnchor());
         this.B = viewFindViewById3;
         if (viewFindViewById3 != null) {

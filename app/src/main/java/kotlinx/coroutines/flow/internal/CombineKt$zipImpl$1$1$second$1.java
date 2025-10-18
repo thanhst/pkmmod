@@ -1,9 +1,13 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
+import kotlinx.coroutines.channels.n;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -11,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u0012\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0006\u001a\u00020\u0005\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001\"\u0004\b\u0002\u0010\u0002*\b\u0012\u0004\u0012\u00020\u00040\u0003H\u008a@"}, d2 = {"T1", "T2", "R", "Lkotlinx/coroutines/channels/n;", "", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$zipImpl$1$1$second$1", f = "Combine.kt", i = {}, l = {92}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class CombineKt$zipImpl$1$1$second$1 extends SuspendLambda implements p0.p<kotlinx.coroutines.channels.n<? super Object>, kotlin.coroutines.c<? super t>, Object> {
+final class CombineKt$zipImpl$1$1$second$1 extends SuspendLambda implements p_p0<n<? super Object>, c<? super t>, Object> {
     final /* synthetic */ kotlinx.coroutines.flow.d<Object> $flow2;
     private /* synthetic */ Object L$0;
     int label;

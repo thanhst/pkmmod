@@ -9,6 +9,8 @@ import android.os.Bundle;
 import com.facebook.share.internal.ShareConstants;
 import kotlin.Metadata;
 import kotlin.jvm.JvmField;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -35,7 +37,7 @@ public final class CustomTabActivity extends Activity {
         if (i3 == 0) {
             Intent intent2 = new Intent(CUSTOM_TAB_REDIRECT_ACTION);
             intent2.putExtra(CustomTabMainActivity.EXTRA_URL, getIntent().getDataString());
-            u.a.b(this).d(intent2);
+            a_u.b(this).d(intent2);
             BroadcastReceiver broadcastReceiver = new BroadcastReceiver() { // from class: com.facebook.CustomTabActivity$onActivityResult$closeReceiver$1
                 @Override // android.content.BroadcastReceiver
                 public void onReceive(@NotNull Context context, @NotNull Intent intent3) {
@@ -44,7 +46,7 @@ public final class CustomTabActivity extends Activity {
                     this.this$0.finish();
                 }
             };
-            u.a.b(this).c(broadcastReceiver, new IntentFilter(DESTROY_ACTION));
+            a_u.b(this).c(broadcastReceiver, new IntentFilter(DESTROY_ACTION));
             this.closeReceiver = broadcastReceiver;
         }
     }
@@ -63,7 +65,7 @@ public final class CustomTabActivity extends Activity {
     protected void onDestroy() {
         BroadcastReceiver broadcastReceiver = this.closeReceiver;
         if (broadcastReceiver != null) {
-            u.a.b(this).e(broadcastReceiver);
+            a_u.b(this).e(broadcastReceiver);
         }
         super.onDestroy();
     }

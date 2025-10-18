@@ -3,6 +3,8 @@ package kotlinx.coroutines.sync;
 import com.facebook.internal.NativeProtocol;
 import kotlin.Metadata;
 import kotlinx.coroutines.internal.d0;
+import p0.a_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Mutex.kt */
@@ -49,7 +51,7 @@ public final class MutexKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final <T> java.lang.Object f(@org.jetbrains.annotations.NotNull kotlinx.coroutines.sync.c r4, @org.jetbrains.annotations.Nullable java.lang.Object r5, @org.jetbrains.annotations.NotNull p0.a<? extends T> r6, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super T> r7) {
+    public static final <T> java.lang.Object f(@org.jetbrains.annotations.NotNull kotlinx.coroutines.sync.c r4, @org.jetbrains.annotations.Nullable java.lang.Object r5, @org.jetbrains.annotations.NotNull a_p0<? extends T> r6, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super T> r7) {
         /*
             boolean r0 = r7 instanceof kotlinx.coroutines.sync.MutexKt$withLock$1
             if (r0 == 0) goto L13

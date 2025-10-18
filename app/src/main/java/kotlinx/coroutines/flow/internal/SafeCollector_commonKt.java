@@ -6,6 +6,8 @@ import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.JvmName;
 import kotlinx.coroutines.h1;
 import kotlinx.coroutines.internal.z;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,7 +17,7 @@ import org.jetbrains.annotations.Nullable;
 public final class SafeCollector_commonKt {
     @JvmName(name = "checkContext")
     public static final void a(@NotNull final SafeCollector<?> safeCollector, @NotNull CoroutineContext coroutineContext) {
-        if (((Number) coroutineContext.fold(0, new p0.p<Integer, CoroutineContext.a, Integer>() { // from class: kotlinx.coroutines.flow.internal.SafeCollector_commonKt$checkContext$result$1
+        if (((Number) coroutineContext.fold(0, new p_p0<Integer, CoroutineContext.a, Integer>() { // from class: kotlinx.coroutines.flow.internal.SafeCollector_commonKt$checkContext$result$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(2);

@@ -4,6 +4,8 @@ import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.JvmField;
 import kotlinx.coroutines.y1;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -19,7 +21,7 @@ public final class ThreadContextKt {
 
     /* renamed from: b, reason: collision with root package name */
     @NotNull
-    private static final p0.p<Object, CoroutineContext.a, Object> f3794b = new p0.p<Object, CoroutineContext.a, Object>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$countAll$1
+    private static final p_p0<Object, CoroutineContext.a, Object> f3794b = new p_p0<Object, CoroutineContext.a, Object>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$countAll$1
         @Override // p0.p
         @Nullable
         public final Object invoke(@Nullable Object obj, @NotNull CoroutineContext.a aVar) {
@@ -34,7 +36,7 @@ public final class ThreadContextKt {
 
     /* renamed from: c, reason: collision with root package name */
     @NotNull
-    private static final p0.p<y1<?>, CoroutineContext.a, y1<?>> f3795c = new p0.p<y1<?>, CoroutineContext.a, y1<?>>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$findOne$1
+    private static final p_p0<y1<?>, CoroutineContext.a, y1<?>> f3795c = new p_p0<y1<?>, CoroutineContext.a, y1<?>>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$findOne$1
         @Override // p0.p
         @Nullable
         public final y1<?> invoke(@Nullable y1<?> y1Var, @NotNull CoroutineContext.a aVar) {
@@ -50,7 +52,7 @@ public final class ThreadContextKt {
 
     /* renamed from: d, reason: collision with root package name */
     @NotNull
-    private static final p0.p<j0, CoroutineContext.a, j0> f3796d = new p0.p<j0, CoroutineContext.a, j0>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$updateState$1
+    private static final p_p0<j0, CoroutineContext.a, j0> f3796d = new p_p0<j0, CoroutineContext.a, j0>() { // from class: kotlinx.coroutines.internal.ThreadContextKt$updateState$1
         @Override // p0.p
         @NotNull
         public final j0 invoke(@NotNull j0 j0Var, @NotNull CoroutineContext.a aVar) {

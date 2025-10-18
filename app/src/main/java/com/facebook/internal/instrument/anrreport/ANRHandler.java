@@ -8,7 +8,6 @@ import com.facebook.GraphResponse;
 import com.facebook.internal.Utility;
 import com.facebook.internal.instrument.InstrumentData;
 import com.facebook.internal.instrument.InstrumentUtility;
-import com.facebook.internal.instrument.anrreport.ANRHandler;
 import com.facebook.internal.instrument.crashshield.CrashShieldHandler;
 import java.io.File;
 import java.util.ArrayList;
@@ -25,7 +24,7 @@ import org.jetbrains.annotations.NotNull;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import s0.l;
+import s0.l_s0;
 
 /* compiled from: ANRHandler.kt */
 @Metadata(bv = {}, d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0005\bÇ\u0002\u0018\u00002\u00020\u0001B\t\b\u0002¢\u0006\u0004\b\u000b\u0010\fJ\b\u0010\u0003\u001a\u00020\u0002H\u0007J\b\u0010\u0004\u001a\u00020\u0002H\u0007R\u0014\u0010\u0006\u001a\u00020\u00058\u0002X\u0082T¢\u0006\u0006\n\u0004\b\u0006\u0010\u0007R\u0014\u0010\t\u001a\u00020\b8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\t\u0010\n¨\u0006\r"}, d2 = {"Lcom/facebook/internal/instrument/anrreport/ANRHandler;", "", "Lkotlin/t;", "enable", "sendANRReports", "", "MAX_ANR_REPORT_NUM", "I", "Ljava/util/concurrent/atomic/AtomicBoolean;", "enabled", "Ljava/util/concurrent/atomic/AtomicBoolean;", "<init>", "()V", "facebook-core_release"}, k = 1, mv = {1, 5, 1})
@@ -89,7 +88,7 @@ public final class ANRHandler {
                 }
             });
             JSONArray jSONArray = new JSONArray();
-            Iterator<Integer> it = l.h(0, Math.min(listT.size(), 5)).iterator();
+            Iterator<Integer> it = l_s0.h(0, Math.min(listT.size(), 5)).iterator();
             while (it.hasNext()) {
                 jSONArray.put(listT.get(((g0) it).nextInt()));
             }

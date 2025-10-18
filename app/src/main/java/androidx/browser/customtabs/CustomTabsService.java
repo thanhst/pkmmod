@@ -1,6 +1,6 @@
 package androidx.browser.customtabs;
 
-import a.b;
+import a.b_a;
 import android.app.PendingIntent;
 import android.app.Service;
 import android.content.Intent;
@@ -23,7 +23,7 @@ public abstract class CustomTabsService extends Service {
     final androidx.collection.g<IBinder, IBinder.DeathRecipient> f1197e = new androidx.collection.g<>();
 
     /* renamed from: f, reason: collision with root package name */
-    private b.a f1198f = new a();
+    private b_a.a f1198f = new a();
 
     @Retention(RetentionPolicy.SOURCE)
     @RestrictTo({RestrictTo.Scope.LIBRARY})
@@ -38,7 +38,7 @@ public abstract class CustomTabsService extends Service {
     public @interface Result {
     }
 
-    class a extends b.a {
+    class a extends b_a.a {
         a() {
         }
 

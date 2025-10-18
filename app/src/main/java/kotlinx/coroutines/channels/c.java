@@ -3,10 +3,12 @@ package kotlinx.coroutines.channels;
 import java.util.concurrent.locks.ReentrantLock;
 import kotlin.Metadata;
 import kotlin.NoWhenBranchMatchedException;
-import kotlinx.coroutines.channels.AbstractChannel;
+import kotlin.t;
 import kotlinx.coroutines.internal.OnUndeliveredElementKt;
 import kotlinx.coroutines.internal.UndeliveredElementException;
 import kotlinx.coroutines.internal.d0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -52,8 +54,8 @@ public class c<E> extends AbstractChannel<E> {
         }
     }
 
-    public c(int i2, @NotNull BufferOverflow bufferOverflow, @Nullable p0.l<? super E, kotlin.t> lVar) {
-        super(lVar);
+    public c(int i2, @NotNull BufferOverflow bufferOverflow, @Nullable l_p0<? super E, t> lP0Var) {
+        super(lP0Var);
         this.capacity = i2;
         this.onBufferOverflow = bufferOverflow;
         if (!(i2 >= 1)) {
@@ -147,7 +149,7 @@ public class c<E> extends AbstractChannel<E> {
 
     @Override // kotlinx.coroutines.channels.AbstractChannel
     protected void R(boolean wasClosed) {
-        p0.l<E, kotlin.t> lVar = this.onUndeliveredElement;
+        l_p0<E, t> lP0Var = this.onUndeliveredElement;
         ReentrantLock reentrantLock = this.lock;
         reentrantLock.lock();
         try {
@@ -157,8 +159,8 @@ public class c<E> extends AbstractChannel<E> {
             while (i3 < i2) {
                 i3++;
                 Object obj = this.buffer[this.head];
-                if (lVar != null && obj != kotlinx.coroutines.channels.a.f3575a) {
-                    undeliveredElementExceptionC = OnUndeliveredElementKt.c(lVar, obj, undeliveredElementExceptionC);
+                if (lP0Var != null && obj != kotlinx.coroutines.channels.a.f3575a) {
+                    undeliveredElementExceptionC = OnUndeliveredElementKt.c(lP0Var, obj, undeliveredElementExceptionC);
                 }
                 Object[] objArr = this.buffer;
                 int i4 = this.head;

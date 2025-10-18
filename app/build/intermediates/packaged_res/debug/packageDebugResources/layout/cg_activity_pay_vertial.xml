@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:layout_width="@dimen/dp_z_1006"
-        android:layout_height="@dimen/dp_z_1800">
-        <include layout="@layout/cg_background_all"/>
-        <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY
-            android:id="@+id/fragment_main"
-            android:background="@drawable/cg_bg1"
-            android:layout_width="@dimen/dp_z_990"
-            android:layout_height="@dimen/dp_z_1700"
-            android:layout_marginLeft="@dimen/dp_z_26"
-            android:layout_marginTop="@dimen/dp_z_160"
-            android:layout_marginRight="@dimen/dp_z_26"
-            android:layout_marginBottom="@dimen/dp_z_26"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
-        <TextView
-            android:textSize="@dimen/sp_z_40"
-            android:textStyle="bold"
-            android:textColor="@color/cg_color_black"
-            android:gravity="center"
-            android:id="@+id/tv_pay_close"
-            android:visibility="gone"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/dp_z_140"
-            android:layout_marginBottom="@dimen/dp_z_20"/>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/dp_z_1006" android:layout_height="@dimen/dp_z_1800">
+        <include layout="@layout/cg_background_all" />
+        <com.sfyvctwaqbjhki.uwmpqfh.lebktch.NNXOHlAajkUISY android:id="@id/fragment_main" android:background="@drawable/cg_bg1" android:layout_width="@dimen/dp_z_990" android:layout_height="@dimen/dp_z_1700" android:layout_marginLeft="@dimen/dp_z_26" android:layout_marginTop="@dimen/dp_z_160" android:layout_marginRight="@dimen/dp_z_26" android:layout_marginBottom="@dimen/dp_z_26" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/sp_z_40" android:textStyle="bold" android:textColor="@color/cg_color_black" android:gravity="center" android:id="@id/tv_pay_close" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_z_140" android:layout_marginBottom="@dimen/dp_z_20" />
     </RelativeLayout>
 </LinearLayout>

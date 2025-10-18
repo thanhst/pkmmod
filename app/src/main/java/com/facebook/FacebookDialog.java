@@ -1,6 +1,6 @@
 package com.facebook;
 
-import com.facebook.CallbackManager;
+import d.a_d;
 import kotlin.Metadata;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
@@ -12,7 +12,7 @@ public interface FacebookDialog<CONTENT, RESULT> {
     boolean canShow(CONTENT content);
 
     @NotNull
-    d.a<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable CallbackManager callbackManager);
+    a_d<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable CallbackManager callbackManager);
 
     void registerCallback(@NotNull CallbackManager callbackManager, @NotNull FacebookCallback<RESULT> facebookCallback);
 

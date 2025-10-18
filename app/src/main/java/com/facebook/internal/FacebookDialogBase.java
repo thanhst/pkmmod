@@ -15,6 +15,8 @@ import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import java.util.Iterator;
 import java.util.List;
+
+import d.a_d;
 import kotlin.Metadata;
 import kotlin.jvm.JvmField;
 import org.jetbrains.annotations.NotNull;
@@ -162,9 +164,9 @@ public abstract class FacebookDialogBase<CONTENT, RESULT> implements FacebookDia
     }
 
     @NotNull
-    protected final d.a<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable final CallbackManager callbackManager, @NotNull final Object mode) {
+    protected final a_d<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable final CallbackManager callbackManager, @NotNull final Object mode) {
         kotlin.jvm.internal.s.e(mode, "mode");
-        return new d.a<CONTENT, CallbackManager.ActivityResultParameters>(this) { // from class: com.facebook.internal.FacebookDialogBase.createActivityResultContractForShowingDialog.1
+        return new a_d<CONTENT, CallbackManager.ActivityResultParameters>(this) { // from class: com.facebook.internal.FacebookDialogBase.createActivityResultContractForShowingDialog.1
             final /* synthetic */ FacebookDialogBase<CONTENT, RESULT> this$0;
 
             {
@@ -350,7 +352,7 @@ public abstract class FacebookDialogBase<CONTENT, RESULT> implements FacebookDia
 
     @Override // com.facebook.FacebookDialog
     @NotNull
-    public d.a<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable CallbackManager callbackManager) {
+    public a_d<CONTENT, CallbackManager.ActivityResultParameters> createActivityResultContractForShowingDialog(@Nullable CallbackManager callbackManager) {
         return createActivityResultContractForShowingDialog(callbackManager, BASE_AUTOMATIC_MODE);
     }
 

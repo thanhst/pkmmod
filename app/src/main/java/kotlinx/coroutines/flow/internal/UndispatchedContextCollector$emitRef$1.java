@@ -1,9 +1,12 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\n\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u00002\u0006\u0010\u0001\u001a\u00028\u0000H\u008a@"}, d2 = {"T", "it", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.UndispatchedContextCollector$emitRef$1", f = "ChannelFlow.kt", i = {}, l = {212}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class UndispatchedContextCollector$emitRef$1<T> extends SuspendLambda implements p0.p<T, kotlin.coroutines.c<? super t>, Object> {
+final class UndispatchedContextCollector$emitRef$1<T> extends SuspendLambda implements p_p0<T, c<? super t>, Object> {
     final /* synthetic */ kotlinx.coroutines.flow.e<T> $downstream;
     /* synthetic */ Object L$0;
     int label;

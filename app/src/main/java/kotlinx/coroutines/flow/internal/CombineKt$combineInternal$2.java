@@ -3,11 +3,17 @@ package kotlinx.coroutines.flow.internal;
 import java.util.concurrent.atomic.AtomicInteger;
 import kotlin.Metadata;
 import kotlin.collections.IndexedValue;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
 import kotlinx.coroutines.channels.s;
+import kotlinx.coroutines.flow.e;
 import kotlinx.coroutines.g0;
+import p0.a_p0;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -15,11 +21,11 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\u00020\u0002H\u008a@"}, d2 = {"R", "T", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$combineInternal$2", f = "Combine.kt", i = {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2}, l = {57, 79, 82}, m = "invokeSuspend", n = {"latestValues", "resultChannel", "lastReceivedEpoch", "remainingAbsentValues", "currentEpoch", "latestValues", "resultChannel", "lastReceivedEpoch", "remainingAbsentValues", "currentEpoch", "latestValues", "resultChannel", "lastReceivedEpoch", "remainingAbsentValues", "currentEpoch"}, s = {"L$0", "L$1", "L$2", "I$0", "I$1", "L$0", "L$1", "L$2", "I$0", "I$1", "L$0", "L$1", "L$2", "I$0", "I$1"})
 /* loaded from: classes.dex */
-final class CombineKt$combineInternal$2 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
-    final /* synthetic */ p0.a<T[]> $arrayFactory;
+final class CombineKt$combineInternal$2 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
+    final /* synthetic */ a_p0<T[]> $arrayFactory;
     final /* synthetic */ kotlinx.coroutines.flow.d<T>[] $flows;
     final /* synthetic */ kotlinx.coroutines.flow.e<R> $this_combineInternal;
-    final /* synthetic */ p0.q<kotlinx.coroutines.flow.e<? super R>, T[], kotlin.coroutines.c<? super t>, Object> $transform;
+    final /* synthetic */ q_p0<e<? super R>, T[], c<? super t>, Object> $transform;
     int I$0;
     int I$1;
     private /* synthetic */ Object L$0;
@@ -31,7 +37,7 @@ final class CombineKt$combineInternal$2 extends SuspendLambda implements p0.p<g0
     @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\u00020\u0002H\u008a@"}, d2 = {"R", "T", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
     @DebugMetadata(c = "kotlinx.coroutines.flow.internal.CombineKt$combineInternal$2$1", f = "Combine.kt", i = {}, l = {34}, m = "invokeSuspend", n = {}, s = {})
     /* renamed from: kotlinx.coroutines.flow.internal.CombineKt$combineInternal$2$1, reason: invalid class name */
-    static final class AnonymousClass1 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
+    static final class AnonymousClass1 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
         final /* synthetic */ kotlinx.coroutines.flow.d<T>[] $flows;
         final /* synthetic */ int $i;
         final /* synthetic */ AtomicInteger $nonClosed;
@@ -179,11 +185,11 @@ final class CombineKt$combineInternal$2 extends SuspendLambda implements p0.p<g0
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    CombineKt$combineInternal$2(kotlinx.coroutines.flow.d<? extends T>[] dVarArr, p0.a<T[]> aVar, p0.q<? super kotlinx.coroutines.flow.e<? super R>, ? super T[], ? super kotlin.coroutines.c<? super t>, ? extends Object> qVar, kotlinx.coroutines.flow.e<? super R> eVar, kotlin.coroutines.c<? super CombineKt$combineInternal$2> cVar) {
+    CombineKt$combineInternal$2(kotlinx.coroutines.flow.d<? extends T>[] dVarArr, a_p0<T[]> aP0Var, q_p0<? super e<? super R>, ? super T[], ? super c<? super t>, ? extends Object> qP0Var, kotlinx.coroutines.flow.e<? super R> eVar, kotlin.coroutines.c<? super CombineKt$combineInternal$2> cVar) {
         super(2, cVar);
         this.$flows = dVarArr;
-        this.$arrayFactory = aVar;
-        this.$transform = qVar;
+        this.$arrayFactory = aP0Var;
+        this.$transform = qP0Var;
         this.$this_combineInternal = eVar;
     }
 

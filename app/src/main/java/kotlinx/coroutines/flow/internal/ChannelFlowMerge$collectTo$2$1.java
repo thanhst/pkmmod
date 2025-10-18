@@ -1,10 +1,13 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
 import kotlinx.coroutines.g0;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,7 +15,7 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\u00020\u0001H\u008a@"}, d2 = {"T", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.ChannelFlowMerge$collectTo$2$1", f = "Merge.kt", i = {}, l = {69}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class ChannelFlowMerge$collectTo$2$1 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
+final class ChannelFlowMerge$collectTo$2$1 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
     final /* synthetic */ p<Object> $collector;
     final /* synthetic */ kotlinx.coroutines.flow.d<Object> $inner;
     final /* synthetic */ kotlinx.coroutines.sync.d $semaphore;

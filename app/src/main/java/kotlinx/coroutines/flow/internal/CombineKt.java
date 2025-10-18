@@ -2,7 +2,12 @@ package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
 import kotlin.PublishedApi;
+import kotlin.coroutines.c;
 import kotlin.t;
+import kotlinx.coroutines.flow.e;
+import p0.a_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,8 +17,8 @@ import org.jetbrains.annotations.Nullable;
 public final class CombineKt {
     @PublishedApi
     @Nullable
-    public static final <R, T> Object a(@NotNull kotlinx.coroutines.flow.e<? super R> eVar, @NotNull kotlinx.coroutines.flow.d<? extends T>[] dVarArr, @NotNull p0.a<T[]> aVar, @NotNull p0.q<? super kotlinx.coroutines.flow.e<? super R>, ? super T[], ? super kotlin.coroutines.c<? super t>, ? extends Object> qVar, @NotNull kotlin.coroutines.c<? super t> cVar) throws Throwable {
-        Object objA = i.a(new CombineKt$combineInternal$2(dVarArr, aVar, qVar, eVar, null), cVar);
+    public static final <R, T> Object a(@NotNull kotlinx.coroutines.flow.e<? super R> eVar, @NotNull kotlinx.coroutines.flow.d<? extends T>[] dVarArr, @NotNull a_p0<T[]> aP0Var, @NotNull q_p0<? super e<? super R>, ? super T[], ? super c<? super t>, ? extends Object> qP0Var, @NotNull kotlin.coroutines.c<? super t> cVar) throws Throwable {
+        Object objA = i.a(new CombineKt$combineInternal$2(dVarArr, aP0Var, qP0Var, eVar, null), cVar);
         return objA == kotlin.coroutines.intrinsics.b.d() ? objA : t.f3507a;
     }
 }

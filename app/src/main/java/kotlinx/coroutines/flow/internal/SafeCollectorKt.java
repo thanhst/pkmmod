@@ -1,8 +1,12 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.jvm.internal.y;
 import kotlin.t;
+import kotlinx.coroutines.flow.e;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: SafeCollector.kt */
@@ -12,5 +16,5 @@ public final class SafeCollectorKt {
 
     /* renamed from: a, reason: collision with root package name */
     @NotNull
-    private static final p0.q<kotlinx.coroutines.flow.e<Object>, Object, kotlin.coroutines.c<? super t>, Object> f3747a = (p0.q) y.b(SafeCollectorKt$emitFun$1.INSTANCE, 3);
+    private static final q_p0<e<Object>, Object, c<? super t>, Object> f3747a = (q_p0) y.b(SafeCollectorKt$emitFun$1.INSTANCE, 3);
 }

@@ -17,6 +17,8 @@ import kotlin.t;
 import kotlinx.coroutines.i0;
 import kotlinx.coroutines.internal.d0;
 import kotlinx.coroutines.internal.y;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -144,7 +146,7 @@ public final class CoroutineScheduler implements Executor, Closeable {
             }
             long j2 = this.controlState;
             int i2 = (int) (j2 & 2097151);
-            int iA = s0.l.a(i2 - ((int) ((j2 & 4398044413952L) >> 21)), 0);
+            int iA = l_s0.a(i2 - ((int) ((j2 & 4398044413952L) >> 21)), 0);
             if (iA >= this.corePoolSize) {
                 return 0;
             }
@@ -236,7 +238,7 @@ public final class CoroutineScheduler implements Executor, Closeable {
     }
 
     private final boolean p(long state) {
-        if (s0.l.a(((int) (2097151 & state)) - ((int) ((state & 4398044413952L) >> 21)), 0) < this.corePoolSize) {
+        if (l_s0.a(((int) (2097151 & state)) - ((int) ((state & 4398044413952L) >> 21)), 0) < this.corePoolSize) {
             int iB = b();
             if (iB == 1 && this.corePoolSize > 1) {
                 b();

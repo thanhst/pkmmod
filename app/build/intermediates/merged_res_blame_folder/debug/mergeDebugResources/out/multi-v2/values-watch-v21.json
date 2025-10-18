@@ -4,22 +4,22 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-watch-v21\\styles.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-watch-v21\\styles.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
-                        "startOffsets": "57,284,523",
+                        "startOffsets": "57,287,529",
                         "endLines": "5,9,13",
                         "endColumns": "12,12,12",
-                        "endOffsets": "278,517,758"
+                        "endOffsets": "281,523,767"
                     },
                     "to": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",
-                        "startOffsets": "55,278,513",
+                        "startOffsets": "55,281,519",
                         "endLines": "5,9,13",
                         "endColumns": "12,12,12",
-                        "endOffsets": "273,508,745"
+                        "endOffsets": "276,514,754"
                     }
                 }
             ]

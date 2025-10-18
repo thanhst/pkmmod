@@ -1,36 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:id="@+id/layout_suspension_account"
-    android:paddingLeft="@dimen/dp_z_10"
-    android:paddingRight="@dimen/dp_z_10"
-    android:layout_width="@dimen/dp_z_134"
-    android:layout_height="wrap_content">
-    <RelativeLayout
-        android:gravity="center"
-        android:orientation="vertical"
-        android:id="@+id/layout_touch"
-        android:layout_width="@dimen/dp_z_114"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/dk_iv_sus_account"
-            android:layout_width="@dimen/dp_z_114"
-            android:layout_height="wrap_content"
-            android:scaleType="centerInside"
-            android:layout_alignParentTop="true"
-            android:layout_centerInParent="true"/>
-        <TextView
-            android:textSize="@dimen/sp_z_26"
-            android:textColor="@color/cg_color_black"
-            android:gravity="center_horizontal"
-            android:id="@+id/dk_tv_sus_account"
-            android:layout_width="@dimen/dp_z_104"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_z_84"
-            android:text="用户中心"
-            android:singleLine="true"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_suspension_account" android:paddingLeft="@dimen/dp_z_10" android:paddingRight="@dimen/dp_z_10" android:layout_width="@dimen/dp_z_134" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_touch" android:layout_width="@dimen/dp_z_114" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dk_iv_sus_account" android:layout_width="@dimen/dp_z_114" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/sp_z_26" android:textColor="@color/cg_color_black" android:gravity="center_horizontal" android:id="@id/dk_tv_sus_account" android:layout_width="@dimen/dp_z_104" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_z_84" android:text="用户中心" android:singleLine="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </RelativeLayout>

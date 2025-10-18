@@ -4,6 +4,8 @@ import android.content.Intent;
 import com.facebook.internal.Utility;
 import kotlin.Metadata;
 import kotlin.jvm.JvmStatic;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -30,7 +32,7 @@ public final class ProfileManager {
     private Profile currentProfileField;
 
     @NotNull
-    private final u.a localBroadcastManager;
+    private final a_u localBroadcastManager;
 
     @NotNull
     private final ProfileCache profileCache;
@@ -50,9 +52,9 @@ public final class ProfileManager {
         public final synchronized ProfileManager getInstance() {
             ProfileManager profileManager;
             if (ProfileManager.instance == null) {
-                u.a aVarB = u.a.b(FacebookSdk.getApplicationContext());
-                kotlin.jvm.internal.s.d(aVarB, "getInstance(applicationContext)");
-                ProfileManager.instance = new ProfileManager(aVarB, new ProfileCache());
+                a_u aUVarB = a_u.b(FacebookSdk.getApplicationContext());
+                kotlin.jvm.internal.s.d(aUVarB, "getInstance(applicationContext)");
+                ProfileManager.instance = new ProfileManager(aUVarB, new ProfileCache());
             }
             profileManager = ProfileManager.instance;
             if (profileManager == null) {
@@ -63,7 +65,7 @@ public final class ProfileManager {
         }
     }
 
-    public ProfileManager(@NotNull u.a localBroadcastManager, @NotNull ProfileCache profileCache) {
+    public ProfileManager(@NotNull a_u localBroadcastManager, @NotNull ProfileCache profileCache) {
         kotlin.jvm.internal.s.e(localBroadcastManager, "localBroadcastManager");
         kotlin.jvm.internal.s.e(profileCache, "profileCache");
         this.localBroadcastManager = localBroadcastManager;

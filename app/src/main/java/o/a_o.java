@@ -1,0 +1,9 @@
+package o;
+
+/* compiled from: MathUtils.java */
+/* loaded from: classes.dex */
+public class a_o {
+    public static int a(int i2, int i3, int i4) {
+        return i2 < i3 ? i3 : i2 > i4 ? i4 : i2;
+    }
+}

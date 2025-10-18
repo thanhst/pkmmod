@@ -1,6 +1,8 @@
 package kotlinx.coroutines.selects;
 
 import kotlin.Metadata;
+import kotlin.t;
+import p0.l_p0;
 
 /* compiled from: WhileSelect.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0004\u001a4\u0010\u0006\u001a\u00020\u00032\u001f\b\u0004\u0010\u0005\u001a\u0019\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u00020\u0001\u0012\u0004\u0012\u00020\u00030\u0000¢\u0006\u0002\b\u0004H\u0087Hø\u0001\u0000¢\u0006\u0004\b\u0006\u0010\u0007\u0082\u0002\u0004\n\u0002\b\u0019¨\u0006\b"}, d2 = {"Lkotlin/Function1;", "Lkotlinx/coroutines/selects/a;", "", "Lkotlin/t;", "Lkotlin/ExtensionFunctionType;", "builder", "a", "(Lp0/l;Lkotlin/coroutines/c;)Ljava/lang/Object;", "kotlinx-coroutines-core"}, k = 2, mv = {1, 6, 0})
@@ -23,7 +25,7 @@ public final class WhileSelectKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final java.lang.Object a(@org.jetbrains.annotations.NotNull p0.l<? super kotlinx.coroutines.selects.a<? super java.lang.Boolean>, kotlin.t> r4, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r5) {
+    public static final java.lang.Object a(@org.jetbrains.annotations.NotNull l_p0<? super a<? super Boolean>, t> r4, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r5) {
         /*
             boolean r0 = r5 instanceof kotlinx.coroutines.selects.WhileSelectKt$whileSelect$1
             if (r0 == 0) goto L13

@@ -29,6 +29,8 @@ import java.lang.reflect.Method;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 
+import n.a_n;
+
 /* compiled from: SupportMenuInflater.java */
 @RestrictTo({RestrictTo.Scope.LIBRARY_GROUP_PREFIX})
 /* loaded from: classes.dex */
@@ -429,7 +431,7 @@ public class g extends MenuInflater {
 
     @Override // android.view.MenuInflater
     public void inflate(@LayoutRes int i2, Menu menu) {
-        if (!(menu instanceof n.a)) {
+        if (!(menu instanceof a_n)) {
             super.inflate(i2, menu);
             return;
         }

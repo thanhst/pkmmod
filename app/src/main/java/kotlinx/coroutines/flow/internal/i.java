@@ -2,7 +2,11 @@ package kotlinx.coroutines.flow.internal;
 
 import kotlin.BuilderInference;
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlinx.coroutines.g0;
+import p0.p_p0;
+import u0.b_u0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -11,9 +15,9 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public final class i {
     @Nullable
-    public static final <R> Object a(@BuilderInference @NotNull p0.p<? super g0, ? super kotlin.coroutines.c<? super R>, ? extends Object> pVar, @NotNull kotlin.coroutines.c<? super R> cVar) throws Throwable {
+    public static final <R> Object a(@BuilderInference @NotNull p_p0<? super g0, ? super c<? super R>, ? extends Object> pP0Var, @NotNull kotlin.coroutines.c<? super R> cVar) throws Throwable {
         h hVar = new h(cVar.getContext(), cVar);
-        Object objE = u0.b.e(hVar, hVar, pVar);
+        Object objE = b_u0.e(hVar, hVar, pP0Var);
         if (objE == kotlin.coroutines.intrinsics.b.d()) {
             kotlin.coroutines.jvm.internal.e.c(cVar);
         }

@@ -4,7 +4,10 @@ import com.facebook.internal.NativeProtocol;
 import java.util.concurrent.CancellationException;
 import kotlin.Metadata;
 import kotlin.PublishedApi;
+import kotlin.t;
 import kotlinx.coroutines.z0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -35,7 +38,7 @@ final /* synthetic */ class ChannelsKt__Channels_commonKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final <E> java.lang.Object b(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.d<E> r6, @org.jetbrains.annotations.NotNull p0.l<? super E, kotlin.t> r7, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r8) throws java.lang.Throwable {
+    public static final <E> java.lang.Object b(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.d<E> r6, @org.jetbrains.annotations.NotNull l_p0<? super E, t> r7, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r8) throws java.lang.Throwable {
         /*
             boolean r0 = r8 instanceof kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$consumeEach$3
             if (r0 == 0) goto L13
@@ -155,7 +158,7 @@ final /* synthetic */ class ChannelsKt__Channels_commonKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final <E> java.lang.Object c(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.ReceiveChannel<? extends E> r6, @org.jetbrains.annotations.NotNull p0.l<? super E, kotlin.t> r7, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r8) {
+    public static final <E> java.lang.Object c(@org.jetbrains.annotations.NotNull kotlinx.coroutines.channels.ReceiveChannel<? extends E> r6, @org.jetbrains.annotations.NotNull l_p0<? super E, t> r7, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super kotlin.t> r8) {
         /*
             boolean r0 = r8 instanceof kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt$consumeEach$1
             if (r0 == 0) goto L13

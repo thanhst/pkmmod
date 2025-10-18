@@ -13,11 +13,12 @@ import kotlin.Metadata;
 import kotlin.jvm.internal.o;
 import kotlin.jvm.internal.s;
 import kotlin.t;
-import kotlinx.coroutines.debug.internal.ConcurrentWeakMap;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
-import s0.l;
+import p0.p_p0;
+import q0.a_q0;
+import s0.l_s0;
 
 /* compiled from: ConcurrentWeakMap.kt */
 @Metadata(bv = {}, d1 = {"\u0000H\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0002\b\t\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0003\n\u0002\u0010#\n\u0002\b\u0003\n\u0002\u0010'\n\u0002\b\u0002\n\u0002\u0010\u000b\n\u0002\b\u0003\b\u0000\u0018\u0000*\b\b\u0000\u0010\u0002*\u00020\u0001*\b\b\u0001\u0010\u0003*\u00020\u00012\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u00010\u0004:\u0003#\u001f\u001bB\u0011\u0012\b\b\u0002\u0010\u0019\u001a\u00020%¢\u0006\u0004\b&\u0010'J\u000f\u0010\u0006\u001a\u00020\u0005H\u0002¢\u0006\u0004\b\u0006\u0010\u0007J#\u0010\n\u001a\u0004\u0018\u00018\u00012\u0006\u0010\b\u001a\u00028\u00002\b\u0010\t\u001a\u0004\u0018\u00018\u0001H\u0002¢\u0006\u0004\b\n\u0010\u000bJ\u001b\u0010\u000e\u001a\u00020\u00052\n\u0010\r\u001a\u0006\u0012\u0002\b\u00030\fH\u0002¢\u0006\u0004\b\u000e\u0010\u000fJ\u001a\u0010\u0010\u001a\u0004\u0018\u00018\u00012\u0006\u0010\b\u001a\u00028\u0000H\u0096\u0002¢\u0006\u0004\b\u0010\u0010\u0011J!\u0010\u0012\u001a\u0004\u0018\u00018\u00012\u0006\u0010\b\u001a\u00028\u00002\u0006\u0010\t\u001a\u00028\u0001H\u0016¢\u0006\u0004\b\u0012\u0010\u000bJ\u0019\u0010\u0013\u001a\u0004\u0018\u00018\u00012\u0006\u0010\b\u001a\u00028\u0000H\u0016¢\u0006\u0004\b\u0013\u0010\u0011J\u000f\u0010\u0014\u001a\u00020\u0005H\u0016¢\u0006\u0004\b\u0014\u0010\u0007J\r\u0010\u0015\u001a\u00020\u0005¢\u0006\u0004\b\u0015\u0010\u0007R\u001c\u0010\u0019\u001a\n\u0012\u0004\u0012\u00028\u0000\u0018\u00010\u00168\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0017\u0010\u0018R\u0014\u0010\u001d\u001a\u00020\u001a8VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\u001b\u0010\u001cR\u001a\u0010!\u001a\b\u0012\u0004\u0012\u00028\u00000\u001e8VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b\u001f\u0010 R&\u0010$\u001a\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u00010\"0\u001e8VX\u0096\u0004¢\u0006\u0006\u001a\u0004\b#\u0010 ¨\u0006("}, d2 = {"Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap;", "", "K", "V", "Lkotlin/collections/f;", "Lkotlin/t;", "h", "()V", "key", "value", "i", "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;", "Lkotlinx/coroutines/debug/internal/f;", "w", "g", "(Lkotlinx/coroutines/debug/internal/f;)V", "get", "(Ljava/lang/Object;)Ljava/lang/Object;", "put", "remove", "clear", "j", "Ljava/lang/ref/ReferenceQueue;", "e", "Ljava/lang/ref/ReferenceQueue;", "weakRefQueue", "", "c", "()I", "size", "", "b", "()Ljava/util/Set;", "keys", "", "a", "entries", "", "<init>", "(Z)V", "kotlinx-coroutines-core"}, k = 1, mv = {1, 6, 0})
@@ -67,11 +68,11 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
         /* compiled from: ConcurrentWeakMap.kt */
         @Metadata(bv = {}, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010)\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0010\u0001\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u000b\b\u0082\u0004\u0018\u0000*\u0004\b\u0002\u0010\u00012\b\u0012\u0004\u0012\u00028\u00020\u0002B!\u0012\u0018\u0010\u000e\u001a\u0014\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00028\u00020\u000b¢\u0006\u0004\b\u0018\u0010\u0019J\b\u0010\u0004\u001a\u00020\u0003H\u0002J\t\u0010\u0006\u001a\u00020\u0005H\u0096\u0002J\u0010\u0010\u0007\u001a\u00028\u0002H\u0096\u0002¢\u0006\u0004\b\u0007\u0010\bJ\b\u0010\n\u001a\u00020\tH\u0016R&\u0010\u000e\u001a\u0014\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u0001\u0012\u0004\u0012\u00028\u00020\u000b8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\f\u0010\rR\u0016\u0010\u0012\u001a\u00020\u000f8\u0002@\u0002X\u0082\u000e¢\u0006\u0006\n\u0004\b\u0010\u0010\u0011R\u0016\u0010\u0015\u001a\u00028\u00008\u0002@\u0002X\u0082.¢\u0006\u0006\n\u0004\b\u0013\u0010\u0014R\u0016\u0010\u0017\u001a\u00028\u00018\u0002@\u0002X\u0082.¢\u0006\u0006\n\u0004\b\u0016\u0010\u0014¨\u0006\u001a"}, d2 = {"Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$a$a;", "E", "", "Lkotlin/t;", "a", "", "hasNext", "next", "()Ljava/lang/Object;", "", "b", "Lkotlin/Function2;", "e", "Lp0/p;", "factory", "", "f", "I", "index", "g", "Ljava/lang/Object;", "key", "h", "value", "<init>", "(Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$a;Lp0/p;)V", "kotlinx-coroutines-core"}, k = 1, mv = {1, 6, 0})
         /* renamed from: kotlinx.coroutines.debug.internal.ConcurrentWeakMap$a$a, reason: collision with other inner class name */
-        private final class C0061a<E> implements Iterator<E>, q0.a {
+        private final class C0061AQ0<E> implements Iterator<E>, a_q0 {
 
             /* renamed from: e, reason: collision with root package name and from kotlin metadata */
             @NotNull
-            private final p<K, V, E> factory;
+            private final p_p0<K, V, E> factory;
 
             /* renamed from: f, reason: collision with root package name and from kotlin metadata */
             private int index = -1;
@@ -83,8 +84,8 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
             private V value;
 
             /* JADX WARN: Multi-variable type inference failed */
-            public C0061a(@NotNull p<? super K, ? super V, ? extends E> pVar) {
-                this.factory = pVar;
+            public C0061AQ0(@NotNull p_p0<? super K, ? super V, ? extends E> pP0Var) {
+                this.factory = pP0Var;
                 a();
             }
 
@@ -129,7 +130,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
                 if (this.index >= ((a) a.this).allocated) {
                     throw new NoSuchElementException();
                 }
-                p<K, V, E> pVar = this.factory;
+                p_p0<K, V, E> pP0Var = this.factory;
                 K k2 = this.key;
                 if (k2 == false) {
                     s.t("key");
@@ -140,7 +141,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
                     s.t("value");
                     v2 = (V) t.f3507a;
                 }
-                E e2 = (E) pVar.invoke(k2, v2);
+                E e2 = (E) pP0Var.invoke(k2, v2);
                 a();
                 return e2;
             }
@@ -221,8 +222,8 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
         }
 
         @NotNull
-        public final <E> Iterator<E> e(@NotNull p<? super K, ? super V, ? extends E> factory) {
-            return new C0061a(factory);
+        public final <E> Iterator<E> e(@NotNull p_p0<? super K, ? super V, ? extends E> factory) {
+            return new C0061AQ0(factory);
         }
 
         @Nullable
@@ -282,7 +283,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
             int i2;
             Object obj;
             while (true) {
-                ConcurrentWeakMap<K, V>.a aVar = (ConcurrentWeakMap<K, V>.a) ConcurrentWeakMap.this.new a(Integer.highestOneBit(l.a(ConcurrentWeakMap.this.size(), 4)) * 4);
+                ConcurrentWeakMap<K, V>.a aVar = (ConcurrentWeakMap<K, V>.a) ConcurrentWeakMap.this.new a(Integer.highestOneBit(l_s0.a(ConcurrentWeakMap.this.size(), 4)) * 4);
                 int i3 = this.allocated;
                 while (i2 < i3) {
                     int i4 = i2 + 1;
@@ -311,7 +312,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
     /* JADX INFO: Access modifiers changed from: private */
     /* compiled from: ConcurrentWeakMap.kt */
     @Metadata(bv = {}, d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010'\n\u0002\b\u000e\b\u0002\u0018\u0000*\u0004\b\u0002\u0010\u0001*\u0004\b\u0003\u0010\u00022\u000e\u0012\u0004\u0012\u00028\u0002\u0012\u0004\u0012\u00028\u00030\u0003B\u0017\u0012\u0006\u0010\u000b\u001a\u00028\u0002\u0012\u0006\u0010\u000e\u001a\u00028\u0003¢\u0006\u0004\b\u000f\u0010\u0010J\u0017\u0010\u0005\u001a\u00028\u00032\u0006\u0010\u0004\u001a\u00028\u0003H\u0016¢\u0006\u0004\b\u0005\u0010\u0006R\u001a\u0010\u000b\u001a\u00028\u00028\u0016X\u0096\u0004¢\u0006\f\n\u0004\b\u0007\u0010\b\u001a\u0004\b\t\u0010\nR\u001a\u0010\u000e\u001a\u00028\u00038\u0016X\u0096\u0004¢\u0006\f\n\u0004\b\f\u0010\b\u001a\u0004\b\r\u0010\n¨\u0006\u0011"}, d2 = {"Lkotlinx/coroutines/debug/internal/ConcurrentWeakMap$b;", "K", "V", "", "newValue", "setValue", "(Ljava/lang/Object;)Ljava/lang/Object;", "e", "Ljava/lang/Object;", "getKey", "()Ljava/lang/Object;", "key", "f", "getValue", "value", "<init>", "(Ljava/lang/Object;Ljava/lang/Object;)V", "kotlinx-coroutines-core"}, k = 1, mv = {1, 6, 0})
-    static final class b<K, V> implements Map.Entry<K, V>, q0.a {
+    static final class b<K, V> implements Map.Entry<K, V>, a_q0 {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         private final K key;
@@ -347,11 +348,11 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
 
         /* renamed from: e, reason: collision with root package name and from kotlin metadata */
         @NotNull
-        private final p<K, V, E> factory;
+        private final p_p0<K, V, E> factory;
 
         /* JADX WARN: Multi-variable type inference failed */
-        public c(@NotNull p<? super K, ? super V, ? extends E> pVar) {
-            this.factory = pVar;
+        public c(@NotNull p_p0<? super K, ? super V, ? extends E> pP0Var) {
+            this.factory = pP0Var;
         }
 
         @Override // kotlin.collections.g, java.util.AbstractCollection, java.util.Collection, java.util.Set
@@ -405,7 +406,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
     @Override // kotlin.collections.f
     @NotNull
     public Set<Map.Entry<K, V>> a() {
-        return new c(new p<K, V, Map.Entry<K, V>>() { // from class: kotlinx.coroutines.debug.internal.ConcurrentWeakMap$entries$1
+        return new c(new p_p0<K, V, Entry<K, V>>() { // from class: kotlinx.coroutines.debug.internal.ConcurrentWeakMap$entries$1
             /* JADX WARN: Multi-variable type inference failed */
             @Override // p0.p
             public /* bridge */ /* synthetic */ Object invoke(Object obj, Object obj2) {
@@ -423,7 +424,7 @@ public final class ConcurrentWeakMap<K, V> extends kotlin.collections.f<K, V> {
     @Override // kotlin.collections.f
     @NotNull
     public Set<K> b() {
-        return new c(new p<K, V, K>() { // from class: kotlinx.coroutines.debug.internal.ConcurrentWeakMap$keys$1
+        return new c(new p_p0<K, V, K>() { // from class: kotlinx.coroutines.debug.internal.ConcurrentWeakMap$keys$1
             @Override // p0.p
             @NotNull
             public final K invoke(@NotNull K k2, @NotNull V v2) {

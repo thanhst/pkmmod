@@ -12,8 +12,8 @@ import kotlin.jvm.internal.s;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.l;
-import p0.p;
+import p0.l_p0;
+import p0.p_p0;
 
 /* compiled from: FileTreeWalk.kt */
 @Metadata(bv = {}, d1 = {"\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010(\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010\b\n\u0002\b\u0006\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001:\u0003\u0005\t\u000eB\u008b\u0001\b\u0002\u0012\u0006\u0010\u0007\u001a\u00020\u0002\u0012\b\b\u0002\u0010\u000b\u001a\u00020\b\u0012\u0014\u0010\u0010\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\r\u0018\u00010\f\u0012\u0014\u0010\u0013\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u0011\u0018\u00010\f\u00128\u0010\u001b\u001a4\u0012\u0013\u0012\u00110\u0002¢\u0006\f\b\u0015\u0012\b\b\u0016\u0012\u0004\b\b(\u0017\u0012\u0013\u0012\u00110\u0018¢\u0006\f\b\u0015\u0012\b\b\u0016\u0012\u0004\b\b(\u0019\u0012\u0004\u0012\u00020\u0011\u0018\u00010\u0014\u0012\b\b\u0002\u0010\u001e\u001a\u00020\u001c¢\u0006\u0004\b\u001f\u0010 B\u001b\b\u0010\u0012\u0006\u0010\u0007\u001a\u00020\u0002\u0012\b\b\u0002\u0010\u000b\u001a\u00020\b¢\u0006\u0004\b\u001f\u0010!J\u000f\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00020\u0003H\u0096\u0002R\u0014\u0010\u0007\u001a\u00020\u00028\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0005\u0010\u0006R\u0014\u0010\u000b\u001a\u00020\b8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\t\u0010\nR\"\u0010\u0010\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\r\u0018\u00010\f8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u000e\u0010\u000fR\"\u0010\u0013\u001a\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0004\u0012\u00020\u0011\u0018\u00010\f8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0012\u0010\u000fRF\u0010\u001b\u001a4\u0012\u0013\u0012\u00110\u0002¢\u0006\f\b\u0015\u0012\b\b\u0016\u0012\u0004\b\b(\u0017\u0012\u0013\u0012\u00110\u0018¢\u0006\f\b\u0015\u0012\b\b\u0016\u0012\u0004\b\b(\u0019\u0012\u0004\u0012\u00020\u0011\u0018\u00010\u00148\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0019\u0010\u001aR\u0014\u0010\u001e\u001a\u00020\u001c8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\u0017\u0010\u001d¨\u0006\""}, d2 = {"Lkotlin/io/c;", "Lkotlin/sequences/d;", "Ljava/io/File;", "", "iterator", "a", "Ljava/io/File;", "start", "Lkotlin/io/FileWalkDirection;", "b", "Lkotlin/io/FileWalkDirection;", "direction", "Lkotlin/Function1;", "", "c", "Lp0/l;", "onEnter", "Lkotlin/t;", "d", "onLeave", "Lkotlin/Function2;", "Lkotlin/ParameterName;", "name", "f", "Ljava/io/IOException;", "e", "Lp0/p;", "onFail", "", "I", "maxDepth", "<init>", "(Ljava/io/File;Lkotlin/io/FileWalkDirection;Lp0/l;Lp0/l;Lp0/p;I)V", "(Ljava/io/File;Lkotlin/io/FileWalkDirection;)V", "kotlin-stdlib"}, k = 1, mv = {1, 7, 1})
@@ -30,15 +30,15 @@ public final class c implements kotlin.sequences.d<File> {
 
     /* renamed from: c, reason: collision with root package name and from kotlin metadata */
     @Nullable
-    private final l<File, Boolean> onEnter;
+    private final l_p0<File, Boolean> onEnter;
 
     /* renamed from: d, reason: collision with root package name and from kotlin metadata */
     @Nullable
-    private final l<File, t> onLeave;
+    private final l_p0<File, t> onLeave;
 
     /* renamed from: e, reason: collision with root package name and from kotlin metadata */
     @Nullable
-    private final p<File, IOException, t> onFail;
+    private final p_p0<File, IOException, t> onFail;
 
     /* renamed from: f, reason: collision with root package name and from kotlin metadata */
     private final int maxDepth;
@@ -92,9 +92,9 @@ public final class c implements kotlin.sequences.d<File> {
             @Nullable
             public File b() {
                 if (!this.failed && this.fileList == null) {
-                    l lVar = c.this.onEnter;
+                    l_p0 lP0Var = c.this.onEnter;
                     boolean z2 = false;
-                    if (lVar != null && !((Boolean) lVar.invoke(getRoot())).booleanValue()) {
+                    if (lP0Var != null && !((Boolean) lP0Var.invoke(getRoot())).booleanValue()) {
                         z2 = true;
                     }
                     if (z2) {
@@ -103,9 +103,9 @@ public final class c implements kotlin.sequences.d<File> {
                     File[] fileArrListFiles = getRoot().listFiles();
                     this.fileList = fileArrListFiles;
                     if (fileArrListFiles == null) {
-                        p pVar = c.this.onFail;
-                        if (pVar != null) {
-                            pVar.invoke(getRoot(), new AccessDeniedException(getRoot(), null, "Cannot list files in a directory", 2, null));
+                        p_p0 pP0Var = c.this.onFail;
+                        if (pP0Var != null) {
+                            pP0Var.invoke(getRoot(), new AccessDeniedException(getRoot(), null, "Cannot list files in a directory", 2, null));
                         }
                         this.failed = true;
                     }
@@ -126,9 +126,9 @@ public final class c implements kotlin.sequences.d<File> {
                     this.rootVisited = true;
                     return getRoot();
                 }
-                l lVar2 = c.this.onLeave;
-                if (lVar2 != null) {
-                    lVar2.invoke(getRoot());
+                l_p0 lP0Var2 = c.this.onLeave;
+                if (lP0Var2 != null) {
+                    lP0Var2.invoke(getRoot());
                 }
                 return null;
             }
@@ -383,12 +383,12 @@ public final class c implements kotlin.sequences.d<File> {
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    private c(File file, FileWalkDirection fileWalkDirection, l<? super File, Boolean> lVar, l<? super File, t> lVar2, p<? super File, ? super IOException, t> pVar, int i2) {
+    private c(File file, FileWalkDirection fileWalkDirection, l_p0<? super File, Boolean> lP0Var, l_p0<? super File, t> lP0Var2, p_p0<? super File, ? super IOException, t> pP0Var, int i2) {
         this.start = file;
         this.direction = fileWalkDirection;
-        this.onEnter = lVar;
-        this.onLeave = lVar2;
-        this.onFail = pVar;
+        this.onEnter = lP0Var;
+        this.onLeave = lP0Var2;
+        this.onFail = pP0Var;
         this.maxDepth = i2;
     }
 
@@ -398,8 +398,8 @@ public final class c implements kotlin.sequences.d<File> {
         return new b();
     }
 
-    /* synthetic */ c(File file, FileWalkDirection fileWalkDirection, l lVar, l lVar2, p pVar, int i2, int i3, o oVar) {
-        this(file, (i3 & 2) != 0 ? FileWalkDirection.TOP_DOWN : fileWalkDirection, lVar, lVar2, pVar, (i3 & 32) != 0 ? Integer.MAX_VALUE : i2);
+    /* synthetic */ c(File file, FileWalkDirection fileWalkDirection, l_p0 lP0Var, l_p0 lP0Var2, p_p0 pP0Var, int i2, int i3, o oVar) {
+        this(file, (i3 & 2) != 0 ? FileWalkDirection.TOP_DOWN : fileWalkDirection, lP0Var, lP0Var2, pP0Var, (i3 & 32) != 0 ? Integer.MAX_VALUE : i2);
     }
 
     /* JADX WARN: 'this' call moved to the top of the method (can break code semantics) */

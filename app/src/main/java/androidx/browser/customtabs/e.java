@@ -1,6 +1,6 @@
 package androidx.browser.customtabs;
 
-import a.b;
+import a.b_a;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.ServiceConnection;
@@ -36,7 +36,7 @@ public abstract class e implements ServiceConnection {
         if (this.mApplicationContext == null) {
             throw new IllegalStateException("Custom Tabs Service connected before an applicationcontext has been provided.");
         }
-        onCustomTabsServiceConnected(componentName, new a(b.a.C(iBinder), componentName, this.mApplicationContext));
+        onCustomTabsServiceConnected(componentName, new a(b_a.a.C(iBinder), componentName, this.mApplicationContext));
     }
 
     @RestrictTo({RestrictTo.Scope.LIBRARY})

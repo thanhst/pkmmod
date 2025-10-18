@@ -12,7 +12,7 @@ public class XVlfRcH extends Activity {
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
         Intent intent = new Intent(this, (Class<?>) PCJDkVISZlhELOr.class);
-        intent.addFlags(65536);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         intent.putExtra("UseSplashScreen", ServerProtocol.DIALOG_RETURN_SCOPES_TRUE);
         intent.putExtra("DataString", getIntent().getDataString());
         startActivity(intent);

@@ -12,10 +12,11 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.app.a;
 import androidx.core.content.ContextCompat;
 import java.util.List;
 import java.util.ListIterator;
+
+import v0.a_v0;
 
 /* loaded from: classes.dex */
 public class PermissionActivity extends AppCompatActivity {
@@ -186,22 +187,22 @@ public class PermissionActivity extends AppCompatActivity {
     private void J() {
         String strB = B();
         String str = TextUtils.isEmpty(this.f4029i) ? String.format(getString(R$string.permission_dialog_msg), this.f4032l) : this.f4029i;
-        v0.a aVar = new v0.a(this);
-        aVar.setGridViewColum(this.f4030j.size() < 3 ? this.f4030j.size() : 3);
-        aVar.setTitle(strB);
-        aVar.setMsg(str);
-        aVar.setGridViewAdapter(new PermissionAdapter(this.f4030j));
+        a_v0 aV0Var = new a_v0(this);
+        aV0Var.setGridViewColum(this.f4030j.size() < 3 ? this.f4030j.size() : 3);
+        aV0Var.setTitle(strB);
+        aV0Var.setMsg(str);
+        aV0Var.setGridViewAdapter(new PermissionAdapter(this.f4030j));
         if (this.f4033m == -1) {
             this.f4033m = R$style.PermissionDefaultNormalStyle;
             this.f4034n = getResources().getColor(R$color.permissionColorGreen);
         }
-        aVar.setStyleId(this.f4033m);
-        aVar.setFilterColor(this.f4034n);
-        aVar.setBtnOnClickListener(new a());
+        aV0Var.setStyleId(this.f4033m);
+        aV0Var.setFilterColor(this.f4034n);
+        aV0Var.setBtnOnClickListener(new a());
         Dialog dialog = new Dialog(this);
         this.f4031k = dialog;
         dialog.requestWindowFeature(1);
-        this.f4031k.setContentView(aVar);
+        this.f4031k.setContentView(aV0Var);
         if (this.f4035o != -1) {
             this.f4031k.getWindow().setWindowAnimations(this.f4035o);
         }

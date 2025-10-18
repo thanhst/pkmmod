@@ -1,6 +1,6 @@
 package androidx.browser.customtabs;
 
-import a.c;
+import a.c_a;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,9 +13,9 @@ import androidx.annotation.Nullable;
 public class PostMessageService extends Service {
 
     /* renamed from: e, reason: collision with root package name */
-    private c.a f1200e = new a();
+    private c_a.a f1200e = new a();
 
-    class a extends c.a {
+    class a extends c_a.a {
         a() {
         }
 

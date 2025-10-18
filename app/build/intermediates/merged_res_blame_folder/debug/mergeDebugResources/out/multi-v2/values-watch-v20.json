@@ -4,7 +4,7 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-watch-v20\\styles.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-watch-v20\\styles.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

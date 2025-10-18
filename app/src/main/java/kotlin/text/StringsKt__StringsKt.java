@@ -9,6 +9,12 @@ import kotlin.Pair;
 import kotlin.collections.CollectionsKt___CollectionsKt;
 import kotlin.collections.g0;
 import kotlin.collections.v;
+import p0.l_p0;
+import p0.p_p0;
+import s0.d_s0;
+import s0.f_s0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -63,7 +69,7 @@ public class StringsKt__StringsKt extends s {
     }
 
     private static final int D(CharSequence charSequence, CharSequence charSequence2, int i2, int i3, boolean z2, boolean z3) {
-        s0.d fVar = !z3 ? new s0.f(s0.l.a(i2, 0), s0.l.c(i3, charSequence.length())) : s0.l.f(s0.l.c(i2, A(charSequence)), s0.l.a(i3, 0));
+        d_s0 fVar = !z3 ? new f_s0(l_s0.a(i2, 0), l_s0.c(i3, charSequence.length())) : l_s0.f(l_s0.c(i2, A(charSequence)), l_s0.a(i3, 0));
         if ((charSequence instanceof String) && (charSequence2 instanceof String)) {
             int iA = fVar.getFirst();
             int iB = fVar.getLast();
@@ -125,7 +131,7 @@ public class StringsKt__StringsKt extends s {
         if (!z2 && chars.length == 1 && (charSequence instanceof String)) {
             return ((String) charSequence).indexOf(kotlin.collections.n.p(chars), i2);
         }
-        g0 g0VarD = new s0.f(s0.l.a(i2, 0), A(charSequence)).iterator();
+        g0 g0VarD = new f_s0(l_s0.a(i2, 0), A(charSequence)).iterator();
         while (g0VarD.hasNext()) {
             int iNextInt = g0VarD.nextInt();
             char cCharAt = charSequence.charAt(iNextInt);
@@ -192,7 +198,7 @@ public class StringsKt__StringsKt extends s {
         if (!z2 && chars.length == 1 && (charSequence instanceof String)) {
             return ((String) charSequence).lastIndexOf(kotlin.collections.n.p(chars), i2);
         }
-        for (int iC = s0.l.c(i2, A(charSequence)); -1 < iC; iC--) {
+        for (int iC = l_s0.c(i2, A(charSequence)); -1 < iC; iC--) {
             char cCharAt = charSequence.charAt(iC);
             int length = chars.length;
             boolean z3 = false;
@@ -236,7 +242,7 @@ public class StringsKt__StringsKt extends s {
             return charSequence.subSequence(0, charSequence.length());
         }
         StringBuilder sb = new StringBuilder(i2);
-        g0 g0VarD = new s0.f(1, i2 - charSequence.length()).iterator();
+        g0 g0VarD = new f_s0(1, i2 - charSequence.length()).iterator();
         while (g0VarD.hasNext()) {
             g0VarD.nextInt();
             sb.append(c2);
@@ -251,9 +257,9 @@ public class StringsKt__StringsKt extends s {
         return Q(str, i2, c2).toString();
     }
 
-    private static final kotlin.sequences.d<s0.f> S(CharSequence charSequence, final char[] cArr, int i2, final boolean z2, int i3) {
+    private static final kotlin.sequences.d<f_s0> S(CharSequence charSequence, final char[] cArr, int i2, final boolean z2, int i3) {
         X(i3);
-        return new e(charSequence, i2, i3, new p0.p<CharSequence, Integer, Pair<? extends Integer, ? extends Integer>>() { // from class: kotlin.text.StringsKt__StringsKt$rangesDelimitedBy$1
+        return new e(charSequence, i2, i3, new p_p0<CharSequence, Integer, Pair<? extends Integer, ? extends Integer>>() { // from class: kotlin.text.StringsKt__StringsKt$rangesDelimitedBy$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(2);
@@ -276,10 +282,10 @@ public class StringsKt__StringsKt extends s {
         });
     }
 
-    private static final kotlin.sequences.d<s0.f> T(CharSequence charSequence, String[] strArr, int i2, final boolean z2, int i3) {
+    private static final kotlin.sequences.d<f_s0> T(CharSequence charSequence, String[] strArr, int i2, final boolean z2, int i3) {
         X(i3);
         final List listB = kotlin.collections.m.b(strArr);
-        return new e(charSequence, i2, i3, new p0.p<CharSequence, Integer, Pair<? extends Integer, ? extends Integer>>() { // from class: kotlin.text.StringsKt__StringsKt$rangesDelimitedBy$2
+        return new e(charSequence, i2, i3, new p_p0<CharSequence, Integer, Pair<? extends Integer, ? extends Integer>>() { // from class: kotlin.text.StringsKt__StringsKt$rangesDelimitedBy$2
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(2);
@@ -360,7 +366,7 @@ public class StringsKt__StringsKt extends s {
         ArrayList arrayList = new ArrayList(v.o(iterableG, 10));
         Iterator it = iterableG.iterator();
         while (it.hasNext()) {
-            arrayList.add(f0(charSequence, (s0.f) it.next()));
+            arrayList.add(f0(charSequence, (f_s0) it.next()));
         }
         return arrayList;
     }
@@ -379,7 +385,7 @@ public class StringsKt__StringsKt extends s {
         ArrayList arrayList = new ArrayList(v.o(iterableG, 10));
         Iterator it = iterableG.iterator();
         while (it.hasNext()) {
-            arrayList.add(f0(charSequence, (s0.f) it.next()));
+            arrayList.add(f0(charSequence, (f_s0) it.next()));
         }
         return arrayList;
     }
@@ -392,7 +398,7 @@ public class StringsKt__StringsKt extends s {
             return kotlin.collections.t.e(charSequence.toString());
         }
         boolean z3 = i2 > 0;
-        ArrayList arrayList = new ArrayList(z3 ? s0.l.c(i2, 10) : 10);
+        ArrayList arrayList = new ArrayList(z3 ? l_s0.c(i2, 10) : 10);
         do {
             arrayList.add(charSequence.subSequence(length, iC).toString());
             length = str.length() + iC;
@@ -429,7 +435,7 @@ public class StringsKt__StringsKt extends s {
     public static final kotlin.sequences.d<String> d0(@NotNull final CharSequence charSequence, @NotNull String[] delimiters, boolean z2, int i2) {
         kotlin.jvm.internal.s.e(charSequence, "<this>");
         kotlin.jvm.internal.s.e(delimiters, "delimiters");
-        return kotlin.sequences.k.j(V(charSequence, delimiters, 0, z2, i2, 2, null), new p0.l<s0.f, String>() { // from class: kotlin.text.StringsKt__StringsKt$splitToSequence$1
+        return kotlin.sequences.k.j(V(charSequence, delimiters, 0, z2, i2, 2, null), new l_p0<f_s0, String>() { // from class: kotlin.text.StringsKt__StringsKt$splitToSequence$1
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(1);
@@ -437,7 +443,7 @@ public class StringsKt__StringsKt extends s {
 
             @Override // p0.l
             @NotNull
-            public final String invoke(@NotNull s0.f it) {
+            public final String invoke(@NotNull f_s0 it) {
                 kotlin.jvm.internal.s.e(it, "it");
                 return StringsKt__StringsKt.f0(charSequence, it);
             }
@@ -455,7 +461,7 @@ public class StringsKt__StringsKt extends s {
     }
 
     @NotNull
-    public static final String f0(@NotNull CharSequence charSequence, @NotNull s0.f range) {
+    public static final String f0(@NotNull CharSequence charSequence, @NotNull f_s0 range) {
         kotlin.jvm.internal.s.e(charSequence, "<this>");
         kotlin.jvm.internal.s.e(range, "range");
         return charSequence.subSequence(range.h().intValue(), range.g().intValue() + 1).toString();
@@ -617,7 +623,7 @@ public class StringsKt__StringsKt extends s {
             }
             return kotlin.j.a(Integer.valueOf(iG), str);
         }
-        s0.d fVar = !z3 ? new s0.f(s0.l.a(i2, 0), charSequence.length()) : s0.l.f(s0.l.c(i2, A(charSequence)), 0);
+        d_s0 fVar = !z3 ? new f_s0(l_s0.a(i2, 0), charSequence.length()) : l_s0.f(l_s0.c(i2, A(charSequence)), 0);
         if (charSequence instanceof String) {
             int iA = fVar.getFirst();
             int iB = fVar.getLast();
@@ -681,8 +687,8 @@ public class StringsKt__StringsKt extends s {
     }
 
     @NotNull
-    public static final s0.f z(@NotNull CharSequence charSequence) {
+    public static final f_s0 z(@NotNull CharSequence charSequence) {
         kotlin.jvm.internal.s.e(charSequence, "<this>");
-        return new s0.f(0, charSequence.length() - 1);
+        return new f_s0(0, charSequence.length() - 1);
     }
 }

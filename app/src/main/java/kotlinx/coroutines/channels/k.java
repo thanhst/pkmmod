@@ -2,9 +2,12 @@ package kotlinx.coroutines.channels;
 
 import java.util.concurrent.locks.ReentrantLock;
 import kotlin.Metadata;
+import kotlin.t;
 import kotlinx.coroutines.internal.OnUndeliveredElementKt;
 import kotlinx.coroutines.internal.UndeliveredElementException;
 import kotlinx.coroutines.internal.d0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -21,18 +24,18 @@ public class k<E> extends AbstractChannel<E> {
     @Nullable
     private Object value;
 
-    public k(@Nullable p0.l<? super E, kotlin.t> lVar) {
-        super(lVar);
+    public k(@Nullable l_p0<? super E, t> lP0Var) {
+        super(lP0Var);
         this.lock = new ReentrantLock();
         this.value = a.f3575a;
     }
 
     private final UndeliveredElementException b0(Object element) {
-        p0.l<E, kotlin.t> lVar;
+        l_p0<E, t> lP0Var;
         Object obj = this.value;
         UndeliveredElementException undeliveredElementExceptionD = null;
-        if (obj != a.f3575a && (lVar = this.onUndeliveredElement) != null) {
-            undeliveredElementExceptionD = OnUndeliveredElementKt.d(lVar, obj, null, 2, null);
+        if (obj != a.f3575a && (lP0Var = this.onUndeliveredElement) != null) {
+            undeliveredElementExceptionD = OnUndeliveredElementKt.d(lP0Var, obj, null, 2, null);
         }
         this.value = element;
         return undeliveredElementExceptionD;

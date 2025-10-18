@@ -3,9 +3,13 @@ package kotlinx.coroutines.flow.internal;
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
 import kotlin.coroutines.EmptyCoroutineContext;
+import kotlin.coroutines.c;
 import kotlin.t;
 import kotlinx.coroutines.channels.BufferOverflow;
+import kotlinx.coroutines.flow.e;
 import kotlinx.coroutines.h0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -16,10 +20,10 @@ public final class ChannelFlowTransformLatest<T, R> extends ChannelFlowOperator<
 
     /* renamed from: i, reason: collision with root package name and from kotlin metadata */
     @NotNull
-    private final p0.q<kotlinx.coroutines.flow.e<? super R>, T, kotlin.coroutines.c<? super t>, Object> transform;
+    private final q_p0<e<? super R>, T, c<? super t>, Object> transform;
 
-    public /* synthetic */ ChannelFlowTransformLatest(p0.q qVar, kotlinx.coroutines.flow.d dVar, CoroutineContext coroutineContext, int i2, BufferOverflow bufferOverflow, int i3, kotlin.jvm.internal.o oVar) {
-        this(qVar, dVar, (i3 & 4) != 0 ? EmptyCoroutineContext.INSTANCE : coroutineContext, (i3 & 8) != 0 ? -2 : i2, (i3 & 16) != 0 ? BufferOverflow.SUSPEND : bufferOverflow);
+    public /* synthetic */ ChannelFlowTransformLatest(q_p0 qP0Var, kotlinx.coroutines.flow.d dVar, CoroutineContext coroutineContext, int i2, BufferOverflow bufferOverflow, int i3, kotlin.jvm.internal.o oVar) {
+        this(qP0Var, dVar, (i3 & 4) != 0 ? EmptyCoroutineContext.INSTANCE : coroutineContext, (i3 & 8) != 0 ? -2 : i2, (i3 & 16) != 0 ? BufferOverflow.SUSPEND : bufferOverflow);
     }
 
     @Override // kotlinx.coroutines.flow.internal.ChannelFlow
@@ -36,8 +40,8 @@ public final class ChannelFlowTransformLatest<T, R> extends ChannelFlowOperator<
     }
 
     /* JADX WARN: Multi-variable type inference failed */
-    public ChannelFlowTransformLatest(@NotNull p0.q<? super kotlinx.coroutines.flow.e<? super R>, ? super T, ? super kotlin.coroutines.c<? super t>, ? extends Object> qVar, @NotNull kotlinx.coroutines.flow.d<? extends T> dVar, @NotNull CoroutineContext coroutineContext, int i2, @NotNull BufferOverflow bufferOverflow) {
+    public ChannelFlowTransformLatest(@NotNull q_p0<? super e<? super R>, ? super T, ? super c<? super t>, ? extends Object> qP0Var, @NotNull kotlinx.coroutines.flow.d<? extends T> dVar, @NotNull CoroutineContext coroutineContext, int i2, @NotNull BufferOverflow bufferOverflow) {
         super(dVar, coroutineContext, i2, bufferOverflow);
-        this.transform = qVar;
+        this.transform = qP0Var;
     }
 }

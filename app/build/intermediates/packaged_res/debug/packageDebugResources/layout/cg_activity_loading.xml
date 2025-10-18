@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="center"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ProgressBar
-            android:layout_gravity="center"
-            android:id="@+id/dk_user_auto_login_circle_progress"
-            android:layout_width="@dimen/dp_z_38"
-            android:layout_height="@dimen/dp_z_38"
-            android:indeterminate="false"
-            android:indeterminateDrawable="@drawable/cg_loading_progress_auto_login"/>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/dk_user_auto_login_circle_progress" android:layout_width="@dimen/dp_z_38" android:layout_height="@dimen/dp_z_38" android:indeterminate="false" android:indeterminateDrawable="@drawable/cg_loading_progress_auto_login" />
     </RelativeLayout>
 </RelativeLayout>

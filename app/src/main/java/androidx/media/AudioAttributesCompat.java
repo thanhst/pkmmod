@@ -6,16 +6,13 @@ import android.util.SparseIntArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RestrictTo;
-import androidx.media.AudioAttributesImpl;
-import androidx.media.AudioAttributesImplApi21;
-import androidx.media.AudioAttributesImplApi26;
-import androidx.media.AudioAttributesImplBase;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-import y.b;
+import y.b_y;
 
 /* loaded from: classes.dex */
-public class AudioAttributesCompat implements b {
+public class AudioAttributesCompat implements b_y {
 
     /* renamed from: b, reason: collision with root package name */
     private static final SparseIntArray f2498b;

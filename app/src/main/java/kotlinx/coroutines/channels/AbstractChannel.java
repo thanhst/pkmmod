@@ -6,7 +6,7 @@ import kotlin.Metadata;
 import kotlin.Result;
 import kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt;
 import kotlin.jvm.JvmField;
-import kotlinx.coroutines.channels.h;
+import kotlin.t;
 import kotlinx.coroutines.i0;
 import kotlinx.coroutines.internal.LockFreeLinkedListNode;
 import kotlinx.coroutines.internal.OnUndeliveredElementKt;
@@ -14,6 +14,11 @@ import kotlinx.coroutines.internal.c0;
 import kotlinx.coroutines.internal.d0;
 import kotlinx.coroutines.k;
 import kotlinx.coroutines.q0;
+import p0.l_p0;
+import p0.p_p0;
+import u0.a_u0;
+import u0.b_u0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -71,8 +76,8 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
                     }
                 } else if (objV != kotlinx.coroutines.channels.a.f3578d) {
                     Boolean boolA = kotlin.coroutines.jvm.internal.a.a(true);
-                    p0.l<E, kotlin.t> lVar = this.channel.onUndeliveredElement;
-                    lVarB.H(boolA, lVar == null ? null : OnUndeliveredElementKt.a(lVar, objV, lVarB.getContext()));
+                    l_p0<E, t> lP0Var = this.channel.onUndeliveredElement;
+                    lVarB.H(boolA, lP0Var == null ? null : OnUndeliveredElementKt.a(lP0Var, objV, lVarB.getContext()));
                 }
             }
             Object objT = lVarB.t();
@@ -187,17 +192,17 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         /* renamed from: j, reason: collision with root package name and from kotlin metadata */
         @JvmField
         @NotNull
-        public final p0.l<E, kotlin.t> onUndeliveredElement;
+        public final l_p0<E, t> onUndeliveredElement;
 
         /* JADX WARN: Multi-variable type inference failed */
-        public c(@NotNull kotlinx.coroutines.k<Object> kVar, int i2, @NotNull p0.l<? super E, kotlin.t> lVar) {
+        public c(@NotNull kotlinx.coroutines.k<Object> kVar, int i2, @NotNull l_p0<? super E, t> lP0Var) {
             super(kVar, i2);
-            this.onUndeliveredElement = lVar;
+            this.onUndeliveredElement = lP0Var;
         }
 
         @Override // kotlinx.coroutines.channels.o
         @Nullable
-        public p0.l<Throwable, kotlin.t> R(E value) {
+        public l_p0<Throwable, t> R(E value) {
             return OnUndeliveredElementKt.a(this.onUndeliveredElement, value, this.cont.getContext());
         }
     }
@@ -224,12 +229,12 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
 
         @Override // kotlinx.coroutines.channels.o
         @Nullable
-        public p0.l<Throwable, kotlin.t> R(E value) {
-            p0.l<E, kotlin.t> lVar = this.iterator.channel.onUndeliveredElement;
-            if (lVar == null) {
+        public l_p0<Throwable, t> R(E value) {
+            l_p0<E, t> lP0Var = this.iterator.channel.onUndeliveredElement;
+            if (lP0Var == null) {
                 return null;
             }
-            return OnUndeliveredElementKt.a(lVar, value, this.cont.getContext());
+            return OnUndeliveredElementKt.a(lP0Var, value, this.cont.getContext());
         }
 
         @Override // kotlinx.coroutines.channels.o
@@ -283,28 +288,28 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         /* renamed from: j, reason: collision with root package name and from kotlin metadata */
         @JvmField
         @NotNull
-        public final p0.p<Object, kotlin.coroutines.c<? super R>, Object> block;
+        public final p_p0<Object, kotlin.coroutines.c<? super R>, Object> block;
 
         /* renamed from: k, reason: collision with root package name and from kotlin metadata */
         @JvmField
         public final int receiveMode;
 
         /* JADX WARN: Multi-variable type inference failed */
-        public e(@NotNull AbstractChannel<E> abstractChannel, @NotNull kotlinx.coroutines.selects.f<? super R> fVar, @NotNull p0.p<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> pVar, int i2) {
+        public e(@NotNull AbstractChannel<E> abstractChannel, @NotNull kotlinx.coroutines.selects.f<? super R> fVar, @NotNull p_p0<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> pP0Var, int i2) {
             this.channel = abstractChannel;
             this.select = fVar;
-            this.block = pVar;
+            this.block = pP0Var;
             this.receiveMode = i2;
         }
 
         @Override // kotlinx.coroutines.channels.o
         @Nullable
-        public p0.l<Throwable, kotlin.t> R(E value) {
-            p0.l<E, kotlin.t> lVar = this.channel.onUndeliveredElement;
-            if (lVar == null) {
+        public l_p0<Throwable, t> R(E value) {
+            l_p0<E, t> lP0Var = this.channel.onUndeliveredElement;
+            if (lP0Var == null) {
                 return null;
             }
-            return OnUndeliveredElementKt.a(lVar, value, this.select.b().getContext());
+            return OnUndeliveredElementKt.a(lP0Var, value, this.select.b().getContext());
         }
 
         @Override // kotlinx.coroutines.channels.o
@@ -317,7 +322,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
                     if (i2 != 1) {
                         return;
                     }
-                    u0.a.e(this.block, kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.a(jVar.closeCause)), this.select.b(), null, 4, null);
+                    a_u0.e(this.block, kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.a(jVar.closeCause)), this.select.b(), null, 4, null);
                 }
             }
         }
@@ -331,7 +336,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
 
         @Override // kotlinx.coroutines.channels.p
         public void f(E value) throws Throwable {
-            u0.a.d(this.block, this.receiveMode == 1 ? kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.c(value)) : value, this.select.b(), R(value));
+            a_u0.d(this.block, this.receiveMode == 1 ? kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.c(value)) : value, this.select.b(), R(value));
         }
 
         @Override // kotlinx.coroutines.channels.p
@@ -457,7 +462,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         }
 
         @Override // kotlinx.coroutines.selects.d
-        public <R> void a(@NotNull kotlinx.coroutines.selects.f<? super R> select, @NotNull p0.p<? super E, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
+        public <R> void a(@NotNull kotlinx.coroutines.selects.f<? super R> select, @NotNull p_p0<? super E, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
             this.f3572a.Y(select, 0, block);
         }
     }
@@ -474,13 +479,13 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         }
 
         @Override // kotlinx.coroutines.selects.d
-        public <R> void a(@NotNull kotlinx.coroutines.selects.f<? super R> select, @NotNull p0.p<? super kotlinx.coroutines.channels.h<? extends E>, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
+        public <R> void a(@NotNull kotlinx.coroutines.selects.f<? super R> select, @NotNull p_p0<? super kotlinx.coroutines.channels.h<? extends E>, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
             this.f3573a.Y(select, 1, block);
         }
     }
 
-    public AbstractChannel(@Nullable p0.l<? super E, kotlin.t> lVar) {
-        super(lVar);
+    public AbstractChannel(@Nullable l_p0<? super E, t> lP0Var) {
+        super(lP0Var);
     }
 
     /* JADX INFO: Access modifiers changed from: private */
@@ -492,7 +497,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         return zL;
     }
 
-    private final <R> boolean M(kotlinx.coroutines.selects.f<? super R> select, p0.p<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> block, int receiveMode) {
+    private final <R> boolean M(kotlinx.coroutines.selects.f<? super R> select, p_p0<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> block, int receiveMode) {
         e eVar = new e(this, select, block, receiveMode);
         boolean zK = K(eVar);
         if (zK) {
@@ -528,7 +533,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
     }
 
     /* JADX INFO: Access modifiers changed from: private */
-    public final <R> void Y(kotlinx.coroutines.selects.f<? super R> select, int receiveMode, p0.p<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
+    public final <R> void Y(kotlinx.coroutines.selects.f<? super R> select, int receiveMode, p_p0<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> block) throws Throwable {
         while (!select.q()) {
             if (!Q()) {
                 Object objW = W(select);
@@ -549,15 +554,15 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
         kVar.s(new f(oVar));
     }
 
-    private final <R> void a0(p0.p<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> pVar, kotlinx.coroutines.selects.f<? super R> fVar, int i2, Object obj) throws Throwable {
+    private final <R> void a0(p_p0<Object, ? super kotlin.coroutines.c<? super R>, ? extends Object> pP0Var, kotlinx.coroutines.selects.f<? super R> fVar, int i2, Object obj) throws Throwable {
         boolean z2 = obj instanceof kotlinx.coroutines.channels.j;
         if (!z2) {
             if (i2 != 1) {
-                u0.b.d(pVar, obj, fVar.b());
+                b_u0.d(pP0Var, obj, fVar.b());
                 return;
             } else {
                 h.Companion companion = kotlinx.coroutines.channels.h.INSTANCE;
-                u0.b.d(pVar, kotlinx.coroutines.channels.h.b(z2 ? companion.a(((kotlinx.coroutines.channels.j) obj).closeCause) : companion.c(obj)), fVar.b());
+                b_u0.d(pP0Var, kotlinx.coroutines.channels.h.b(z2 ? companion.a(((kotlinx.coroutines.channels.j) obj).closeCause) : companion.c(obj)), fVar.b());
                 return;
             }
         }
@@ -565,7 +570,7 @@ public abstract class AbstractChannel<E> extends kotlinx.coroutines.channels.b<E
             throw c0.a(((kotlinx.coroutines.channels.j) obj).X());
         }
         if (i2 == 1 && fVar.l()) {
-            u0.b.d(pVar, kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.a(((kotlinx.coroutines.channels.j) obj).closeCause)), fVar.b());
+            b_u0.d(pP0Var, kotlinx.coroutines.channels.h.b(kotlinx.coroutines.channels.h.INSTANCE.a(((kotlinx.coroutines.channels.j) obj).closeCause)), fVar.b());
         }
     }
 

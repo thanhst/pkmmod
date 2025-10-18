@@ -21,10 +21,6 @@ import android.os.ResultReceiver;
 import android.support.v4.media.MediaDescriptionCompat;
 import android.support.v4.media.MediaMetadataCompat;
 import android.support.v4.media.RatingCompat;
-import android.support.v4.media.session.IMediaControllerCallback;
-import android.support.v4.media.session.IMediaSession;
-import android.support.v4.media.session.MediaSessionCompat;
-import android.support.v4.media.session.PlaybackStateCompat;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -41,6 +37,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.concurrent.ConcurrentHashMap;
+
+import y.a_y;
+import y.b_y;
 
 /* loaded from: classes.dex */
 public final class MediaControllerCompat {
@@ -485,7 +484,7 @@ public final class MediaControllerCompat {
                 }
                 synchronized (mediaControllerImplApi21.mLock) {
                     mediaControllerImplApi21.mSessionToken.setExtraBinder(IMediaSession.Stub.asInterface(q.a(bundle, MediaSessionCompat.KEY_EXTRA_BINDER)));
-                    mediaControllerImplApi21.mSessionToken.setSession2Token(y.a.b(bundle, MediaSessionCompat.KEY_SESSION2_TOKEN));
+                    mediaControllerImplApi21.mSessionToken.setSession2Token(a_y.b(bundle, MediaSessionCompat.KEY_SESSION2_TOKEN));
                     mediaControllerImplApi21.processPendingCallbacksLocked();
                 }
             }
@@ -1483,7 +1482,7 @@ public final class MediaControllerCompat {
 
     @Nullable
     @RestrictTo({RestrictTo.Scope.LIBRARY})
-    public y.b getSession2Token() {
+    public b_y getSession2Token() {
         return this.mToken.getSession2Token();
     }
 

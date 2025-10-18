@@ -2,8 +2,11 @@ package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
+import kotlin.coroutines.c;
 import kotlin.jvm.internal.y;
 import kotlinx.coroutines.internal.ThreadContextKt;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,10 +15,10 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public final class d {
     @Nullable
-    public static final <T, V> Object b(@NotNull CoroutineContext coroutineContext, V v2, @NotNull Object obj, @NotNull p0.p<? super V, ? super kotlin.coroutines.c<? super T>, ? extends Object> pVar, @NotNull kotlin.coroutines.c<? super T> cVar) {
+    public static final <T, V> Object b(@NotNull CoroutineContext coroutineContext, V v2, @NotNull Object obj, @NotNull p_p0<? super V, ? super c<? super T>, ? extends Object> pP0Var, @NotNull kotlin.coroutines.c<? super T> cVar) {
         Object objC = ThreadContextKt.c(coroutineContext, obj);
         try {
-            Object objInvoke = ((p0.p) y.b(pVar, 2)).invoke(v2, new q(cVar, coroutineContext));
+            Object objInvoke = ((p_p0) y.b(pP0Var, 2)).invoke(v2, new q(cVar, coroutineContext));
             ThreadContextKt.a(coroutineContext, objC);
             if (objInvoke == kotlin.coroutines.intrinsics.b.d()) {
                 kotlin.coroutines.jvm.internal.e.c(cVar);
@@ -27,11 +30,11 @@ public final class d {
         }
     }
 
-    public static /* synthetic */ Object c(CoroutineContext coroutineContext, Object obj, Object obj2, p0.p pVar, kotlin.coroutines.c cVar, int i2, Object obj3) {
+    public static /* synthetic */ Object c(CoroutineContext coroutineContext, Object obj, Object obj2, p_p0 pP0Var, kotlin.coroutines.c cVar, int i2, Object obj3) {
         if ((i2 & 4) != 0) {
             obj2 = ThreadContextKt.b(coroutineContext);
         }
-        return b(coroutineContext, obj, obj2, pVar, cVar);
+        return b(coroutineContext, obj, obj2, pP0Var, cVar);
     }
 
     /* JADX INFO: Access modifiers changed from: private */

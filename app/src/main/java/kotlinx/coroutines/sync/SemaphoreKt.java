@@ -4,6 +4,8 @@ import com.facebook.internal.NativeProtocol;
 import kotlin.Metadata;
 import kotlinx.coroutines.internal.d0;
 import kotlinx.coroutines.internal.g0;
+import p0.a_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Semaphore.kt */
@@ -44,7 +46,7 @@ public final class SemaphoreKt {
         Code decompiled incorrectly, please refer to instructions dump.
         To view partially-correct code enable 'Show inconsistent code' option in preferences
     */
-    public static final <T> java.lang.Object i(@org.jetbrains.annotations.NotNull kotlinx.coroutines.sync.d r4, @org.jetbrains.annotations.NotNull p0.a<? extends T> r5, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super T> r6) {
+    public static final <T> java.lang.Object i(@org.jetbrains.annotations.NotNull kotlinx.coroutines.sync.d r4, @org.jetbrains.annotations.NotNull a_p0<? extends T> r5, @org.jetbrains.annotations.NotNull kotlin.coroutines.c<? super T> r6) {
         /*
             boolean r0 = r6 instanceof kotlinx.coroutines.sync.SemaphoreKt$withPermit$1
             if (r0 == 0) goto L13

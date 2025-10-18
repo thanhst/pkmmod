@@ -9,7 +9,6 @@ import com.facebook.GraphRequest;
 import com.facebook.appevents.AppEventsConstants;
 import com.facebook.appevents.integrity.IntegrityManager;
 import com.facebook.appevents.internal.FileDownloadTask;
-import com.facebook.appevents.ml.ModelManager;
 import com.facebook.appevents.suggestedevents.SuggestedEventsManager;
 import com.facebook.internal.FeatureManager;
 import com.facebook.internal.Utility;
@@ -38,8 +37,8 @@ import org.jetbrains.annotations.Nullable;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import s0.f;
-import s0.l;
+import s0.f_s0;
+import s0.l_s0;
 
 /* compiled from: ModelManager.kt */
 @Metadata(bv = {}, d1 = {"\u0000l\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0014\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0011\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0003\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0010%\n\u0002\u0018\u0002\n\u0002\b\f\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0010 \n\u0002\b\n\bÇ\u0002\u0018\u00002\u00020\u0001:\u0002<=B\t\b\u0002¢\u0006\u0004\b:\u0010;J\b\u0010\u0003\u001a\u00020\u0002H\u0007J\u0010\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\u0002J\u0010\u0010\n\u001a\u00020\u00022\u0006\u0010\t\u001a\u00020\bH\u0002J\u0010\u0010\f\u001a\u00020\b2\u0006\u0010\u000b\u001a\u00020\bH\u0002J\n\u0010\r\u001a\u0004\u0018\u00010\bH\u0002J\b\u0010\u000e\u001a\u00020\u0002H\u0002J\u0014\u0010\u0012\u001a\u0004\u0018\u00010\u00112\b\u0010\u0010\u001a\u0004\u0018\u00010\u000fH\u0002J\u0012\u0010\u0016\u001a\u0004\u0018\u00010\u00152\u0006\u0010\u0014\u001a\u00020\u0013H\u0007J;\u0010\u001b\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00172\u0006\u0010\u0014\u001a\u00020\u00132\f\u0010\u0018\u001a\b\u0012\u0004\u0012\u00020\u00110\u00172\f\u0010\u001a\u001a\b\u0012\u0004\u0012\u00020\u00190\u0017H\u0007¢\u0006\u0004\b\u001b\u0010\u001cJ'\u0010 \u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00172\u0006\u0010\u001e\u001a\u00020\u001d2\u0006\u0010\u001f\u001a\u00020\u0011H\u0002¢\u0006\u0004\b \u0010!J'\u0010\"\u001a\n\u0012\u0004\u0012\u00020\u0019\u0018\u00010\u00172\u0006\u0010\u001e\u001a\u00020\u001d2\u0006\u0010\u001f\u001a\u00020\u0011H\u0002¢\u0006\u0004\b\"\u0010!R\"\u0010%\u001a\u0010\u0012\u0006\u0012\u0004\u0018\u00010\u0019\u0012\u0004\u0012\u00020$0#8\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b%\u0010&R\u0014\u0010'\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b'\u0010(R\u0014\u0010)\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b)\u0010(R\u0014\u0010*\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b*\u0010(R\u0014\u0010+\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b+\u0010(R\u0014\u0010,\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b,\u0010(R\u0014\u0010-\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b-\u0010(R\u0014\u0010.\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b.\u0010(R\u0014\u0010/\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b/\u0010(R\u0014\u00100\u001a\u00020\u00198\u0002X\u0082T¢\u0006\u0006\n\u0004\b0\u0010(R\u0014\u00102\u001a\u0002018\u0006X\u0086T¢\u0006\u0006\n\u0004\b2\u00103R\u001a\u00105\u001a\b\u0012\u0004\u0012\u00020\u0019048\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b5\u00106R\u001a\u00107\u001a\b\u0012\u0004\u0012\u00020\u0019048\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b7\u00106R\u0014\u00108\u001a\u00020\u00068BX\u0082\u0004¢\u0006\u0006\u001a\u0004\b8\u00109¨\u0006>"}, d2 = {"Lcom/facebook/appevents/ml/ModelManager;", "", "Lkotlin/t;", "enable", "", "timestamp", "", "isValidTimestamp", "Lorg/json/JSONObject;", ModelManager.CACHE_KEY_MODELS, "addModels", "jsonObject", "parseRawJsonObject", "fetchModels", "enableMTML", "Lorg/json/JSONArray;", "jsonArray", "", "parseJsonArray", "Lcom/facebook/appevents/ml/ModelManager$Task;", "task", "Ljava/io/File;", "getRuleFile", "", "denses", "", "texts", "predict", "(Lcom/facebook/appevents/ml/ModelManager$Task;[[F[Ljava/lang/String;)[Ljava/lang/String;", "Lcom/facebook/appevents/ml/MTensor;", "res", ModelManager.THRESHOLD_KEY, "processSuggestedEventResult", "(Lcom/facebook/appevents/ml/MTensor;[F)[Ljava/lang/String;", "processIntegrityDetectionResult", "", "Lcom/facebook/appevents/ml/ModelManager$TaskHandler;", "taskHandlers", "Ljava/util/Map;", "MODEL_ASSERT_STORE", "Ljava/lang/String;", "CACHE_KEY_MODELS", "MTML_USE_CASE", "USE_CASE_KEY", "VERSION_ID_KEY", "ASSET_URI_KEY", "RULES_URI_KEY", "THRESHOLD_KEY", "CACHE_KEY_REQUEST_TIMESTAMP", "", "MODEL_REQUEST_INTERVAL_MILLISECONDS", "I", "", "MTML_SUGGESTED_EVENTS_PREDICTION", "Ljava/util/List;", "MTML_INTEGRITY_DETECT_PREDICTION", "isLocaleEnglish", "()Z", "<init>", "()V", "Task", "TaskHandler", "facebook-core_release"}, k = 1, mv = {1, 5, 1})
@@ -739,9 +738,9 @@ public final class ModelManager {
             if (shape2 != thresholds.length) {
                 return null;
             }
-            f fVarH = l.h(0, shape);
-            ArrayList arrayList = new ArrayList(v.o(fVarH, 10));
-            Iterator<Integer> it = fVarH.iterator();
+            f_s0 fS0VarH = l_s0.h(0, shape);
+            ArrayList arrayList = new ArrayList(v.o(fS0VarH, 10));
+            Iterator<Integer> it = fS0VarH.iterator();
             while (it.hasNext()) {
                 int iNextInt = ((g0) it).nextInt();
                 String str = IntegrityManager.INTEGRITY_TYPE_NONE;
@@ -780,9 +779,9 @@ public final class ModelManager {
             if (shape2 != thresholds.length) {
                 return null;
             }
-            f fVarH = l.h(0, shape);
-            ArrayList arrayList = new ArrayList(v.o(fVarH, 10));
-            Iterator<Integer> it = fVarH.iterator();
+            f_s0 fS0VarH = l_s0.h(0, shape);
+            ArrayList arrayList = new ArrayList(v.o(fS0VarH, 10));
+            Iterator<Integer> it = fS0VarH.iterator();
             while (it.hasNext()) {
                 int iNextInt = ((g0) it).nextInt();
                 String str = "other";

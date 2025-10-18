@@ -4,6 +4,9 @@ import java.util.Iterator;
 import kotlin.Metadata;
 import kotlin.collections.AbstractCollection;
 import kotlin.collections.CollectionsKt___CollectionsKt;
+import p0.l_p0;
+import s0.f_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -31,13 +34,13 @@ public final class MatcherMatchResult$groups$1 extends AbstractCollection<MatchG
 
     @Nullable
     public MatchGroup c(int index) {
-        s0.f fVarI = j.i(this.f3511e.c(), index);
-        if (fVarI.h().intValue() < 0) {
+        f_s0 fS0VarI = j.i(this.f3511e.c(), index);
+        if (fS0VarI.h().intValue() < 0) {
             return null;
         }
         String strGroup = this.f3511e.c().group(index);
         kotlin.jvm.internal.s.d(strGroup, "matchResult.group(index)");
-        return new MatchGroup(strGroup, fVarI);
+        return new MatchGroup(strGroup, fS0VarI);
     }
 
     @Override // kotlin.collections.AbstractCollection, java.util.Collection
@@ -56,7 +59,7 @@ public final class MatcherMatchResult$groups$1 extends AbstractCollection<MatchG
     @Override // java.util.Collection, java.lang.Iterable
     @NotNull
     public Iterator<MatchGroup> iterator() {
-        return kotlin.sequences.k.j(CollectionsKt___CollectionsKt.v(kotlin.collections.u.i(this)), new p0.l<Integer, MatchGroup>() { // from class: kotlin.text.MatcherMatchResult$groups$1$iterator$1
+        return kotlin.sequences.k.j(CollectionsKt___CollectionsKt.v(kotlin.collections.u.i(this)), new l_p0<Integer, MatchGroup>() { // from class: kotlin.text.MatcherMatchResult$groups$1$iterator$1
             {
                 super(1);
             }

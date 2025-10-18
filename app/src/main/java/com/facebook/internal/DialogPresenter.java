@@ -14,8 +14,8 @@ import com.facebook.FacebookActivity;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.InternalAppEventsLogger;
-import com.facebook.internal.FetchedAppSettings;
-import com.facebook.internal.NativeProtocol;
+
+import d.a_d;
 import kotlin.Metadata;
 import kotlin.jvm.JvmStatic;
 import kotlin.jvm.internal.Ref$ObjectRef;
@@ -226,7 +226,7 @@ public final class DialogPresenter {
         kotlin.jvm.internal.s.e(registry, "registry");
         kotlin.jvm.internal.s.e(intent, "intent");
         final Ref$ObjectRef ref$ObjectRef = new Ref$ObjectRef();
-        ?? J = registry.j(kotlin.jvm.internal.s.m("facebook-dialog-request-", Integer.valueOf(i2)), new d.a<Intent, Pair<Integer, Intent>>() { // from class: com.facebook.internal.DialogPresenter.startActivityForResultWithAndroidX.1
+        ?? J = registry.j(kotlin.jvm.internal.s.m("facebook-dialog-request-", Integer.valueOf(i2)), new a_d<Intent, Pair<Integer, Intent>>() { // from class: com.facebook.internal.DialogPresenter.startActivityForResultWithAndroidX.1
             @Override // d.a
             @NotNull
             public Intent createIntent(@NotNull Context context, @NotNull Intent input) {

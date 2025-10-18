@@ -10,10 +10,11 @@ import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.FragmentActivity;
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
-import com.facebook.internal.FacebookWebFallbackDialog;
-import com.facebook.internal.WebDialog;
+
 import java.util.Arrays;
 import kotlin.Metadata;
+import s.a_s;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -70,7 +71,7 @@ public final class FacebookDialogFragment extends androidx.fragment.app.c {
 
     @Override // androidx.fragment.app.Fragment, androidx.lifecycle.i
     @NonNull
-    public /* bridge */ /* synthetic */ s.a getDefaultViewModelCreationExtras() {
+    public /* bridge */ /* synthetic */ a_s getDefaultViewModelCreationExtras() {
         return androidx.lifecycle.h.a(this);
     }
 

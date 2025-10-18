@@ -3,6 +3,8 @@ package kotlinx.coroutines.channels;
 import kotlin.Metadata;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,8 +12,8 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\b\u0012\u0004\u0012\u00028\u00000\u0001H\u008a@"}, d2 = {"E", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$dropWhile$1", f = "Deprecated.kt", i = {0, 1, 1, 2, 3, 4}, l = {181, 182, 183, 187, 188}, m = "invokeSuspend", n = {"$this$produce", "$this$produce", "e", "$this$produce", "$this$produce", "$this$produce"}, s = {"L$0", "L$0", "L$2", "L$0", "L$0", "L$0"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$dropWhile$1 extends SuspendLambda implements p0.p {
-    final /* synthetic */ p0.p $predicate;
+final class ChannelsKt__DeprecatedKt$dropWhile$1 extends SuspendLambda implements p_p0 {
+    final /* synthetic */ p_p0 $predicate;
     final /* synthetic */ ReceiveChannel $this_dropWhile;
     private /* synthetic */ Object L$0;
     Object L$1;
@@ -19,10 +21,10 @@ final class ChannelsKt__DeprecatedKt$dropWhile$1 extends SuspendLambda implement
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
-    ChannelsKt__DeprecatedKt$dropWhile$1(ReceiveChannel receiveChannel, p0.p pVar, kotlin.coroutines.c cVar) {
+    ChannelsKt__DeprecatedKt$dropWhile$1(ReceiveChannel receiveChannel, p_p0 pP0Var, kotlin.coroutines.c cVar) {
         super(2, cVar);
         this.$this_dropWhile = receiveChannel;
-        this.$predicate = pVar;
+        this.$predicate = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

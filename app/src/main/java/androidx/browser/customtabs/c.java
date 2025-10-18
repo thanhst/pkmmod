@@ -1,6 +1,5 @@
 package androidx.browser.customtabs;
 
-import a.a;
 import android.app.PendingIntent;
 import android.content.ComponentName;
 import android.content.Context;

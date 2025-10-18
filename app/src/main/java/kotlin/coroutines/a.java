@@ -2,11 +2,10 @@ package kotlin.coroutines;
 
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
-import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.internal.s;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: CoroutineContextImpl.kt */
 @SinceKotlin(version = "1.3")
@@ -23,8 +22,8 @@ public abstract class a implements CoroutineContext.a {
     }
 
     @Override // kotlin.coroutines.CoroutineContext
-    public <R> R fold(R r2, @NotNull p<? super R, ? super CoroutineContext.a, ? extends R> pVar) {
-        return (R) CoroutineContext.a.C0056a.a(this, r2, pVar);
+    public <R> R fold(R r2, @NotNull p_p0<? super R, ? super a, ? extends R> pP0Var) {
+        return (R) CoroutineContext.a.C0056a.a(this, r2, pP0Var);
     }
 
     @Override // kotlin.coroutines.CoroutineContext.a, kotlin.coroutines.CoroutineContext

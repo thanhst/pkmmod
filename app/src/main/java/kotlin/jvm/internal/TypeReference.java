@@ -6,6 +6,10 @@ import kotlin.NoWhenBranchMatchedException;
 import kotlin.SinceKotlin;
 import kotlin.collections.CollectionsKt___CollectionsKt;
 import kotlin.reflect.KVariance;
+import kotlin.reflect.p;
+import o0.a_o0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -74,7 +78,7 @@ public final class TypeReference implements kotlin.reflect.o {
         String name;
         kotlin.reflect.d classifier = getClassifier();
         kotlin.reflect.c cVar = classifier instanceof kotlin.reflect.c ? (kotlin.reflect.c) classifier : null;
-        Class<?> clsA = cVar != null ? o0.a.a(cVar) : null;
+        Class<?> clsA = cVar != null ? a_o0.a(cVar) : null;
         if (clsA == null) {
             name = getClassifier().toString();
         } else if ((this.flags & 4) != 0) {
@@ -84,11 +88,11 @@ public final class TypeReference implements kotlin.reflect.o {
         } else if (convertPrimitiveToWrapper && clsA.isPrimitive()) {
             kotlin.reflect.d classifier2 = getClassifier();
             s.c(classifier2, "null cannot be cast to non-null type kotlin.reflect.KClass<*>");
-            name = o0.a.b((kotlin.reflect.c) classifier2).getName();
+            name = a_o0.b((kotlin.reflect.c) classifier2).getName();
         } else {
             name = clsA.getName();
         }
-        String str = name + (e().isEmpty() ? "" : CollectionsKt___CollectionsKt.I(e(), ", ", "<", ">", 0, null, new p0.l<kotlin.reflect.p, CharSequence>() { // from class: kotlin.jvm.internal.TypeReference$asString$args$1
+        String str = name + (e().isEmpty() ? "" : CollectionsKt___CollectionsKt.I(e(), ", ", "<", ">", 0, null, new l_p0<p, CharSequence>() { // from class: kotlin.jvm.internal.TypeReference$asString$args$1
             {
                 super(1);
             }

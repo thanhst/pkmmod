@@ -17,6 +17,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.WeakHashMap;
 
+import s.a_s;
+
 /* loaded from: classes.dex */
 public final class zzc extends Fragment implements LifecycleFragment {
     private static WeakHashMap<FragmentActivity, WeakReference<zzc>> zzbe = new WeakHashMap<>();
@@ -74,7 +76,7 @@ public final class zzc extends Fragment implements LifecycleFragment {
 
     @Override // androidx.fragment.app.Fragment, androidx.lifecycle.i
     @NonNull
-    public /* bridge */ /* synthetic */ s.a getDefaultViewModelCreationExtras() {
+    public /* bridge */ /* synthetic */ a_s getDefaultViewModelCreationExtras() {
         return h.a(this);
     }
 

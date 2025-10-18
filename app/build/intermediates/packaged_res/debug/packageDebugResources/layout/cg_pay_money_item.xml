@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <TextView
-        android:textColor="@color/cg_color_black"
-        android:gravity="center"
-        android:id="@+id/txt_money"
-        android:background="@drawable/cg_text_shape_normal"
-        android:layout_width="match_parent"
-        android:layout_height="22dp"
-        android:text="TextView"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/cg_color_black" android:gravity="center" android:id="@id/txt_money" android:background="@drawable/cg_text_shape_normal" android:layout_width="fill_parent" android:layout_height="22.0dip" android:text="TextView" />
 </LinearLayout>

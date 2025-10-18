@@ -3,11 +3,10 @@ package kotlin.coroutines;
 import java.io.Serializable;
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
-import kotlin.coroutines.CoroutineContext;
 import kotlin.jvm.internal.s;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: CoroutineContextImpl.kt */
 @SinceKotlin(version = "1.3")
@@ -27,7 +26,7 @@ public final class EmptyCoroutineContext implements CoroutineContext, Serializab
     }
 
     @Override // kotlin.coroutines.CoroutineContext
-    public <R> R fold(R initial, @NotNull p<? super R, ? super CoroutineContext.a, ? extends R> operation) {
+    public <R> R fold(R initial, @NotNull p_p0<? super R, ? super a, ? extends R> operation) {
         s.e(operation, "operation");
         return initial;
     }

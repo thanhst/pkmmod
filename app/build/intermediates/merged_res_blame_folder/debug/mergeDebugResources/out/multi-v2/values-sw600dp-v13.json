@@ -4,20 +4,20 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "57,127,197,268,343,420,480,552",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "121,191,262,337,414,474,546,615"
+                        "startOffsets": "57,130,203,277,355,435,498,573",
+                        "endColumns": "71,71,72,76,78,61,73,70",
+                        "endOffsets": "124,197,271,349,429,492,567,639"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
+                        "startOffsets": "55,127,199,272,349,428,490,564",
+                        "endColumns": "71,71,72,76,78,61,73,70",
+                        "endOffsets": "122,194,267,344,423,485,559,630"
                     }
                 }
             ]

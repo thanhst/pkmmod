@@ -37,6 +37,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import v.a_v;
+
 /* loaded from: classes.dex */
 public final class MediaBrowserCompat {
     public static final String CUSTOM_ACTION_DOWNLOAD = "android.support.v4.media.action.DOWNLOAD";
@@ -1332,7 +1334,7 @@ public final class MediaBrowserCompat {
 
         public SubscriptionCallback getCallback(Bundle bundle) {
             for (int i2 = 0; i2 < this.mOptionsList.size(); i2++) {
-                if (v.a.a(this.mOptionsList.get(i2), bundle)) {
+                if (a_v.a(this.mOptionsList.get(i2), bundle)) {
                     return this.mCallbacks.get(i2);
                 }
             }
@@ -1353,7 +1355,7 @@ public final class MediaBrowserCompat {
 
         public void putCallback(Bundle bundle, SubscriptionCallback subscriptionCallback) {
             for (int i2 = 0; i2 < this.mOptionsList.size(); i2++) {
-                if (v.a.a(this.mOptionsList.get(i2), bundle)) {
+                if (a_v.a(this.mOptionsList.get(i2), bundle)) {
                     this.mCallbacks.set(i2, subscriptionCallback);
                     return;
                 }

@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="6900"
     android:versionName="69.0.0"
     android:installLocation="auto"
     android:compileSdkVersion="33"
     android:compileSdkVersionCodename="13"
     package="com.pokemodpro.vn"
-    platformBuildVersionCode="33"
-    platformBuildVersionName="13"
     xmlns:ns1="http://schemas.android.com/apk/distribution" 
     ns1:requiredSplitTypes="base__abi,base__density"
     xmlns:ns2="http://schemas.android.com/apk/distribution" 
     ns2:splitTypes="">
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="33"/>
+        android:targetSdkVersion="33"
+        tools:ignore="GradleOverrides" />
     <supports-screens
         android:anyDensity="true"
         android:smallScreens="true"
         android:normalScreens="true"
         android:largeScreens="true"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="32"/>
@@ -56,7 +57,6 @@
     <uses-permission android:name="com.pokemodpro.vn.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
     <application
         android:label="@string/app_name_mod"
-        android:icon="0x7f080151"
         android:name="com.bdesfamlqk.ynufhaz.BfwEcYUMp"
         android:allowBackup="true"
         android:supportsRtl="true"
@@ -64,7 +64,8 @@
         android:usesCleartextTraffic="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:isSplitRequired="true"
-        android:requestLegacyExternalStorage="true">
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="28">
         <meta-data
             android:name="android.max_aspect"
             android:value="2.1"/>

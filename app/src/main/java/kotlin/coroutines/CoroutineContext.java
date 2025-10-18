@@ -2,11 +2,10 @@ package kotlin.coroutines;
 
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
-import kotlin.coroutines.d;
 import kotlin.jvm.internal.s;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
+import p0.p_p0;
 
 /* compiled from: CoroutineContext.kt */
 @SinceKotlin(version = "1.3")
@@ -20,7 +19,7 @@ public interface CoroutineContext {
         @NotNull
         public static CoroutineContext a(@NotNull CoroutineContext coroutineContext, @NotNull CoroutineContext context) {
             s.e(context, "context");
-            return context == EmptyCoroutineContext.INSTANCE ? coroutineContext : (CoroutineContext) context.fold(coroutineContext, new p<CoroutineContext, a, CoroutineContext>() { // from class: kotlin.coroutines.CoroutineContext.plus.1
+            return context == EmptyCoroutineContext.INSTANCE ? coroutineContext : (CoroutineContext) context.fold(coroutineContext, new p_p0<CoroutineContext, a, CoroutineContext>() { // from class: kotlin.coroutines.CoroutineContext.plus.1
                 @Override // p0.p
                 @NotNull
                 public final CoroutineContext invoke(@NotNull CoroutineContext acc, @NotNull a element) {
@@ -57,7 +56,7 @@ public interface CoroutineContext {
         @Metadata(k = 3, mv = {1, 7, 1}, xi = 48)
         /* renamed from: kotlin.coroutines.CoroutineContext$a$a, reason: collision with other inner class name */
         public static final class C0056a {
-            public static <R> R a(@NotNull a aVar, R r2, @NotNull p<? super R, ? super a, ? extends R> operation) {
+            public static <R> R a(@NotNull a aVar, R r2, @NotNull p_p0<? super R, ? super a, ? extends R> operation) {
                 s.e(operation, "operation");
                 return operation.invoke(r2, aVar);
             }
@@ -99,7 +98,7 @@ public interface CoroutineContext {
     public interface b<E extends a> {
     }
 
-    <R> R fold(R initial, @NotNull p<? super R, ? super a, ? extends R> operation);
+    <R> R fold(R initial, @NotNull p_p0<? super R, ? super a, ? extends R> operation);
 
     @Nullable
     <E extends a> E get(@NotNull b<E> key);

@@ -2,6 +2,9 @@ package kotlin.text;
 
 import kotlin.Metadata;
 import kotlin.collections.g0;
+import s0.f_s0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -103,7 +106,7 @@ public class s extends r {
             return new String(cArr);
         }
         StringBuilder sb = new StringBuilder(charSequence.length() * i2);
-        g0 g0VarD = new s0.f(1, i2).iterator();
+        g0 g0VarD = new f_s0(1, i2).iterator();
         while (g0VarD.hasNext()) {
             g0VarD.nextInt();
             sb.append(charSequence);
@@ -145,7 +148,7 @@ public class s extends r {
             return str;
         }
         int length = oldValue.length();
-        int iA = s0.l.a(length, 1);
+        int iA = l_s0.a(length, 1);
         int length2 = (str.length() - length) + newValue.length();
         if (length2 < 0) {
             throw new OutOfMemoryError();

@@ -1,8 +1,12 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.t;
+import p0.p_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -10,8 +14,8 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\b\u0012\u0004\u0012\u00028\u00000\u0001H\u008a@"}, d2 = {"E", "Lkotlinx/coroutines/channels/n;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.channels.ChannelsKt__DeprecatedKt$filter$1", f = "Deprecated.kt", i = {0, 1, 1, 2}, l = {198, 199, 199}, m = "invokeSuspend", n = {"$this$produce", "$this$produce", "e", "$this$produce"}, s = {"L$0", "L$0", "L$2", "L$0"})
 /* loaded from: classes.dex */
-final class ChannelsKt__DeprecatedKt$filter$1 extends SuspendLambda implements p0.p<n<Object>, kotlin.coroutines.c<? super kotlin.t>, Object> {
-    final /* synthetic */ p0.p<Object, kotlin.coroutines.c<? super Boolean>, Object> $predicate;
+final class ChannelsKt__DeprecatedKt$filter$1 extends SuspendLambda implements p_p0<n<Object>, c<? super t>, Object> {
+    final /* synthetic */ p_p0<Object, c<? super Boolean>, Object> $predicate;
     final /* synthetic */ ReceiveChannel<Object> $this_filter;
     private /* synthetic */ Object L$0;
     Object L$1;
@@ -20,10 +24,10 @@ final class ChannelsKt__DeprecatedKt$filter$1 extends SuspendLambda implements p
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    ChannelsKt__DeprecatedKt$filter$1(ReceiveChannel<Object> receiveChannel, p0.p<Object, ? super kotlin.coroutines.c<? super Boolean>, ? extends Object> pVar, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$filter$1> cVar) {
+    ChannelsKt__DeprecatedKt$filter$1(ReceiveChannel<Object> receiveChannel, p_p0<Object, ? super c<? super Boolean>, ? extends Object> pP0Var, kotlin.coroutines.c<? super ChannelsKt__DeprecatedKt$filter$1> cVar) {
         super(2, cVar);
         this.$this_filter = receiveChannel;
-        this.$predicate = pVar;
+        this.$predicate = pP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

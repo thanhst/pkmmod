@@ -1,8 +1,11 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.t;
 import kotlinx.coroutines.internal.LockFreeLinkedListNode;
 import kotlinx.coroutines.internal.d0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -18,7 +21,7 @@ public abstract class o<E> extends LockFreeLinkedListNode implements p<E> {
     }
 
     @Nullable
-    public p0.l<Throwable, kotlin.t> R(E value) {
+    public l_p0<Throwable, t> R(E value) {
         return null;
     }
 

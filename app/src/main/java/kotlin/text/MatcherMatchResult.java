@@ -3,6 +3,8 @@ package kotlin.text;
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import kotlin.Metadata;
+import s0.f_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -38,7 +40,7 @@ final class MatcherMatchResult implements i {
 
     @Override // kotlin.text.i
     @NotNull
-    public s0.f a() {
+    public f_s0 a() {
         return j.h(c());
     }
 

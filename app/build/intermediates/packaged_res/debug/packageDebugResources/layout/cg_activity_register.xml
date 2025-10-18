@@ -1,164 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:id="@+id/layout_bg"
-        android:layout_width="@dimen/dp_z_984"
-        android:layout_height="@dimen/dp_z_810"
-        android:layout_centerInParent="true">
-        <include layout="@layout/cg_background_all1"/>
-        <RelativeLayout
-            android:id="@+id/layout_select"
-            android:background="@drawable/cg_bg_back4"
-            android:padding="@dimen/dp_z_2"
-            android:layout_width="@dimen/dp_z_910"
-            android:layout_height="@dimen/dp_z_348"
-            android:layout_marginTop="@dimen/dp_z_176"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true">
-            <EditText
-                android:textSize="@dimen/sp_z_35"
-                android:textColor="@color/cg_color_black"
-                android:textColorHint="@color/cg_color_hint"
-                android:gravity="center_vertical"
-                android:id="@+id/edit_account"
-                android:background="@drawable/edit_normal"
-                android:paddingLeft="@dimen/dp_z_144"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_116"
-                android:hint="@string/txt_hint_account_register"
-                android:singleLine="true"
-                android:maxLength="50"
-                android:imeOptions="flagNoExtractUi"/>
-            <ImageView
-                android:id="@+id/img_account"
-                android:background="@drawable/cg_uhead"
-                android:layout_width="@dimen/dp_z_50"
-                android:layout_height="@dimen/dp_z_50"
-                android:layout_marginLeft="@dimen/dp_z_30"
-                android:layout_marginTop="@dimen/dp_z_30"/>
-            <View
-                android:background="@color/cg_color_grary"
-                android:layout_width="@dimen/dp_z_2"
-                android:layout_height="@dimen/dp_z_24"
-                android:layout_marginLeft="@dimen/dp_z_26"
-                android:layout_marginTop="@dimen/dp_z_42"
-                android:layout_toRightOf="@+id/img_account"/>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:id="@+id/layout_line"
-                android:background="@color/cg_color_grary"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_2"
-                android:layout_below="@+id/edit_account"/>
-            <EditText
-                android:textSize="@dimen/sp_z_35"
-                android:textColor="@color/cg_color_black"
-                android:textColorHint="@color/cg_color_hint"
-                android:gravity="center_vertical"
-                android:id="@+id/edit_pwd"
-                android:background="@drawable/edit_normal"
-                android:paddingLeft="@dimen/dp_z_144"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_116"
-                android:hint="@string/txt_hint_password"
-                android:password="true"
-                android:singleLine="true"
-                android:maxLength="50"
-                android:layout_below="@+id/layout_line"
-                android:imeOptions="flagNoExtractUi"/>
-            <ImageView
-                android:id="@+id/img_psw"
-                android:background="@drawable/cg_login_pwd"
-                android:layout_width="@dimen/dp_z_42"
-                android:layout_height="@dimen/dp_z_38"
-                android:layout_marginLeft="@dimen/dp_z_36"
-                android:layout_marginTop="@dimen/dp_z_154"/>
-            <View
-                android:background="@color/cg_color_grary"
-                android:layout_width="@dimen/dp_z_2"
-                android:layout_height="@dimen/dp_z_24"
-                android:layout_marginLeft="@dimen/dp_z_26"
-                android:layout_marginTop="@dimen/dp_z_162"
-                android:layout_toRightOf="@+id/img_psw"/>
-            <LinearLayout
-                android:orientation="horizontal"
-                android:id="@+id/layout_line2"
-                android:background="@color/cg_color_grary"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_2"
-                android:layout_below="@+id/edit_pwd"/>
-            <EditText
-                android:textSize="@dimen/sp_z_35"
-                android:textColor="@color/cg_color_black"
-                android:textColorHint="@color/cg_color_hint"
-                android:gravity="center_vertical"
-                android:id="@+id/edit_confirm_pwd"
-                android:background="@drawable/edit_normal"
-                android:paddingLeft="@dimen/dp_z_144"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/dp_z_116"
-                android:hint="@string/txt_input_psw_again"
-                android:password="true"
-                android:singleLine="true"
-                android:maxLength="50"
-                android:layout_below="@+id/layout_line2"
-                android:imeOptions="flagNoExtractUi"/>
-            <ImageView
-                android:id="@+id/img_confirm_psw"
-                android:background="@drawable/cg_login_pwd"
-                android:layout_width="@dimen/dp_z_42"
-                android:layout_height="@dimen/dp_z_38"
-                android:layout_marginLeft="@dimen/dp_z_36"
-                android:layout_marginTop="@dimen/dp_z_268"/>
-            <View
-                android:background="@color/cg_color_grary"
-                android:layout_width="@dimen/dp_z_2"
-                android:layout_height="@dimen/dp_z_24"
-                android:layout_marginLeft="@dimen/dp_z_26"
-                android:layout_marginTop="@dimen/dp_z_276"
-                android:layout_toRightOf="@+id/img_confirm_psw"/>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_bg" android:layout_width="@dimen/dp_z_984" android:layout_height="@dimen/dp_z_810" android:layout_centerInParent="true">
+        <include layout="@layout/cg_background_all1" />
+        <RelativeLayout android:id="@id/layout_select" android:background="@drawable/cg_bg_back4" android:padding="@dimen/dp_z_2" android:layout_width="@dimen/dp_z_910" android:layout_height="@dimen/dp_z_348" android:layout_marginTop="@dimen/dp_z_176" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+            <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_black" android:textColorHint="@color/cg_color_hint" android:gravity="center_vertical" android:id="@id/edit_account" android:background="@drawable/edit_normal" android:paddingLeft="@dimen/dp_z_144" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_116" android:hint="@string/txt_hint_account_register" android:singleLine="true" android:maxLength="50" android:imeOptions="flagNoExtractUi" />
+            <ImageView android:id="@id/img_account" android:background="@drawable/cg_uhead" android:layout_width="@dimen/dp_z_50" android:layout_height="@dimen/dp_z_50" android:layout_marginLeft="@dimen/dp_z_30" android:layout_marginTop="@dimen/dp_z_30" />
+            <View android:background="@color/cg_color_grary" android:layout_width="@dimen/dp_z_2" android:layout_height="@dimen/dp_z_24" android:layout_marginLeft="@dimen/dp_z_26" android:layout_marginTop="@dimen/dp_z_42" android:layout_toRightOf="@id/img_account" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_line" android:background="@color/cg_color_grary" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_2" android:layout_below="@id/edit_account" />
+            <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_black" android:textColorHint="@color/cg_color_hint" android:gravity="center_vertical" android:id="@id/edit_pwd" android:background="@drawable/edit_normal" android:paddingLeft="@dimen/dp_z_144" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_116" android:hint="@string/txt_hint_password" android:password="true" android:singleLine="true" android:maxLength="50" android:layout_below="@id/layout_line" android:imeOptions="flagNoExtractUi" />
+            <ImageView android:id="@id/img_psw" android:background="@drawable/cg_login_pwd" android:layout_width="@dimen/dp_z_42" android:layout_height="@dimen/dp_z_38" android:layout_marginLeft="@dimen/dp_z_36" android:layout_marginTop="@dimen/dp_z_154" />
+            <View android:background="@color/cg_color_grary" android:layout_width="@dimen/dp_z_2" android:layout_height="@dimen/dp_z_24" android:layout_marginLeft="@dimen/dp_z_26" android:layout_marginTop="@dimen/dp_z_162" android:layout_toRightOf="@id/img_psw" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/layout_line2" android:background="@color/cg_color_grary" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_2" android:layout_below="@id/edit_pwd" />
+            <EditText android:textSize="@dimen/sp_z_35" android:textColor="@color/cg_color_black" android:textColorHint="@color/cg_color_hint" android:gravity="center_vertical" android:id="@id/edit_confirm_pwd" android:background="@drawable/edit_normal" android:paddingLeft="@dimen/dp_z_144" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_116" android:hint="@string/txt_input_psw_again" android:password="true" android:singleLine="true" android:maxLength="50" android:layout_below="@id/layout_line2" android:imeOptions="flagNoExtractUi" />
+            <ImageView android:id="@id/img_confirm_psw" android:background="@drawable/cg_login_pwd" android:layout_width="@dimen/dp_z_42" android:layout_height="@dimen/dp_z_38" android:layout_marginLeft="@dimen/dp_z_36" android:layout_marginTop="@dimen/dp_z_268" />
+            <View android:background="@color/cg_color_grary" android:layout_width="@dimen/dp_z_2" android:layout_height="@dimen/dp_z_24" android:layout_marginLeft="@dimen/dp_z_26" android:layout_marginTop="@dimen/dp_z_276" android:layout_toRightOf="@id/img_confirm_psw" />
         </RelativeLayout>
-        <Button
-            android:textSize="@dimen/sp_z_44"
-            android:textColor="@color/cg_color_white"
-            android:id="@+id/btn_register"
-            android:background="@drawable/cg_btn5"
-            android:layout_width="@dimen/dp_z_910"
-            android:layout_height="@dimen/dp_z_104"
-            android:layout_marginTop="@dimen/dp_z_646"
-            android:text="@string/txt_register"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"/>
-        <RelativeLayout
-            android:id="@+id/layout_check"
-            android:layout_width="@dimen/dp_z_300"
-            android:layout_height="@dimen/dp_z_80"
-            android:layout_marginLeft="@dimen/dp_z_44"
-            android:layout_marginTop="@dimen/dp_z_554"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true">
-            <ImageView
-                android:id="@+id/img_check_bg"
-                android:background="@drawable/cg_check_box_bg"
-                android:layout_width="@dimen/dp_z_44"
-                android:layout_height="@dimen/dp_z_44"
-                android:layout_centerVertical="true"/>
-            <ImageView
-                android:id="@+id/img_check"
-                android:background="@drawable/cg_check"
-                android:layout_width="@dimen/dp_z_44"
-                android:layout_height="@dimen/dp_z_44"
-                android:layout_centerVertical="true"/>
-            <TextView
-                android:textSize="@dimen/sp_z_30"
-                android:textColor="@color/cg_color_grary"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dp_z_48"
-                android:text="@string/txt_show_pwd"
-                android:layout_centerVertical="true"/>
+        <Button android:textSize="@dimen/sp_z_44" android:textColor="@color/cg_color_white" android:id="@id/btn_register" android:background="@drawable/cg_btn5" android:layout_width="@dimen/dp_z_910" android:layout_height="@dimen/dp_z_104" android:layout_marginTop="@dimen/dp_z_646" android:text="@string/txt_register" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/layout_check" android:layout_width="@dimen/dp_z_300" android:layout_height="@dimen/dp_z_80" android:layout_marginLeft="@dimen/dp_z_44" android:layout_marginTop="@dimen/dp_z_554" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/img_check_bg" android:background="@drawable/cg_check_box_bg" android:layout_width="@dimen/dp_z_44" android:layout_height="@dimen/dp_z_44" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/img_check" android:background="@drawable/cg_check" android:layout_width="@dimen/dp_z_44" android:layout_height="@dimen/dp_z_44" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/sp_z_30" android:textColor="@color/cg_color_grary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_z_48" android:text="@string/txt_show_pwd" android:layout_centerVertical="true" />
         </RelativeLayout>
     </RelativeLayout>
 </RelativeLayout>

@@ -1,21 +1,22 @@
 package kotlin.sequences;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.RestrictedSuspendLambda;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import p0.p;
-import p0.q;
+import p0.p_p0;
+import p0.q_p0;
 
 /* compiled from: _Sequences.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u000e\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0004\u001a\u00020\u0003\"\u0004\b\u0000\u0010\u0000\"\u0004\b\u0001\u0010\u0001*\b\u0012\u0004\u0012\u00028\u00010\u0002H\u008a@"}, d2 = {"T", "R", "Lkotlin/sequences/f;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 7, 1})
 @DebugMetadata(c = "kotlin.sequences.SequencesKt___SequencesKt$runningFoldIndexed$1", f = "_Sequences.kt", i = {0, 1, 1, 1}, l = {2314, 2319}, m = "invokeSuspend", n = {"$this$sequence", "$this$sequence", "accumulator", "index"}, s = {"L$0", "L$0", "L$1", "I$0"})
 /* loaded from: classes.dex */
-final class SequencesKt___SequencesKt$runningFoldIndexed$1 extends RestrictedSuspendLambda implements p<f<Object>, kotlin.coroutines.c<? super t>, Object> {
+final class SequencesKt___SequencesKt$runningFoldIndexed$1 extends RestrictedSuspendLambda implements p_p0<f<Object>, c<? super t>, Object> {
     final /* synthetic */ Object $initial;
-    final /* synthetic */ q<Integer, Object, Object, Object> $operation;
+    final /* synthetic */ q_p0<Integer, Object, Object, Object> $operation;
     final /* synthetic */ d<Object> $this_runningFoldIndexed;
     int I$0;
     private /* synthetic */ Object L$0;
@@ -25,11 +26,11 @@ final class SequencesKt___SequencesKt$runningFoldIndexed$1 extends RestrictedSus
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    SequencesKt___SequencesKt$runningFoldIndexed$1(Object obj, d<Object> dVar, q<? super Integer, Object, Object, Object> qVar, kotlin.coroutines.c<? super SequencesKt___SequencesKt$runningFoldIndexed$1> cVar) {
+    SequencesKt___SequencesKt$runningFoldIndexed$1(Object obj, d<Object> dVar, q_p0<? super Integer, Object, Object, Object> qP0Var, kotlin.coroutines.c<? super SequencesKt___SequencesKt$runningFoldIndexed$1> cVar) {
         super(2, cVar);
         this.$initial = obj;
         this.$this_runningFoldIndexed = dVar;
-        this.$operation = qVar;
+        this.$operation = qP0Var;
     }
 
     @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl

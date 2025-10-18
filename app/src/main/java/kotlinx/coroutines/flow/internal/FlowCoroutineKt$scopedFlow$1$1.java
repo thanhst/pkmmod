@@ -1,10 +1,15 @@
 package kotlinx.coroutines.flow.internal;
 
 import kotlin.Metadata;
+import kotlin.coroutines.c;
 import kotlin.coroutines.jvm.internal.DebugMetadata;
 import kotlin.coroutines.jvm.internal.SuspendLambda;
 import kotlin.t;
+import kotlinx.coroutines.flow.e;
 import kotlinx.coroutines.g0;
+import p0.p_p0;
+import p0.q_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -12,17 +17,17 @@ import org.jetbrains.annotations.Nullable;
 @Metadata(bv = {}, d1 = {"\u0000\f\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\u0010\u0003\u001a\u00020\u0002\"\u0004\b\u0000\u0010\u0000*\u00020\u0001H\u008a@"}, d2 = {"R", "Lkotlinx/coroutines/g0;", "Lkotlin/t;", "<anonymous>"}, k = 3, mv = {1, 6, 0})
 @DebugMetadata(c = "kotlinx.coroutines.flow.internal.FlowCoroutineKt$scopedFlow$1$1", f = "FlowCoroutine.kt", i = {}, l = {51}, m = "invokeSuspend", n = {}, s = {})
 /* loaded from: classes.dex */
-final class FlowCoroutineKt$scopedFlow$1$1 extends SuspendLambda implements p0.p<g0, kotlin.coroutines.c<? super t>, Object> {
-    final /* synthetic */ p0.q<g0, kotlinx.coroutines.flow.e<Object>, kotlin.coroutines.c<? super t>, Object> $block;
+final class FlowCoroutineKt$scopedFlow$1$1 extends SuspendLambda implements p_p0<g0, c<? super t>, Object> {
+    final /* synthetic */ q_p0<g0, e<Object>, c<? super t>, Object> $block;
     final /* synthetic */ kotlinx.coroutines.flow.e<Object> $this_unsafeFlow;
     private /* synthetic */ Object L$0;
     int label;
 
     /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
     /* JADX WARN: Multi-variable type inference failed */
-    FlowCoroutineKt$scopedFlow$1$1(p0.q<? super g0, ? super kotlinx.coroutines.flow.e<Object>, ? super kotlin.coroutines.c<? super t>, ? extends Object> qVar, kotlinx.coroutines.flow.e<Object> eVar, kotlin.coroutines.c<? super FlowCoroutineKt$scopedFlow$1$1> cVar) {
+    FlowCoroutineKt$scopedFlow$1$1(q_p0<? super g0, ? super e<Object>, ? super c<? super t>, ? extends Object> qP0Var, kotlinx.coroutines.flow.e<Object> eVar, kotlin.coroutines.c<? super FlowCoroutineKt$scopedFlow$1$1> cVar) {
         super(2, cVar);
-        this.$block = qVar;
+        this.$block = qP0Var;
         this.$this_unsafeFlow = eVar;
     }
 
@@ -48,10 +53,10 @@ final class FlowCoroutineKt$scopedFlow$1$1 extends SuspendLambda implements p0.p
         if (i2 == 0) {
             kotlin.h.b(obj);
             g0 g0Var = (g0) this.L$0;
-            p0.q<g0, kotlinx.coroutines.flow.e<Object>, kotlin.coroutines.c<? super t>, Object> qVar = this.$block;
+            q_p0<g0, e<Object>, c<? super t>, Object> qP0Var = this.$block;
             kotlinx.coroutines.flow.e<Object> eVar = this.$this_unsafeFlow;
             this.label = 1;
-            if (qVar.invoke(g0Var, eVar, this) == objD) {
+            if (qP0Var.invoke(g0Var, eVar, this) == objD) {
                 return objD;
             }
         } else {

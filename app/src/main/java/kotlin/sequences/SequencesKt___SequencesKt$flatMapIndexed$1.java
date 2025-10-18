@@ -4,12 +4,14 @@ import java.util.Iterator;
 import kotlin.Metadata;
 import kotlin.jvm.internal.FunctionReferenceImpl;
 import kotlin.jvm.internal.s;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: _Sequences.kt */
 @Metadata(k = 3, mv = {1, 7, 1}, xi = 48)
 /* loaded from: classes.dex */
-final /* synthetic */ class SequencesKt___SequencesKt$flatMapIndexed$1 extends FunctionReferenceImpl implements p0.l<Iterable<Object>, Iterator<Object>> {
+final /* synthetic */ class SequencesKt___SequencesKt$flatMapIndexed$1 extends FunctionReferenceImpl implements l_p0<Iterable<Object>, Iterator<Object>> {
     public static final SequencesKt___SequencesKt$flatMapIndexed$1 INSTANCE = new SequencesKt___SequencesKt$flatMapIndexed$1();
 
     SequencesKt___SequencesKt$flatMapIndexed$1() {

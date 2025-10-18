@@ -1,7 +1,10 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.t;
 import kotlinx.coroutines.ExperimentalCoroutinesApi;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -27,7 +30,7 @@ public interface s<E> {
     boolean g(@Nullable Throwable cause);
 
     @ExperimentalCoroutinesApi
-    void x(@NotNull p0.l<? super Throwable, kotlin.t> lVar);
+    void x(@NotNull l_p0<? super Throwable, t> lP0Var);
 
     @Nullable
     Object y(E e2, @NotNull kotlin.coroutines.c<? super kotlin.t> cVar);

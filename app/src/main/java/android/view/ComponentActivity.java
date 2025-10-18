@@ -11,15 +11,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
 import android.text.TextUtils;
-import android.view.C0077b;
-import android.view.C0078c;
-import android.view.C0080e;
-import android.view.InterfaceC0079d;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.view.Window;
 import android.view.result.ActivityResultRegistry;
 import android.view.result.IntentSenderRequest;
 import android.window.OnBackInvokedDispatcher;
@@ -50,10 +41,13 @@ import androidx.lifecycle.i;
 import androidx.lifecycle.k;
 import androidx.lifecycle.m;
 import androidx.lifecycle.n;
-import d.a;
+
 import java.util.Iterator;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import s.a_s;
+import s.d_s;
 
 /* loaded from: classes.dex */
 public class ComponentActivity extends androidx.core.app.ComponentActivity implements f0, i, InterfaceC0079d, k, android.view.result.c {
@@ -356,17 +350,17 @@ public class ComponentActivity extends androidx.core.app.ComponentActivity imple
     @Override // androidx.lifecycle.i
     @NonNull
     @CallSuper
-    public s.a getDefaultViewModelCreationExtras() {
-        s.d dVar = new s.d();
+    public a_s getDefaultViewModelCreationExtras() {
+        d_s dSVar = new d_s();
         if (getApplication() != null) {
-            dVar.c(b0.a.f2440g, getApplication());
+            dSVar.c(b0.a.f2440g, getApplication());
         }
-        dVar.c(SavedStateHandleSupport.f2417a, this);
-        dVar.c(SavedStateHandleSupport.f2418b, this);
+        dSVar.c(SavedStateHandleSupport.f2417a, this);
+        dSVar.c(SavedStateHandleSupport.f2418b, this);
         if (getIntent() != null && getIntent().getExtras() != null) {
-            dVar.c(SavedStateHandleSupport.f2419c, getIntent().getExtras());
+            dSVar.c(SavedStateHandleSupport.f2419c, getIntent().getExtras());
         }
-        return dVar;
+        return dSVar;
     }
 
     @NonNull

@@ -6,24 +6,26 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import m.b;
+
+import m.a_m;
+import m.b_m;
 
 /* loaded from: classes.dex */
 public abstract class UnusedAppRestrictionsBackportService extends Service {
 
     /* renamed from: e, reason: collision with root package name */
-    private b.a f1432e = new a();
+    private b_m.a f1432e = new a();
 
-    class a extends b.a {
+    class a extends b_m.a {
         a() {
         }
 
         @Override // m.b
-        public void f(@Nullable m.a aVar) throws RemoteException {
-            if (aVar == null) {
+        public void f(@Nullable a_m aMVar) throws RemoteException {
+            if (aMVar == null) {
                 return;
             }
-            UnusedAppRestrictionsBackportService.this.a(new i(aVar));
+            UnusedAppRestrictionsBackportService.this.a(new i(aMVar));
         }
     }
 

@@ -3,6 +3,8 @@ package kotlinx.coroutines.channels;
 import kotlin.Metadata;
 import kotlin.jvm.JvmField;
 import kotlinx.coroutines.internal.OnUndeliveredElementKt;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: AbstractChannel.kt */
@@ -13,12 +15,12 @@ public final class u<E> extends t<E> {
     /* renamed from: j, reason: collision with root package name and from kotlin metadata */
     @JvmField
     @NotNull
-    public final p0.l<E, kotlin.t> onUndeliveredElement;
+    public final l_p0<E, kotlin.t> onUndeliveredElement;
 
     /* JADX WARN: Multi-variable type inference failed */
-    public u(E e2, @NotNull kotlinx.coroutines.k<? super kotlin.t> kVar, @NotNull p0.l<? super E, kotlin.t> lVar) {
+    public u(E e2, @NotNull kotlinx.coroutines.k<? super kotlin.t> kVar, @NotNull l_p0<? super E, kotlin.t> lP0Var) {
         super(e2, kVar);
-        this.onUndeliveredElement = lVar;
+        this.onUndeliveredElement = lP0Var;
     }
 
     @Override // kotlinx.coroutines.internal.LockFreeLinkedListNode

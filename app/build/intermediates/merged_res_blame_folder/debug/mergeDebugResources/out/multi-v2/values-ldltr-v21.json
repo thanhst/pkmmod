@@ -4,22 +4,20 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-ldltr-v21\\styles.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-ldltr-v21\\styles.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "57",
-                        "endLines": "3",
-                        "endColumns": "12",
-                        "endOffsets": "185"
+                        "endColumns": "120",
+                        "endOffsets": "173"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "3",
-                        "endColumns": "12",
-                        "endOffsets": "182"
+                        "endColumns": "119",
+                        "endOffsets": "170"
                     }
                 }
             ]

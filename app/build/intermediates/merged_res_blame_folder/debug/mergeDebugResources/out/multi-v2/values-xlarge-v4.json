@@ -4,20 +4,20 @@
             "outputFile": "com.pokemodpro.vn.app-mergeDebugResources-2:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "E:\\PKDC\\app_source\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
+                    "source": "D:\\Decode\\pkmmod\\app\\src\\main\\res\\values-xlarge\\dimens.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "57,117,177,235",
-                        "endColumns": "58,58,56,56",
-                        "endOffsets": "111,171,229,287"
+                        "startOffsets": "57,130,207,283",
+                        "endColumns": "71,75,74,69",
+                        "endOffsets": "124,201,277,348"
                     },
                     "to": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "55,114,173,230",
-                        "endColumns": "58,58,56,56",
-                        "endOffsets": "109,168,225,282"
+                        "startOffsets": "55,127,203,278",
+                        "endColumns": "71,75,74,69",
+                        "endOffsets": "122,198,273,343"
                     }
                 }
             ]

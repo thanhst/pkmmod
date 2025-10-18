@@ -1,6 +1,9 @@
 package kotlinx.coroutines.channels;
 
 import kotlin.Metadata;
+import kotlin.t;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -9,20 +12,20 @@ import org.jetbrains.annotations.Nullable;
 /* loaded from: classes.dex */
 public final class g {
     @NotNull
-    public static final <E> e<E> a(int i2, @NotNull BufferOverflow bufferOverflow, @Nullable p0.l<? super E, kotlin.t> lVar) {
+    public static final <E> e<E> a(int i2, @NotNull BufferOverflow bufferOverflow, @Nullable l_p0<? super E, t> lP0Var) {
         if (i2 == -2) {
-            return new c(bufferOverflow == BufferOverflow.SUSPEND ? e.INSTANCE.a() : 1, bufferOverflow, lVar);
+            return new c(bufferOverflow == BufferOverflow.SUSPEND ? e.INSTANCE.a() : 1, bufferOverflow, lP0Var);
         }
         if (i2 != -1) {
-            return i2 != 0 ? i2 != Integer.MAX_VALUE ? (i2 == 1 && bufferOverflow == BufferOverflow.DROP_OLDEST) ? new k(lVar) : new c(i2, bufferOverflow, lVar) : new l(lVar) : bufferOverflow == BufferOverflow.SUSPEND ? new q(lVar) : new c(1, bufferOverflow, lVar);
+            return i2 != 0 ? i2 != Integer.MAX_VALUE ? (i2 == 1 && bufferOverflow == BufferOverflow.DROP_OLDEST) ? new k(lP0Var) : new c(i2, bufferOverflow, lP0Var) : new l(lP0Var) : bufferOverflow == BufferOverflow.SUSPEND ? new q(lP0Var) : new c(1, bufferOverflow, lP0Var);
         }
         if ((bufferOverflow != BufferOverflow.SUSPEND ? 0 : 1) != 0) {
-            return new k(lVar);
+            return new k(lP0Var);
         }
         throw new IllegalArgumentException("CONFLATED capacity cannot be used with non-default onBufferOverflow".toString());
     }
 
-    public static /* synthetic */ e b(int i2, BufferOverflow bufferOverflow, p0.l lVar, int i3, Object obj) {
+    public static /* synthetic */ e b(int i2, BufferOverflow bufferOverflow, l_p0 lP0Var, int i3, Object obj) {
         if ((i3 & 1) != 0) {
             i2 = 0;
         }
@@ -30,8 +33,8 @@ public final class g {
             bufferOverflow = BufferOverflow.SUSPEND;
         }
         if ((i3 & 4) != 0) {
-            lVar = null;
+            lP0Var = null;
         }
-        return a(i2, bufferOverflow, lVar);
+        return a(i2, bufferOverflow, lP0Var);
     }
 }

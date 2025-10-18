@@ -7,6 +7,8 @@ import android.content.IntentFilter;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
 import kotlin.Metadata;
+import u.a_u;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -17,7 +19,7 @@ public abstract class AuthenticationTokenTracker {
     private static final String TAG = AuthenticationTokenTracker.class.getSimpleName();
 
     @NotNull
-    private final u.a broadcastManager;
+    private final a_u broadcastManager;
     private boolean isTracking;
 
     @NotNull
@@ -48,9 +50,9 @@ public abstract class AuthenticationTokenTracker {
     public AuthenticationTokenTracker() {
         Validate.sdkInitialized();
         this.receiver = new CurrentAuthenticationTokenBroadcastReceiver(this);
-        u.a aVarB = u.a.b(FacebookSdk.getApplicationContext());
-        kotlin.jvm.internal.s.d(aVarB, "getInstance(FacebookSdk.getApplicationContext())");
-        this.broadcastManager = aVarB;
+        a_u aUVarB = a_u.b(FacebookSdk.getApplicationContext());
+        kotlin.jvm.internal.s.d(aUVarB, "getInstance(FacebookSdk.getApplicationContext())");
+        this.broadcastManager = aUVarB;
         startTracking();
     }
 

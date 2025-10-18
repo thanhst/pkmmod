@@ -5,6 +5,8 @@ import kotlin.Metadata;
 import kotlin.jvm.JvmField;
 import kotlinx.coroutines.internal.e0;
 import kotlinx.coroutines.internal.g0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: Tasks.kt */
@@ -18,7 +20,7 @@ public final class k {
 
     /* renamed from: b, reason: collision with root package name */
     @JvmField
-    public static final int f3929b = g0.d("kotlinx.coroutines.scheduler.core.pool.size", s0.l.a(e0.a(), 2), 1, 0, 8, null);
+    public static final int f3929b = g0.d("kotlinx.coroutines.scheduler.core.pool.size", l_s0.a(e0.a(), 2), 1, 0, 8, null);
 
     /* renamed from: c, reason: collision with root package name */
     @JvmField

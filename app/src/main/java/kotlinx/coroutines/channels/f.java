@@ -3,9 +3,12 @@ package kotlinx.coroutines.channels;
 import java.util.concurrent.CancellationException;
 import kotlin.Metadata;
 import kotlin.coroutines.CoroutineContext;
+import kotlin.t;
 import kotlinx.coroutines.ExperimentalCoroutinesApi;
 import kotlinx.coroutines.JobCancellationException;
 import kotlinx.coroutines.n1;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -82,8 +85,8 @@ public class f<E> extends kotlinx.coroutines.a<kotlin.t> implements e<E> {
 
     @Override // kotlinx.coroutines.channels.s
     @ExperimentalCoroutinesApi
-    public void x(@NotNull p0.l<? super Throwable, kotlin.t> lVar) {
-        this._channel.x(lVar);
+    public void x(@NotNull l_p0<? super Throwable, t> lP0Var) {
+        this._channel.x(lP0Var);
     }
 
     @Override // kotlinx.coroutines.channels.s

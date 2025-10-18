@@ -3,7 +3,6 @@ package androidx.browser.trusted;
 import android.os.IBinder;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import b.a;
 
 /* compiled from: TrustedWebActivityCallbackRemote.java */
 /* loaded from: classes.dex */
@@ -18,7 +17,7 @@ public class c {
 
     @Nullable
     static c a(@Nullable IBinder iBinder) {
-        b.a aVarC = iBinder == null ? null : a.AbstractBinderC0038a.C(iBinder);
+        b.a aVarC = iBinder == null ? null : b.a_b.AbstractBinderC0038AB.C(iBinder);
         if (aVarC == null) {
             return null;
         }

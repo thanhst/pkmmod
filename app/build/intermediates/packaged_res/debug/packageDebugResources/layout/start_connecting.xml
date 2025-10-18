@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:gravity="bottom"
-    android:layout_gravity="bottom"
-    android:orientation="vertical"
-    android:id="@+id/maploadingview"
-    android:clickable="true"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <ImageView
-        android:id="@+id/imageView1"
-        android:background="@drawable/start_connecting_text_bg"
-        android:layout_width="350dp"
-        android:layout_height="32dp"
-        android:layout_centerHorizontal="true"/>
-    <TextView
-        android:textSize="17sp"
-        android:textColor="#ffffffff"
-        android:gravity="center"
-        android:id="@+id/start_connectingText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="21dp"
-        android:text="TextView"
-        android:layout_alignTop="@+id/imageView1"/>
+<RelativeLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/maploadingview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageView1" android:background="@drawable/start_connecting_text_bg" android:layout_width="350.0dip" android:layout_height="32.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="17.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/start_connectingText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="21.0dip" android:text="TextView" android:layout_alignTop="@id/imageView1" />
 </RelativeLayout>

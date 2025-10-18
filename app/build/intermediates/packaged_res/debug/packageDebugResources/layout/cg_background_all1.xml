@@ -1,77 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@drawable/cg_shape_base_bg"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <RelativeLayout
-        android:background="@drawable/cg_shape_top_round"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_z_120"
-        android:layout_marginLeft="@dimen/dp_z_10"
-        android:layout_marginTop="@dimen/dp_z_10"
-        android:layout_marginRight="@dimen/dp_z_10"
-        android:layout_alignParentTop="true">
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_z_120"
-            android:layout_marginLeft="@dimen/dp_z_10"
-            android:layout_marginTop="@dimen/dp_z_10"
-            android:layout_marginRight="@dimen/dp_z_10"
-            android:layout_alignParentTop="true">
-            <ImageView
-                android:id="@+id/img_logo"
-                android:visibility="gone"
-                android:layout_width="@dimen/dp_z_250"
-                android:layout_height="@dimen/dp_z_80"
-                android:layout_marginLeft="@dimen/dp_z_40"
-                android:layout_centerVertical="true"/>
-            <TextView
-                android:textSize="@dimen/dp_z_50"
-                android:textColor="@color/cg_color_light_blue"
-                android:id="@+id/txt_title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/txt_title_pay"
-                android:singleLine="true"
-                android:layout_centerInParent="true"
-                android:layout_centerHorizontal="true"/>
-            <RelativeLayout
-                android:gravity="center"
-                android:id="@+id/layout_back"
-                android:layout_width="@dimen/dp_z_120"
-                android:layout_height="@dimen/dp_z_120"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true">
-                <ImageView
-                    android:id="@+id/img_back"
-                    android:layout_width="@dimen/dp_z_50"
-                    android:layout_height="@dimen/dp_z_50"
-                    android:src="@drawable/cg_img_back"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"/>
+<RelativeLayout android:background="@drawable/cg_shape_base_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/cg_shape_top_round" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_120" android:layout_marginLeft="@dimen/dp_z_10" android:layout_marginTop="@dimen/dp_z_10" android:layout_marginRight="@dimen/dp_z_10" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_120" android:layout_marginLeft="@dimen/dp_z_10" android:layout_marginTop="@dimen/dp_z_10" android:layout_marginRight="@dimen/dp_z_10" android:layout_alignParentTop="true">
+            <ImageView android:id="@id/img_logo" android:visibility="gone" android:layout_width="@dimen/dp_z_250" android:layout_height="@dimen/dp_z_80" android:layout_marginLeft="@dimen/dp_z_40" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/dp_z_50" android:textColor="@color/cg_color_light_blue" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/txt_title_pay" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" />
+            <RelativeLayout android:gravity="center" android:id="@id/layout_back" android:layout_width="@dimen/dp_z_120" android:layout_height="@dimen/dp_z_120" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                <ImageView android:id="@id/img_back" android:layout_width="@dimen/dp_z_50" android:layout_height="@dimen/dp_z_50" android:src="@drawable/cg_img_back" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
             </RelativeLayout>
-            <RelativeLayout
-                android:gravity="center"
-                android:id="@+id/layout_close"
-                android:layout_width="@dimen/dp_z_120"
-                android:layout_height="@dimen/dp_z_120"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentRight="true">
-                <ImageView
-                    android:id="@+id/img_close"
-                    android:layout_width="@dimen/dp_z_50"
-                    android:layout_height="@dimen/dp_z_50"
-                    android:src="@drawable/cg_img_close"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"/>
+            <RelativeLayout android:gravity="center" android:id="@id/layout_close" android:layout_width="@dimen/dp_z_120" android:layout_height="@dimen/dp_z_120" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+                <ImageView android:id="@id/img_close" android:layout_width="@dimen/dp_z_50" android:layout_height="@dimen/dp_z_50" android:src="@drawable/cg_img_close" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
             </RelativeLayout>
         </RelativeLayout>
     </RelativeLayout>
-    <View
-        android:background="@color/cg_color_light_blue"
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_z_10"
-        android:layout_marginLeft="@dimen/dp_z_10"
-        android:layout_marginTop="@dimen/dp_z_130"
-        android:layout_marginRight="@dimen/dp_z_10"/>
+    <View android:background="@color/cg_color_light_blue" android:layout_width="fill_parent" android:layout_height="@dimen/dp_z_10" android:layout_marginLeft="@dimen/dp_z_10" android:layout_marginTop="@dimen/dp_z_130" android:layout_marginRight="@dimen/dp_z_10" />
 </RelativeLayout>

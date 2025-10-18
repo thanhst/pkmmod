@@ -1,8 +1,10 @@
 package com.helpergames;
 
+import android.content.pm.PackageManager;
 import android.content.res.AssetManager;
 import com.lomfsqxinjb.KRgTbxlWh.PCJDkVISZlhELOr;
 import java.io.FileDescriptor;
+import java.io.IOException;
 
 /* loaded from: classes.dex */
 public class NHelper {
@@ -88,7 +90,7 @@ public class NHelper {
         this.f2948a.M();
     }
 
-    public void JavaCallBack_LocalizeInit() {
+    public void JavaCallBack_LocalizeInit() throws IOException {
         this.f2948a.d0();
     }
 
@@ -252,7 +254,7 @@ public class NHelper {
         this.f2948a.R1(str);
     }
 
-    public float jcallback_4a017d555c38fe5e71f7214c810f30af() {
+    public float jcallback_4a017d555c38fe5e71f7214c810f30af() throws IOException {
         return this.f2948a.S1();
     }
 
@@ -268,7 +270,7 @@ public class NHelper {
         this.f2948a.V1(str);
     }
 
-    public void jcallback_58d21f9876735f4eb0c99d1b10d1fa6a(FileDescriptor fileDescriptor, long j2, long j3) {
+    public void jcallback_58d21f9876735f4eb0c99d1b10d1fa6a(FileDescriptor fileDescriptor, long j2, long j3) throws InterruptedException {
         this.f2948a.W1(fileDescriptor, j2, j3);
     }
 
@@ -304,11 +306,11 @@ public class NHelper {
         return this.f2948a.e2();
     }
 
-    public String jcallback_69148af30eea6efab3f38245fd3eaf26() {
+    public String jcallback_69148af30eea6efab3f38245fd3eaf26() throws IOException {
         return this.f2948a.f2();
     }
 
-    public String jcallback_6e443a362d66487747daf8e6ff1ed4ce() {
+    public String jcallback_6e443a362d66487747daf8e6ff1ed4ce() throws PackageManager.NameNotFoundException {
         return this.f2948a.g2();
     }
 

@@ -1,6 +1,8 @@
 package kotlin.text;
 
 import kotlin.Metadata;
+import s0.f_s0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -16,9 +18,9 @@ public final /* data */ class MatchGroup {
 
     /* renamed from: b, reason: collision with root package name and from kotlin metadata and from toString */
     @NotNull
-    private final s0.f range;
+    private final f_s0 range;
 
-    public MatchGroup(@NotNull String value, @NotNull s0.f range) {
+    public MatchGroup(@NotNull String value, @NotNull f_s0 range) {
         kotlin.jvm.internal.s.e(value, "value");
         kotlin.jvm.internal.s.e(range, "range");
         this.value = value;

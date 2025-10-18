@@ -4,6 +4,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import kotlin.Metadata;
 import kotlin.collections.k0;
+import p0.a_p0;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: CharDirectionality.kt */
@@ -34,12 +37,12 @@ public enum CharDirectionality {
     private final int value;
 
     @NotNull
-    private static final kotlin.d<Map<Integer, CharDirectionality>> directionalityMap$delegate = kotlin.f.a(new p0.a<Map<Integer, ? extends CharDirectionality>>() { // from class: kotlin.text.CharDirectionality$Companion$directionalityMap$2
+    private static final kotlin.d<Map<Integer, CharDirectionality>> directionalityMap$delegate = kotlin.f.a(new a_p0<Map<Integer, ? extends CharDirectionality>>() { // from class: kotlin.text.CharDirectionality$Companion$directionalityMap$2
         @Override // p0.a
         @NotNull
         public final Map<Integer, ? extends CharDirectionality> invoke() {
             CharDirectionality[] charDirectionalityArrValues = CharDirectionality.values();
-            LinkedHashMap linkedHashMap = new LinkedHashMap(s0.l.a(k0.c(charDirectionalityArrValues.length), 16));
+            LinkedHashMap linkedHashMap = new LinkedHashMap(l_s0.a(k0.c(charDirectionalityArrValues.length), 16));
             for (CharDirectionality charDirectionality : charDirectionalityArrValues) {
                 linkedHashMap.put(Integer.valueOf(charDirectionality.getValue()), charDirectionality);
             }

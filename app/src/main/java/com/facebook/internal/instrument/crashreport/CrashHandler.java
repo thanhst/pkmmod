@@ -9,7 +9,7 @@ import com.facebook.internal.Utility;
 import com.facebook.internal.instrument.ExceptionAnalyzer;
 import com.facebook.internal.instrument.InstrumentData;
 import com.facebook.internal.instrument.InstrumentUtility;
-import com.facebook.internal.instrument.crashreport.CrashHandler;
+
 import java.io.File;
 import java.lang.Thread;
 import java.util.ArrayList;
@@ -27,7 +27,7 @@ import org.jetbrains.annotations.Nullable;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import s0.l;
+import s0.l_s0;
 
 /* compiled from: CrashHandler.kt */
 @Metadata(bv = {}, d1 = {"\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0003\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0007\b\u0007\u0018\u0000 \f2\u00020\u0001:\u0001\fB\u0013\b\u0002\u0012\b\u0010\b\u001a\u0004\u0018\u00010\u0001¢\u0006\u0004\b\n\u0010\u000bJ\u0018\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0016R\u0016\u0010\b\u001a\u0004\u0018\u00010\u00018\u0002X\u0082\u0004¢\u0006\u0006\n\u0004\b\b\u0010\t¨\u0006\r"}, d2 = {"Lcom/facebook/internal/instrument/crashreport/CrashHandler;", "Ljava/lang/Thread$UncaughtExceptionHandler;", "Ljava/lang/Thread;", "t", "", "e", "Lkotlin/t;", "uncaughtException", "previousHandler", "Ljava/lang/Thread$UncaughtExceptionHandler;", "<init>", "(Ljava/lang/Thread$UncaughtExceptionHandler;)V", "Companion", "facebook-core_release"}, k = 1, mv = {1, 5, 1})
@@ -79,7 +79,7 @@ public final class CrashHandler implements Thread.UncaughtExceptionHandler {
                 }
             });
             JSONArray jSONArray = new JSONArray();
-            Iterator<Integer> it = l.h(0, Math.min(listT.size(), 5)).iterator();
+            Iterator<Integer> it = l_s0.h(0, Math.min(listT.size(), 5)).iterator();
             while (it.hasNext()) {
                 jSONArray.put(listT.get(((g0) it).nextInt()));
             }

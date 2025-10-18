@@ -4,11 +4,12 @@ import java.util.Iterator;
 import kotlin.BuilderInference;
 import kotlin.Metadata;
 import kotlin.SinceKotlin;
+import kotlin.coroutines.c;
 import kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt;
 import kotlin.jvm.internal.s;
 import kotlin.t;
 import org.jetbrains.annotations.NotNull;
-import p0.p;
+import p0.p_p0;
 
 /* JADX INFO: Access modifiers changed from: package-private */
 /* compiled from: SequenceBuilder.kt */
@@ -22,10 +23,10 @@ public class h {
     public static final class a<T> implements d<T> {
 
         /* renamed from: a, reason: collision with root package name */
-        final /* synthetic */ p f3501a;
+        final /* synthetic */ p_p0 f3501a;
 
-        public a(p pVar) {
-            this.f3501a = pVar;
+        public a(p_p0 pP0Var) {
+            this.f3501a = pP0Var;
         }
 
         @Override // kotlin.sequences.d
@@ -37,7 +38,7 @@ public class h {
 
     @SinceKotlin(version = "1.3")
     @NotNull
-    public static final <T> Iterator<T> a(@BuilderInference @NotNull p<? super f<? super T>, ? super kotlin.coroutines.c<? super t>, ? extends Object> block) {
+    public static final <T> Iterator<T> a(@BuilderInference @NotNull p_p0<? super f<? super T>, ? super c<? super t>, ? extends Object> block) {
         s.e(block, "block");
         e eVar = new e();
         eVar.h(IntrinsicsKt__IntrinsicsJvmKt.b(block, eVar, eVar));
@@ -46,7 +47,7 @@ public class h {
 
     @SinceKotlin(version = "1.3")
     @NotNull
-    public static <T> d<T> b(@BuilderInference @NotNull p<? super f<? super T>, ? super kotlin.coroutines.c<? super t>, ? extends Object> block) {
+    public static <T> d<T> b(@BuilderInference @NotNull p_p0<? super f<? super T>, ? super c<? super t>, ? extends Object> block) {
         s.e(block, "block");
         return new a(block);
     }

@@ -4,6 +4,9 @@ import java.util.Iterator;
 import kotlin.Metadata;
 import kotlin.internal.LowPriorityInOverloadResolution;
 import kotlin.jvm.internal.s;
+import p0.a_p0;
+import p0.l_p0;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -47,9 +50,9 @@ public class SequencesKt__SequencesKt extends i {
 
     @LowPriorityInOverloadResolution
     @NotNull
-    public static <T> d<T> e(@Nullable final T t2, @NotNull p0.l<? super T, ? extends T> nextFunction) {
+    public static <T> d<T> e(@Nullable final T t2, @NotNull l_p0<? super T, ? extends T> nextFunction) {
         s.e(nextFunction, "nextFunction");
-        return t2 == null ? b.f3491a : new c(new p0.a<T>() { // from class: kotlin.sequences.SequencesKt__SequencesKt$generateSequence$2
+        return t2 == null ? b.f3491a : new c(new a_p0<T>() { // from class: kotlin.sequences.SequencesKt__SequencesKt$generateSequence$2
             /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
             {
                 super(0);
@@ -64,7 +67,7 @@ public class SequencesKt__SequencesKt extends i {
     }
 
     @NotNull
-    public static <T> d<T> f(@NotNull p0.a<? extends T> seedFunction, @NotNull p0.l<? super T, ? extends T> nextFunction) {
+    public static <T> d<T> f(@NotNull a_p0<? extends T> seedFunction, @NotNull l_p0<? super T, ? extends T> nextFunction) {
         s.e(seedFunction, "seedFunction");
         s.e(nextFunction, "nextFunction");
         return new c(seedFunction, nextFunction);

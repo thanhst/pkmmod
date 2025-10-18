@@ -1,6 +1,8 @@
 package kotlin.text;
 
 import kotlin.Metadata;
+import s0.l_s0;
+
 import org.jetbrains.annotations.NotNull;
 
 /* compiled from: _Strings.kt */
@@ -11,7 +13,7 @@ class u extends t {
     public static final String r0(@NotNull String str, int i2) {
         kotlin.jvm.internal.s.e(str, "<this>");
         if (i2 >= 0) {
-            String strSubstring = str.substring(s0.l.c(i2, str.length()));
+            String strSubstring = str.substring(l_s0.c(i2, str.length()));
             kotlin.jvm.internal.s.d(strSubstring, "this as java.lang.String).substring(startIndex)");
             return strSubstring;
         }

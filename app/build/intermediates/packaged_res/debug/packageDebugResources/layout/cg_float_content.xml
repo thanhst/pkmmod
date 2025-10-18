@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-    <LinearLayout
-        android:orientation="horizontal"
-        android:id="@+id/widget_gridview_ly"
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/dp_z_132">
-        <include layout="@layout/cg_toolbar_item_block"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/widget_gridview_ly" android:layout_width="wrap_content" android:layout_height="@dimen/dp_z_132">
+        <include layout="@layout/cg_toolbar_item_block" />
     </LinearLayout>
 </LinearLayout>
